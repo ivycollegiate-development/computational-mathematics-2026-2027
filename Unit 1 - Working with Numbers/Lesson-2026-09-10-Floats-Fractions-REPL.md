@@ -6,7 +6,10 @@ Everything today happens in your VS Code workspace. No paper worksheet.
 
 ## Part 1: Housekeeping — out with the old repo (first 15 minutes)
 
-Yesterday some of you cloned the course repo from my personal GitHub account. That copy is being retired — the real home for course materials is now the school organization account. Today you'll clean up using the terminal, then clone fresh from the right place.
+Yesterday, all of you cloned the course repo. Today, I want you all to learn how to delete and recreate it — with `rm`, the most dangerous command in the terminal.
+
+Everything below is also on GitHub, with clickable links and commands: https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%201%20-%20Working%20with%20Numbers/Lesson-2026-09-10-Floats-Fractions-REPL.md
+Open that page in a browser so you can click the repo link instead of typing it. (You can also start from the README at https://github.com/ivycollegiate-development/computational-mathematics-2026-2027 — today's lesson is linked there.)
 
 **⚠️ Safety first: `rm -rf` is permanent.** There is no trash can, no undo, no recycle bin. A typo in the path can delete the wrong thing — forever. The survival habit: **always run `pwd` immediately before any `rm -rf`** so you know exactly which directory you're standing in.
 
