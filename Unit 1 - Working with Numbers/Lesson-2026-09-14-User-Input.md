@@ -24,7 +24,7 @@ git pull
 Your Friday lab needs your own GitHub account. In your workspace browser, go to
 https://github.com and check the top-right corner:
 
-- **Signed in?** You're set. Write your GitHub username at the top of `journal-0914.md`.
+- **Signed in?** You're set. Write your GitHub username at the top of your journal file.
 - **Not signed in / no account?** Raise your hand now — do not wait for Friday.
   Sign up with your SCHOOL email: https://github.com/signup
 - Already have an account but can't remember the username? Raise your hand.
@@ -91,11 +91,12 @@ Type this in the REPL and discuss with a partner:
 
 ## PART 5 — JOURNAL (last 5 min)
 
-Create `journal-0914.md` in your home directory. Answer in 2-3 sentences:
+Give your journal a UNIQUE name — `journal-0914-<yourname>.md`
+(use your own name, like `journal-0914-mei.md`). Answer in 2-3 sentences:
 - Why does `input()` give you a string instead of a number?
 - What did typing `banana` do to the age calculator, and why?
 
-Also create `repl-notes-0914.md` and paste in your PART 2 guesses (right or wrong —
+Also create `repl-notes-0914-<yourname>.md` (same unique name) and paste in your PART 2 guesses (right or wrong —
 guesses are the point) next to what actually happened.
 
 ## PART 6 — FIRST PUSH (last 10 min — practice before Friday's graded lab)
@@ -107,8 +108,8 @@ cd ~
 git init compmath-u1-push-test
 cd compmath-u1-push-test
 git remote add origin https://github.com/ivycollegiate-development/compmath-u1-calculator-lab-<YOUR-STEM>_student.git
-cp ~/journal-0914.md ~/repl-notes-0914.md .
-git add journal-0914.md repl-notes-0914.md
+cp ~/journal-0914-*.md ~/repl-notes-0914-*.md .
+git add journal-0914-*.md repl-notes-0914-*.md
 git commit -m "Day 09 journal and REPL notes"
 git push -u origin main
 ```
