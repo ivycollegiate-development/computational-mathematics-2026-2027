@@ -10,9 +10,12 @@ Everything today happens in your VS Code workspace. No paper worksheet.
 2. In the terminal, update the course repo:
 
 ```bash
+pwd
 cd ~/computational-mathematics-2026-2027
 git pull
 ```
+
+(`pwd` = where am I? Always run it first — know where you are before you type anything.)
 
 3. Open: `Unit 1 - Working with Numbers` → this file.
 

@@ -13,9 +13,10 @@ Today you get YOUR OWN copy of a broken calculator and fix it. This one runs in 
 
 ## PART 1 — SEE IT FAIL (10 min)
 
-In the Codespace terminal:
+In the Codespace terminal, first check where you are:
 
 ```bash
+pwd
 python3 calculator.py
 ```
 

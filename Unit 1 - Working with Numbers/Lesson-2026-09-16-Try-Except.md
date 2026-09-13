@@ -7,6 +7,7 @@ Everything today happens in your VS Code workspace. No paper worksheet.
 ## PART 0 — Get today's lesson (first 5 minutes)
 
 ```bash
+pwd
 cd ~/computational-mathematics-2026-2027
 git pull
 ```
