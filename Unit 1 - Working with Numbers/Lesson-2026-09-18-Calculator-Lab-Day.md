@@ -1,4 +1,4 @@
-# U1 L6 — LAB: Calculator v1 — Safe Arithmetic (Fri 2026-09-18)
+# U1 L6 — LAB: Calculator v1 — Safe Arithmetic
 
 **LO:** build the first version of the unit project — a calculator that validates input and handles errors.
 

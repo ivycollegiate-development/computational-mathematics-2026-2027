@@ -69,7 +69,7 @@ computational-mathematics-2026-2027/
 | **Distribution** | School GDrive → `2026 Fall Semester/Computational Mathematics/` ([Folder Link](https://drive.google.com/drive/folders/1ZZ9exF8ujN-qDxxEYaEpMy5LrudXZFye)) |
 | **Assignments** | Google Classroom (P1: 8:00, P2: 8:55) |
 | **Coding projects** | GitHub Classroom → Codespaces repos |
-| **Today's lesson (Sep 10)** | [Lesson-2026-09-10-Floats-Fractions-REPL.md](Unit%201%20-%20Working%20with%20Numbers/Lesson-2026-09-10-Floats-Fractions-REPL.md) — delete & reclone the repo, then floats vs `Fraction` |
+| **Current lesson** | [Lesson-2026-09-14-User-Input.md](Unit%201%20-%20Working%20with%20Numbers/Lesson-2026-09-14-User-Input.md) — U1 L4: user input, int()/float() conversion, first push |
 
 ## Textbook
 
