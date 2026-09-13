@@ -1,4 +1,4 @@
-# Day 11 — LAB: Calculator v1 — Safe Arithmetic (Fri 2026-09-18)
+# U1 L6 — LAB: Calculator v1 — Safe Arithmetic (Fri 2026-09-18)
 
 **LO:** build the first version of the unit project — a calculator that validates input and handles errors.
 
@@ -40,7 +40,7 @@ Open `calculator.py`. There are two `FIX ME` bugs:
 2. `divide()` — handle `b == 0` before dividing: print a friendly message
    and return `None`. In `main()`, skip printing when the result is `None`.
 
-Use the patterns from Wednesday's lesson. Run `python3 test_calculator.py`
+Use the patterns from the U1 L5 lesson. Run `python3 test_calculator.py`
 after each fix — each PASS is a guardrail working.
 
 **Milestone for today:** basic operations working, all 4 self-check tests passing.

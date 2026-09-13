@@ -1,4 +1,4 @@
-# Sep 8 — Getting Connected + Discussion: `/` vs `//`
+# U1 L1 — Getting Connected + Discussion: `/` vs `//`
 
 **Unit 1 · Week 2 · Tuesday (Discussion day)**
 
