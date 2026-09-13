@@ -77,7 +77,8 @@ Rules:
 
 ## PART 5 — JOURNAL (last 5 min)
 
-Create `journal-0916.md`. Answer in 2-3 sentences:
+Give your journal a unique name — `journal-0916-<yourname>.md`
+(same convention as Monday, e.g. `journal-0916-mei.md`). Answer in 2-3 sentences:
 - What does `try/except` let your program do that it couldn't do before?
 - Which is worse in a real program: a clean error message, or a crash? Why?
 
