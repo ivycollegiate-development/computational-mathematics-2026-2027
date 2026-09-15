@@ -48,7 +48,7 @@ Watch exactly which error name each except catches. The name matters.
 
 ## PART 3 — CODE-ALONG: FIX THE AGE CALCULATOR (15 min)
 
-Open Monday's `age-calculator.py` and rewrite it:
+Open Wednesday's `age-calculator.py` and rewrite it:
 
 ```python
 # Age calculator v2 — with guardrails
@@ -77,8 +77,8 @@ Rules:
 
 ## PART 5 — JOURNAL (last 5 min)
 
-Give your journal a unique name — `journal-0916-<yourname>.md`
-(same convention as Monday, e.g. `journal-0916-mei.md`). Answer in 2-3 sentences:
+Give your journal a unique name — `journal-0918-<yourname>.md`
+(same convention as Wednesday, e.g. `journal-0918-mei.md`). Answer in 2-3 sentences:
 - What does `try/except` let your program do that it couldn't do before?
 - Which is worse in a real program: a clean error message, or a crash? Why?
 
