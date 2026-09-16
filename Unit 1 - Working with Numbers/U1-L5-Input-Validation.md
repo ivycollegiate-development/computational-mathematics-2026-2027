@@ -90,3 +90,30 @@ Wednesday's (`journal-0917-mei.md`). Answer in 2-3 sentences:
 
 - Which input from PART 2 is the most dangerous, and why?
 - What is the one rule you will apply to every program you write from here on?
+
+## PART 6 — PUSH (last 10 min — same loop as Wednesday, now routine)
+
+Push today's journal to GitHub. Type each command exactly:
+
+```bash
+cd ~
+cd compmath-u1-push-test
+git add journal-0917-*.md
+git commit -m "Day 0917 journal"
+git pull
+git push
+```
+
+(Wrote your journal somewhere else? `cp` it into this folder before `git add`.)
+
+- **Asked for a username/password?** Use your GitHub username plus your Personal
+  Access Token (PAT) — never your GitHub password. Raise your hand if yours is lost.
+- **Success?** You should see the `Branch 'main' up to date` or push confirmation
+  line. Same loop as Wednesday: edit → add → commit → push.
+- **Behind?** If `git push` complains, run `git pull` first, then push again —
+  that order (pull, then push) prevents almost every push error you will ever see.
+
+**TURN IN — SCREENSHOT (due 11:59 PM tonight):** one screenshot of your terminal
+showing your Part 3/4 REPL-and-terminal outputs and the successful `git push`.
+Submit it to this assignment on Google Classroom. Mac: `Cmd+Shift+4` ·
+Windows: `Win+Shift+S`.
