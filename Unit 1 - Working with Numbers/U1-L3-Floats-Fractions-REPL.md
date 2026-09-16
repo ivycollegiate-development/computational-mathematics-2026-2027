@@ -8,7 +8,7 @@ Everything today happens in your VS Code workspace. No paper worksheet.
 
 Yesterday, all of you cloned the course repo. Today, I want you all to learn how to delete and recreate it — with `rm`, the most dangerous command in the terminal.
 
-Everything below is also on GitHub, with clickable links and commands: https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%201%20-%20Working%20with%20Numbers/Lesson-2026-09-10-Floats-Fractions-REPL.md
+Everything below is also on GitHub, with clickable links and commands: https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%201%20-%20Working%20with%20Numbers/U1-L3-Floats-Fractions-REPL.md
 Open that page in a browser so you can click the repo link instead of typing it. (You can also start from the README at https://github.com/ivycollegiate-development/computational-mathematics-2026-2027 — today's lesson is linked there.)
 
 **⚠️ Safety first: `rm -rf` is permanent.** There is no trash can, no undo, no recycle bin. A typo in the path can delete the wrong thing — forever. The survival habit: **always run `pwd` immediately before any `rm -rf`** so you know exactly which directory you're standing in.
@@ -47,7 +47,7 @@ Open that page in a browser so you can click the repo link instead of typing it.
    - **cd computational-mathematics-2026-2027**
    - **git remote -v** — the URL should now say `ivycollegiate-development/computational-mathematics-2026-2027.git`
    - **git log --oneline -3** — shows the last 3 commits, one line each; the top line is today's lesson commit
-   - **ls "Unit 1 - Working with Numbers"** — you should see `Lesson-2026-09-10-Floats-Fractions-REPL.md` — that's today's lesson, and you're looking at it
+   - **ls "Unit 1 - Working with Numbers"** — you should see `U1-L3-Floats-Fractions-REPL.md` — that's today's lesson, and you're looking at it
 10. **Start the REPL.** Type:
     **python3**
     You'll see a `>>>` prompt — that's Python waiting for you.

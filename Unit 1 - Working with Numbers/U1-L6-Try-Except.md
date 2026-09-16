@@ -1,4 +1,4 @@
-# U1 L5 — Error Handling with try/except
+# U1 L6 — Error Handling with try/except
 
 **LO:** handle invalid input with `try/except` so programs don't crash.
 
