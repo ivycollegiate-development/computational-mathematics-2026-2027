@@ -2,17 +2,25 @@
 
 **LO:** explain why unchecked user input is dangerous, and lay out the validation rules a program needs.
 
-Today is a discussion + paper day. No code required.
+Today starts on paper and ends in the terminal — you will need your workspace for
+Parts 3 and 4.
 
-## PART 1 — OPENING PROVOCATION (10 min)
+## PART 1 — OPENING REVIEW: WHAT HAPPENED YESTERDAY (10 min)
 
-On the board: a calculator that accepts `hello` where a number belongs.
+Before anything new, let's reconstruct Wednesday's lesson (U1 L4 — User Input).
 
-Run yesterday's `age-calculator.py` and type `banana` again. It dies.
+Answer these together before I show any code:
 
-Question on the board: **whose fault is the crash — the user, or the program?**
+- What does `input()` always hand your program, no matter what the user types?
+- Why did `age = int(input("Age: "))` need the `int()` around it?
+- What exactly happened when we typed `banana` into the age calculator? What was
+  the error called?
+- We typed `int("  42  ")` and it worked, but `int("4 2")` crashed. What was the
+  difference?
 
-Everyone writes a one-line answer before we discuss.
+Write your answers in your notes first; then we go over them as a class. By the end
+of this part you should be able to say in one sentence: **why does `banana` break
+every program we have written so far?**
 
 ## PART 2 — "WHAT ELSE COULD GO WRONG?" (15 min)
 
@@ -29,38 +37,53 @@ a number. Push past the obvious first three:
 Each group posts its top three on the board, and we sort them into "crashes" versus
 "quietly wrong answers."
 
-## PART 3 — THE DEFENCE: VALIDATE BEFORE YOU COMPUTE (10 min)
+## PART 3 — REVIEW: THE FUNCTIONS WE KNOW (15 min)
 
-Introduce the rule the rest of the unit turns on: **never trust user input.**
+Open your workspace. First command, always:
 
-Check it before you use it. That check has a name — *validation*. Name the two
-outcomes a check can have: reject it, or repair it.
+```bash
+pwd
+```
 
-Preview tomorrow's tool: `try/except`.
+(Verify where you are before you type anything else.)
 
-## PART 4 — CASE STUDY: THERAC-25 (15 min)
+Then start the Python REPL:
 
-Read the Therac-25 summary in pairs. In 1985–87 a radiation therapy machine delivered
-massive overdoses because a numeric overflow slipped past the software's checks on the
-operator's typed entry. Six patients were injured; several died.
+```bash
+python3
+```
 
-Discuss, then answer in your notes:
+For each function below, first answer in your notes: *what does it do, and what
+does it give back?* Then test it in the REPL and check your answer:
 
-- Where exactly did the validation fail?
-- Who was responsible — the operator, the programmer, the hospital? Defend your answer.
-- What would "validate before you compute" have looked like here, concretely?
+- `print()`
+- `input()`
+- `int()`
+- `float()`
+- `str()`
+- `//` and `/` and `%` — which is which, and what does each return?
+- `Fraction()` — from where do we import it, and why is it exact?
 
-## PART 5 — VALIDATION FLOWCHART (15 min) — TURN IN
+Try to surprise yourself: what does `int(input())` do if you type `3.7`? What about
+`float(input())` with `3.7`? Every answer you get here belongs in your notes — the
+surprises are tomorrow's subject.
 
-On paper, draw the flowchart for a program that asks the user for a number:
+## PART 4 — REVIEW: THE TERMINAL (10 min)
 
-    ask → convert → did it work? → yes: use it
-                                 → no: print a message, ask again → repeat until `q`
+Exit the REPL (`exit()` or Ctrl-D). In your notes, answer: *what does each of these
+commands do, and where are you when you type it?* Then run each one and check.
 
-Label each decision point with what would happen there *without* the check.
-Turn the flowchart in at the end of class.
+- `pwd`
+- `cd ~`
+- `cd ~/computational-mathematics-2026-2027`
+- `ls`
+- `git pull`
 
-## PART 6 — JOURNAL (last 5 min)
+Each student explains one command to the class — what it stands for, what it does,
+what happens if you skip it. When we get to `git pull`, run it for real so
+tomorrow's lesson is already on your machine.
+
+## PART 5 — JOURNAL (last 5 min)
 
 `journal-0917-<yourname>.md` in your workspace — unique name, same convention as
 Wednesday's (`journal-0917-mei.md`). Answer in 2-3 sentences:
