@@ -1,6 +1,6 @@
 # U1 L3 — Fractions & Floating-Point Precision in the REPL
 
-**Unit 1 · Week 1 · Thursday (Reflection + REPL day)**
+**Unit 1 · Thursday (Reflection + REPL day)**
 
 Everything today happens in your VS Code workspace. No paper worksheet.
 
