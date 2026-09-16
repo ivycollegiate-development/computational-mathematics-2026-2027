@@ -69,7 +69,7 @@ computational-mathematics-2026-2027/
 | **Distribution** | School GDrive → `2026 Fall Semester/Computational Mathematics/` ([Folder Link](https://drive.google.com/drive/folders/1ZZ9exF8ujN-qDxxEYaEpMy5LrudXZFye)) |
 | **Assignments** | Google Classroom (P1: 8:00, P2: 8:55) |
 | **Coding projects** | GitHub Classroom → Codespaces repos |
-| **Current lesson** | [Lesson-2026-09-16-User-Input.md](Unit%201%20-%20Working%20with%20Numbers/Lesson-2026-09-16-User-Input.md) — U1 L4: user input, int()/float() conversion, first push |
+| **Current lesson** | [U1-L4-User-Input.md](Unit%201%20-%20Working%20with%20Numbers/U1-L4-User-Input.md) — U1 L4: user input, int()/float() conversion, first push |
 
 ## Textbook
 
