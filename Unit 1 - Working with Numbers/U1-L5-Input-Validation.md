@@ -85,26 +85,34 @@ tomorrow's lesson is already on your machine.
 
 ## PART 5 — JOURNAL (last 5 min)
 
-`journal-0917-<yourname>.md` in your workspace — unique name, same convention as
-Wednesday's (`journal-0917-mei.md`). Answer in 2-3 sentences:
+Create the file first, in the right place — the same folder you will push from.
+In the terminal (start with `pwd` — know where you are):
+
+```bash
+pwd
+cd ~
+cd compmath-u1-push-test
+touch journal-0917-<yourname>.md
+```
+
+`touch` creates an empty file — replace `<yourname>` with your own name first
+(same convention as Wednesday's `journal-0917-mei.md`). Then open the file in
+VS Code's file list on the left, and answer in 2-3 sentences:
 
 - Which input from PART 2 is the most dangerous, and why?
 - What is the one rule you will apply to every program you write from here on?
 
 ## PART 6 — PUSH (last 10 min — same loop as Wednesday, now routine)
 
-Push today's journal to GitHub. Type each command exactly:
+Your journal is already in `compmath-u1-push-test`, so push it. Type each command exactly:
 
 ```bash
-cd ~
-cd compmath-u1-push-test
+cd ~/compmath-u1-push-test
 git add journal-0917-*.md
 git commit -m "Day 0917 journal"
 git pull
 git push
 ```
-
-(Wrote your journal somewhere else? `cp` it into this folder before `git add`.)
 
 - **Asked for a username/password?** Use your GitHub username plus your Personal
   Access Token (PAT) — never your GitHub password. Raise your hand if yours is lost.
