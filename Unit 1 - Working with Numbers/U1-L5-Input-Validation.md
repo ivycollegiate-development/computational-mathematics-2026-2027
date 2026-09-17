@@ -85,50 +85,42 @@ tomorrow's lesson is already on your machine.
 
 ## PART 5 — JOURNAL (last 5 min)
 
-Create the file first, in the right place — the same folder you will push from.
+Clone your lab repo — this is your repo for today's journal and Friday's lab.
 In the terminal (start with `pwd` — know where you are):
 
 ```bash
 pwd
 cd ~
-cd compmath-u1-push-test
-whoami
-mkdir -p $(whoami)
-touch $(whoami)/journal-0917.md
+git clone https://github.com/ivycollegiate-development/compmath-u1-calculator-lab-$(whoami)_student.git compmath-lab
+cd compmath-lab
+touch journal-0917.md
 ```
 
-- `whoami` shows your userid, and `$(whoami)` inserts the same thing automatically
-  into a command — every student gets their **own folder**, so nobody's journal
-  collides with anyone else's.
-- `mkdir -p` creates the folder (`-p` = no error if it already exists).
-- `touch` creates an empty file inside it. Open it in VS Code's file list on the
-  left, and answer in 2-3 sentences:
+- `whoami` shows your userid, and `$(whoami)` inserts it into the URL
+  automatically — so the clone is **your** repo, nobody else's.
+- `git clone` downloads the repo to `~/compmath-lab` (inside `~`, not wherever
+  VS Code last opened).
+- `touch` creates the empty file. Open it in VS Code's file list on the left, and
+  answer in 2-3 sentences:
 
 - Which input from PART 2 is the most dangerous, and why?
 - What is the one rule you will apply to every program you write from here on?
 
 ## PART 6 — PUSH (last 10 min — same loop as Wednesday, now routine)
 
-Your journal is already in `compmath-u1-push-test`, so push it. Type each command exactly:
+Your journal is already inside your repo, so push it. Type each command exactly:
 
 ```bash
-cd ~/compmath-u1-push-test
-git remote add origin https://github.com/ivycollegiate-development/compmath-u1-calculator-lab-$(whoami)_student.git
-cp ~/compmath-u1-push-test/$(whoami)/journal-0917.md .
-cp ~/repl-notes-0917*.md . 2>/dev/null
-git add .
+cd ~/compmath-lab
+git add journal-0917.md
 git commit -m "Day 0917 journal"
-git branch -M main
-git pull
-git push -u origin main
+git push
 ```
 
 - **Asked for a username/password?** Use your GitHub username plus your Personal
   Access Token (PAT) — never your GitHub password. Raise your hand if yours is lost.
-- **Success?** You should see the `Branch 'main' up to date` or push confirmation
-  line. Same loop as Wednesday: edit → add → commit → push.
-- **Behind?** If `git push` complains, run `git pull` first, then push again —
-  that order (pull, then push) prevents almost every push error you will ever see.
+- **Success?** You should see a push confirmation line. Same loop as Wednesday:
+  edit → add → commit → push.
 
 **TURN IN — SCREENSHOT (due 11:59 PM tonight):** one screenshot of your terminal
 showing your Part 3/4 REPL-and-terminal outputs and the successful `git push`.
