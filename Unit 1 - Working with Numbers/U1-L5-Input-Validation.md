@@ -109,9 +109,12 @@ Your journal is already in `compmath-u1-push-test`, so push it. Type each comman
 ```bash
 cd ~/compmath-u1-push-test
 git add journal-0917-*.md
+git remote add origin https://github.com/ivycollegiate-development/compmath-u1-calculator-lab-<YOUR-STEM>_student.git
+cp ~/journal-0917*.md ~/repl-notes-0917*.md .
+git add journal-0916-*.md repl-notes-0916-*.md
 git commit -m "Day 0917 journal"
 git pull
-git push
+git push -u origin main
 ```
 
 - **Asked for a username/password?** Use your GitHub username plus your Personal
