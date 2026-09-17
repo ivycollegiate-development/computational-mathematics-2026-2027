@@ -92,7 +92,7 @@ In the terminal (start with `pwd` — know where you are):
 pwd
 cd ~
 cd compmath-u1-push-test
-touch journal-0917-<yourname>.md
+touch journal-0917.md
 ```
 
 `touch` creates an empty file — replace `<yourname>` with your own name first
