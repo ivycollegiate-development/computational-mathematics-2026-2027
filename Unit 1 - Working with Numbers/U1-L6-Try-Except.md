@@ -25,19 +25,29 @@ Today you learn the tool that stops it: `try/except`.
 python3
 ```
 
+**First — catch the crash:**
+
 ```python
 try:
     x = int("banana")
 except ValueError:
     print("That is not a number.")
+```
 
+**Second — add an `else:` that runs only when nothing crashed:**
+
+```python
 try:
     x = int("banana")
 except ValueError:
     print("That is not a number.")
 else:
     print("Got", x)
+```
 
+**Third — a different error needs its own name:**
+
+```python
 try:
     1 / 0
 except ZeroDivisionError:
