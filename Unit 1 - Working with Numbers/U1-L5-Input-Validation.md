@@ -93,12 +93,13 @@ pwd
 cd ~
 cd compmath-u1-push-test
 whoami
-mkdir -p $USER
-touch $USER/journal-0917.md
+mkdir -p $(whoami)
+touch $(whoami)/journal-0917.md
 ```
 
-- `whoami` shows your userid, and `$USER` is the same thing automatically — every
-  student gets their **own folder**, so nobody's journal collides with anyone else's.
+- `whoami` shows your userid, and `$(whoami)` inserts the same thing automatically
+  into a command — every student gets their **own folder**, so nobody's journal
+  collides with anyone else's.
 - `mkdir -p` creates the folder (`-p` = no error if it already exists).
 - `touch` creates an empty file inside it. Open it in VS Code's file list on the
   left, and answer in 2-3 sentences:
@@ -112,11 +113,12 @@ Your journal is already in `compmath-u1-push-test`, so push it. Type each comman
 
 ```bash
 cd ~/compmath-u1-push-test
-git remote add origin https://github.com/ivycollegiate-development/compmath-u1-calculator-lab-$USER_student.git
-cp ~/compmath-u1-push-test/$USER/journal-0917.md .
+git remote add origin https://github.com/ivycollegiate-development/compmath-u1-calculator-lab-$(whoami)_student.git
+cp ~/compmath-u1-push-test/$(whoami)/journal-0917.md .
 cp ~/repl-notes-0917*.md . 2>/dev/null
 git add .
 git commit -m "Day 0917 journal"
+git branch -M main
 git pull
 git push -u origin main
 ```
