@@ -77,8 +77,15 @@ Rules:
 
 ## PART 5 — JOURNAL (last 5 min)
 
-Give your journal a unique name — `journal-0918-<yourname>.md`
-(same convention as Wednesday, e.g. `journal-0918-mei.md`). Answer in 2-3 sentences:
+Give your journal a unique name with yesterday's trick — `$(whoami)` puts
+your own userid in the filename automatically:
+
+```bash
+touch journal-0918-$(whoami).md
+```
+
+So `ilin27_student` gets `journal-0918-ilin27_student.md` — unique without
+anyone typing their name. Answer in 2-3 sentences:
 - What does `try/except` let your program do that it couldn't do before?
 - Which is worse in a real program: a clean error message, or a crash? Why?
 
