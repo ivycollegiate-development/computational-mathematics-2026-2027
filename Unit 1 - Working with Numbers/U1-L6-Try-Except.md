@@ -26,22 +26,22 @@ python3
 ```
 
 ```python
->>> try:
-...     x = int("banana")
-... except ValueError:
-...     print("That is not a number.")
-...
->>> try:
-...     x = int("banana")
-... except ValueError:
-...     print("That is not a number.")
-... else:
-...     print("Got", x)
-...
->>> try:
-...     1 / 0
-... except ZeroDivisionError:
-...     print("No dividing by zero!")
+try:
+    x = int("banana")
+except ValueError:
+    print("That is not a number.")
+
+try:
+    x = int("banana")
+except ValueError:
+    print("That is not a number.")
+else:
+    print("Got", x)
+
+try:
+    1 / 0
+except ZeroDivisionError:
+    print("No dividing by zero!")
 ```
 
 Watch exactly which error name each except catches. The name matters.
