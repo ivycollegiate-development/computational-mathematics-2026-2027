@@ -92,12 +92,16 @@ In the terminal (start with `pwd` — know where you are):
 pwd
 cd ~
 cd compmath-u1-push-test
-touch journal-0917.md
+whoami
+mkdir -p $USER
+touch $USER/journal-0917.md
 ```
 
-`touch` creates an empty file — replace `<yourname>` with your own name first
-(same convention as Wednesday's `journal-0917-mei.md`). Then open the file in
-VS Code's file list on the left, and answer in 2-3 sentences:
+- `whoami` shows your userid, and `$USER` is the same thing automatically — every
+  student gets their **own folder**, so nobody's journal collides with anyone else's.
+- `mkdir -p` creates the folder (`-p` = no error if it already exists).
+- `touch` creates an empty file inside it. Open it in VS Code's file list on the
+  left, and answer in 2-3 sentences:
 
 - Which input from PART 2 is the most dangerous, and why?
 - What is the one rule you will apply to every program you write from here on?
@@ -108,10 +112,10 @@ Your journal is already in `compmath-u1-push-test`, so push it. Type each comman
 
 ```bash
 cd ~/compmath-u1-push-test
-git add journal-0917-*.md
 git remote add origin https://github.com/ivycollegiate-development/compmath-u1-calculator-lab-<YOUR-STEM>_student.git
-cp ~/journal-0917*.md ~/repl-notes-0917*.md .
-git add journal-0916-*.md repl-notes-0916-*.md
+cp ~/compmath-u1-push-test/$USER/journal-0917.md .
+cp ~/repl-notes-0917*.md . 2>/dev/null
+git add .
 git commit -m "Day 0917 journal"
 git pull
 git push -u origin main
