@@ -112,7 +112,7 @@ Your journal is already in `compmath-u1-push-test`, so push it. Type each comman
 
 ```bash
 cd ~/compmath-u1-push-test
-git remote add origin https://github.com/ivycollegiate-development/compmath-u1-calculator-lab-<YOUR-STEM>_student.git
+git remote add origin https://github.com/ivycollegiate-development/compmath-u1-calculator-lab-$USER_student.git
 cp ~/compmath-u1-push-test/$USER/journal-0917.md .
 cp ~/repl-notes-0917*.md . 2>/dev/null
 git add .
