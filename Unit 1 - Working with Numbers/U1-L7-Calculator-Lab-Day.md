@@ -55,12 +55,13 @@ git push
 
 (Password prompt = Personal Access Token, not your GitHub password.)
 
-## PART 4 — TURN IN (due Sunday Sep 27, 11:59 PM)
+## TURN IN — PULL REQUEST LINK (due Sunday Sep 27, 11:59 PM)
 
 1. Push your final `calculator.py` (all 4 tests passing).
 2. On github.com, open a Pull Request from your repo back to the original repo
    (Contribute → Open pull request).
-3. Turn in the PR link on Google Classroom.
+
+Submit the PR link to this assignment on Google Classroom.
 
 Early finishers: add `%` and `**` to the menu, or reject absurdly large
 numbers (over 10**15) with an overflow warning.

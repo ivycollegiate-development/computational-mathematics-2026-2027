@@ -122,7 +122,12 @@ git push
 - **Success?** You should see a push confirmation line. Same loop as Wednesday:
   edit → add → commit → push.
 
-**TURN IN — SCREENSHOT (due 11:59 PM tonight):** one screenshot of your terminal
-showing your Part 3/4 REPL-and-terminal outputs and the successful `git push`.
-Submit it to this assignment on Google Classroom. Mac: `Cmd+Shift+4` ·
-Windows: `Win+Shift+S`.
+## TURN IN — SCREENSHOT (due 11:59 PM tonight)
+
+One screenshot showing, in order:
+1. your Part 3 REPL outputs (the function review)
+2. your Part 4 terminal outputs (`pwd` through `git pull`)
+3. the successful `git push`
+
+Submit the screenshot to this assignment on Google Classroom.
+Keep the terminal open — spot-checks.
