@@ -114,15 +114,16 @@ Push today's two files to GitHub. Type each command exactly:
 cd ~
 git init compmath-u1-push-test
 cd compmath-u1-push-test
-git remote add origin https://github.com/ivycollegiate-development/compmath-u1-calculator-lab-<YOUR-STEM>_student.git
+git remote add origin https://github.com/ivycollegiate-development/compmath-u1-calculator-lab-$(whoami)_student.git
 cp ~/journal-0916-*.md ~/repl-notes-0916-*.md .
 git add journal-0916-*.md repl-notes-0916-*.md
 git commit -m "Day 09 journal and REPL notes"
 git push -u origin main
 ```
 
-**⚠️ Your stem:** `<YOUR-STEM>` is the short code from your school email, like
-`schen27` — so the repo is `compmath-u1-calculator-lab-schen27_student`.
+**⚠️ Your userid:** `$(whoami)` prints the short code from your school email, like
+`schen27` — so the repo becomes `compmath-u1-calculator-lab-schen27_student`
+without typing anything.
 
 - **Asked for a username/password?** Use your GitHub username plus a Personal Access
   Token (PAT) — never your GitHub password. Raise your hand and we will set your PAT
