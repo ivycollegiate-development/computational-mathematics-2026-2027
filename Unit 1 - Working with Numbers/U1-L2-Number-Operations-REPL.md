@@ -47,8 +47,12 @@ Create `journal-0909.md` in your home directory. Write 2-3 sentences:
 - One real situation where `%` (remainder) is the useful operator
 - Which operator surprised you most today, and why
 
-## Turn in — SCREENSHOT
+## TURN IN — SCREENSHOT (due 11:59 PM tonight)
 
-ONE screenshot of your terminal showing, in order:
-`pwd`, the course repo `ls`, and your REPL outputs from Part 2 (all seven operators, plus the predict questions).
-Submit it to the Classroom assignment before 11:59 PM. Keep your terminal open — I'll spot-check live screens.
+One screenshot showing, in order:
+1. `pwd`
+2. the course repo `ls`
+3. your REPL outputs from Part 2 (all seven operators, plus the predict questions)
+
+Submit the screenshot to this assignment on Google Classroom.
+Keep the terminal open — spot-checks.

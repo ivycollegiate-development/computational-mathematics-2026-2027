@@ -56,6 +56,15 @@ Create a file in your home directory called `journal-0908.md` (in VS Code: File 
 
 ---
 
-*Turn in: ONE screenshot of your terminal showing the commands run today (`pwd`, `git clone`, `ls`, and the `/` vs `//` outputs) — submit it to the Classroom assignment. I'll spot-check a few live screens in class as the real verification, so keep your terminal session open.*
+## TURN IN — SCREENSHOT (due 11:59 PM tonight)
+
+One screenshot showing, in order:
+1. `pwd`
+2. `git clone`
+3. `ls`
+4. the `/` vs `//` outputs
+
+Submit the screenshot to this assignment on Google Classroom.
+Keep the terminal open — spot-checks.
 
 **Grading note (for me):** No automated check exists or applies here — students clone my repo, so nothing lands on GitHub to grade. Screenshot = participation evidence; spot-check 2-3 students' live screens during the exit-check walk to cover the gameability gap. First CI-gradable check lands with the Calculator project (grade.yml pattern from password-strength-lab).

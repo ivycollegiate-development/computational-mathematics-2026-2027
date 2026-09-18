@@ -138,9 +138,9 @@ Write 2–3 sentences answering:
 - In your own words: why can't a computer store 0.1 exactly using floats?
 - Name one situation from today's discussion where float rounding could cause real harm.
 
-## Turn in — SCREENSHOT
+## TURN IN — SCREENSHOT (due 11:59 PM tonight)
 
-ONE screenshot of your terminal showing, in order:
+One screenshot showing, in order:
 1. `pwd` — taken right before your `rm -rf` (proving you were in `~` when you deleted)
 2. the repo `ls` before deletion
 3. the `ls` after deletion (folder gone)
@@ -149,4 +149,6 @@ ONE screenshot of your terminal showing, in order:
 6. your Part 4 Fraction outputs (all 6 lines with results)
 7. your Part 5 predict answers (True/False for each)
 
-To take the screenshot on the VPS desktop: press `PrtSc` or use the screenshot tool in the taskbar. Then submit it to the Classroom assignment before **11:59 PM**. Keep your terminal open — I'll spot-check live screens.
+Submit the screenshot to this assignment on Google Classroom.
+(VPS desktop: press `PrtSc` or use the screenshot tool in the taskbar.)
+Keep the terminal open — spot-checks.
