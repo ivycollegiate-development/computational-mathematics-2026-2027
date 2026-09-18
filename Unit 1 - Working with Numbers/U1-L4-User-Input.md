@@ -92,12 +92,18 @@ Try these in the REPL, then talk them over with a partner:
 
 ## PART 5 — JOURNAL (last 5 min)
 
-Name your journal uniquely — `journal-0916-<yourname>.md`
-(use your own name, like `journal-0916-mei.md`). Answer in 2-3 sentences:
+Name your journal uniquely with your userid — `$(whoami)` puts your
+userid in the filename automatically:
+
+```bash
+touch journal-0916-$(whoami).md
+```
+
+So `ilin27_student` gets `journal-0916-ilin27_student.md`. Answer in 2-3 sentences:
 - Why does `input()` hand you a string instead of a number?
 - What did `banana` do to the age calculator, and why?
 
-Also create `repl-notes-0916-<yourname>.md` (same unique name) and paste in your PART 2
+Also create `repl-notes-0916-$(whoami).md` (same trick) and paste in your PART 2
 guesses (right or wrong — the guesses are the point) beside what really happened.
 
 ## PART 6 — FIRST PUSH (last 10 min — rehearsal for Monday's graded lab)
