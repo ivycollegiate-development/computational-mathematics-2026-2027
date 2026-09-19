@@ -1,4 +1,4 @@
-# U1 L5 — Reflection: Trust Nothing the User Types
+# U1 L05 — Reflection: Trust Nothing the User Types
 
 **LO:** explain why unchecked user input is dangerous, and lay out the validation rules a program needs.
 
@@ -7,7 +7,7 @@ Parts 3 and 4.
 
 ## PART 1 — OPENING REVIEW: WHAT HAPPENED YESTERDAY (10 min)
 
-Before anything new, let's reconstruct Wednesday's lesson (U1 L4 — User Input).
+Before anything new, let's reconstruct Wednesday's lesson (U1 L04 — User Input).
 
 Answer these together before I show any code:
 

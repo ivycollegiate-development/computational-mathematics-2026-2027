@@ -1,4 +1,4 @@
-# U1 L3 — Fractions & Floating-Point Precision in the REPL
+# U1 L03 — Fractions & Floating-Point Precision in the REPL
 
 **Unit 1 · Thursday (Reflection + REPL day)**
 

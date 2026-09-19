@@ -2,7 +2,7 @@
 
 **LO:** add unit conversion features and input guardrails to the calculator project, and review a partner's guardrail.
 
-Today you extend the calculator you fixed on Tuesday (U1 L8) with everything
+Today you extend the calculator you fixed on Tuesday (U1 L08) with everything
 from this week: Wednesday's conversions and Thursday's bounds. You work in
 **your own calculator lab repo** — no new invitations today.
 
