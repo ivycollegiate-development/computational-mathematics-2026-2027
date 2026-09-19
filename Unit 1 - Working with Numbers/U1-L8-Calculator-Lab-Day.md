@@ -1,4 +1,4 @@
-# U1 L7 — LAB: Calculator v1 — Safe Arithmetic
+# U1 L8 — LAB: Calculator v1 — Safe Arithmetic
 
 **LO:** build the first version of the unit project — a calculator that validates input and handles errors.
 
