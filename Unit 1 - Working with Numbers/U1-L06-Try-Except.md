@@ -1,4 +1,4 @@
-# U1 L6 — Error Handling with try/except
+# U1 L06 — Error Handling with try/except
 
 **LO:** handle invalid input with `try/except` so programs don't crash.
 
@@ -16,7 +16,7 @@ Open: `Unit 1 - Working with Numbers` → this file.
 
 ## PART 1 — THE CRASH, AGAIN (5 min)
 
-Run the U1 L4 age calculator and feed it `banana`. Same crash as before.
+Run the U1 L04 age calculator and feed it `banana`. Same crash as before.
 Today you learn the tool that stops it: `try/except`.
 
 ## PART 2 — TRY/EXCEPT IN THE REPL (10 min)

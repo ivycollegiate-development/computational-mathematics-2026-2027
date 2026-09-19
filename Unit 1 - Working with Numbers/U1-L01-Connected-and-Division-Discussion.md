@@ -1,4 +1,4 @@
-# U1 L1 — Getting Connected + Discussion: `/` vs `//`
+# U1 L01 — Getting Connected + Discussion: `/` vs `//`
 
 **Unit 1 · Tuesday (Discussion day)**
 

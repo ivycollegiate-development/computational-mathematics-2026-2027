@@ -1,4 +1,4 @@
-# U1 L2 — Number Operations in the REPL
+# U1 L02 — Number Operations in the REPL
 
 **Unit 1 · Wednesday (Code-along day)**
 

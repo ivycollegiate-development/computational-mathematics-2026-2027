@@ -1,4 +1,4 @@
-# U1 L7 — Reflection: Safe vs Unsafe Arithmetic
+# U1 L07 — Reflection: Safe vs Unsafe Arithmetic
 
 **LO:** explain the difference between safe and unsafe programs, and state what "defensive programming" means.
 
@@ -7,7 +7,7 @@ the end. Friday's Calculator v2 lab builds directly on what you decide today.
 
 ## PART 1 — OPENING REVIEW: WHAT HAPPENED FRIDAY (10 min)
 
-Last Friday (U1 L6) we learned `try/except`. Reconstruct it together before I
+Last Friday (U1 L06) we learned `try/except`. Reconstruct it together before I
 show anything:
 
 - What does `try` do, and what does `except ValueError:` catch?

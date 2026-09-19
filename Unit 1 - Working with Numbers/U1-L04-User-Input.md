@@ -1,4 +1,4 @@
-# U1 L4 — User Input in Python
+# U1 L04 — User Input in Python
 
 **LO:** take input with `input()`, convert strings to numbers with `int()` / `float()`.
 
