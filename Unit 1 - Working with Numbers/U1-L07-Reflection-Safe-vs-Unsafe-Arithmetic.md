@@ -79,6 +79,22 @@ touch journal-0921-$(whoami).md
 
 ## PART 6 — PUSH (last 10 min — same loop as always)
 
+Before you push, preview the check in your own terminal:
+
+```bash
+cd ~/compmath-lab
+python3 self_check.py
+```
+
+This is the *same* check that GitHub runs on your push, run locally — you get
+the exact score ("N of 6 checks passing") and the full report in your terminal
+*before* anything is committed. If something is missing, the output tells you
+what and how to fix it; fix, run it again, and only push when you are happy
+with the score. Self-checking before you push is what professional developers
+do: find your own errors before anyone else sees them.
+
+Then push as usual:
+
 ```bash
 cd ~/compmath-lab
 git config pull.rebase false
