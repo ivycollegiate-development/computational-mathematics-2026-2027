@@ -18,13 +18,13 @@ Type `python3` to start the REPL, then work through each operator. Try every one
 
 ### The operators
 ```
->>> 7 + 3      # addition
->>> 7 - 3      # subtraction
->>> 7 * 3      # multiplication
->>> 7 / 3      # division (always gives a float)
->>> 7 // 3     # floor division (chops off the decimal)
->>> 7 % 3      # modulo (the remainder after dividing)
->>> 7 ** 3     # exponent (7 to the power 3)
+7 + 3      # addition
+7 - 3      # subtraction
+7 * 3      # multiplication
+7 / 3      # division (always gives a float)
+7 // 3     # floor division (chops off the decimal)
+7 % 3      # modulo (the remainder after dividing)
+7 ** 3     # exponent (7 to the power 3)
 ```
 
 ### Predict, then run (~20 min)

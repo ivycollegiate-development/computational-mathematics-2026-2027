@@ -27,8 +27,8 @@ Work in your VS Code workspace (https://vscode.ivycollegiate.org/). Complete eac
 Type both into your Codespace terminal:
 
 ```
->>> 3 / 2
->>> 3 // 2
+3 / 2
+3 // 2
 ```
 
 ### Talk about (pick 2-3, don't rush all of them):
@@ -41,7 +41,7 @@ Type both into your Codespace terminal:
 
 3. **What about negative numbers?** Try it:
    ```
-   >>> -7 // 2
+   -7 // 2
    ```
    - It floors *down*, not just "drops the decimal." Surprising!
 

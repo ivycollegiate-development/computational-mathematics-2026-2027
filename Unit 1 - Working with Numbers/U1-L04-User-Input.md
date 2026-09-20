@@ -40,10 +40,10 @@ python3
 ```
 
 ```python
->>> name = input("What is your name? ")
->>> print("Hello, " + name)
->>> age = input("How old are you? ")
->>> age + 1        # 💥 what happened? WHY?
+name = input("What is your name? ")
+print("Hello, " + name)
+age = input("How old are you? ")
+age + 1        # 💥 what happened? WHY?
 ```
 
 **Key idea:** whatever the user types comes back from `input()` as a **string** — even
@@ -53,12 +53,12 @@ different kinds of things.
 ## PART 2 — CONVERSION (10 min)
 
 ```python
->>> int("13") + 1
->>> float("13") + 1
->>> int("13.5")     # 💥 why does this fail?
->>> float("13.5") + 1
->>> int(13.9)       # does int() round? or chop?
->>> int("hello")    # remember this error — it is Monday's whole lab
+int("13") + 1
+float("13") + 1
+int("13.5")     # 💥 why does this fail?
+float("13.5") + 1
+int(13.9)       # does int() round? or chop?
+int("hello")    # remember this error — it is Monday's whole lab
 ```
 
 Write your prediction for each line BEFORE you press Enter. Keep your guesses — right
@@ -85,9 +85,9 @@ Leave it broken on purpose — you fix it on Friday.
 Try these in the REPL, then talk them over with a partner:
 
 ```python
->>> int("  42  ")     # spaces are okay?
->>> int("4 2")        # what about a space in the middle?
->>> float("1e3")      # surprise! what is this?
+int("  42  ")     # spaces are okay?
+int("4 2")        # what about a space in the middle?
+float("1e3")      # surprise! what is this?
 ```
 
 ## PART 5 — JOURNAL (last 5 min)

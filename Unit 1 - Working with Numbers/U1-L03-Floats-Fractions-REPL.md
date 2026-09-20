@@ -59,11 +59,11 @@ Yesterday every calculation came out exact. Today, watch this one.
 In the REPL (where you see the `>>>` prompt), type each line below, press Enter, and **look at the output before moving on**. Before you press Enter on each line, say or write down what you think it will print:
 
 ```
->>> 0.1 + 0.2
->>> 0.1 + 0.2 == 0.3
->>> 1 / 3
->>> (1 / 3) * 3
->>> (1 / 3) * 3 == 1.0
+0.1 + 0.2
+0.1 + 0.2 == 0.3
+1 / 3
+(1 / 3) * 3
+(1 / 3) * 3 == 1.0
 ```
 
 Line-by-line guidance:
@@ -98,12 +98,12 @@ The pattern: **small errors + accumulation = real consequences.** A mathematicia
 Still in the REPL, type these one at a time:
 
 ```
->>> from fractions import Fraction
->>> Fraction(1, 3)
->>> Fraction(1, 3) * 3
->>> Fraction(0.1) + Fraction(0.2)
->>> float(Fraction(0.1) + Fraction(0.2))
->>> Fraction(1, 10) + Fraction(2, 10) == Fraction(3, 10)
+from fractions import Fraction
+Fraction(1, 3)
+Fraction(1, 3) * 3
+Fraction(0.1) + Fraction(0.2)
+float(Fraction(0.1) + Fraction(0.2))
+Fraction(1, 10) + Fraction(2, 10) == Fraction(3, 10)
 ```
 
 What each line means and what to notice:
