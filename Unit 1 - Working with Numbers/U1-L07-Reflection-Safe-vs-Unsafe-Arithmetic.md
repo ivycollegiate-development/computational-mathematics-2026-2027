@@ -81,11 +81,19 @@ touch journal-0921-$(whoami).md
 
 ```bash
 cd ~/compmath-lab
+git config pull.rebase false
+git pull
 git add journal-0921-$(whoami).md
 git commit -m "Day 0921 journal — defensive programming"
 git push
 ```
 
+- The `git config pull.rebase false` line tells git how to combine work when
+  the repo on GitHub has changes you do not have yet. Run it once; it is not
+  an error if you already ran it.
+- `git pull` downloads anything new from GitHub before you push. If your push
+  is ever rejected with a message like "remote contains work you do not
+  have", run `git pull` and then `git push` again.
 - **Asked for a username/password?** GitHub username plus Personal Access Token
   (PAT) — never your GitHub password. Raise your hand if yours is lost.
 - **Success?** You should see a push confirmation line.
