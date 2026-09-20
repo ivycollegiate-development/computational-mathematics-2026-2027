@@ -94,6 +94,17 @@ git push
 - `git pull` downloads anything new from GitHub before you push. If your push
   is ever rejected with a message like "remote contains work you do not
   have", run `git pull` and then `git push` again.
+- **If the `cd` step says "No such file or directory"** you never cloned (or
+  the clone is gone — new workspace, fresh account). Rebuild it, then run the
+  block above from the start:
+
+```bash
+git clone https://github.com/ivycollegiate-development/compmath-u1-calculator-lab-$(whoami)_student.git compmath-lab
+cd ~/compmath-lab
+```
+
+- And if git says "not a git repository", you are in the wrong folder — run
+  `pwd`, and `cd ~/compmath-lab` before doing any git work.
 - **Asked for a username/password?** GitHub username plus Personal Access Token
   (PAT) — never your GitHub password. Raise your hand if yours is lost.
 - **Success?** You should see a push confirmation line.
