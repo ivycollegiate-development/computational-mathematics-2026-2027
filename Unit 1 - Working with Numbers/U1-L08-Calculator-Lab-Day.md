@@ -13,7 +13,7 @@ Today you get YOUR OWN copy of a broken calculator and fix it. This one runs on 
 ls ~/compmath-lab
 ```
 
-- **If you see `calculator.py` and `test_calculator.py`** — you are set; the lab files arrived with the invitation. Run `git pull` to get any updates, then go to PART 1.
+- **If you see `calculator.py` and `test_calculator.py`** — you are set; the lab files arrived with the invitation. Go to step 3.
 - **If it says "No such file or directory"** you never cloned (or the clone is gone — new workspace, fresh account). Rebuild it, then `cd` in:
 
 ```bash
@@ -23,6 +23,15 @@ cd ~/compmath-lab
 
 - `whoami` shows your userid and `$(whoami)` inserts it into the URL automatically — same as U1 L07.
 - And if git says "not a git repository", you are in the wrong folder — run `pwd`, then `cd ~/compmath-lab` before doing any git work.
+3. **Always pull before you start working** — it gets any changes I pushed to your repo since last class:
+
+```bash
+git config pull.rebase false
+git pull
+```
+
+- `git config pull.rebase false` tells git how to combine work; run it once, it is not an error if you already ran it.
+- If the pull prints `Already up to date.` you have everything. Either way, go to PART 1.
 
 ## PART 1 — SEE IT FAIL (10 min)
 
