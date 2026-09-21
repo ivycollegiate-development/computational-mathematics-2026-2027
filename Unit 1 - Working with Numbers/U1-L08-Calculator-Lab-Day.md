@@ -6,7 +6,7 @@ Today you get YOUR OWN copy of a broken calculator and fix it. This one runs on 
 
 ## PART 0 — Open your lab repo (first 10 minutes)
 
-1. Check your school Gmail — you have an invitation to collaborate on your own private repo: `compmath-u1-calculator-lab-<your-name>`. If you have not accepted it yet, accept it now.
+1. Check your school Gmail — you have an invitation to collaborate on your own private repo: `compmath-u1-calculator-lab-$(whoami)`. (`whoami` shows your userid — `$(whoami)` is it spelled out.) If you have not accepted it yet, accept it now.
 2. Open a terminal and check whether your clone is already there:
 
 ```bash
