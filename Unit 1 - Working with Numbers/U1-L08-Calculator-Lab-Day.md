@@ -2,18 +2,25 @@
 
 **LO:** build the first version of the unit project — a calculator that validates input and handles errors.
 
-Today you get YOUR OWN copy of a broken calculator and fix it. This one runs in **Codespaces**.
+Today you get YOUR OWN copy of a broken calculator and fix it. This one runs on the class **VS Code server**.
 
 ## PART 0 — Get your lab repo (first 10 minutes)
 
 1. Check your school Gmail — you have an invitation to collaborate on your own private repo: `compmath-u1-calculator-lab-<your-name>`. Accept it.
 2. Your repo: github.com/ivycollegiate-development/compmath-u1-calculator-lab-<your-name>.
-4. Open it in Codespaces: green **Code** button → **Codespaces** tab → **Create codespace**.
-   (Or clone it in your VS Code workspace terminal — both are fine.)
+3. In your VS Code server workspace, open a terminal and clone your repo (use YOUR username in the URL):
+
+```bash
+cd ~
+git clone https://github.com/ivycollegiate-development/compmath-u1-calculator-lab-<your-name>_student.git
+cd compmath-u1-calculator-lab-<your-name>_student
+```
+
+(If Codespaces is easier for you today — green **Code** button → **Codespaces** tab → **Create codespace** — that works too. Same repo, same work.)
 
 ## PART 1 — SEE IT FAIL (10 min)
 
-In the Codespace terminal, first check where you are:
+In your repo folder (VS Code server terminal), first check where you are:
 
 ```bash
 pwd
