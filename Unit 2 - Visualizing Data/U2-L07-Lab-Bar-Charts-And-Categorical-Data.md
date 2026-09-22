@@ -105,8 +105,8 @@ Run `python3 self_check.py` after each fix — each PASS is a guardrail.
 
 **Milestone for today:** 4/4 passing, and the saved bar chart
 (`attendance_scores.png`) showing average score per attendance band with title,
-axis labels, and an honest y-axis starting at 0 (Friday's lesson applies —
-a truncated bar axis here would be exactly the sin of Monday).
+axis labels, and an honest y-axis starting at 0 (the label rule from U2 L05
+applies — a truncated bar axis would bury the differences you are showing).
 
 ## PART 4 — EXTENSION (if 4/4 early)
 
