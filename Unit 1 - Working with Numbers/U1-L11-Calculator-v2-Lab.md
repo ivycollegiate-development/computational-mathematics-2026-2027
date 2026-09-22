@@ -3,7 +3,7 @@
 **LO:** add unit conversion features and input guardrails to the calculator project, and review a partner's guardrail.
 
 Today you extend the calculator you built on Wednesday (U1 L08) with everything
-from this week: Thursday's conversions and Friday's bounds. You work in
+from this week: Thursday's conversions and Friday's plan. You work in
 **your own calculator lab repo** — no new invitations today.
 
 ## PART 0 — OPEN YOUR CALCULATOR REPO (first 10 minutes)
@@ -38,7 +38,7 @@ already does the work).
 
 ## PART 2 — ADD THE GUARDRAILS (~30 min)
 
-From Friday's journal, add at least these two bounds:
+From Friday's plan worksheet, add at least these two bounds:
 
 1. **Overflow guard:** reject numbers over 10**15 with a clear message
    ("absurdly large — refusing to compute") and ask again.
