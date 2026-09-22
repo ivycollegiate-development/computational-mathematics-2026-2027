@@ -71,12 +71,12 @@ In your calculator lab repo (start with `pwd`):
 ```bash
 pwd
 cd ~/compmath-lab
-touch journal-0924-$(whoami).md
+touch journal-0925-$(whoami).md
 ```
 
 - `whoami` shows your userid, and `$(whoami)` inserts it into the filename
   automatically — so the file is clearly yours in the commit history.
-- Open `journal-0924-$(whoami).md` and answer:
+- Open `journal-0925-$(whoami).md` and answer:
 
   1. Summarize the Patriot missile failure in 3-4 sentences: what went wrong,
      why it grew, what it cost.
@@ -90,8 +90,8 @@ touch journal-0924-$(whoami).md
 
 ```bash
 cd ~/compmath-lab
-git add journal-0924-$(whoami).md
-git commit -m "Day 0924 journal — overflow and boundaries"
+git add journal-0925-$(whoami).md
+git commit -m "Day 0925 journal — overflow and boundaries"
 git push
 ```
 
