@@ -3,7 +3,7 @@
 **LO:** explain the difference between safe and unsafe programs, and state what "defensive programming" means.
 
 Today is a paper and discussion day — your only terminal work is the journal at
-the end. Friday's Calculator v2 lab builds directly on what you decide today.
+the end. Monday's Calculator v2 lab builds directly on what you decide today.
 
 ## PART 1 — OPENING REVIEW: WHAT HAPPENED FRIDAY (10 min)
 

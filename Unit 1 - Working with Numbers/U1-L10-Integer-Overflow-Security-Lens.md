@@ -3,7 +3,7 @@
 **LO:** explain integer overflow conceptually, and describe when Python protects you and when it does not.
 
 Today is mostly a discussion day with one interactive demo. Your journal answer
-feeds directly into Friday's Calculator v2 — you will be deciding the bounds
+feeds directly into Monday's Calculator v2 — you will be deciding the bounds
 your calculator enforces.
 
 ## PART 1 — DEMO: HOW BIG CAN A PYTHON NUMBER GET? (10 min)
@@ -22,7 +22,7 @@ Open the REPL (start with `pwd`, then `python3`) and try:
 - Python integers have **arbitrary precision** — they grow as big as memory
   allows. Type `2 ** 1000` and count the digits.
 - But `float` wraps at about 1.8 × 10**308. Go past it and you get `inf` — a
-  **quietly wrong answer**, not a crash. (Friday's guardrails exist for this.)
+  **quietly wrong answer**, not a crash. (Monday's guardrails exist for this.)
 
 In your notes: which of these would break our calculator if a user typed it,
 and how would it break?
@@ -81,7 +81,7 @@ touch journal-0924-$(whoami).md
   1. Summarize the Patriot missile failure in 3-4 sentences: what went wrong,
      why it grew, what it cost.
   2. What is the *lesson learned*, in one sentence?
-  3. **Feed Friday's lab:** what bounds should our calculator enforce? Propose
+  3. **Feed Monday's lab:** what bounds should our calculator enforce? Propose
      at least two — for example, "reject numbers over 10**15" or "warn if a
      Kelvin conversion would go below 0 K." Say what the calculator should do
      when a bound is hit: refuse? warn but proceed? Explain your choice.
