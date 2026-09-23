@@ -10,6 +10,8 @@ Today you get YOUR OWN copy of a broken calculator and fix it. This one runs on 
 2. Open a terminal and check whether your clone is already there:
 
 ```bash
+pwd
+cd ~
 ls ~/compmath-lab
 ```
 
