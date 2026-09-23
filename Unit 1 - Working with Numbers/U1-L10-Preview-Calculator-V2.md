@@ -56,7 +56,7 @@ Fill in the plan worksheet with your partner:
 - **Order of operations:** what gets built first so the tests can run at every
   step? Write the order as 4–5 plain-English steps.
 - **Guard assignment:** assign one person to try to *break* each guardrail on
-  Monday (type `10**16`, type `-400 C`, type a word). Name the breakers now.
+  Lab day (type `10**16`, type `-400 C`, type a word). Name the breakers now.
 - **One question you want answered before you build.** Ask it now — lab day is
   for building, not for re-reading the requirements.
 
