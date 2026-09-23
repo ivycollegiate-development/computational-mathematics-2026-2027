@@ -1,28 +1,28 @@
 # U1 L10 — Preview: Calculator v2 — Conversions and Guardrails
 
-**LO:** preview Monday's Calculator v2 lab by planning, on paper, the conversions and input guardrails the calculator will enforce.
+**LO:** preview the Calculator v2 lab (U1 L11) by planning, on paper, the conversions and input guardrails the calculator will enforce.
 
-No electronics today — paper, notes, and your partner. Monday (U1 L11) you
-extend the calculator you built on Wednesday with everything from this week.
-Today you decide *what* it will do and *how* it will refuse bad input, so
-Monday is pure building, no deciding.
+No electronics today — paper, notes, and your partner. Lab day (U1 L11) you
+extend the calculator your team built in the two-day build (U1 L08) with
+everything from this unit. Today you decide *what* it will do and *how* it
+will refuse bad input, so lab day is pure building, no deciding.
 
-## PART 1 — OPENING REVIEW: THURSDAY'S CONVERSIONS (10 min)
+## PART 1 — OPENING REVIEW: UNIT CONVERSIONS (U1 L09) (10 min)
 
-Yesterday (U1 L09) you wrote unit-conversion functions. Reconstruct them from
+Last class (U1 L09) you wrote unit-conversion functions. Reconstruct them from
 memory before I show anything — in your notes:
 
 - What is the shape of a conversion function? (`def` a name, take one number,
   `return` one number.)
 - Write the formula for Celsius to Fahrenheit, and for Kelvin from Celsius.
 - Why does `c_to_k(-300)` deserve to be questioned before the math runs?
-  (Hold that thought — it becomes a guardrail on Monday.)
+  (Hold that thought — it becomes a guardrail in the lab (U1 L11).)
 
 Compare with your partner. Fix each other's formulas before we go over them.
 
-## PART 2 — WHAT MONDAY'S LAB ASKS FOR (10 min)
+## PART 2 — WHAT THE CALCULATOR V2 LAB ASKS FOR (10 min)
 
-Monday's Calculator v2 milestone has three requirements. Copy this list into
+The Calculator v2 milestone has three requirements. Copy this list into
 your notes — it is the checklist you build against:
 
 1. **Conversions in the menu:** `c_to_f`, `f_to_c`, `c_to_k`,
@@ -35,7 +35,7 @@ your notes — it is the checklist you build against:
 
 ## PART 3 — PREDICT THE CODE (15 min, in pairs)
 
-Before writing any of it Monday, predict it today. In your notes:
+Before writing any of it on lab day, predict it today. In your notes:
 
 1. Sketch (plain English or pseudocode) a function named `is_too_big(n)` that
    returns `True` when `n` is over the limit. Where in the program should it
@@ -47,7 +47,7 @@ Before writing any of it Monday, predict it today. In your notes:
    through the menu? Defend your choice. (Hint from U1 L06: what happens to a
    scattered `if` when you add a seventh menu option?)
 
-## PART 4 — PLAN FOR MONDAY (15 min, in pairs)
+## PART 4 — PLAN FOR LAB DAY (15 min, in pairs)
 
 Fill in the plan worksheet with your partner:
 
@@ -57,7 +57,7 @@ Fill in the plan worksheet with your partner:
   step? Write the order as 4–5 plain-English steps.
 - **Guard assignment:** assign one person to try to *break* each guardrail on
   Monday (type `10**16`, type `-400 C`, type a word). Name the breakers now.
-- **One question you want answered before you build.** Ask it now — Monday is
+- **One question you want answered before you build.** Ask it now — lab day is
   for building, not for re-reading the requirements.
 
 ## PART 5 — THE IMPOSSIBLE QUESTION (10 min)
@@ -71,7 +71,7 @@ Class discussion to close: *can a guardrail ever be complete?*
   unsafe"?
 
 Write one sentence in your notes that you would be willing to say out loud.
-Several of you will be asked to read yours — and your answer feeds Monday's
+Several of you will be asked to read yours — and your answer feeds the lab's
 pair code review (U1 L11 Part 3).
 
 ## TURN IN — WORKSHEET (collected at the end of class)
@@ -81,6 +81,6 @@ you leave.
 
 Submit a photo of the worksheet to this assignment on Google Classroom by
 11:59 PM tonight.
-Keep your notes — Monday's lab builds directly on this plan.
+Keep your notes — The lab builds directly on this plan.
 
 Next: U1-L11-Calculator-v2-Lab.md
