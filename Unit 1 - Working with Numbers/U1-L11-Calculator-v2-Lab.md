@@ -2,8 +2,8 @@
 
 **LO:** add unit conversion features and input guardrails to the calculator project, and review a partner's guardrail.
 
-Today you extend the calculator you built on Wednesday (U1 L08) with everything
-from this week: Thursday's conversions and Friday's plan. You work in
+Today you extend the calculator your team built in the two-day build (U1 L08)
+with everything from this unit: your conversions (U1 L09) and your plan (U1 L10). You work in
 **your own calculator lab repo** — no new invitations today.
 
 ## PART 0 — OPEN YOUR CALCULATOR REPO (first 10 minutes)
@@ -25,7 +25,7 @@ python3 test_calculator.py
 
 ## PART 1 — ADD THE CONVERSIONS (~30 min)
 
-Bring Thursday's converter functions into `calculator.py`:
+Bring your converter functions (U1 L09) into `calculator.py`:
 
 - `c_to_f`, `f_to_c`, `c_to_k` (temperature)
 - `km_to_miles`, `miles_to_km` (distance)
@@ -33,12 +33,12 @@ Bring Thursday's converter functions into `calculator.py`:
 
 You may copy your tested functions from your converter lab repo — that is what
 they are for. Extend the menu so each conversion is a real menu choice, and
-wire it through `get_number()` so bad input asks again (your Wednesday guardrail
+wire it through `get_number()` so bad input asks again (your U1 L08 guardrail
 already does the work).
 
 ## PART 2 — ADD THE GUARDRAILS (~30 min)
 
-From Friday's plan worksheet, add at least these two bounds:
+From your plan worksheet (U1 L10), add at least these two bounds:
 
 1. **Overflow guard:** reject numbers over 10**15 with a clear message
    ("absurdly large — refusing to compute") and ask again.

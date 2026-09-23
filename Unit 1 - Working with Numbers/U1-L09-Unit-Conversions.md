@@ -3,8 +3,8 @@
 **LO:** write your own functions for real-world unit conversions using `def` and `return`.
 
 Today you get your own copy of a broken **unit converter** and fix it. It runs
-in Codespaces, same as Wednesday's calculator lab. Everything you build today
-goes straight into Monday's Calculator v2.
+in Codespaces, same as the two-day calculator build (U1 L08). Everything you
+build today goes straight into the Calculator v2 lab (U1 L11).
 
 ## PART 0 — CODE-ALONG: `def` AND `return` (15 min)
 
@@ -42,7 +42,7 @@ def c_to_k(c):
   body temperature, -40).
 - Kelvin has a hard floor: nothing can be colder than 0 K. What should
   `c_to_k` do if you hand it -300 °C? (Hold that thought — it comes back in
-  Monday's guardrails.)
+  (U1 L11's guardrails.)
 
 ## PART 2 — GET YOUR CONVERTER LAB REPO (first 10 minutes of the lab)
 
