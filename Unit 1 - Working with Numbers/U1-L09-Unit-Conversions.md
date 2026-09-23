@@ -60,8 +60,8 @@ python3 converter.py
 ```
 
 - Pick a conversion, type `hello` for a number → 💥 crash.
-- Pick **°F → °C** and enter 212 → it answers **122.0**. That is *wrong* —
-  212 °F is 100 °C, not 122. **No crash, no error, just a quietly wrong
+- Pick **°F → °C** and enter 212 → it answers **117.78**. That is *wrong* —
+  212 °F is 100 °C, not 117.78. **No crash, no error, just a quietly wrong
   answer.** These are the most dangerous bugs there are.
 
 Then run the self-check:
