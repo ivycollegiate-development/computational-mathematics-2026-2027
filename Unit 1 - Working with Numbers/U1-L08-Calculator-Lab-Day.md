@@ -26,6 +26,7 @@ cd ~/compmath-lab
 3. **Always pull before you start working** — it gets any changes I pushed to your repo since last class:
 
 ```bash
+cd ~/compmath-lab
 git config pull.rebase false
 git pull
 ```
