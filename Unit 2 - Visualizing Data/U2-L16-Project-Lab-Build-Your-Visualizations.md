@@ -101,5 +101,5 @@ and pushed.
 
 Submit the PR link to this assignment on Google Classroom.
 
-Early finishers: add the fourth "audience choice" chart from Tuesday, or write a
+Early finishers: add the fourth "audience choice" chart from Thursday, or write a
 second version of one chart for a *different* audience and compare the two.

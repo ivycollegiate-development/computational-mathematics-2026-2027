@@ -3,7 +3,7 @@
 **LO:** load data from CSV files into Python and prepare it for visualization.
 
 Today you get YOUR OWN copy of the **data lab** repo — a different one from
-Tuesday's. Real datasets, including a 1000-row performance file, and the
+Monday's. Real datasets, including a 1000-row performance file, and the
 honest truth about real data: it is messy. By the end you will have a clean
 per-row list ready to plot next week.
 
@@ -76,7 +76,7 @@ heavy = [r for r in records if r["study"] >= 10]
 print(len(heavy))   # how many study 10+ hours/week?
 ```
 
-**Aggregate** with a dict of accumulators (same pattern as Tuesday's lab):
+**Aggregate** with a dict of accumulators (same pattern as Monday's lab):
 
 ```python
 by_study = {}   # study-hours -> [gpa_sum, count]
@@ -124,7 +124,7 @@ Test it on all three messy files (`u2_dataset1_study_habits.csv`,
   comment text.
 
 In your notes: what would have gone silently wrong if you had *not* stripped
-the comment, and why is a wrong first row worse than a crash? (Tuesday's
+the comment, and why is a wrong first row worse than a crash? (Monday's
 quietly-wrong bug, again.)
 
 ## PART 4 — BUILD YOUR PLOT-READY LIST (20 min, on your own)

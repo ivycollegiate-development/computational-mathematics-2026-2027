@@ -2,7 +2,7 @@
 
 **LO:** demonstrate, on paper, mastery of scatter plots and data cleaning from U2 L10–L11 before the unit project.
 
-No electronics today. Wednesday you clean data; Monday histograms; then the
+No electronics today. Monday you clean data (U2 L11); Wednesday histograms; then the
 project. Today's paper check makes sure scatter-plot reading and the
 cleaning rules from this week are solid before everything builds on them.
 20 minutes of check, then swap, correct, and one forward look at the project.
@@ -70,7 +70,7 @@ the board, using your actual wrong answers, before the project starts.
 
 ## PART 5 — LOOK AHEAD: THE PROJECT (10 min, in pairs)
 
-Monday is histograms; Wednesday the project launches — three visualizations
+Wednesday is histograms; Friday the project launches — three visualizations
 built from a real dataset, with cleaning you do yourself. In your notes:
 
 - Your project chart must survive the question "where did this data come

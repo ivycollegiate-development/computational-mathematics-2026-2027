@@ -2,7 +2,7 @@
 
 **LO:** create line plots, bar charts, and scatter plots with appropriate labels, colors, and formatting.
 
-Wednesday you made your first plots (U2 L03). Today we make them *readable* —
+Monday you made your first plots (U2 L03). Today we make them *readable* —
 titles, labels, colors, grids, legends — and save them as image files. Three
 chart types, one script, zero `pip install` (matplotlib 3.10 is already on your
 machine).
@@ -96,7 +96,7 @@ In your notes:
 - Line vs. bar vs. scatter: which one would you use for (a) GPA vs. study
   hours, (b) average score per grade level, (c) temperature across one day?
 - A scatter shows a pattern — but does a pattern *prove* one thing caused the
-  other? (Hold that thought for Monday.)
+  other? (Hold that thought — it comes back later this unit.)
 
 ## PART 4 — LEGENDS AND SAVING (10 min)
 
@@ -120,7 +120,7 @@ plt.show()
 
 ## PART 5 — MINI-EXERCISE: YOUR OWN CHART (15 min, on your own)
 
-Here are the first 5 rows of the study-habits dataset you will meet in Tuesday's
+Here are the first 5 rows of the study-habits dataset you will meet in Monday's
 lab:
 
 ```python
