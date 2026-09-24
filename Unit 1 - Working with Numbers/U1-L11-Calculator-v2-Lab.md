@@ -74,7 +74,7 @@ git push
 **Milestone for today:** Calculator v2 — all original tests passing, conversions
 working from the menu, both guardrails live.
 
-## TURN IN — PULL REQUEST LINK (due Sunday Sep 27, 11:59 PM)
+## TURN IN — PULL REQUEST LINK (due Sunday Oct 4, 11:59 PM)
 
 1. Push your final `calculator.py` (conversions + guardrails working).
 2. On github.com, open or update a Pull Request from your repo back to the

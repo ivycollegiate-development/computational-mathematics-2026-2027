@@ -26,7 +26,7 @@ Key ideas to write down:
 
 - A table stores values; a chart exposes **shape, trend, and outliers**.
 - A chart is an *argument* — someone chose what to plot. We'll spend
-  Thursday learning to question that choice.
+ Tuesday learning to question that choice.
 
 ## PART 2 — CODE-ALONG: YOUR FIRST PLOT (15 min)
 
@@ -125,7 +125,7 @@ In your notes:
   step in a sequence.)
 - Does the cloud of points lean which way? What does the lean suggest?
 - Find in your mind's eye where a point at (1.0, 95) would sit. Would it
-  fit the pattern? That's an **outlier** — Thursday's whole topic.
+  fit the pattern? That's an **outlier** — Tuesday's whole topic.
 
 ## PART 5 — SAVEFIG: MAKE IT A TURN-IN (10 min)
 
@@ -158,7 +158,7 @@ With your table, rank these sins from worst to least-worst and defend it:
 - y-axis starting at a weird number to exaggerate a trend
 - rainbow colors on a black background
 
-One sentence each in your notes. Thursday we judge a real news chart
+One sentence each in your notes. Tuesday we judge a real news chart
 against exactly this list.
 
 ## PART 7 — SAVE YOUR WORK + PUSH (last 10 min)

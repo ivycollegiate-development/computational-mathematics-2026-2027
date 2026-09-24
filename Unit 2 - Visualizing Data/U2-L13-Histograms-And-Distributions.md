@@ -9,7 +9,7 @@ it, and does it lean?"
 
 ## PART 0 — SETUP: START FROM CLEAN DATA (first 10 min)
 
-Wednesday's `clean_data.py` produced a cleaned CSV. Use it — that is what it
+Monday's `clean_data.py` produced a cleaned CSV. Use it — that is what it
 was for:
 
 ```bash
