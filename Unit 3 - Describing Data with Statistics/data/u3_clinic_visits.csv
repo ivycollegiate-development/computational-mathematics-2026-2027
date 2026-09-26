@@ -1,0 +1,82 @@
+# Clinic visit log, 80 visits. CONTAINS DIRECT IDENTIFIERS: Name + Visit_Date + Condition can re-identify a patient. Used in U3 L10 (audit) and L12 (anonymize).
+Patient_ID,Name,Age,Visit_Date,Condition,Zip_Code,Visit_Count,Insurance_Plan
+P9001,"Jordan, Haddad",31,2026-10-16,Migraine,40605,8,PPO-A
+P9002,"Riley, Okafor",66,2026-09-11,ACL Injury,40602,1,PPO-B
+P9003,"Casey, Brennan",56,2026-10-13,Type 2 Diabetes,40660,8,PPO-B
+P9004,"Morgan, Ibrahim",17,2026-09-24,Migraine,40649,1,HMO-C
+P9005,"Quinn, Park",74,2026-10-07,ACL Injury,40605,2,Medicaid-D
+P9006,"Hayden, Chen",44,2026-09-29,Hypertension,40604,1,PPO-B
+P9007,"Skyler, Jensen",73,2026-09-13,Hypertension,40604,1,HMO-C
+P9008,"Rowan, Quintero",60,2026-09-17,ACL Injury,40601,1,PPO-A
+P9009,"Emerson, Duarte",72,2026-09-04,Type 2 Diabetes,40660,8,PPO-A
+P9010,"Finley, Kowalski",40,2026-10-14,Migraine,40601,1,HMO-C
+P9011,"Harper, Rossi",76,2026-10-24,Hypertension,40604,1,PPO-A
+P9012,"Kendall, Espinoza",44,2026-09-01,ACL Injury,40660,2,HMO-C
+P9013,"Logan, Lindqvist",31,2026-09-04,Amyloidosis,40649,5,Medicaid-D
+P9014,"Marley, Singh",58,2026-09-01,Migraine,40602,2,PPO-A
+P9015,"Nico, Farah",71,2026-09-08,ACL Injury,40601,8,HMO-C
+P9016,"Parker, Moreau",69,2026-09-08,Type 2 Diabetes,40649,8,Medicaid-D
+P9017,"Reese, Tran",64,2026-10-11,Migraine,40604,1,Medicaid-D
+P9018,"Sage, Gomez",39,2026-09-14,Hypertension,40660,2,HMO-C
+P9019,"Tatum, Nakamura",39,2026-10-18,Asthma,40601,1,Medicaid-D
+P9020,"Avery, Alvarez",16,2026-09-27,Asthma,40605,1,PPO-A
+P9021,"Jordan, Haddad",27,2026-09-29,Type 2 Diabetes,40604,1,Medicaid-D
+P9022,"Riley, Okafor",51,2026-09-15,Migraine,40660,1,Medicaid-D
+P9023,"Casey, Brennan",51,2026-09-06,Asthma,40602,1,HMO-C
+P9024,"Morgan, Ibrahim",71,2026-09-30,ACL Injury,40605,1,HMO-C
+P9025,"Quinn, Park",26,2026-09-12,Hypertension,40601,5,Medicaid-D
+P9026,"Hayden, Chen",55,2026-09-25,Myelofibrosis,40602,8,Medicaid-D
+P9027,"Skyler, Jensen",29,2026-10-16,Migraine,40601,2,Medicaid-D
+P9028,"Rowan, Quintero",56,2026-10-22,Migraine,40601,3,HMO-C
+P9029,"Emerson, Duarte",24,2026-09-12,ACL Injury,40604,1,PPO-A
+P9030,"Finley, Kowalski",45,2026-10-04,ACL Injury,40660,1,Medicaid-D
+P9031,"Harper, Rossi",62,2026-09-28,Type 2 Diabetes,40605,3,Medicaid-D
+P9032,"Kendall, Espinoza",33,2026-09-07,Hypertension,40602,2,PPO-B
+P9033,"Logan, Lindqvist",70,2026-10-01,Hypertension,40601,3,HMO-C
+P9034,"Marley, Singh",60,2026-09-03,Type 2 Diabetes,40602,3,HMO-C
+P9035,"Nico, Farah",62,2026-09-14,Type 2 Diabetes,40649,1,Medicaid-D
+P9036,"Parker, Moreau",66,2026-10-17,Migraine,40605,2,Medicaid-D
+P9037,"Reese, Tran",23,2026-09-19,Migraine,40660,3,HMO-C
+P9038,"Sage, Gomez",44,2026-10-11,Asthma,40604,3,PPO-B
+P9039,"Tatum, Nakamura",62,2026-10-24,Von Hippel-Lindau,40604,2,HMO-C
+P9040,"Avery, Alvarez",53,2026-09-19,Migraine,40604,3,Medicaid-D
+P9041,"Jordan, Haddad",54,2026-09-27,ACL Injury,40660,2,HMO-C
+P9042,"Riley, Okafor",76,2026-10-16,Hypertension,40604,5,Medicaid-D
+P9043,"Casey, Brennan",72,2026-10-20,Asthma,40601,1,PPO-B
+P9044,"Morgan, Ibrahim",43,2026-09-02,Migraine,40605,2,HMO-C
+P9045,"Quinn, Park",50,2026-10-13,Asthma,40605,1,Medicaid-D
+P9046,"Hayden, Chen",70,2026-09-14,Hypertension,40649,1,HMO-C
+P9047,"Skyler, Jensen",37,2026-09-23,Asthma,40660,1,PPO-A
+P9048,"Rowan, Quintero",34,2026-09-04,Type 2 Diabetes,40605,5,PPO-B
+P9049,"Emerson, Duarte",55,2026-10-25,Type 2 Diabetes,40649,5,Medicaid-D
+P9050,"Finley, Kowalski",26,2026-09-04,ACL Injury,40601,5,PPO-B
+P9051,"Harper, Rossi",46,2026-10-04,ACL Injury,40604,1,HMO-C
+P9052,"Kendall, Espinoza",52,2026-09-05,Dermatomyositis,40649,1,Medicaid-D
+P9053,"Logan, Lindqvist",56,2026-10-04,Hypertension,40601,5,PPO-A
+P9054,"Marley, Singh",43,2026-10-16,Migraine,40649,3,PPO-B
+P9055,"Nico, Farah",77,2026-10-28,Asthma,40601,2,HMO-C
+P9056,"Parker, Moreau",20,2026-09-25,Type 2 Diabetes,40602,1,PPO-B
+P9057,"Reese, Tran",56,2026-09-26,Asthma,40602,5,HMO-C
+P9058,"Sage, Gomez",15,2026-10-03,Migraine,40604,2,Medicaid-D
+P9059,"Tatum, Nakamura",47,2026-10-05,Hypertension,40604,3,PPO-A
+P9060,"Avery, Alvarez",52,2026-10-07,Hypertension,40649,1,PPO-A
+P9061,"Jordan, Haddad",27,2026-09-01,Hypertension,40604,2,PPO-B
+P9062,"Riley, Okafor",54,2026-10-13,Hypertension,40660,3,Medicaid-D
+P9063,"Casey, Brennan",41,2026-10-28,Asthma,40601,1,PPO-A
+P9064,"Morgan, Ibrahim",26,2026-10-25,Migraine,40604,1,HMO-C
+P9065,"Quinn, Park",30,2026-10-08,Amyloidosis,40602,1,HMO-C
+P9066,"Hayden, Chen",24,2026-09-11,Migraine,40605,2,HMO-C
+P9067,"Skyler, Jensen",72,2026-10-03,Asthma,40605,2,PPO-B
+P9068,"Rowan, Quintero",27,2026-09-18,Type 2 Diabetes,40605,3,PPO-B
+P9069,"Emerson, Duarte",30,2026-09-19,Migraine,40601,2,PPO-B
+P9070,"Finley, Kowalski",66,2026-10-02,Type 2 Diabetes,40601,3,PPO-A
+P9071,"Harper, Rossi",69,2026-10-28,ACL Injury,40601,1,PPO-A
+P9072,"Kendall, Espinoza",21,2026-10-23,Hypertension,40602,1,PPO-A
+P9073,"Logan, Lindqvist",64,2026-10-16,Migraine,40649,2,PPO-B
+P9074,"Marley, Singh",65,2026-09-10,Type 2 Diabetes,40660,5,HMO-C
+P9075,"Nico, Farah",61,2026-10-04,Type 2 Diabetes,40660,1,Medicaid-D
+P9076,"Parker, Moreau",15,2026-10-21,ACL Injury,40649,2,PPO-B
+P9077,"Reese, Tran",19,2026-09-22,ACL Injury,40605,1,PPO-A
+P9078,"Sage, Gomez",22,2026-10-08,Myelofibrosis,40601,3,PPO-A
+P9079,"Tatum, Nakamura",65,2026-10-05,Migraine,40601,1,PPO-A
+P9080,"Avery, Alvarez",21,2026-09-30,ACL Injury,40602,3,PPO-A
