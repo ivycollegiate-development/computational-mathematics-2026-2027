@@ -2,8 +2,8 @@
 
 **LO:** demonstrate, on paper, mastery of good-visualization criteria and matplotlib customization from U2 L03–L05.
 
-No electronics today. Monday's lab (U2 L07) puts bar charts on real data;
-today's paper check makes sure the fundamentals from last week are solid
+No electronics today. The lab that follows (U2 L07) puts bar charts on real
+data; this paper check makes sure the fundamentals from last week are solid
 before you build on them. 20 minutes of check, the rest of class we go over
 it together and you correct your own paper in a different color.
 
@@ -60,12 +60,12 @@ corrections are the point — a corrected miss is worth more than a lucky guess.
 ## PART 4 — WHAT THE CHECK TELLS US (10 min, class discussion)
 
 Hands up by section: which section was hardest? We re-teach the top one on
-the board before Monday's lab, using your actual wrong answers — that is
+the board before the U2 L07 lab, using your actual wrong answers — that is
 what the check is for.
 
-## PART 5 — LOOK AHEAD: MONDAY'S LAB (10 min, in pairs)
+## PART 5 — LOOK AHEAD: THE U2 L07 LAB (10 min, in pairs)
 
-Monday you load the real study-habits dataset and build bar charts of
+Next class you get your own data-lab repo and build bar charts of
 categorical data. In your notes:
 
 - What is a *categorical* column, versus a *numerical* one? Name one of each
