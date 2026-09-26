@@ -6,6 +6,11 @@ Today you get YOUR OWN copy of a data-lab repo. It comes with real data files
 and a self-check that starts at **2/4 passing**. Your job: finish the bar chart
 and make it **4/4**.
 
+The paper check you took in the last class covered chart choice, the label rule,
+and reading matplotlib output. That is the foundation for everything below — if
+a question comes back on the label rule, it is because the bars you build today
+are read by a real audience.
+
 ## PART 0 — GET YOUR LAB REPO (first 10 minutes)
 
 1. Check your school Gmail — you have an invitation to collaborate on your own
@@ -45,7 +50,7 @@ In your notes:
 
 - Which columns are **numbers** and which is a **category** here? (Hint: what
   would it mean to take an average of it?)
-- Friday's lesson: what chart type compares *categories*?
+- From the U2 L05 lab: what chart type compares *categories*?
 
 ## PART 2 — SEE IT FAIL (10 min)
 
@@ -127,7 +132,7 @@ git push
 
 (Password prompt = Personal Access Token, not your GitHub password.)
 
-## TURN IN
+## TURN IN — PULL REQUEST LINK (due 11:59 PM tonight)
 
 1. Push your final `chart_bars.py` and `attendance_scores.png` (self-check
    4/4).
