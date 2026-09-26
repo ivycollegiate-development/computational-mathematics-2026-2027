@@ -48,9 +48,19 @@ chk(m > st.median(vals) * 1.15,
     f"mean {m:.2f} vs median {st.median(vals):.2f}")
 chk(90000.0 in vals, "the 90,000.00 mis-key is present and labelled")
 clean = [v for v in vals if v < 5000]
-chk(abs(st.mean(clean) - m) > 100,
-    "the 90,000.00 outlier moves the mean by >100 (L05's whole point)",
-    f"mean with {m:.2f} vs without {st.mean(clean):.2f}")
+base = st.mean(clean)
+# Paul: the outlier must be CLEAR, DEMONSTRABLE, EASILY SEEN -- a visible
+# difference, not a technical one. Assert the gap in ratio terms, not a dollar
+# delta, because a ratio survives a change in the rest of the distribution.
+# Measured at 90,000: 2.68x the clean mean, 371x the median, 159x past the IQR
+# fence. (A 9,000 mis-key gives only 1.16x -- invisible, and the reason it was
+# raised. 900,000 would be louder still but is not a plausible donation typo.)
+chk(m / base > 2.0, "outlier changes the mean by more than 2x (clear, not subtle)",
+    f"{m:.2f} vs {base:.2f} = {m/base:.2f}x")
+chk(90000.0 / st.median(vals) > 100, "outlier is >100x the median (unmissable on a list)",
+    f"{90000.0/st.median(vals):.0f}x")
+chk(abs(st.median(clean) - st.median(vals)) < 1.0,
+    "the MEDIAN barely moves (2.68x vs 1.00x -- the contrast that teaches L05)")
 q1, q3 = st.quantiles(clean, n=4)[0], st.quantiles(clean, n=4)[2]
 iqr = q3 - q1
 chk(90000.0 > q3 + 1.5 * iqr, "IQR rule flags the 90,000.00 outlier (L21)",
