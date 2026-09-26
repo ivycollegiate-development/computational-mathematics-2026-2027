@@ -228,8 +228,17 @@ def test_engine():
 
     print("all engine tests passed")
 
-test_engine()
+
+if __name__ == "__main__":
+    test_engine()
 ```
+
+Note the `if __name__ == "__main__":` guard. It looks fussy and it is
+load-bearing. Without it, **importing** `stats_engine` from your dashboard
+also *runs* the tests — and if one assertion fails, your dashboard dies with
+a traceback about a test, not about a chart. A module should do its job when
+imported and only do its demo when run directly. This bites everyone exactly
+once.
 
 Then add **three assertions of your own** based on the real project data —
 one for `Spend_USD`, one for `Age`, one that checks an outlier is detected.

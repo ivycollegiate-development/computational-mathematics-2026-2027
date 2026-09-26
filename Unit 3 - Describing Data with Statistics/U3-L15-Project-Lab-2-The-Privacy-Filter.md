@@ -151,6 +151,19 @@ print("tier cells:", check_small_cells(rows, "Membership_Tier"))
 Now combine. This is the function the dashboard calls **before** drawing
 anything.
 
+> **Where the code goes.** Every `def` and constant below belongs in
+> `privacy_filter.py`. Every block from here on that *loads data and prints
+> output* is a **demo** — put those in a separate `demo_gate.py`, inside a
+> `if __name__ == "__main__":` guard.
+>
+> This is not tidiness. If a demo lives inside `privacy_filter.py`, then
+> anyone who writes `from privacy_filter import privacy_gate` — which is
+> exactly what `dashboard.py` does in L17 — runs your demos as a side
+> effect. Their dashboard prints forty lines of your debugging before it
+> draws anything, and if a demo raises, their chart never renders and the
+> traceback points at the wrong file entirely. You will hit this. Separate
+> them now and you will not debug it at 9pm on a Friday.
+
 ```python
 def privacy_gate(rows, published_fields, group_cols, min_k=MIN_K):
     """Return (ok, problems, warnings).
@@ -185,14 +198,6 @@ def describe_result(ok, problems, warnings):
         for w in warnings:
             out.append(f"  note: {w}")
         return "\n".join(out)
-    lines = ["Privacy check FAILED. Nothing will be published.", ""]
-    lines += [f"  - {p}" for p in problems]
-    lines += ["", "Fix the data or the report fields, then try again."]
-    return "\n".join(lines)
-
-def describe_result(ok, problems):
-    if ok:
-        return "Privacy check PASSED. Safe to publish."
     lines = ["Privacy check FAILED. Nothing will be published.", ""]
     lines += [f"  - {p}" for p in problems]
     lines += ["", "Fix the data or the report fields, then try again."]
