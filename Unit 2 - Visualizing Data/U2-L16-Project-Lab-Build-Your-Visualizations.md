@@ -5,7 +5,7 @@
 Today is a work day. Everything stays in **your own data-lab repo** — you should
 walk out with all three charts saved as PNGs and their analysis written.
 
-## PART 0 — OPEN YOUR REPO AND CHECK YESTERDAY (first 10 minutes)
+## PART 0 — OPEN YOUR REPO AND RE-READ THE LAUNCH (first 10 minutes)
 
 ```bash
 pwd
@@ -93,7 +93,7 @@ git push
 **Milestone for today:** three PNGs + three analysis paragraphs, all in your repo
 and pushed.
 
-## TURN IN — PULL REQUEST LINK (due Sunday, 11:59 PM)
+## TURN IN — PULL REQUEST LINK (due 11:59 PM tonight)
 
 1. Push your final `project.py`, `analysis.md`, and all three PNGs.
 2. On github.com, open or update a Pull Request from your repo back to the
@@ -101,5 +101,5 @@ and pushed.
 
 Submit the PR link to this assignment on Google Classroom.
 
-Early finishers: add the fourth "audience choice" chart from Thursday, or write a
+Early finishers: add the fourth "audience choice" chart from U2 L14, or write a
 second version of one chart for a *different* audience and compare the two.

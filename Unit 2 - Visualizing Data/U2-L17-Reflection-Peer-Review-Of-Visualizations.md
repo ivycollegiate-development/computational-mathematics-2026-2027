@@ -12,7 +12,7 @@ Before you score anyone, agree on the standard. In your notes, answer:
 - What is the difference between a chart that is **unclear** and one that is
   **dishonest**? (One is a mistake; the other is a lie.)
 - Name one way a chart can be technically correct but still mislead its audience —
-  think about the three-audience exercise from Monday.
+  think about the three-audience exercise from U2 L14.
 
 We will use three scoring dimensions all day, each 1-5:
 
