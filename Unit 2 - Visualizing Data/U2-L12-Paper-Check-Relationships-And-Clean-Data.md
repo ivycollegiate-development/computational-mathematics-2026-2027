@@ -2,7 +2,7 @@
 
 **LO:** demonstrate, on paper, mastery of scatter plots and data cleaning from U2 L10–L11 before the unit project.
 
-No electronics today. Monday you clean data (U2 L11); Wednesday histograms; then the
+No electronics today. U2 L11 was the data-cleaning lab; U2 L13 is histograms; then the
 project. Today's paper check makes sure scatter-plot reading and the
 cleaning rules from this week are solid before everything builds on them.
 20 minutes of check, then swap, correct, and one forward look at the project.
