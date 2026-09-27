@@ -17,9 +17,9 @@
 | | | **Fall Break (Oct 30 half-day: project launch + break work, Oct 31–Nov 8 off)** | | | |
 | U3 | Ch 3 — Describing Data with Stats | Mean/mode/median, variance, stddev, PII, anonymization | Nov 09 – Dec 17 | 17 | 12 | 29 |
 | | | **Winter Break (Dec 18 half-day, Dec 19–Jan 3 off)** | | | |
-| U4 | Ch 4 — Algebra & SymPy | Symbolic math, modular arithmetic, ciphers, hashing | Jan 04 – Feb 02 | 12 | 8 | 20 |
+| U4 | Ch 4 — Algebra & SymPy | Symbolic math, modular arithmetic, ciphers, hashing | Jan 05 – Feb 16 | 12 | 8 | 20 |
 | | | **Chinese New Year (Feb 03 half-day, Feb 04–14 off)** | | | |
-| U5 | Ch 5 — Sets & Probability | Sets, probability, expected value, risk, threat modeling | Feb 15 – Mar 31 | 20 | 13 | 33 |
+| U5 | Ch 5 — Sets & Probability | Sets, probability, expected value, risk, threat modeling | Feb 17 – Mar 31 | 20 | 13 | 33 |
 | | | **Spring Break (Apr 02 half-day, Apr 03–11 off)** | | | |
 | U6 | Ch 6 — Geometry & Fractals | Coordinates, recursion, fractals, pattern detection | Apr 12 – Apr 30 | 9 | 6 | 15 |
 | U7 | Ch 7 — Calculus & Modeling | Limits conceptually, derivatives, integrals, anomaly detection | May 03 – May 28 | 12 | 8 | 20 |
@@ -118,7 +118,7 @@
 | U1 | **Calculator with Guardrails** | Oct 02 |
 | U2 | **Visualizing Threats** (data viz with integrity lens) | Nov 11 |
 | U3 | **Privacy-Aware Stats Dashboard** | Dec 17 |
-| U4 | **Cipher Toolkit** (Math Wars) | Feb 02 |
+| U4 | **Cipher Toolkit** (Math Wars) | Feb 15 (demo Feb 16) |
 | U5 | **Risk Simulator** (threat modeling) | Mar 31 |
 | U6 | **Fractal Detection Models** | Apr 30 |
 | U7 | **Anomaly Trend Analyzer** | May 28 |
