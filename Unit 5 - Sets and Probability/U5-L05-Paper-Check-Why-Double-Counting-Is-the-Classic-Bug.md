@@ -39,7 +39,7 @@ not a math example.
 
 The CS club / chess club problem from L02, restated so you cannot pattern-match
 it: **A** = students in the debate club, 15. **B** = students in the model
-aircraft club, 22. **9** are in both. **3** are in neither. The school is 120.
+aircraft club, 22. **9** are in both. The school is 120.
 
 Do it three times. The third time is the one that matters.
 
@@ -62,20 +62,19 @@ Do it three times. The third time is the one that matters.
 | exactly one | | |
 | `A` only | | |
 | `B` only | | |
-| neither | | |
+| neither | | 120 − ______ |
 
 **(c) The way a program would do it: build the sets, then operate.**
 
 Write the code, do not run it. Predict the printed output.
 
 ```python
-A = {"d1","d2","d3","d4","d5","d6","d7","d8","d9","d10","d11","d12","d13","d14","d15"}
-B = {"m1","m2","m3","m4","m5","m6","m7","m8","m9","m10","m11","m12",
-     "m13","m14","m15","m16","m17","m18","m19","m20","m21","m22"}
-# rename so that 9 of them overlap
-for i in range(9):
-    A.add("x%d" % i)
-    B.add("x%d" % i)
+A = {"d%d" % i for i in range(1, 16)}          # 15 debaters
+B = {"m%d" % i for i in range(1, 23)}          # 22 aircraft-club members
+# 9 of the aircraft members are also debaters: m1..m9 are really d7..d15
+for i in range(1, 10):
+    B.remove("m%d" % i)
+    B.add("d%d" % (i + 6))
 print(len(A), len(B))
 print(sorted(A & B))
 print(len(A | B), len(A - B), len(A ^ B))
@@ -84,7 +83,8 @@ print(len(A | B), len(A - B), len(A ^ B))
 - ☐  `len(A)`: ______  `len(B)`: ______
 - ☐  `A & B` is: ______
 - ☐  `len(A | B)`, `len(A - B)`, `len(A ^ B)`: ______, ______, ______
-- ☐  Did all three methods agree? If not, which one and why: ______
+- ☐  Did all three methods agree with (a) and (b)? If not, which one and why:
+      ______
 
 ## PART 3 — WHY ADDING IS THE CLASSIC BUG (12 min)
 
