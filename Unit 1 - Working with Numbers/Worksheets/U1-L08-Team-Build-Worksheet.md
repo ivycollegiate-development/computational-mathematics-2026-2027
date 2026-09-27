@@ -1,6 +1,8 @@
 # U1 L08 — TEAM LAB BUILD: Calculator v1 — Safe Arithmetic
 
-Team name: ____________________   Members: ___________________________________   Date: Sep 23-24
+Names: ___________________________  Date: Sep 23-24
+
+Team name: ____________________   Members: ___________________________________
 
 Build days for the calculator your team planned on the plan day. Day 1 is Wednesday, Day 2 is Thursday. Keep this sheet open both days — it is your build script, and it works together with the Parts A-E plan sheet you already agreed on.
 
@@ -8,21 +10,21 @@ Build days for the calculator your team planned on the plan day. Day 1 is Wednes
 
 Fill in who starts in each role. Rotate at least once each day — nobody finishes this lab without having driven.
 
-| Role | Day 1 starter | Day 2 starter |
-|---|---|---|
-| Driver (types the code) |  |  |
-| Navigator (reads the plan aloud) |  |  |
-| Tester (runs the self-check, calls the score) |  |  |
-| Recorder (keeps plan + attack list) |  |  |
+| Role                                     | Day 1 starter     | Day 2 starter     |
+| ---------------------------------------- | ----------------- | ----------------- |
+| Driver (types the code)                  |                   |                   |
+| Navigator (reads the plan aloud)         |                   |                   |
+| Tester (runs the self-check, calls the score) |                   |                   |
+| Recorder (keeps plan + attack list)      |                   |                   |
 
 Team of 3? Drop the Recorder — the Driver keeps the checklist.
 
 Rotation log — write who took over and when:
 
-| Day | Handoff 1 | Handoff 2 |
-|---|---|---|
-| Day 1 |  |  |
-| Day 2 |  |  |
+| Day        | Handoff 1     | Handoff 2     |
+| ---------- | ------------- | ------------- |
+| Day 1      |               |               |
+| Day 2      |               |               |
 
 ## 2: Open the team Codespace (Day 1, first 10 min)
 
@@ -46,10 +48,10 @@ Run the calculator and feed it the two bad inputs. Watch what happens, then fill
 
 python3 calculator.py
 
-| Test we ran | What Part A predicted | What actually happened | Crash type |
-|---|---|---|---|
-| divide, then hello for a number |  |  |  |
-| divide, then 5 and 0 |  |  |  |
+| Test we ran                         | What Part A predicted     | What actually happened     | Crash type     |
+| ----------------------------------- | ------------------------- | -------------------------- | -------------- |
+| divide, then hello for a number     |                           |                            |                |
+| divide, then 5 and 0                |                           |                            |                |
 
 ☐  Both crashes print errors, not silence — we know where the two bugs live.
 
@@ -73,10 +75,10 @@ Day 1 is bug 1 ONLY — the one behind test 1 (bad input does not crash). Follow
 
 Guard labeling — one line each:
 
-| Piece we added | What it guards against | Why a guard beats a crash here |
-|---|---|---|
-| try/except ValueError |  |  |
-| the ask-again loop |  |  |
+| Piece we added            | What it guards against     | Why a guard beats a crash here     |
+| ------------------------- | -------------------------- | ---------------------------------- |
+| try/except ValueError     |                            |                                    |
+| the ask-again loop        |                            |                                    |
 
 Milestone Day 1: test 1 passing — 2/4. Do NOT touch divide() today; that is Day 2.
 
@@ -122,11 +124,11 @@ Tests 2 and 3 are waiting: divide by zero handled, and the program still works a
 
 Guard labeling — same drill as Day 1:
 
-| Piece we added | What it guards against | Why the skip in main() matters |
-|---|---|---|
-| the b == 0 check |  |  |
-| returning None |  |  |
-| the is None skip in main() |  |  |
+| Piece we added                 | What it guards against     | Why the skip in main() matters     |
+| ------------------------------ | -------------------------- | ---------------------------------- |
+| the b == 0 check               |                            |                                    |
+| returning None                 |                            |                                    |
+| the is None skip in main()     |                            |                                    |
 
 Milestone Day 2: all 4 self-check tests passing.
 
@@ -134,14 +136,14 @@ Milestone Day 2: all 4 self-check tests passing.
 
 Your Part D list is the test plan — run every input on it, one attacker each. If any attack crashes the calculator, that is a bug: fix it before you push.
 
-| Attack input | Attacker | Predicted | Actual | Calculator survived? |
-|---|---|---|---|---|
-| hello (a word) |  |  |  |  |
-| 5 and 0 (divide) |  |  |  |  |
-| just pressing Enter |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| Attack input            | Attacker     | Predicted     | Actual     | Calculator survived?     |
+| ----------------------- | ------------ | ------------- | ---------- | ------------------------ |
+| hello (a word)          |              |               |            |                          |
+| 5 and 0 (divide)        |              |               |            |                          |
+| just pressing Enter     |              |               |            |                          |
+|                         |              |               |            |                          |
+|                         |              |               |            |                          |
+|                         |              |               |            |                          |
 
 Blank rows are your own Part D attacks — copy them in.
 

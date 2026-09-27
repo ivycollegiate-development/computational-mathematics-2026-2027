@@ -6,13 +6,13 @@
 
 For each pair of columns from our datasets, predict the relationship you expect (positive / negative / none) and which chart type you would use to check it:
 
-| Columns | Predicted relationship | Chart type |
-|---------|------------------------|-----------|
-| `Study_Hours` vs `Test_Score` (dataset1) | | |
-| `Sleep_Hours` vs `Test_Score` (dataset1) | | |
-| `Stress_Level` vs `GPA` (dataset2) | | |
-| `Hours_Exercise` vs `GPA` (dataset2) | | |
-| `Extracurricular_Hours` vs `GPA` (dataset3) | | |
+| Columns                                  | Predicted relationship     | Chart type     |
+| ---------------------------------------- | -------------------------- | -------------- |
+| `Study_Hours` vs `Test_Score` (dataset1) |                            |                |
+| `Sleep_Hours` vs `Test_Score` (dataset1) |                            |                |
+| `Stress_Level` vs `GPA` (dataset2)       |                            |                |
+| `Hours_Exercise` vs `GPA` (dataset2)     |                            |                |
+| `Extracurricular_Hours` vs `GPA` (dataset3) |                            |                |
 
 ## Part B: Reading a Histogram
 
@@ -32,11 +32,11 @@ A histogram of `login_success_rate` over 60 days shows: most days bunched betwee
 
 **9.** You load `u2_dataset1_study_habits.csv` and find 3 of the 52 rows have an empty `Sleep_Hours`. For each option below, write when it is the right choice and what it costs you:
 
-| Option | When is it right? | What it costs |
-|--------|-------------------|---------------|
-| Delete the row | | |
-| Fill in a guess | | |
-| Leave it and let the chart show the gap | | |
+| Option                                   | When is it right?     | What it costs     |
+| ---------------------------------------- | --------------------- | ----------------- |
+| Delete the row                           |                       |                   |
+| Fill in a guess                          |                       |                   |
+| Leave it and let the chart show the gap  |                       |                   |
 
 **10.** Why is "fill in a guess" almost always the worst option for a security or research chart?
 

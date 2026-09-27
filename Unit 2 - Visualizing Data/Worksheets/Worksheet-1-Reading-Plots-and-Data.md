@@ -6,13 +6,13 @@
 
 For each chart element, write what it does and what happens if you leave it out:
 
-| Element | What it does | If missing, the reader... |
-|---------|-------------|--------------------------|
-| Title | | |
-| X-axis label | | |
-| Y-axis label | | |
-| Legend | | |
-| Units on an axis | | |
+| Element              | What it does     | If missing, the reader...     |
+| -------------------- | ---------------- | ----------------------------- |
+| Title                |                  |                               |
+| X-axis label         |                  |                               |
+| Y-axis label         |                  |                               |
+| Legend               |                  |                               |
+| Units on an axis     |                  |                               |
 
 ## Part B: Chart Type Match
 

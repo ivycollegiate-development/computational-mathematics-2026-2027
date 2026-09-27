@@ -6,12 +6,12 @@
 
 For each scenario, write what the program would do (crash? wrong answer?) and how to fix it:
 
-| Scenario | What happens? | Fix |
-|----------|--------------|-----|
-| `age = int(input("Age: "))` — user types `"ten"` | | |
-| `price = float(input("Price: "))` — user types `""` (empty) | | |
-| `x = int(input("X: "))` — user types `"3.7"` | | |
-| `y = int("1,000")` | | |
+| Scenario                                 | What happens?     | Fix        |
+| ---------------------------------------- | ----------------- | ---------- |
+| `age = int(input("Age: "))` — user types `"ten"` |                   |            |
+| `price = float(input("Price: "))` — user types `""` (empty) |                   |            |
+| `x = int(input("X: "))` — user types `"3.7"` |                   |            |
+| `y = int("1,000")`                       |                   |            |
 
 ## Part B: try/except Practice
 
@@ -81,12 +81,12 @@ PSEUDOCODE:
 
 **12.** List at least 4 test cases you would try to break your calculator:
 
-| Test Case | Expected Behavior |
-|-----------|------------------|
-| 1. | |
-| 2. | |
-| 3. | |
-| 4. | |
+| Test Case     | Expected Behavior     |
+| ------------- | --------------------- |
+| 1.            |                       |
+| 2.            |                       |
+| 3.            |                       |
+| 4.            |                       |
 
 ## Checkout (before you leave)
 
