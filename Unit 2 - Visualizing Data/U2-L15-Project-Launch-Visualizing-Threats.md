@@ -1,27 +1,11 @@
-# U2 L15 — Project Launch: Visualizing Threats
+# U2 L15 — Project Launch + Fall Break Prep (Half Day)
 
-**LO:** begin the Unit 2 project — create a data visualization that explores a security-related dataset.
+**Date:** Oct 30 (Fri) — **HALF DAY, dismissal 12:30**
+**LO:** launch the Unit 2 project and set up a clean break so the Nov 9–11 build days are productive.
 
-Today you launch the Unit 2 project. You build it in **your own data-lab repo**
-(`~/compmath-u2-data-lab`) — no new repo today, no new invitations. Everything you
-make — code, charts, writing — goes into that repo.
-
-## PART 0 — OPEN YOUR DATA-LAB REPO (first 10 minutes)
-
-In your VS Code workspace terminal — start with `pwd`:
-
-```bash
-pwd
-cd ~/compmath-u2-data-lab
-git pull
-ls
-```
-
-- If your clone lives somewhere else, `cd ~` first and check with `ls` — the
-  repo is `compmath-u2-data-lab` inside `~`.
-- `git pull` first, always — grab anything you pushed from another machine.
-- Confirm `u2_campus_threat_daily.csv` is sitting in your repo's `data/` folder.
-  That is **the** dataset for this project.
+This is a half day, so the launch is deliberately shorter than a normal period and
+nothing is due tonight. You do the setup work here, then you pick the dataset and
+write your claim **over the break**. When you come back on Nov 9 you build.
 
 ## PART 1 — THE PROJECT, IN ONE SCREEN (~15 min)
 
@@ -43,70 +27,85 @@ PNG, each with a 1-paragraph written analysis:
 3. **Login success rate** — a histogram of `login_success_rate`. Where do most
    days sit, and are there suspicious outliers on the low end?
 
-## PART 2 — SET UP THE FILES (~20 min)
+## PART 2 — OPEN YOUR REPO AND LOOK AT THE DATA (~15 min)
 
-Inside your repo, create:
+Not a lab today — just a look. In your VS Code workspace terminal:
 
 ```bash
-touch project.py analysis.md
+pwd
+cd ~/compmath-u2-data-lab
+git pull
+ls data/
 ```
 
-Skeleton for `project.py` — you already own every piece of this from last week:
+- If your clone lives somewhere else, `cd ~` first and check with `ls`.
+- The dataset for this project is `data/u2_campus_threat_daily.csv`.
+- **Open it and read the header row.** Know your column names before the break —
+  this is the single thing that makes Nov 9 fast.
 
-```python
-import csv
-import matplotlib.pyplot as plt
+## PART 3 — 🍂 FALL BREAK ASSIGNMENT (launched now, due Nov 8)
 
-# 1. LOAD — csv.DictReader from data/u2_campus_threat_daily.csv
-# 2. CLEAN — skip/fix bad rows BEFORE any charting (L13 lesson)
-# 3. CHART 1 — daily timeline line chart, plt.savefig("timeline.png")
-# 4. CHART 2 — weekday vs weekend bar chart, plt.savefig("weekday.png")
-# 5. CHART 3 — login_success_rate histogram, plt.savefig("histogram.png")
-```
+**No code over the break. No repo work. This is paper.**
 
-Rules for every chart, no exceptions:
+Before you come back on Nov 9, do exactly this, on paper:
+
+1. **Choose your dataset** from `data/`. Options:
+   - `u2_campus_threat_daily.csv` (the campus network — 60 days)
+   - `dataset1_study_habits.csv`
+   - `dataset2_mental_health.csv`
+   - `dataset3_activities.csv`
+   - `student_performance_data.csv`
+
+2. **Open it once.** Look at the columns and roughly how many rows. Write down
+   the column names you will use.
+
+3. **Write the one sentence** your three charts will prove. Not a topic — a claim.
+   - Too vague: *"my chart is about logins."*
+   - Good: *"Failed logins spike on Monday mornings, so the attack pattern follows the school week, not chance."*
+   - Also fine: *"Weekend login success rates are higher than weekday rates, so automated attacks run on the schedule where defenders are not watching."*
+
+4. **Sketch your three charts** on paper — rough boxes, labelled axes, one line
+   of notes on what each shows. Ten minutes of sketching saves you an hour of
+   coding on Nov 9.
+
+**Turn in:** one photo of the page — your dataset name, the one-sentence claim,
+and the three chart sketches. Upload to Google Classroom. **Due 11:59 PM Sunday
+Nov 8.**
+
+## PART 4 — ON NOV 9, THIS IS WHAT YOU ALREADY HAVE DONE
+
+- ☐  You picked your dataset
+- ☐  You know your column names
+- ☐  You have a claim to prove
+- ☐  You have three sketched charts
+- ☐  Now you just build them
+
+That is why the break work exists. Do not spend Nov 9 choosing a dataset.
+
+## NO TURN-IN TONIGHT
+
+Nothing is due tonight — it is a half day and the break starts tomorrow. Just
+make sure you have the assignment above written down or photographed so you
+remember it.
+
+## 🇹🇼 BREAK CONTEXT
+
+**Fall Break: Oct 31 – Nov 8.** Classes resume Monday Nov 9. For AP Cybersecurity
+the break assignment is a home physical-security audit — also paper, also not a
+laptop. The break is ten days. Use the first week to rest and the last two days
+to do the work.
+
+## 🧩 SATURDAY CTF
+
+No Saturday sessions in the fall — the CTF series runs in spring 2027. If you
+already have a CTF writeup repo, keep it tidy this break. Nothing is required.
+
+## 📋 CHART RULES (for Nov 9 onward — not today)
+
+When you do build, these apply to every chart, no exceptions:
 
 - ☐  title, x-axis label, y-axis label — every time
 - ☐  legend when more than one line or bar series appears
 - ☐  `plt.savefig("name.png")` **before** `plt.show()`, or your PNG comes out blank
 - ☐  a short comment above each chart's code saying what it shows
-
-## PART 3 — START BUILDING (~40 min)
-
-Work through the pipeline in order. **Clean first, chart second** — a chart built
-on dirty data is a lie with axes.
-
-- ☐  Load the CSV and print how many rows you got, before and after cleaning
-- ☐  Chart 1 working and saved as a PNG
-- ☐  Chart 2 working and saved as a PNG
-- ☐  Chart 3 working and saved as a PNG
-
-Do not write any of `analysis.md` yet — first make all three charts exist. The
-writing comes tomorrow (U2 L16) once the charts are real.
-
-## PART 4 — SAVE YOUR WORK (5 min)
-
-```bash
-cd ~/compmath-u2-data-lab
-git add project.py
-git commit -m "start project: load, clean, first charts"
-git push
-```
-
-(Password prompt = Personal Access Token, not your GitHub password.)
-
-**Milestone for today:** `project.py` in your repo, data loading and cleaning
-working, at least Chart 1 saved as a PNG.
-
-## TURN IN — COMMIT YOUR LAUNCH (due 11:59 PM tonight)
-
-1. Push your `project.py` with data loading, cleaning, and at least one chart
-   working.
-2. Verify on github.com that your latest commit shows the file — open the file in
-   the browser and check it is the version you wrote.
-
-Submit your repo link to this assignment on Google Classroom.
-Keep the terminal open — spot-checks.
-
-Early finishers: get all three charts done early, or add a fourth "audience
-choice" chart — the one visualization *you* think your chosen audience most needs.
+- ☐  clean the data **before** charting — a chart built on dirty data is a lie with axes

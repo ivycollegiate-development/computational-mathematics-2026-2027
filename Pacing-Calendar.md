@@ -14,7 +14,7 @@
 | U0 | Survey | Syllabus, paper survey, what is computational math | Sep 01 – Sep 04 | 2 | 2 | 4 |
 | U1 | Ch 1 — Working with Numbers | Types, operators, functions, error handling, input validation | Sep 07 – Oct 02 | 12 | 8 | 20 |
 | U2 | Ch 2 — Visualizing Data | Matplotlib, line/bar/scatter, reading data, integrity | Oct 05 – Oct 29 | 11 | 8 | 19 |
-| | | **Fall Break (Oct 30 half-day, Oct 31–Nov 8 off)** | | | |
+| | | **Fall Break (Oct 30 half-day: project launch + break work, Oct 31–Nov 8 off)** | | | |
 | U3 | Ch 3 — Describing Data with Stats | Mean/mode/median, variance, stddev, PII, anonymization | Nov 09 – Dec 17 | 17 | 12 | 29 |
 | | | **Winter Break (Dec 18 half-day, Dec 19–Jan 3 off)** | | | |
 | U4 | Ch 4 — Algebra & SymPy | Symbolic math, modular arithmetic, ciphers, hashing | Jan 04 – Feb 02 | 12 | 8 | 20 |
@@ -116,7 +116,7 @@
 | Unit | Project | Due |
 |------|---------|-----|
 | U1 | **Calculator with Guardrails** | Oct 02 |
-| U2 | **Visualizing Threats** (data viz with integrity lens) | Oct 29 |
+| U2 | **Visualizing Threats** (data viz with integrity lens) | Nov 11 |
 | U3 | **Privacy-Aware Stats Dashboard** | Dec 17 |
 | U4 | **Cipher Toolkit** (Math Wars) | Feb 02 |
 | U5 | **Risk Simulator** (threat modeling) | Mar 31 |
