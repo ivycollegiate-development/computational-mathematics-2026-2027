@@ -1,10 +1,10 @@
 # U1 L08 — TEAM LAB BUILD: Calculator v1 — Safe Arithmetic
 
-Names: ___________________________  Date: Sep 23-24
+Names: ___________________________  Date: ____
 
 Team name: ____________________   Members: ___________________________________
 
-Build days for the calculator your team planned on the plan day. Day 1 is Wednesday, Day 2 is Thursday. Keep this sheet open both days — it is your build script, and it works together with the Parts A-E plan sheet you already agreed on.
+Build days for the calculator your team planned on the plan day. Day 1 and Day 2 are the two U1 L08 build days. Keep this sheet open both days — it is your build script, and it works together with the Parts A-E plan sheet you already agreed on.
 
 ## 1: Roles before anything else (Day 1, first 5 min)
 
@@ -177,7 +177,7 @@ _________________________________________________________________________
 
 _________________________________________________________________________
 
-## TURN IN — PULL REQUEST LINK + TEAM STATEMENT (due Sunday Sep 27, 11:59 PM)
+## TURN IN — PULL REQUEST LINK + TEAM STATEMENT (due 11:59 PM)
 
 ☐  All 4 self-check tests passing.
 
@@ -191,4 +191,4 @@ Keep the terminal open — spot-checks.
 
 Early finishers: add remainder (%) and power to the menu, or reject absurdly large numbers (over 10^15) with an overflow warning.
 
-Next: U1 L09 — Unit Conversions (Friday). The conversion functions you build next reuse these same guards.
+Next: U1 L09 — Unit Conversions. The conversion functions you build next reuse these same guards.

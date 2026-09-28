@@ -1,12 +1,12 @@
 # U7 L12 — Paper Check: Committing to the Detector's Parameters
 
-Names: ___________________________  Date: May 18
+Names: ___________________________  Date: ____
 
-Closed notes. Pencil. 45 minutes. You commit to the detector's parameters on paper, with reasons, before Friday's deadline. The decisions are yours; the code only implements them.
+Closed notes. Pencil. 45 minutes. You commit to the detector's parameters on paper, with reasons, before the U7 L15 deadline. The decisions are yours; the code only implements them.
 
 ## 1: Recall the numbers
 
-**Section A — From Monday, from memory, then check.**
+**Section A — From U7 L11, from memory, then check.**
 
 1. The two planted event times: __________ , and their signed magnitudes: __________
 
@@ -59,7 +59,7 @@ Closed notes. Pencil. 45 minutes. You commit to the detector's parameters on pap
 
 ## 3: Commit to your parameters
 
-**Section A — Fill the table.** Final answers, one line of reason each. You use these Friday.
+**Section A — Fill the table.** Final answers, one line of reason each. You use these in U7 L15.
 
 | ---------------------------- | ------------- | --------------------- |
 | ------------------------ | -------- | -------- |

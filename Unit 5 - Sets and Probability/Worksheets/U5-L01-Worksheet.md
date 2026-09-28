@@ -1,6 +1,6 @@
 # U5 L01 — Unit Launch: Set Vocabulary and the Risk Simulator
 
-Names: ___________________________  Date: Feb 17
+Names: ___________________________  Date: ____
 
 Closed notes. 50 minutes. No laptop today. Parts 1–4 are graded on the precision of your language; the project repository is created and linked in Classroom, and it may stay empty until L14.
 

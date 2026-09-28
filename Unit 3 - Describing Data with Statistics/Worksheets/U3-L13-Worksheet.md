@@ -1,6 +1,6 @@
 # U3 L13 — Preview: Specification for the Privacy-Aware Stats Dashboard
 
-Names: ___________________________  Date: Nov 25
+Names: ___________________________  Date: ____
 
 Paper day, no laptop. This is a specification, not a sketch: it must be exact enough that a classmate could build your dashboard without asking you one question. Keep it — you are graded against it during the project labs and again during peer review.
 

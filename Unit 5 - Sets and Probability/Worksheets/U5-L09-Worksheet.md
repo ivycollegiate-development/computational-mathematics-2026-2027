@@ -1,6 +1,6 @@
 # U5 L09 — Mid-Unit Reflection: Reading Your Own Error Log
 
-Names: ___________________________  Date: Mar 1
+Names: ___________________________  Date: ____
 
 Closed notes. 50 minutes. No new content today. A sign error that happened once is noise; one that happened four times is a fact about how you read. This is graded on honesty, not on being right.
 

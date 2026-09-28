@@ -1,8 +1,8 @@
 # U5 L15 — Designing the Simulation: What Are You Actually Sampling?
 
-Names: ___________________________  Date: Mar 9
+Names: ___________________________  Date: ____
 
-Closed notes. 50 minutes. No laptop. The spec you write today is the artefact Friday's engine is graded against. A simulation run against a two-outcome model gives you back the two numbers you typed in.
+Closed notes. 50 minutes. No laptop. The spec you write today is the artefact U5 L18's engine is graded against. A simulation run against a two-outcome model gives you back the two numbers you typed in.
 
 ## 1: Four questions before any code — The laptop-loss problem
 
@@ -59,7 +59,7 @@ You modelled "the drive fails at some point in the year." Before you sample, ans
 
 ☐  Why must a seed be a parameter you can pass in rather than a constant buried in the file: ______________
 
-## 4: Write the spec — The artefact Friday implements
+## 4: Write the spec — The artefact U5 L18 implements
 
 ```
 PURPOSE

@@ -1,6 +1,6 @@
 # U3 L07 — Paper Check: Centers and Spread
 
-Names: ___________________________  Date: Nov 17
+Names: ___________________________  Date: ____
 
 Closed notes. Paper only, no terminals and no code. A calculator is allowed; Python is not. Show your arithmetic on every numeric answer — a bare answer with no working is a zero. Hand this sheet in at the end of the period.
 

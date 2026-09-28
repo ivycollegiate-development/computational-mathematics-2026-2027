@@ -1,12 +1,12 @@
 # U7 L08 — Paper Check: Quadrature and Residuals
 
-Names: ___________________________  Date: May 12
+Names: ___________________________  Date: ____
 
-Closed notes. Pencil. 45 minutes. Monday's Part 3 predictions are graded first and unrevised. No code, no notes for the first four questions in Part 2.
+Closed notes. Pencil. 45 minutes. U7 L07's Part 3 predictions are graded first and unrevised. No code, no notes for the first four questions in Part 2.
 
 ## 1: The prediction audit
 
-**Section A — Monday's Part 3, predicted before running anything.**
+**Section A — U7 L07's Part 3, predicted before running anything.**
 
 | ---------- | ------------------------ | ---------------- | ------------------------ | ---------------- |
 | -------- | -------- | -------------- | -------- | -------- |
@@ -21,7 +21,7 @@ Exact value is `1/3 = 0.3333333333333333`.
 - ☐  Did you get the **sign** of the error right? _______
 - ☐  Did you predict the factor of **16** for each quadrupling of `n`? _______
 - ☐  The sign check matters more than the digits. Why? _______
-- ☐  On a scale of 1–5, how well did Monday's hand-derivation let you predict? _______
+- ☐  On a scale of 1–5, how well did U7 L07's hand-derivation let you predict? _______
 - ☐  What specifically would have improved it? _______
 
 ## 2: Convergence, by hand

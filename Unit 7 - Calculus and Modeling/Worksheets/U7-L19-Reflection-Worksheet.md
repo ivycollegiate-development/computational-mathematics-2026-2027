@@ -1,6 +1,6 @@
 # U7 L19 — Whole-Year Reflection: What Changed About How You Reason
 
-Names: ___________________________  Date: May 27
+Names: ___________________________  Date: ____
 
 Closed notes. Pencil. 45 minutes. Last substantive lesson of the course. Open the error log you started in Unit 0 and read it end to end before you answer anything.
 

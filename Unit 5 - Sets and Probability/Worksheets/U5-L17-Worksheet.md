@@ -1,6 +1,6 @@
 # U5 L17 — Paper Check: Can You Write a Number and Its Denominator?
 
-Names: ___________________________  Date: Mar 11
+Names: ___________________________  Date: ____
 
 Closed notes. Calculator allowed. 50 minutes. No laptop. The last full paper check before the Unit 5 test, and the retrieval part is worth less than the qualifier part.
 

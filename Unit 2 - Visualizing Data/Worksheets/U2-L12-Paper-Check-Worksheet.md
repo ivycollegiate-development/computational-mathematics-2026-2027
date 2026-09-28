@@ -1,6 +1,6 @@
 # U2 L12 — Paper Check: Relationships and Clean Data
 
-Names: ___________________________  Date: Oct 23
+Names: ___________________________  Date: ____
 
 Closed notes. 20 minutes, then swap, grade with the key, and correct every miss in a second color. Next week the project builds on everything this checks.
 
@@ -90,7 +90,7 @@ _________________________________________________________________________
 
 ## 4: Look ahead — the project
 
-Monday is histograms; Wednesday the project launches — three visualizations built from a real dataset, with cleaning you do yourself.
+U2 L13 is histograms; U2 L15 the project launches — three visualizations built from a real dataset, with cleaning you do yourself.
 
 Write the one-sentence provenance statement you would make for the student-performance dataset, including how many rows it had before and after cleaning:
 

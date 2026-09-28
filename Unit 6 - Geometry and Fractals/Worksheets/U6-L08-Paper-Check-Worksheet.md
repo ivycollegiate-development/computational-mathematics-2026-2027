@@ -1,8 +1,8 @@
 # U6 L08 — Paper Check: Iteration, Recursion, and Fractals
 
-Names: ___________________________  Date: Apr 21
+Names: ___________________________  Date: ____
 
-Closed notes. Pencil. 45 minutes. Today you read recursion without running it, and you predict pictures you have not drawn. Real output from Tuesday's `deco` is printed below; use it.
+Closed notes. Pencil. 45 minutes. Today you read recursion without running it, and you predict pictures you have not drawn. Real output from U6 L07's `deco` is printed below; use it.
 
 ## 1: Trace it
 
@@ -58,7 +58,7 @@ Check yours against the `steps = 2` case, where the answer is `2^(steps+1) - 1`.
 
 **Section C — Compare the two growth rates.**
 
-5. `countdown_rec(3)` from Friday: how many calls, and how many hit the base case? __________
+5. `countdown_rec(3)` from U6 L05: how many calls, and how many hit the base case? __________
 
 6. `countdown_rec` makes `n+1` calls and `deco` makes `2^(s+1) - 1`. Which grows catastrophically, and what is the practical consequence for a detector running on a large input? _______
 
@@ -72,7 +72,7 @@ Describe each precisely. Words beat a bad drawing.
 
 8. `plot(c, lambda t: t*t, 0, 1, 5)`: which part of the curve is best resolved? _______
 
-9. `plot(c, math.sin, 0, 6.28, 5)`: name the part of the plot that Tuesday's lower depth failed to resolve. _______
+9. `plot(c, math.sin, 0, 6.28, 5)`: name the part of the plot that U6 L07's lower depth failed to resolve. _______
 
 10. `plot(c, lambda t: abs(math.sin(3*math.pi*t)), 0, 1, 5)`: how many arches do you see, and why that number? _______
 
@@ -84,9 +84,9 @@ Describe each precisely. Words beat a bad drawing.
 
 **Section A — Compare against what actually happened.**
 
-- ☐  On Tuesday you predicted what increasing `steps` would do. Did it do that? _______
+- ☐  In U6 L07 you predicted what increasing `steps` would do. Did it do that? _______
 - ☐  One prediction you got wrong: _______ because _______
-- ☐  Tuesday's `deco` call-count question — your answer was ________, the real answer is ________
+- ☐  U6 L07's `deco` call-count question — your answer was ________, the real answer is ________
 
 ## 4: Error log
 
@@ -105,7 +105,7 @@ Describe each precisely. Words beat a bad drawing.
 
 12. Write the sentence: _______
 
-13. Give one example from Tuesday's output: _______
+13. Give one example from U6 L07's output: _______
 
 ___
 

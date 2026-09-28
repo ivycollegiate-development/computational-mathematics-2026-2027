@@ -1,12 +1,12 @@
 # U6 L12 — Paper Check: Measuring and Thresholding a Fractal
 
-Names: ___________________________  Date: Apr 27
+Names: ___________________________  Date: ____
 
 Closed notes. Pencil. 45 minutes. Complete the recall from memory first, then check against your own `results.txt`. The threshold paragraph you write in Part 3 goes into your project README.
 
 ## 1: Recall the measurement
 
-**Section A — Koch.** From Thursday, complete from memory.
+**Section A — Koch.** From U6 L09, complete from memory.
 
 1. Perimeter at `n = 3`: __________ segments, each of length __________, perimeter __________
 

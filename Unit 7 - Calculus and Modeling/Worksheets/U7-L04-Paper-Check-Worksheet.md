@@ -1,8 +1,8 @@
 # U7 L04 — Paper Check: Difference Quotients and Step Size
 
-Names: ___________________________  Date: May 6
+Names: ___________________________  Date: ____
 
-Closed notes. Pencil. 45 minutes. Wednesday's `h` table is the raw material. There is one thing in this unit you must be able to do without a computer: read an error curve.
+Closed notes. Pencil. 45 minutes. U7 L03's `h` table is the raw material. There is one thing in this unit you must be able to do without a computer: read an error curve.
 
 ## 1: Recall the table
 

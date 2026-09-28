@@ -1,6 +1,6 @@
 # U5 L21 — Paper Check: Full-Unit Rehearsal, Part One
 
-Names: ___________________________  Date: Mar 17
+Names: ___________________________  Date: ____
 
 Closed notes. Calculator allowed. Twenty-eight minutes of work, twenty-two to review. Do not let the review eat the work. Write the time you spent on the page.
 

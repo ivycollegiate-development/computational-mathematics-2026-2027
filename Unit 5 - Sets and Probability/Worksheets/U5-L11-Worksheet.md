@@ -1,6 +1,6 @@
 # U5 L11 — Paper Check: Conditionals, Bayes, and Expected Value
 
-Names: ___________________________  Date: Mar 3
+Names: ___________________________  Date: ____
 
 Closed notes. Calculator allowed. 50 minutes. No laptop. The Unit 5 test is five pages of paper with no tools but this one, and the honesty audit in Part 4 is the graded item.
 
@@ -97,6 +97,6 @@ Closed notes. Calculator allowed. 50 minutes. No laptop. The Unit 5 test is five
 
 ☐  The finding, in one sentence: in a risk model, the things that look most like measurements are actually ______________
 
-☐  One thing you could do to turn one of those assumptions into a measurement by next Friday: ______________
+☐  One thing you could do to turn one of those assumptions into a measurement before U5 L13: ______________
 
 **TURN IN** — Parts 1–3 photographed with all work shown including the tables, the honesty audit with the finding sentence, and your error log updated with today's entries and causes tagged.

@@ -1,6 +1,6 @@
 # U5 L27 — Someone Else's Model: Find the Error in a Plausible Report
 
-Names: ___________________________  Date: Mar 25
+Names: ___________________________  Date: ____
 
 No laptop. Calculator allowed. This is the hardest day in the unit and there is no code on it.
 

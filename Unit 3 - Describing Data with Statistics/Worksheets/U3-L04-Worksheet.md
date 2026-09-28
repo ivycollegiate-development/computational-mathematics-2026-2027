@@ -1,6 +1,6 @@
 # U3 L04 — Reflection: What Each Statistic Throws Away
 
-Names: ___________________________  Date: Nov 12
+Names: ___________________________  Date: ____
 
 Paper and reflection day. Pencil and notebook only; no code, no terminals. A statistic is a number plus a decision about what to ignore — write the decision down. Hand this sheet in at the end of the period.
 

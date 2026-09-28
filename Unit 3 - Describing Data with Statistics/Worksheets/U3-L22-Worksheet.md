@@ -1,6 +1,6 @@
 # U3 L22 — Paper Check: Unit 3 Statistics and Privacy
 
-Names: ___________________________  Date: Dec 8
+Names: ___________________________  Date: ____
 
 Closed notes. Paper only, no code, no terminal. 55 minutes, 25 points. Every question is answerable by hand. Show your work: for every numeric answer, write the setup line and then the answer. Circle any calculator you use.
 

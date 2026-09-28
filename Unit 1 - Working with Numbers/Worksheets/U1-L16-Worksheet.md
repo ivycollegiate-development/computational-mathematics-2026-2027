@@ -130,4 +130,4 @@ Score: ________ / 20
 
 The self-marking matters more than the score. A paper marked honestly tells you what to review. A paper marked generously tells you nothing.
 
-Hand in the **corrected** sheet, not the marked one. Fix every question you got wrong in red or blue pen, and put a star next to the ones you are still not sure about — those are the ones to ask about on Monday.
+Hand in the **corrected** sheet, not the marked one. Fix every question you got wrong in red or blue pen, and put a star next to the ones you are still not sure about — those are the ones to ask about in the U1 L15 review session.

@@ -1,6 +1,6 @@
 # U5 L05 — Paper Check: Why Double-Counting Is the Classic Bug
 
-Names: ___________________________  Date: Feb 23
+Names: ___________________________  Date: ____
 
 Closed notes except the single page of formulas at the back. 50 minutes. No laptop. Graded on the reasoning, not the arithmetic: a wrong number with a correct diagnosis of why it is wrong scores higher than a right number obtained by guessing.
 
@@ -90,7 +90,7 @@ Open your Sets and Probability Error Log: *what I wrote*, *what it should have b
 
 ☐  The single error in this log you expect to see again on the test: ______________
 
-## 5: Predict Friday — Written before you see conditional probability
+## 5: Predict U5 L06 — Written before you see conditional probability
 
 ☐  What a **conditional** probability asks, and how it differs from an ordinary one: ______________
 
@@ -98,4 +98,4 @@ Open your Sets and Probability Error Log: *what I wrote*, *what it should have b
 
 ☐  What a **contingency table** is, and what its row and column totals are for: ______________
 
-**TURN IN** — One photo of Parts 1–3 with all work shown and no blank tables, one photo of the error log with causes tagged, and your three Part 5 sentences as written before Friday.
+**TURN IN** — One photo of Parts 1–3 with all work shown and no blank tables, one photo of the error log with causes tagged, and your three Part 5 sentences as written before U5 L06.

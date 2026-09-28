@@ -1,8 +1,8 @@
 # U7 L10 — Preview: What Makes an Anomaly an Anomaly
 
-Names: ___________________________  Date: May 14
+Names: ___________________________  Date: ____
 
-Closed notes. Pencil. 45 minutes. Monday builds the detector. Today you decide what it will look for, on paper, before any of it is written. The threshold words you write in Part 2 are the deliverable.
+Closed notes. Pencil. 45 minutes. U7 L11 builds the detector. Today you decide what it will look for, on paper, before any of it is written. The threshold words you write in Part 2 are the deliverable.
 
 ## 1: Four definitions, four different detectors
 
@@ -40,7 +40,7 @@ For each definition, say what it flags and what it would miss.
 
 ## 2: What makes a threshold defensible
 
-**Section A — The words you will use Monday.**
+**Section A — The words you will use in U7 L11.**
 
 3. A threshold is defensible when it is set relative to __________ and reviewed against __________
 

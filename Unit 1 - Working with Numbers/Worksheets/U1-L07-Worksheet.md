@@ -4,7 +4,7 @@ Names: ___________________________  Date: ____
 
 Paper and discussion day. Your only terminal work is the journal and the self-check at the end.
 
-## Part 1 — Reconstruct Friday (10 min)
+## Part 1 — Reconstruct U1 L06 (10 min)
 
 
 | Question | My answer |
@@ -94,4 +94,4 @@ Is a completely crash-proof program possible? What did today's discussion change
 - ☐  `python3 self_check.py` run locally, and the score in front of you.
 - ☐  Screenshot to the Classroom assignment by 11:59 PM tonight showing: your journal file, and the successful `git push`.
 
-Keep the journal — Monday's calculator v2 lab is graded on this vocabulary.
+Keep the journal — the U1 L11 calculator v2 lab is graded on this vocabulary.

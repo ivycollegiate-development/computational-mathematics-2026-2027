@@ -1,6 +1,6 @@
 # U3 L16 — Paper Check: Percentiles, PII, and Anonymization
 
-Names: ___________________________  Date: Nov 30
+Names: ___________________________  Date: ____
 
 Closed notes. Paper only, no laptop. Show your arithmetic and cite the lesson number for any rule you apply — a right answer with no method does not earn the point. Marked out of 50. Hand this paper in at the end of the period.
 

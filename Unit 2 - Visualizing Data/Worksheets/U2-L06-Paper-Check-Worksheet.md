@@ -1,6 +1,6 @@
 # U2 L06 — Paper Check: Charts So Far
 
-Names: ___________________________  Date: Oct 13
+Names: ___________________________  Date: ____
 
 Closed notes. 20 minutes, then you swap, grade with the key, and correct every miss in a second color. The corrections are the point.
 
@@ -74,9 +74,9 @@ _________________________________________________________________________
 
 _________________________________________________________________________
 
-## 4: Look ahead — Tuesday's lab
+## 4: Look ahead — the U2 L07 lab
 
-Tuesday you load the real study-habits dataset and build bar charts of categorical data.
+In U2 L07 you load the real study-habits dataset and build bar charts of categorical data.
 
 What is a categorical column, versus a numerical one? Name one of each from the preview data (students, study, scores, sleep):
 

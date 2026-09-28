@@ -1,6 +1,6 @@
 # U6 L06 — Reflection: Recursion vs Iteration, Side by Side
 
-Names: ___________________________  Date: Apr 19
+Names: ___________________________  Date: ____
 
 Closed notes. Pencil. 45 minutes. Two implementations of the same algorithm, same answers, very different costs. You are arguing for which one ships, in writing, with evidence.
 

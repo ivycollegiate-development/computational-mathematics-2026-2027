@@ -1,6 +1,6 @@
 # U3 L11 — Paper Check: Distribution Shape and PII
 
-Names: ___________________________  Date: Nov 23
+Names: ___________________________  Date: ____
 
 Closed notes. Paper only, no laptop. Show your arithmetic; a bare answer is not evidence. Marked out of 50. Name the lesson (**U3 L08**, **U3 L10**) for any rule you apply. Hand this sheet in at the end of the period.
 

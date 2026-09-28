@@ -1,6 +1,6 @@
 # U4 L09 — Paper Check Under Exam Conditions
 
-Names: ___________________________  Date: Jan 15   Start time: __________  Finish time: __________
+Names: ___________________________  Date: ____   Start time: __________  Finish time: __________
 
 Last class before midterms. Closed book, no laptop, no notebook, no error log, no phone. Time limit: 50 minutes, and the clock starts when it starts. Show work — a bare answer earns no credit. If you do not know a question, write `SKIP` and move on. Put a `?` next to every answer you are not sure of. Do not erase; cross out and continue. Method is marked over result.
 

@@ -1,6 +1,6 @@
 # U3 L02 — Preview: Mean, Median, Mode — Which One Survives an Outlier?
 
-Names: ___________________________  Date: Nov 10
+Names: ___________________________  Date: ____
 
 Paper and prediction day. Pencil and notebook only for Parts 1–5; no code, no terminals. Commit to every prediction in Part 2 before you compute anything in Part 3. Show your arithmetic. Hand this sheet in at the end of the period.
 

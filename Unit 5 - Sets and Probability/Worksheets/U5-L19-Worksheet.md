@@ -1,6 +1,6 @@
 # U5 L19 — Paper Check: The Engine Works. Does the Model?
 
-Names: ___________________________  Date: Mar 15
+Names: ___________________________  Date: ____
 
 Closed notes. Calculator allowed. 50 minutes. No laptop. The engine running correctly tells you nothing about the model being right, and that distinction separates a number you may publish from one you may only preview.
 

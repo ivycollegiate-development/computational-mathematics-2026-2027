@@ -1,6 +1,6 @@
 # U5 L25 — Paper Check: The Number Is Finished. The Argument Is Not.
 
-Names: ___________________________  Date: Mar 23
+Names: ___________________________  Date: ____
 
 No laptop. Calculator allowed. The number is finished: you computed it twice, closed form and simulation, and they agree. Today you finish the argument, which is the half of the work that is graded and that nobody practises.
 
@@ -104,4 +104,4 @@ One page. No headings, no bullets. This is the graded item, and it is the thing 
 3. The one-page argument
 4. Your own word count, written on the page
 
-Bring Wednesday: everything, plus your `riskkit.py`. We produce the manifest.
+Bring to U5 L26: everything, plus your `riskkit.py`. We produce the manifest.

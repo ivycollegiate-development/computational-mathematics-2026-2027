@@ -1,6 +1,6 @@
 # U5 L29 — The Whole Unit on One Page: What Connects to What
 
-Names: ___________________________  Date: Mar 29
+Names: ___________________________  Date: ____
 
 No laptop. This is the consolidation day. Twenty-nine lessons, and if you cannot draw the connections then you have thirty separate techniques rather than one subject. You have four tests' worth of material left and two days.
 

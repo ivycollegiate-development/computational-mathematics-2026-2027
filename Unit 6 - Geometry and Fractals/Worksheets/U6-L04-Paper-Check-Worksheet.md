@@ -1,6 +1,6 @@
 # U6 L04 — Paper Check: Coordinates, Distance, Slope
 
-Names: ___________________________  Date: Apr 15
+Names: ___________________________  Date: ____
 
 Closed notes. Pencil. 45 minutes. Do every calculation by hand first, then write the form you predict `geomkit.py` will print. Grade the prediction honestly: a wrong prediction you can explain is worth more than a right one you cannot.
 

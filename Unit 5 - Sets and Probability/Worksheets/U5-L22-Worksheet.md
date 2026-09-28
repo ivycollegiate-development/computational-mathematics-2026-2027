@@ -1,6 +1,6 @@
 # U5 L22 — Paper Check: Full-Unit Rehearsal, Part Two
 
-Names: ___________________________  Date: Mar 18
+Names: ___________________________  Date: ____
 
 Closed notes. Thirty minutes of work, twenty to review. No laptop, and no calculator for Sections D and E. That restriction is the point: when you defend a number to someone questioning it, you will have neither.
 

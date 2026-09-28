@@ -1,6 +1,6 @@
 # U4 L03 — Paper Check: Solve It, Then Predict
 
-Names: ___________________________  Date: Jan 7
+Names: ___________________________  Date: ____
 
 No laptop today. Pencil and notebook. Solve everything by hand, and for each one **also write what you predict SymPy will return**, including its *form* — a list, a set, a dict, or a bare expression. Forms are how you get tricked on a midterm. Hand this sheet in at the end of the period.
 

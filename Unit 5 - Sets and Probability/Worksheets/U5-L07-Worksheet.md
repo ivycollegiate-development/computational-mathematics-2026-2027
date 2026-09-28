@@ -1,6 +1,6 @@
 # U5 L07 — Bayes by Hand, No Code: The Hard One
 
-Names: ___________________________  Date: Feb 25
+Names: ___________________________  Date: ____
 
 Closed book. Bring a calculator and nothing else. 50 minutes. The point of today is understanding why the answer is so small, and that is not a coding skill.
 

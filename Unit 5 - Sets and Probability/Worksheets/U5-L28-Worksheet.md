@@ -1,6 +1,6 @@
 # U5 L28 — Confounding: When the Naive Association Lies
 
-Names: ___________________________  Date: Mar 26
+Names: ___________________________  Date: ____
 
 No laptop. Calculator allowed. This is the arithmetic you will use most often outside this course, because it is the arithmetic behind every headline that says an exposure is associated with an outcome.
 

@@ -1,6 +1,6 @@
 # U7 L14 — Reflection: Modeling and Its Limits
 
-Names: ___________________________  Date: May 20
+Names: ___________________________  Date: ____
 
 Closed notes. Pencil. 45 minutes. The Anomaly Trend Analyzer is due tomorrow. Today is the last chance to think about what it actually claims. Full sentences, no code, no notes.
 

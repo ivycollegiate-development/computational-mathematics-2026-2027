@@ -4,7 +4,7 @@ Names: ___________________________  Date: ____
 
 Paper first, terminal after. Parts 1 and 2 are done in your notebook; the terminal parts come with the class.
 
-## Part 1 — Reconstruct Wednesday (10 min)
+## Part 1 — Reconstruct U1 L04 (10 min)
 
 Answer in your own words before we go over anything.
 
@@ -107,4 +107,4 @@ What is the ONE rule you will apply to every program you write from here on?
 - ☐  Parts 1–5 answered in your notebook, in your own words.
 - ☐  Screenshot to the Classroom assignment by 11:59 PM tonight showing: your Part 3 REPL outputs, your Part 4 terminal outputs, and the successful `git push`.
 
-Keep the notebook — Monday's calculator lab is graded on exactly this.
+Keep the notebook — the U1 L11 calculator lab is graded on exactly this.

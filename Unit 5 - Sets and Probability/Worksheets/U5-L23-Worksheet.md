@@ -1,6 +1,6 @@
 # U5 L23 — Final Rehearsal, Then the Build
 
-Names: ___________________________  Date: Mar 19
+Names: ___________________________  Date: ____
 
 Closed notes for the first 25 minutes. Then laptops open. Keep the paper; you will be looking at it again.
 

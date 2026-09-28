@@ -1,6 +1,6 @@
 # U5 L13 — Paper Check: The Mean Is Not a Risk Description
 
-Names: ___________________________  Date: Mar 5
+Names: ___________________________  Date: ____
 
 Closed notes. Calculator allowed. 50 minutes. No laptop. Two of today's five questions have no arithmetic in them, and those are graded hardest. The Part 4 paragraph is the graded artefact and is worth more than the arithmetic.
 

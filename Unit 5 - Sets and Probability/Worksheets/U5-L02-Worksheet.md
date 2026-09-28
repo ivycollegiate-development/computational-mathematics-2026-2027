@@ -1,6 +1,6 @@
 # U5 L02 — Venn Diagrams by Hand: Union, Intersection, Difference
 
-Names: ___________________________  Date: Feb 18
+Names: ___________________________  Date: ____
 
 Closed notes. 50 minutes. Pencil, ruler, notebook. No laptop. Today's hand counts are the specification tomorrow's code is tested against, so a wrong hand count produces a code that is wrong the same way and passes its test.
 
@@ -109,4 +109,4 @@ With `A = {1,2,3,4,5}` and `B = {4,5,6,7}`.
 
 ☐  Which one will not come out in the order you drew it: ______________
 
-**TURN IN** — The two-circle table and the operations table photographed, the three-circle eight-region table with its total row, and this prediction table written before Friday. No credit for a total that does not equal 120.
+**TURN IN** — The two-circle table and the operations table photographed, the three-circle eight-region table with its total row, and this prediction table written before U5 L03. No credit for a total that does not equal 120.

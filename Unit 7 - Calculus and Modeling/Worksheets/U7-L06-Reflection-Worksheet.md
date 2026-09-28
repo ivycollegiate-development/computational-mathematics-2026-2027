@@ -1,8 +1,8 @@
 # U7 L06 — Reflection: The Trapezoid Rule, Done by Hand
 
-Names: ___________________________  Date: May 10
+Names: ___________________________  Date: ____
 
-Closed notes. Pencil and graph paper. 45 minutes. Friday you ran the trapezoid rule; today you derive it and then predict its behaviour without running anything. Write the Part 4 predictions where you cannot revise them before Wednesday's paper check.
+Closed notes. Pencil and graph paper. 45 minutes. In U7 L05 you ran the trapezoid rule; today you derive it and then predict its behaviour without running anything. Write the Part 4 predictions where you cannot revise them before the U7 L08 paper check.
 
 ## 1: Build it from a picture
 
@@ -69,7 +69,7 @@ No code today. Predict the value for each `n` on trapezoid over `x²` on `[0, 1]
 - ☐  Every arithmetic slip in Parts 1 and 2
 - ☐  Tag: **panel width**, **double counting**, **sign**, **order**, **careless**
 - ☐  One tag that is new since the last paper check: _______
-- ☐  Your Part 3 predictions are written down somewhere you cannot revise them. Wednesday will tell you whether the **sign** of your error was right, which is a different and more useful check than the exact digits
+- ☐  Your Part 3 predictions are written down somewhere you cannot revise them. U7 L08 will tell you whether the **sign** of your error was right, which is a different and more useful check than the exact digits
 
 ___
 

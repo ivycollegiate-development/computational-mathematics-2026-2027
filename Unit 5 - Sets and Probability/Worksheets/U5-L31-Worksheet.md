@@ -1,6 +1,6 @@
 # U5 L31 — Unit Close: Final Assessment and Demonstration
 
-Names: ___________________________  Date: Mar 31
+Names: ___________________________  Date: ____
 
 Calculator allowed. Write your name. Do not write anything on the cover sheet.
 

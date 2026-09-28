@@ -1,6 +1,6 @@
 # U6 L14 — Reflection: What the Fractal Project Cost and Bought
 
-Names: ___________________________  Date: Apr 29
+Names: ___________________________  Date: ____
 
 Closed notes. Pencil. 45 minutes. The project is finished. Today you look at it, and at the unit, without notes. This is the last reflective lesson of the year.
 

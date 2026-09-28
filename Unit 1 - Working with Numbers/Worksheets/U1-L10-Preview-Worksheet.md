@@ -1,10 +1,10 @@
 # U1 L10 — Calculator v2 Preview Worksheet
 
-Names: ___________________________  Date: Sep 25
+Names: ___________________________  Date: ____
 
-Planning sheet for Monday's Calculator v2 lab. One sheet per pair. You still write your own code Monday — today you agree on the plan.
+Planning sheet for the U1 L11 Calculator v2 lab. One sheet per pair. You still write your own code in the lab — today you agree on the plan.
 
-## 1: Thursday's conversions, from memory
+## 1: U1 L09's conversions, from memory
 
 Fill in each formula before checking with your partner.
 
@@ -20,9 +20,9 @@ _________________________________________________________________________
 
 _________________________________________________________________________
 
-## 2: Monday's checklist
+## 2: The U1 L11 checklist
 
-Copy check — these are the three things Monday's build is graded on. Check each box as you and your partner read it:
+Copy check — these are the three things the U1 L11 build is graded on. Check each box as you and your partner read it:
 
 ☐  Conversions in the menu: c_to_f, f_to_c, c_to_k, km_to_miles, miles_to_km, kg_to_lbs, lbs_to_kg — each a real menu choice, each fed through get_number()
 
@@ -52,9 +52,9 @@ _________________________________________________________________________
 
 _________________________________________________________________________
 
-## 4: Plan for Monday
+## 4: Plan for the U1 L11 lab
 
-Split of work — who writes what Monday:
+Split of work — who writes what in the lab:
 
 Conversion wiring: ___________________________  Guardrails: ___________________________
 
@@ -70,7 +70,7 @@ Order of operations — write 4-5 plain-English steps, in the order you will bui
 
 5. _______________________________________________________________________
 
-Guard breakers — who tries to break each guardrail Monday (type 10^16, type -400 C, type a word):
+Guard breakers — who tries to break each guardrail in the lab (type 10^16, type -400 C, type a word):
 
 Overflow guard: ___________________________  Kelvin floor: ___________________________  Word input: ___________________________
 
@@ -94,4 +94,4 @@ _________________________________________________________________________
 
 ☐  Photo of this sheet submitted to the Classroom assignment by 11:59 PM tonight.
 
-Keep your notes — Monday's lab builds directly on this plan.
+Keep your notes — the U1 L11 lab builds directly on this plan.
