@@ -135,11 +135,11 @@ Do this alone, in writing, before you open your notebook. Mark each section `✓
 
 1. The section I lost the most marks in is ______________________ , and the specific question types are ______________________
 
-2. The single concept I will not be able to do in 45 minutes on Monday: ______________________
+2. The single concept I will not be able to do in 45 minutes: ______________________
 
 3. The pattern in my `✗` and `?` marks — one habit, or several? ______________________
 
-4. Compare to Tuesday's L06 diagnostic. Did I close the gap I identified, or did I find a new one?
+4. Compare to the U4 L06 diagnostic. Did I close the gap I identified, or did I find a new one?
 
    _____________________________________________________________________
 
