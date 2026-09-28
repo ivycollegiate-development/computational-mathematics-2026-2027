@@ -8,8 +8,8 @@ Sixteen days off. This first period is a **return day, not a launch** — we are
 not learning anything new. Two jobs: find out whether your break work was right,
 and find out where the gaps are before the midterm.
 
-**The break assignment is due Wednesday Jan 7.** It does not matter that it is
-not due yet — bring your pages. We work with them today so you can fix anything
+**The break assignment was due Sunday Jan 3.** It does not matter that it is
+now past due — bring your pages. We work with them today so you can fix anything
 wrong *before* it is graded.
 
 ## PART 1 — PULL THE REPO (10 min)

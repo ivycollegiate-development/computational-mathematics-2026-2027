@@ -43,7 +43,7 @@ ls data/
 - **Open it and read the header row.** Know your column names before the break —
   this is the single thing that makes Nov 9 fast.
 
-## PART 3 — 🍂 FALL BREAK ASSIGNMENT (launched now, due Nov 8)
+## PART 3 — 🍂 FALL BREAK ASSIGNMENT (launched now, due Sun Nov 8, 2026, 11:59 PM — the last day of Fall Break; classes resume Mon Nov 9)
 
 **No code over the break. No repo work. This is paper.**
 
@@ -90,7 +90,8 @@ remember it.
 
 ## 🇹🇼 BREAK CONTEXT
 
-**Fall Break: Oct 31 – Nov 8.** Classes resume Monday Nov 9. For AP Cybersecurity
+**Fall Break: dismiss 12:30 Friday Oct 30, out through Sunday Nov 8. Classes
+resume Monday Nov 9.** For AP Cybersecurity
 the break assignment is a home physical-security audit — also paper, also not a
 laptop. The break is ten days. Use the first week to rest and the last two days
 to do the work.

@@ -25,7 +25,7 @@ Before anything else:
 the file with a comment saying what you think is wrong. That is worth more on
 Jan 4 than a green run you got by removing the evidence.
 
-## PART 2 — ❄️ WINTER BREAK ASSIGNMENT (launched today, due Jan 7)
+## PART 2 — ❄️ WINTER BREAK ASSIGNMENT (launched Thu Dec 17, due Sun Jan 3, 2027, 11:59 PM — the last day of Winter Break; classes resume Mon Jan 4)
 
 **No code over the break. No repo work. This is paper.**
 
@@ -84,7 +84,7 @@ deadline is real. Before you come back on Jan 4, do exactly this, on paper:
 
 **Turn in:** one photo of the pages — the table, the five numbers, the
 five-number summary, the outliers, and the one-sentence claim. Upload to Google
-Classroom. **Due 11:59 PM Thursday Jan 7.**
+Classroom. **Due 11:59 PM Sunday Jan 3.**
 
 ## PART 3 — ON JAN 4, THIS IS WHAT YOU WILL ALREADY HAVE DONE
 
@@ -127,6 +127,6 @@ launch. Sleep more than you study.
 
 ## NO TURN-IN TONIGHT
 
-Nothing is due tonight. The break assignment above is due **Jan 7** — photograph
+Nothing is due tonight. The break assignment above is due **Sunday Jan 3** — photograph
 the instructions or write the four steps down before you leave so you remember
 them on Jan 4.
