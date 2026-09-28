@@ -20,7 +20,7 @@ python3 test_converter.py
 ```
 
 You should still see **5/5 passing**. If you see anything else, fix that first —
-today builds on top of last Friday's work, and you cannot extend a broken base.
+today builds on top of the U1 L09 work, and you cannot extend a broken base.
 
 ## PART 1 — CODE-ALONG: SPEED (10 min)
 
@@ -74,7 +74,7 @@ many you wrote — the point is every function has one).
 
 ## PART 4 — GUARDRAILS: THE KELVIN FLOOR (10 min)
 
-Last Friday's stretch idea becomes today's main event. Kelvin has a hard floor:
+The U1 L09 stretch idea becomes today's main event. Kelvin has a hard floor:
 0 K is absolute zero — nothing in this universe is colder.
 
 ```python

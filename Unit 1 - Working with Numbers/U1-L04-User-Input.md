@@ -21,7 +21,7 @@ git pull
 
 ## PART 0.5 — GITHUB ACCOUNT CHECK (5 min)
 
-Monday's lab runs in your own GitHub repo, so you need a GitHub account today.
+The U1 L08 Calculator v1 lab runs in your own GitHub repo, so you need a GitHub account today.
 In your workspace browser, go to https://github.com and look at the top-right corner:
 
 - **Already signed in?** Good. Copy your GitHub username into the top of your journal file.
@@ -58,7 +58,7 @@ float("13") + 1
 int("13.5")     # 💥 why does this fail?
 float("13.5") + 1
 int(13.9)       # does int() round? or chop?
-int("hello")    # remember this error — it is Monday's whole lab
+int("hello")    # remember this error — it is the whole point of the U1 L08 lab
 ```
 
 Write your prediction for each line BEFORE you press Enter. Keep your guesses — right
@@ -106,7 +106,7 @@ So `ilin27_student` gets `journal-0916-ilin27_student.md`. Answer in 2-3 sentenc
 Also create `repl-notes-0916-$(whoami).md` (same trick) and paste in your PART 2
 guesses (right or wrong — the guesses are the point) beside what really happened.
 
-## PART 6 — FIRST PUSH (last 10 min — rehearsal for Monday's graded lab)
+## PART 6 — FIRST PUSH (last 10 min — rehearsal for the graded U1 L08 lab)
 
 Push today's two files to GitHub. Type each command exactly:
 

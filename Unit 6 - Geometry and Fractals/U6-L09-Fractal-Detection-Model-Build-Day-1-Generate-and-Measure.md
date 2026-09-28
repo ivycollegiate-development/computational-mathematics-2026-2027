@@ -187,4 +187,4 @@ is why entropy- and dimension-based measures appear in traffic analysis: a
 pattern that repeats at every scale is a pattern, and a random one is not. The
 caution from today applies directly — a measure that is exact on a lattice test
 case will be considerably less tidy on a real capture, and a detector tuned on
-the tidy case will over-fire on the real one. That is Monday's lesson.
+the tidy case will over-fire on the real one. That is the U6 L10 lesson.

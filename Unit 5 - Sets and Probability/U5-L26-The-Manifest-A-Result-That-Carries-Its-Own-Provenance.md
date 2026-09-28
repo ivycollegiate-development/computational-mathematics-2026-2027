@@ -287,7 +287,7 @@ notice.
 **`ASSUMPTIONS` and `NOT_MODELLED`** are the two sections that do the honest
 work, and they point in opposite directions. `ASSUMPTIONS` says what the model
 believes. `NOT_MODELLED` says what the model has no opinion about — and note
-the last entry: the backup scenario from Tuesday's Part 3, written down as
+the last entry: the backup scenario from the U5 L25 Part 3, written down as
 absent rather than quietly estimated. **A manifest that lists what it does not
 know is worth more than one that sounds complete**, because a reader can act on
 a stated gap and can only ignore a confident-sounding paragraph.

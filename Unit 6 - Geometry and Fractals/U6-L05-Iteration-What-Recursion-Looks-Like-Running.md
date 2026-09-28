@@ -164,5 +164,5 @@ unbounded recursion have taken down production services over deeply nested
 structured input, and the fix is always the same and always unglamorous: check
 the depth, refuse with a clear error, and never let the exception be a raw
 `RecursionError` traceback presented to a caller as though it were data. Same
-principle as Wednesday's `slope`: **a refused measurement must be loud, and it
+principle as the U6 L02 `slope`: **a refused measurement must be loud, and it
 must be labelled as a refusal.**

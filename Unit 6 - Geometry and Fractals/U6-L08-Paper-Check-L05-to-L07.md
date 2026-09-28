@@ -8,7 +8,7 @@ depth and cost
 
 ---
 
-**No laptop.** Pencil. Friday's `deco` and Monday's recursion argument are the
+**No laptop.** Pencil. U6 L07's `deco` and the U6 L09 recursion argument are the
 raw material.
 
 Today's paper day is not a break from the machine work — it is the check that
@@ -89,7 +89,7 @@ the top quarter blank" is a better answer than a bad drawing.
    *not*? ______
 4. `plot(c, lambda t: t*t, 0, 1, 5)` — the one from Tuesday. Which part of the
    curve is best resolved? ______
-5. `plot(c, math.sin, 0, 6.28, 5)` — name the part of the plot that Tuesday's
+5. `plot(c, math.sin, 0, 6.28, 5)` — name the part of the plot that the U6 L07
    output failed to resolve: ______
 6. `plot(c, lambda t: abs(math.sin(3*math.pi*t)), 0, 1, 5)` — how many arches
      do you see, and why that number? ______
@@ -103,7 +103,7 @@ the top quarter blank" is a better answer than a bad drawing.
 - ☐  Tuesday you predicted what increasing `steps` would do. Did it do that?
      ______
 - ☐  A prediction I got wrong: ______ because ______
-- ☐  Tuesday's `deco` call-count question — my answer was ______, the real
+- ☐  the U6 L07 `deco` call-count question — my answer was ______, the real
      answer is ______
 
 ## PART 4 — ERROR LOG (5 min)
@@ -121,7 +121,7 @@ One sentence, no jargon:
 > A fractal is a shape ______
 
 - ☐  My sentence: ______
-- ☐  Give one example from Tuesday's output: ______
+- ☐  Give one example from the U6 L07 output: ______
 
 ## 🇹🇼 TAIWAN CONTEXT
 

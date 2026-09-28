@@ -120,7 +120,7 @@ plt.show()
 
 ## PART 5 — MINI-EXERCISE: YOUR OWN CHART (15 min, on your own)
 
-Here are the first 5 rows of the study-habits dataset you will meet in Monday's
+Here are the first 5 rows of the study-habits dataset you will meet in the U2 L07
 lab:
 
 ```python

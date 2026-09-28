@@ -32,7 +32,7 @@ Before each line, write down what you think it prints. Then run it. Were you rig
 
 1. `10 % 3` — what's left over when 10 is divided by 3?
 2. `10 / 5` vs `10 // 5` — do they ever give the same answer?
-3. `-7 // 2` — does floor division chop or floor? (Tuesday's surprise, again)
+3. `-7 // 2` — does floor division chop or floor? (the U1 L01 surprise, again)
 4. `2 ** 10` — how fast do powers grow?
 5. `5 % 2` — what does this always give for an even number? For an odd number?
 

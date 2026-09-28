@@ -18,7 +18,7 @@ thing that makes arguments falsifiable.
 
 ```python
 # this is a FRAGMENT: it needs seasonal_trend, mad, stdev and TRUTH from
-# atkit.py, which you built on Monday. Verified against Monday's numbers.
+# atkit.py, which you built in U7 L11. Verified against the U7 L11 numbers.
 def evaluate(series, k, use_std=False, points=None):
     """Return a dict of caught / false / total, plus the flagged list."""
     pts = points if points is not None else len(series)
@@ -33,7 +33,7 @@ def evaluate(series, k, use_std=False, points=None):
             "flagged": flagged, "caught": caught, "false": false}
 ```
 
-- ☐  Type it, then verify it reproduces Monday's table for `k = 2` and `k = 3`.
+- ☐  Type it, then verify it reproduces the U7 L11 table for `k = 2` and `k = 3`.
      Does it? ______
 - ☐  **Why does the harness take a `points` argument at all**, rather than
      slicing internally? ______
@@ -107,7 +107,7 @@ From Monday, the short-window failure:
 - ☐  So the output is **actively misleading**, not merely incomplete. Name the
      distinction: an output that says "nothing" when it means "I was not
      watching" is a ______ error, not a ______ one
-- ☐  The fix, from Monday's paper commit: the output must include
+- ☐  The fix, from the U7 L11 paper commit: the output must include
      `n_points_seen` and ______
 
 The missing field is a **coverage or confidence statement** — something that
@@ -167,7 +167,7 @@ reporting it every single day.
 
 ## TURN IN — Build Day 3 Checklist
 
-1. `evaluate()` in `atkit.py`, verified against Monday's numbers
+1. `evaluate()` in `atkit.py`, verified against the U7 L11 numbers
 2. The full sweep, with **false alerts per day** reported alongside counts
 3. `MIN_POINTS` implemented, with a refusal path that prints a coverage warning
 4. A test that a 5-point series produces the refusal message, not "nothing"

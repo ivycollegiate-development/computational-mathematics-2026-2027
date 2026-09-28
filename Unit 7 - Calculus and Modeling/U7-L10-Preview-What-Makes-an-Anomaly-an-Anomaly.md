@@ -52,7 +52,7 @@ failure mode, not a hypothetical one.
 
 ## PART 2 — WHAT MAKES A THRESHOLD DEFENSIBLE (12 min)
 
-Write down the words you will use in Monday's defense. This is the deliverable.
+Write down the words you will use in the U7 L11 defense. This is the deliverable.
 
 7. A threshold is defensible when it is set relative to ______ and reviewed
    against ______

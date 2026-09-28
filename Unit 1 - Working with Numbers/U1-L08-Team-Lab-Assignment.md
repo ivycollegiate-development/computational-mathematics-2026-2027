@@ -133,7 +133,7 @@ git push
 - Pull before you push, every time.
 - **Asked for a username/password?** GitHub username plus PAT — never your GitHub password. Raise your hand if yours is lost.
 
-## TURN IN — PULL REQUEST LINK + TEAM STATEMENT (due Sunday Sep 27, 11:59 PM)
+## TURN IN — PULL REQUEST LINK + TEAM STATEMENT (due 11:59 PM tonight)
 
 1. Push your final `calculator.py` (all 4 tests passing, attack list clean).
 2. On github.com, open a Pull Request from your team repo back to the original repo (Contribute → Open pull request).

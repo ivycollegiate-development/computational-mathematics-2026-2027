@@ -8,7 +8,7 @@ residuals alone
 
 ---
 
-**No laptop.** Pencil. Monday's Part 3 predictions are graded first and
+**No laptop.** Pencil. The U7 L07 Part 3 predictions are graded first and
 unrevised, which is the whole point of writing them down.
 
 ## PART 1 — THE PREDICTION AUDIT (15 min)
@@ -37,7 +37,7 @@ proves nothing. Predicting the *direction* of an error requires knowing somethin
 about the geometry or the algebra that you had to work out first. A right sign
 with sloppy digits is a better paper than wrong digits with lucky interpolation.
 
-- ☐  On a scale of 1–5, how well did your hand-derivation in Monday's Parts 1
+- ☐  On a scale of 1–5, how well did your hand-derivation in the U7 L07 Parts 1
      and 2 let you predict? ______
 - ☐  What specifically would have improved it? ______
 
@@ -116,7 +116,7 @@ number that arrives without them.
 Part 3 Case B is the most common shape in local operational data and it is
 almost always calendar, not noise. Daily counts with a weekly cycle produce
 exactly that blocked residual pattern, and the practical consequence is the one
-from Wednesday's Taiwan context in L07: an anomaly threshold derived from those
+from the Taiwan context in U7 L07: an anomaly threshold derived from those
 residuals fires on schedule every week, gets tuned until it stops, and in
 becoming tuned it has quietly stopped being capable of detecting anything real.
 

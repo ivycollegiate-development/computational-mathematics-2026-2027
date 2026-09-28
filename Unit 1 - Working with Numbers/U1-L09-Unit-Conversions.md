@@ -120,7 +120,7 @@ git push
 
 (Password prompt = Personal Access Token, not your GitHub password.)
 
-## TURN IN — PULL REQUEST LINK (due Sunday Sep 27, 11:59 PM)
+## TURN IN — PULL REQUEST LINK (due 11:59 PM tonight)
 
 1. Push your final `converter.py` (all 5 tests passing, all conversions working).
 2. On github.com, open a Pull Request from your repo back to the original repo

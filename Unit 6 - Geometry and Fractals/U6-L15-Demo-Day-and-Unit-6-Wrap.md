@@ -111,7 +111,7 @@ seasonality in its training data, will over-fire on every real weekday rhythm
 in the country. **A model calibrated on a pattern that does not occur in the
 wild produces confident nonsense.** Say that sentence out loud at your demo if
 there is room. It is the most practical thing in the unit, and it sets up
-Monday's lesson better than any transition I could write.
+the U7 L01 lesson better than any transition I could write.
 
 Unit 7 begins Monday, May 3. Bring your laptop, your error log, and your
 project defense. We start with derivatives you cannot take by hand, on purpose.

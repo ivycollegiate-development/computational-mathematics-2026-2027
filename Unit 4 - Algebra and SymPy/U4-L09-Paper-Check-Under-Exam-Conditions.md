@@ -155,7 +155,7 @@ reproduce on demand, and reproducing it on demand is what an exam tests.
    ______
 3. The pattern in my `✗` and `?` marks — is it one habit, or several?
    ______
-4. Compare to Tuesday's L06 diagnostic. Did I close the gap I identified, or
+4. Compare to the U4 L06 diagnostic. Did I close the gap I identified, or
    did I find a new one? ______
 
 That last question is the real one. A diagnostic you do not act on is just a

@@ -39,7 +39,7 @@ That last checkbox is the habit. A simulation run 10,000 times against a
 two-outcome model gives you back, to within sampling noise, **the two numbers you
 typed in.** It is a way of computing `3/20 × 45,000` while pretending to do
 something more interesting. That is not useless — validating an implementation
-against a closed-form answer is real work, and it is what Friday's first hour is
+against a closed-form answer is real work, and it is what the U5 L16 first hour is
 for — but it is not simulation of anything real, and you should be able to say
 so in one sentence.
 
@@ -63,7 +63,7 @@ why.
       the model require before either can be answered at all: ______
 - ☐  Row 3: what is the "down at least once" event, in set language? ______
 
-That last checkbox connects to Thursday's bug. If two threats hit the same
+That last checkbox connects to the U5 L14 bug. If two threats hit the same
 server, the events are **not independent**, and multiplying their likelihoods is
 the exact same class of error as adding overlapping counts on L04. You will
 build that error on purpose on L20 and it will pass every test you write.
@@ -152,7 +152,7 @@ KNOWN LIMITS
    checking your own arithmetic, and what would make yours a real simulation**
    ______
 
-**No laptop today.** The spec is the deliverable; Friday's code will be graded
+**No laptop today.** The spec is the deliverable; The U5 L16 code will be graded
 on whether it does what this page says.
 
 ## 📋 PREVIEW OF TOMORROW

@@ -9,7 +9,7 @@ on paper
 ---
 
 **No laptop.** Pencil. Today you commit to the detector's parameters **on
-paper**, with reasons, before Friday's deadline. That ordering is deliberate:
+paper**, with reasons, before the U7 L15 deadline. That ordering is deliberate:
 the decisions are yours, the code just implements them.
 
 ## PART 1 — RECALL THE NUMBERS (12 min)

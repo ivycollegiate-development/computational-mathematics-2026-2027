@@ -7,7 +7,7 @@
 
 ---
 
-**No laptop.** Pencil. Wednesday's table is the raw material, and there is
+**No laptop.** Pencil. The U7 L03 table is the raw material, and there is
 exactly one thing in this unit I want you to be able to do without a computer.
 
 ## PART 1 — RECALL THE TABLE (12 min)
@@ -53,7 +53,7 @@ Now the two questions the drawing is for:
 
 ## PART 3 — THE ADEQUACY QUESTION (10 min)
 
-Wednesday's Part 4 asked whether these errors would matter for a real alarm.
+The U7 L03 Part 4 asked whether these errors would matter for a real alarm.
 Answer it now, for both.
 
 3. An alarm triggers when a rate of change exceeds **1%**. Forward difference

@@ -86,7 +86,7 @@ git push
 - If your push is ever rejected with a message like "remote contains work you do not have", run `git pull` and then `git push` again.
 - **Asked for a username/password?** GitHub username plus Personal Access Token (PAT) — never your GitHub password. Raise your hand if yours is lost.
 
-## TURN IN — PULL REQUEST LINK (due Sunday Sep 27, 11:59 PM)
+## TURN IN — PULL REQUEST LINK (due 11:59 PM tonight)
 
 1. Push your final `calculator.py` (all 4 tests passing).
 2. On github.com, open a Pull Request from your repo back to the original repo

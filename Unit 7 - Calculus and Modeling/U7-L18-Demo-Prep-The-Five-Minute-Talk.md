@@ -8,7 +8,7 @@
 ---
 
 **No laptop for the writing.** Bring the talk and, at the end, the laptop for a
-live run. Friday's demo has one hard rule: **the program must run in front of
+live run. The U7 L20 demo has one hard rule: **the program must run in front of
 people.** A slide deck about a working thing is a worse demo than a working
 thing.
 

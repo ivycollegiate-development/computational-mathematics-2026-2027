@@ -184,7 +184,7 @@ paper.
 
 **Next:** L02, Thu Feb 18 — still paper. You draw the circles by hand: union,
 intersection, difference, and the symmetric difference, and you fill in the
-region-by-region counts that Friday's code will have to reproduce exactly.
+region-by-region counts that the U5 L03 code will have to reproduce exactly.
 
 **Bring tomorrow:** pencil, ruler, notebook. No laptop.
 

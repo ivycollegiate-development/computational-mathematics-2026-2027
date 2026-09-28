@@ -58,7 +58,7 @@ Watch exactly which error name each except catches. The name matters.
 
 ## PART 3 — CODE-ALONG: FIX THE AGE CALCULATOR (15 min)
 
-Open Wednesday's `age-calculator.py` and rewrite it:
+Open the `age-calculator.py` you wrote in U1 L04 and rewrite it:
 
 ```python
 # Age calculator v2 — with guardrails

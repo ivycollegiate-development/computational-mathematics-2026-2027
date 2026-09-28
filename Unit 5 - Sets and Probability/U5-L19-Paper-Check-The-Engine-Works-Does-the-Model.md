@@ -158,7 +158,7 @@ The national CERT's published methodology and the Ministry of Digital Affairs'
 framework both make peer and sector calibration explicit, and both treat a
 figure without a stated comparison population as incomplete rather than merely
 rough. This is the same requirement as the `likelihood_source` field from L14
-and the same requirement as row 10 in last Friday's check: **a probability must
+and the same requirement as row 10 in the U5 L17 check: **a probability must
 name the population it was calibrated against, or a reader cannot tell whether
 it is conservative or fantasy.**
 

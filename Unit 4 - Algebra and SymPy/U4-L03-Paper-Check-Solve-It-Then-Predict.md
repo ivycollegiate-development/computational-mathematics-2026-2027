@@ -137,7 +137,7 @@ wrote* and *what it should have been*.
 - ☐  Tag each with a cause: **sign**, **distribution**, **formula**, **careless**.
 - ☐  Most common cause today: ______
 
-Thursday's error log is the raw material for L08. A log with six entries beats
+The U4 L07 error log is the raw material for U4 L08. A log with six entries beats
 an empty one with six good intentions.
 
 ## TURN IN (Google Classroom, due 11:59 PM tonight)
@@ -184,5 +184,5 @@ can call with anything.
 
 If you want fifteen minutes tonight after the check: read about **modular
 arithmetic** — just `7 mod 5` and `(-3) mod 5` and why Python's answer to the
-second one is not negative. Monday's lesson is built on that, and having already
+second one is not negative. The U4 L04 lesson is built on that, and having already
 thought about it is worth a full question.

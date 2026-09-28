@@ -8,7 +8,7 @@ actually comes from, and whether you should believe it.
 
 ## PART 1 — OPENING REVIEW: WHAT HAPPENED LAST WEEK (10 min)
 
-Before anything new, let's reconstruct Wednesday's lesson (U2 L08 — your first
+Before anything new, let's reconstruct the previous lesson (U2 L08 — your first
 plotted charts).
 
 Answer these together before I show any code:

@@ -8,7 +8,7 @@ in writing, with evidence
 
 ---
 
-**No laptop.** Pencil. Friday's numbers are in front of you as your own
+**No laptop.** Pencil. the U6 L07 numbers are in front of you as your own
 working.
 
 Two implementations. Same answers. Very different costs. Today you argue about

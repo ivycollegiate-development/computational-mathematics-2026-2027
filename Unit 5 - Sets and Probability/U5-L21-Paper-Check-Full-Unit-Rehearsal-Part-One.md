@@ -9,7 +9,7 @@
 
 **No laptop today.** Calculator allowed. This is a **timed rehearsal of the
 Unit 5 test**, split across two days. Today you do the computational half; the
-modelling half is Friday. Both are graded, and Friday's is the one that is
+modelling half is U5 L22. Both are graded, and U5 L22 is the one that is
 harder to practise.
 
 Time yourself. Twenty-eight minutes of work, twenty-two to review. Do not let

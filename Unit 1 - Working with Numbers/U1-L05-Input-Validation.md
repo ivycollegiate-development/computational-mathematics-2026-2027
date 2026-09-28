@@ -7,7 +7,7 @@ Parts 3 and 4.
 
 ## PART 1 — OPENING REVIEW: WHAT HAPPENED YESTERDAY (10 min)
 
-Before anything new, let's reconstruct Wednesday's lesson (U1 L04 — User Input).
+Before anything new, let's reconstruct the previous lesson (U1 L04 — User Input).
 
 Answer these together before I show any code:
 
@@ -85,7 +85,7 @@ tomorrow's lesson is already on your machine.
 
 ## PART 5 — JOURNAL (last 5 min)
 
-Clone your lab repo — this is your repo for today's journal and Friday's lab.
+Clone your lab repo — this is your repo for today's journal and the U1 L08 Calculator v1 lab.
 In the terminal (start with `pwd` — know where you are):
 
 ```bash

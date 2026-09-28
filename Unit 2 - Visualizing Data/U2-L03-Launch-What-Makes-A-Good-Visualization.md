@@ -125,7 +125,7 @@ In your notes:
   step in a sequence.)
 - Does the cloud of points lean which way? What does the lean suggest?
 - Find in your mind's eye where a point at (1.0, 95) would sit. Would it
-  fit the pattern? That's an **outlier** — Tuesday's whole topic.
+  fit the pattern? That's an **outlier** — the U2 L04 topic.
 
 ## PART 5 — SAVEFIG: MAKE IT A TURN-IN (10 min)
 
