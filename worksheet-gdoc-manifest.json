@@ -1,373 +1,738 @@
 {
-  "generated_for_commit": "06d66a3517e5ec515f4e7c139bec332e547fd5b3",
-  "documents": [
-    {
-      "md": "U1-L08-Team-Build-Worksheet",
-      "unit": 1,
-      "lesson": 8,
-      "gdoc_id": "11GgwBLpcI_16rykltnsT37-ZAhqv4HI_Giniq8AHOlI",
-      "gdoc_name": "U1 L08 — TEAM LAB BUILD: Calculator v1 — Safe Arithmetic (Sep 23)",
-      "score": 1.0
-    },
-    {
-      "md": "U1-L10-Preview-Worksheet",
-      "unit": 1,
-      "lesson": 10,
-      "gdoc_id": "1AUXFy28pqB7IX39IoGWP7Ohafd-lgveBqU9vodgGCdA",
-      "gdoc_name": "U1 L10 — Calculator v2 Preview Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U2-L06-Paper-Check-Worksheet",
-      "unit": 2,
-      "lesson": 6,
-      "gdoc_id": "111lBGp0EbNtoxo_dFWtvQ77YC0SpxujjTABBczcAN7U",
-      "gdoc_name": "U2 L06 — Charts So Far Paper Check Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U2-L12-Paper-Check-Worksheet",
-      "unit": 2,
-      "lesson": 12,
-      "gdoc_id": "1PTavl3YWk9syqAxeq3o8rtCoTCV41T9GngGMb-ZjEL0",
-      "gdoc_name": "U2 L12 — Relationships and Clean Data Paper Check Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U3-L02-Worksheet",
-      "unit": 3,
-      "lesson": 2,
-      "gdoc_id": "1Bm-2hmcMhfgDl0cdtatm5zM4ButFI_OWNNaWfURQwGU",
-      "gdoc_name": "U3 L02 — Preview: Mean, Median, Mode — Which One Survives an Outlier? Worksheet (Nov 10)",
-      "score": 1.0
-    },
-    {
-      "md": "U3-L04-Worksheet",
-      "unit": 3,
-      "lesson": 4,
-      "gdoc_id": "1ZlwlwBgQXoOiZ8sZqflmL3T93hG68ZmEwf6qOZIQwWo",
-      "gdoc_name": "U3 L04 — Reflection: What Each Statistic Throws Away Worksheet (Nov 12)",
-      "score": 1.0
-    },
-    {
-      "md": "U3-L07-Worksheet",
-      "unit": 3,
-      "lesson": 7,
-      "gdoc_id": "1tycl9iTYpT-_WSsrAS97q6uKCeWEQfKk70pi8R3Fl3w",
-      "gdoc_name": "U3 L07 — Paper Check: Centers and Spread Worksheet (Nov 17)",
-      "score": 1.0
-    },
-    {
-      "md": "U3-L11-Worksheet",
-      "unit": 3,
-      "lesson": 11,
-      "gdoc_id": "1ZJFniwwHwelEqAOqlRHHXB9DEXKQaOo6GkdGM-rC_ZU",
-      "gdoc_name": "U3 L11 — Paper Check: Distribution Shape and PII Worksheet (Nov 23)",
-      "score": 1.0
-    },
-    {
-      "md": "U3-L13-Worksheet",
-      "unit": 3,
-      "lesson": 13,
-      "gdoc_id": "1yL4WLRhonRDeSbfQEw0dtTo1NLDPB5pQ9sLzm199oRk",
-      "gdoc_name": "U3 L13 — Preview: Privacy-Aware Stats Dashboard Worksheet (Nov 25)",
-      "score": 1.0
-    },
-    {
-      "md": "U3-L16-Worksheet",
-      "unit": 3,
-      "lesson": 16,
-      "gdoc_id": "1U7F8gw6JGY2eUM7ewjTzOBmXHlm-DVc03lOWUFIBcSk",
-      "gdoc_name": "U3 L16 — Paper Check: Percentiles, PII, and Anonymization Worksheet (Nov 30)",
-      "score": 1.0
-    },
-    {
-      "md": "U3-L22-Worksheet",
-      "unit": 3,
-      "lesson": 22,
-      "gdoc_id": "1buzW8jkUrDlNlJmaSc0XTlDtgfPg68Nv9VbpgtSXdmo",
-      "gdoc_name": "U3 L22 — Paper Check: Unit 3 Statistics and Privacy Worksheet (Dec 8)",
-      "score": 1.0
-    },
-    {
-      "md": "U4-L03-Worksheet",
-      "unit": 4,
-      "lesson": 3,
-      "gdoc_id": "1Un4QthE_I9F6QuqngoPpeZzG0xN5vyTG1cV4sAwB-6U",
-      "gdoc_name": "U4 L03 — Paper Check: Solve It, Then Predict Worksheet (Jan 7)",
-      "score": 1.0
-    },
-    {
-      "md": "U4-L09-Worksheet",
-      "unit": 4,
-      "lesson": 9,
-      "gdoc_id": "1I_xwqWGKWbZJGheO1oDJ5Ht_vfIs8NEf-ajpBqL-JHY",
-      "gdoc_name": "U4 L09 — Paper Check Under Exam Conditions Worksheet (Jan 15)",
-      "score": 1.0
-    },
-    {
-      "md": "U5-L01-Worksheet",
-      "unit": 5,
-      "lesson": 1,
-      "gdoc_id": "1KJOwzplAyjwIqNmctZJb2F048lqMQoR2l0N92XxF9V0",
-      "gdoc_name": "U5 L01 — Unit Launch Sets As The Language Of Which Of These Worksheet",
-      "score": 0.479
-    },
-    {
-      "md": "U5-L02-Answer-Key",
-      "unit": 5,
-      "lesson": 2,
-      "gdoc_id": "1LaT_J5_0y0ZjCcQHaODqBOIZp4nRR_P9uqzLIktYHs4",
-      "gdoc_name": "U5 L02 — Venn Diagrams By Hand Union Intersection Difference ANSWER KEY",
-      "score": 0.92
-    },
-    {
-      "md": "U5-L02-Worksheet",
-      "unit": 5,
-      "lesson": 2,
-      "gdoc_id": "1UIoAZ-NISti-0ZeMszpyet6ZUVm0vRDUEhB7ifhvmFM",
-      "gdoc_name": "U5 L02 — Venn Diagrams By Hand Union Intersection Difference Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U5-L05-Answer-Key",
-      "unit": 5,
-      "lesson": 5,
-      "gdoc_id": "1J2y-n-CC3K4Bc-4QXIcvaib0xh7ABFsa44CFhYQBFGs",
-      "gdoc_name": "U5 L05 — Paper Check Why Double Counting Is The Classic Bug ANSWER KEY",
-      "score": 1.0
-    },
-    {
-      "md": "U5-L05-Worksheet",
-      "unit": 5,
-      "lesson": 5,
-      "gdoc_id": "1zhTVMTUgbs1xvxJMDcJCixYQxlXNq1Dqtf8_BVL_eXE",
-      "gdoc_name": "U5 L05 — Paper Check Why Double Counting Is The Classic Bug Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U5-L07-Worksheet",
-      "unit": 5,
-      "lesson": 7,
-      "gdoc_id": "1A6ZsAjBcmLuGVd23RK0zoc8cjfm-a3dNih1BXb_aWbc",
-      "gdoc_name": "U5 L07 — Bayes By Hand No Code Worksheet",
-      "score": 0.92
-    },
-    {
-      "md": "U5-L09-Worksheet",
-      "unit": 5,
-      "lesson": 9,
-      "gdoc_id": "19NdRFVqJRcfsJJW4tEBOcOnDsH9WelquPX85ENMxnCE",
-      "gdoc_name": "U5 L09 — Mid Unit Reflection Error Log Worksheet",
-      "score": 0.605
-    },
-    {
-      "md": "U5-L11-Worksheet",
-      "unit": 5,
-      "lesson": 11,
-      "gdoc_id": "1nC0EExe3BfwMQYoelwUsDX1VCavKaQTyLZ05nCdQ0VU",
-      "gdoc_name": "U5 L11 — Paper Check L06 L10 Worksheet",
-      "score": 0.15
-    },
-    {
-      "md": "U5-L13-Worksheet",
-      "unit": 5,
-      "lesson": 13,
-      "gdoc_id": "1dts83rJQAtSmuitBaLKAax0gktAiwUK78BhnQYBZFQ8",
-      "gdoc_name": "U5 L13 — Paper Check The Mean Is Not A Risk Description Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U5-L15-Worksheet",
-      "unit": 5,
-      "lesson": 15,
-      "gdoc_id": "1R8wDcB8k7-gKNXNuLrKeBEFp7sETqSkrF0pGLwto6So",
-      "gdoc_name": "U5 L15 — Designing The Simulation Worksheet",
-      "score": 0.92
-    },
-    {
-      "md": "U5-L17-Worksheet",
-      "unit": 5,
-      "lesson": 17,
-      "gdoc_id": "1ruRJiTJZpEOWJUnM4JB-6KnEBJc5wZyPP9FTBWecry8",
-      "gdoc_name": "U5 L17 — Paper Check Denominator Every Time Worksheet",
-      "score": 0.379
-    },
-    {
-      "md": "U5-L19-Worksheet",
-      "unit": 5,
-      "lesson": 19,
-      "gdoc_id": "1tqsErTU1vSP4X2NZKKQhnSKecOCK9OrMYu4bd2Y4xRA",
-      "gdoc_name": "U5 L19 — Paper Check The Engine Works Does The Model Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U5-L21-Worksheet",
-      "unit": 5,
-      "lesson": 21,
-      "gdoc_id": "1V34CfjKgsmJ2CkI7ZhyqlR3Pl1bUXOg0Sp7SpdkpQng",
-      "gdoc_name": "U5 L21 — Paper Check Full Unit Rehearsal Part One Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U5-L22-Worksheet",
-      "unit": 5,
-      "lesson": 22,
-      "gdoc_id": "1C7oGZFc0W5PNEVEJeYqqDnZoMnNnczNEcAJy6GmCboc",
-      "gdoc_name": "U5 L22 — Paper Check Rehearsal Part Two Worksheet",
-      "score": 0.92
-    },
-    {
-      "md": "U5-L23-Worksheet",
-      "unit": 5,
-      "lesson": 23,
-      "gdoc_id": "1mP0mVJim1Q2UkjB9mBkH4WrehlXhzYrhFQOXet-HPKE",
-      "gdoc_name": "U5 L23 — Final Rehearsal Then The Build Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U5-L25-Answer-Key",
-      "unit": 5,
-      "lesson": 25,
-      "gdoc_id": "1jagvaA6NcwWlOFcJPbds9yjSPJdW1Jgr8x14bGvx08I",
-      "gdoc_name": "U5 L25 — Paper Check The Number Is Finished The Argument Is Not ANSWER KEY",
-      "score": 1.0
-    },
-    {
-      "md": "U5-L25-Worksheet",
-      "unit": 5,
-      "lesson": 25,
-      "gdoc_id": "1gUl_OM1cxS8NmqEaCUXHgpd5OJMPJ5Kb1yX-GVMH3Po",
-      "gdoc_name": "U5 L25 — Paper Check The Number Is Finished The Argument Is Not Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U5-L27-Worksheet",
-      "unit": 5,
-      "lesson": 27,
-      "gdoc_id": "118Mnk9--X6fTrbgCoQycWW64WuEYSI77WK9N_5y1z00",
-      "gdoc_name": "U5 L27 — Someone Elses Model Find The Error Worksheet",
-      "score": 0.769
-    },
-    {
-      "md": "U5-L28-Worksheet",
-      "unit": 5,
-      "lesson": 28,
-      "gdoc_id": "1X6fhsp-xuxgBDuz1PI_qms5DOinzsXRP2_7YNel0OGI",
-      "gdoc_name": "U5 L28 — Confounding When The Naive Association Lies Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U5-L29-Worksheet",
-      "unit": 5,
-      "lesson": 29,
-      "gdoc_id": "1zhTSU2cvEKrFvVTUQXTlwnKc08k8ffwxg7So3PEVKbY",
-      "gdoc_name": "U5 L29 — The Whole Unit On One Page Worksheet",
-      "score": 0.92
-    },
-    {
-      "md": "U5-L31-Worksheet",
-      "unit": 5,
-      "lesson": 31,
-      "gdoc_id": "10ignrLK72sSnTOqAgSubJ7mjkK3PvuS2L2fs1CatYE8",
-      "gdoc_name": "U5 L31 — Unit Close Final Assessment And Demonstration Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U6-L04-Paper-Check-Worksheet",
-      "unit": 6,
-      "lesson": 4,
-      "gdoc_id": "1mbSgymrK5VLvGxS-aGmVRYRB2-i1Ouqr2ztv0aT_dUk",
-      "gdoc_name": "U6 L04 — Paper Check: Coordinates, Distance, Slope Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U6-L06-Reflection-Worksheet",
-      "unit": 6,
-      "lesson": 6,
-      "gdoc_id": "1U1IVJLmU6XcYw3I9f9eE0vljfHdMM48JC8jnqKKSvFs",
-      "gdoc_name": "U6 L06 — Reflection: Recursion vs Iteration, Side by Side Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U6-L08-Paper-Check-Worksheet",
-      "unit": 6,
-      "lesson": 8,
-      "gdoc_id": "19t5AELP6GYE1cuZRbOdYobexD3o3w7o9eq1nDrRf-_E",
-      "gdoc_name": "U6 L08 — Paper Check: Iteration, Recursion, and Fractals Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U6-L12-Paper-Check-Worksheet",
-      "unit": 6,
-      "lesson": 12,
-      "gdoc_id": "1qZtWSmvN4wd1fucNSBXp-vA_YANy47jZtie4TDNmrr4",
-      "gdoc_name": "U6 L12 — Paper Check: Measuring and Thresholding a Fractal Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U6-L14-Reflection-Worksheet",
-      "unit": 6,
-      "lesson": 14,
-      "gdoc_id": "13CHggzEBE3cjaVfkXQAhsue13TURHkwHZHY8xLDtWCA",
-      "gdoc_name": "U6 L14 — Reflection What The Fractal Project Cost And Bought Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U7-L04-Paper-Check-Worksheet",
-      "unit": 7,
-      "lesson": 4,
-      "gdoc_id": "1Oii6t1Rriu0Ry8kgDeoxdQdvcp1B6O2xEMPY02jXKaM",
-      "gdoc_name": "U7 L04 — Paper Check L01 To L03 Worksheet",
-      "score": 0.054
-    },
-    {
-      "md": "U7-L06-Reflection-Worksheet",
-      "unit": 7,
-      "lesson": 6,
-      "gdoc_id": "1bLUkmcuWa8vfluFye4DkiBI5OUmPMerAV2eVMRNp3_M",
-      "gdoc_name": "U7 L06 — Reflection The Trapezoid Rule Done By Hand Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U7-L08-Paper-Check-Worksheet",
-      "unit": 7,
-      "lesson": 8,
-      "gdoc_id": "1E28DLyPL2_nKaX0HSpbWmW2b2yZVSZgKNYoFEUfU8q4",
-      "gdoc_name": "U7 L08 — Paper Check L05 To L07 Worksheet",
-      "score": 0.148
-    },
-    {
-      "md": "U7-L10-Reflection-Worksheet",
-      "unit": 7,
-      "lesson": 10,
-      "gdoc_id": "1JscAEuaWfJj2BK02TdVLNzRA4rZVn0tdwoDX419JTHg",
-      "gdoc_name": "U7 L10 — Preview What Makes An Anomaly An Anomaly Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U7-L12-Paper-Check-Worksheet",
-      "unit": 7,
-      "lesson": 12,
-      "gdoc_id": "1_nzeXNVudpCK8bUgozteMBcRPz5jla1aOcpOsbWkQUA",
-      "gdoc_name": "U7 L12 — Paper Check L09 To L11 Worksheet",
-      "score": 0.051
-    },
-    {
-      "md": "U7-L14-Reflection-Worksheet",
-      "unit": 7,
-      "lesson": 14,
-      "gdoc_id": "1SbDMf_pd52BNJqC_WhzKuPY8bWJp5Q_d6ETWH02pxaM",
-      "gdoc_name": "U7 L14 — Reflection Modeling And Its Limits Worksheet",
-      "score": 1.0
-    },
-    {
-      "md": "U7-L19-Reflection-Worksheet",
-      "unit": 7,
-      "lesson": 19,
-      "gdoc_id": "1GoonLTgAkeGOcyg7uaAOjWtEPQOerCwSYV-1E5pfE-E",
-      "gdoc_name": "U7 L19 — Whole Year Reflection What Changed About How You Reason Worksheet",
-      "score": 1.0
-    }
-  ]
+ "generated_by": "match_full.py (full course)",
+ "root": "1ZZ9exF8ujN-qDxxEYaEpMy5LrudXZFye",
+ "documents": [
+  {
+   "md": "Unit 1 - Working with Numbers/Worksheets/U1-L08-Team-Build-Worksheet.md",
+   "unit": 1,
+   "lesson": 8,
+   "role": "worksheet",
+   "h1": "U1 L08 — TEAM LAB BUILD: Calculator v1 — Safe Arithmetic",
+   "gdoc_title": "U1 L08 — TEAM LAB BUILD: Calculator v1 — Safe Arithmetic",
+   "gdoc_id": "11GgwBLpcI_16rykltnsT37-ZAhqv4HI_Giniq8AHOlI",
+   "score": 1.0,
+   "margin": 0.492,
+   "candidates": 5
+  },
+  {
+   "md": "Unit 1 - Working with Numbers/Worksheets/U1-L10-Preview-Worksheet.md",
+   "unit": 1,
+   "lesson": 10,
+   "role": "worksheet",
+   "h1": "U1 L10 — Calculator v2 Preview Worksheet",
+   "gdoc_title": "U1 L10 — Calculator v2 Preview Worksheet",
+   "gdoc_id": "1AUXFy28pqB7IX39IoGWP7Ohafd-lgveBqU9vodgGCdA",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 2 - Visualizing Data/Worksheets/U2-L06-Paper-Check-Worksheet.md",
+   "unit": 2,
+   "lesson": 6,
+   "role": "worksheet",
+   "h1": "U2 L06 — Paper Check: Charts So Far",
+   "gdoc_title": "U2 L06 — Charts So Far Paper Check Worksheet",
+   "gdoc_id": "111lBGp0EbNtoxo_dFWtvQ77YC0SpxujjTABBczcAN7U",
+   "score": 0.52,
+   "margin": 0.52,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 2 - Visualizing Data/Worksheets/U2-L12-Paper-Check-Worksheet.md",
+   "unit": 2,
+   "lesson": 12,
+   "role": "worksheet",
+   "h1": "U2 L12 — Paper Check: Relationships and Clean Data",
+   "gdoc_title": "U2 L12 — Relationships and Clean Data Paper Check Worksheet",
+   "gdoc_id": "1PTavl3YWk9syqAxeq3o8rtCoTCV41T9GngGMb-ZjEL0",
+   "score": 0.667,
+   "margin": 0.667,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 3 - Describing Data with Statistics/Worksheets/U3-L02-Worksheet.md",
+   "unit": 3,
+   "lesson": 2,
+   "role": "worksheet",
+   "h1": "U3 L02 — Preview: Mean, Median, Mode — Which One Survives an Outlier?",
+   "gdoc_title": "U3 L02 — Preview: Mean, Median, Mode — Which One Survives an Outlier? Worksheet",
+   "gdoc_id": "1Bm-2hmcMhfgDl0cdtatm5zM4ButFI_OWNNaWfURQwGU",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 3 - Describing Data with Statistics/Worksheets/U3-L04-Worksheet.md",
+   "unit": 3,
+   "lesson": 4,
+   "role": "worksheet",
+   "h1": "U3 L04 — Reflection: What Each Statistic Throws Away",
+   "gdoc_title": "U3 L04 — Reflection: What Each Statistic Throws Away Worksheet",
+   "gdoc_id": "1ZlwlwBgQXoOiZ8sZqflmL3T93hG68ZmEwf6qOZIQwWo",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 3 - Describing Data with Statistics/Worksheets/U3-L07-Worksheet.md",
+   "unit": 3,
+   "lesson": 7,
+   "role": "worksheet",
+   "h1": "U3 L07 — Paper Check: Centers and Spread",
+   "gdoc_title": "U3 L07 — Paper Check: Centers and Spread Worksheet",
+   "gdoc_id": "1tycl9iTYpT-_WSsrAS97q6uKCeWEQfKk70pi8R3Fl3w",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 3 - Describing Data with Statistics/Worksheets/U3-L11-Worksheet.md",
+   "unit": 3,
+   "lesson": 11,
+   "role": "worksheet",
+   "h1": "U3 L11 — Paper Check: Distribution Shape and PII",
+   "gdoc_title": "U3 L11 — Paper Check: Distribution Shape and PII Worksheet",
+   "gdoc_id": "1ZJFniwwHwelEqAOqlRHHXB9DEXKQaOo6GkdGM-rC_ZU",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 3 - Describing Data with Statistics/Worksheets/U3-L13-Worksheet.md",
+   "unit": 3,
+   "lesson": 13,
+   "role": "worksheet",
+   "h1": "U3 L13 — Preview: Specification for the Privacy-Aware Stats Dashboard",
+   "gdoc_title": "U3 L13 — Preview: Privacy-Aware Stats Dashboard Worksheet",
+   "gdoc_id": "1yL4WLRhonRDeSbfQEw0dtTo1NLDPB5pQ9sLzm199oRk",
+   "score": 0.841,
+   "margin": 0.841,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 3 - Describing Data with Statistics/Worksheets/U3-L16-Worksheet.md",
+   "unit": 3,
+   "lesson": 16,
+   "role": "worksheet",
+   "h1": "U3 L16 — Paper Check: Percentiles, PII, and Anonymization",
+   "gdoc_title": "U3 L16 — Paper Check: Percentiles, PII, and Anonymization Worksheet",
+   "gdoc_id": "1U7F8gw6JGY2eUM7ewjTzOBmXHlm-DVc03lOWUFIBcSk",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 3 - Describing Data with Statistics/Worksheets/U3-L22-Worksheet.md",
+   "unit": 3,
+   "lesson": 22,
+   "role": "worksheet",
+   "h1": "U3 L22 — Paper Check: Unit 3 Statistics and Privacy",
+   "gdoc_title": "U3 L22 — Paper Check: Unit 3 Statistics and Privacy Worksheet",
+   "gdoc_id": "1buzW8jkUrDlNlJmaSc0XTlDtgfPg68Nv9VbpgtSXdmo",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 4 - Algebra and SymPy/Worksheets/U4-L03-Worksheet.md",
+   "unit": 4,
+   "lesson": 3,
+   "role": "worksheet",
+   "h1": "U4 L03 — Paper Check: Solve It, Then Predict",
+   "gdoc_title": "U4 L03 — Paper Check: Solve It, Then Predict Worksheet",
+   "gdoc_id": "1Un4QthE_I9F6QuqngoPpeZzG0xN5vyTG1cV4sAwB-6U",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 4 - Algebra and SymPy/Worksheets/U4-L09-Worksheet.md",
+   "unit": 4,
+   "lesson": 9,
+   "role": "worksheet",
+   "h1": "U4 L09 — Paper Check Under Exam Conditions",
+   "gdoc_title": "U4 L09 — Paper Check Under Exam Conditions Worksheet",
+   "gdoc_id": "1I_xwqWGKWbZJGheO1oDJ5Ht_vfIs8NEf-ajpBqL-JHY",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L01-Answer-Key.md",
+   "unit": 5,
+   "lesson": 1,
+   "role": "key",
+   "h1": "U5 L01 — Answer Key: Set Vocabulary and the Risk Simulator",
+   "gdoc_title": "U5 L01 — Unit Launch Sets As The Language Of Which Of These ANSWER KEY",
+   "gdoc_id": "1WYats8PHliJ_uuhTiARDwUcQErqpQNsUrVRj25V7Mtg",
+   "score": 0.273,
+   "margin": 0.273,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L01-Worksheet.md",
+   "unit": 5,
+   "lesson": 1,
+   "role": "worksheet",
+   "h1": "U5 L01 — Unit Launch: Set Vocabulary and the Risk Simulator",
+   "gdoc_title": "U5 L01 — Unit Launch Sets As The Language Of Which Of These Worksheet",
+   "gdoc_id": "1KJOwzplAyjwIqNmctZJb2F048lqMQoR2l0N92XxF9V0",
+   "score": 0.538,
+   "margin": 0.538,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L02-Answer-Key.md",
+   "unit": 5,
+   "lesson": 2,
+   "role": "key",
+   "h1": "U5 L02 — Answer Key: Venn Diagrams by Hand",
+   "gdoc_title": "U5 L02 — Venn Diagrams By Hand Union Intersection Difference ANSWER KEY",
+   "gdoc_id": "1LaT_J5_0y0ZjCcQHaODqBOIZp4nRR_P9uqzLIktYHs4",
+   "score": 0.545,
+   "margin": 0.545,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L02-Worksheet.md",
+   "unit": 5,
+   "lesson": 2,
+   "role": "worksheet",
+   "h1": "U5 L02 — Venn Diagrams by Hand: Union, Intersection, Difference",
+   "gdoc_title": "U5 L02 — Venn Diagrams By Hand Union Intersection Difference Worksheet",
+   "gdoc_id": "1UIoAZ-NISti-0ZeMszpyet6ZUVm0vRDUEhB7ifhvmFM",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L05-Answer-Key.md",
+   "unit": 5,
+   "lesson": 5,
+   "role": "key",
+   "h1": "U5 L05 — Answer Key: Why Double-Counting Is the Classic Bug",
+   "gdoc_title": "U5 L05 — Paper Check Why Double Counting Is The Classic Bug ANSWER KEY",
+   "gdoc_id": "1J2y-n-CC3K4Bc-4QXIcvaib0xh7ABFsa44CFhYQBFGs",
+   "score": 0.818,
+   "margin": 0.818,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L05-Worksheet.md",
+   "unit": 5,
+   "lesson": 5,
+   "role": "worksheet",
+   "h1": "U5 L05 — Paper Check: Why Double-Counting Is the Classic Bug",
+   "gdoc_title": "U5 L05 — Paper Check Why Double Counting Is The Classic Bug Worksheet",
+   "gdoc_id": "1zhTVMTUgbs1xvxJMDcJCixYQxlXNq1Dqtf8_BVL_eXE",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L07-Answer-Key.md",
+   "unit": 5,
+   "lesson": 7,
+   "role": "key",
+   "h1": "U5 L07 — Answer Key: Bayes by Hand, No Code",
+   "gdoc_title": "U5 L07 — Bayes By Hand No Code ANSWER KEY",
+   "gdoc_id": "18UiYR4YNF9QBh9ke7WQkXJJ84y8N7QM291DnkFLgo-E",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L07-Worksheet.md",
+   "unit": 5,
+   "lesson": 7,
+   "role": "worksheet",
+   "h1": "U5 L07 — Bayes by Hand, No Code: The Hard One",
+   "gdoc_title": "U5 L07 — Bayes By Hand No Code Worksheet",
+   "gdoc_id": "1A6ZsAjBcmLuGVd23RK0zoc8cjfm-a3dNih1BXb_aWbc",
+   "score": 0.8,
+   "margin": 0.8,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L09-Answer-Key.md",
+   "unit": 5,
+   "lesson": 9,
+   "role": "key",
+   "h1": "U5 L09 — Answer Key: Reading Your Own Error Log",
+   "gdoc_title": "U5 L09 — Mid Unit Reflection Error Log ANSWER KEY",
+   "gdoc_id": "1vgc2396vTOJmUDh5QR_lS67HCjK9wMh6o2FXoqofFiQ",
+   "score": 0.6,
+   "margin": 0.6,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L09-Worksheet.md",
+   "unit": 5,
+   "lesson": 9,
+   "role": "worksheet",
+   "h1": "U5 L09 — Mid-Unit Reflection: Reading Your Own Error Log",
+   "gdoc_title": "U5 L09 — Mid Unit Reflection Error Log Worksheet",
+   "gdoc_id": "19NdRFVqJRcfsJJW4tEBOcOnDsH9WelquPX85ENMxnCE",
+   "score": 0.829,
+   "margin": 0.829,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L11-Answer-Key.md",
+   "unit": 5,
+   "lesson": 11,
+   "role": "key",
+   "h1": "U5 L11 — Answer Key: Conditionals, Bayes, and Expected Value",
+   "gdoc_title": "U5 L11 — Paper Check L06 L10 ANSWER KEY",
+   "gdoc_id": "1YG4rrEuNlVE46Ewm_29NwBYovy64Ww375AyToFKf2qU",
+   "score": 0.227,
+   "margin": 0.227,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L11-Worksheet.md",
+   "unit": 5,
+   "lesson": 11,
+   "role": "worksheet",
+   "h1": "U5 L11 — Paper Check: Conditionals, Bayes, and Expected Value",
+   "gdoc_title": "U5 L11 — Paper Check L06 L10 Worksheet",
+   "gdoc_id": "1nC0EExe3BfwMQYoelwUsDX1VCavKaQTyLZ05nCdQ0VU",
+   "score": 0.393,
+   "margin": 0.393,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L13-Answer-Key.md",
+   "unit": 5,
+   "lesson": 13,
+   "role": "key",
+   "h1": "U5 L13 — Answer Key: The Mean Is Not a Risk Description",
+   "gdoc_title": "U5 L13 — Paper Check The Mean Is Not A Risk Description ANSWER KEY",
+   "gdoc_id": "1XJLRobUkNrY0rbm1Dwor6nW5HsOCjdeEoICqbGN4LWA",
+   "score": 0.806,
+   "margin": 0.806,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L13-Worksheet.md",
+   "unit": 5,
+   "lesson": 13,
+   "role": "worksheet",
+   "h1": "U5 L13 — Paper Check: The Mean Is Not a Risk Description",
+   "gdoc_title": "U5 L13 — Paper Check The Mean Is Not A Risk Description Worksheet",
+   "gdoc_id": "1dts83rJQAtSmuitBaLKAax0gktAiwUK78BhnQYBZFQ8",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L15-Answer-Key.md",
+   "unit": 5,
+   "lesson": 15,
+   "role": "key",
+   "h1": "U5 L15 — Answer Key: Designing the Simulation",
+   "gdoc_title": "U5 L15 — Designing The Simulation ANSWER KEY",
+   "gdoc_id": "1bPsOO8XlfNRIT6KqKiUeX7vM6NGDdGz6hFM2iIwoumg",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L15-Worksheet.md",
+   "unit": 5,
+   "lesson": 15,
+   "role": "worksheet",
+   "h1": "U5 L15 — Designing the Simulation: What Are You Actually Sampling?",
+   "gdoc_title": "U5 L15 — Designing The Simulation Worksheet",
+   "gdoc_id": "1R8wDcB8k7-gKNXNuLrKeBEFp7sETqSkrF0pGLwto6So",
+   "score": 0.645,
+   "margin": 0.645,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L17-Answer-Key.md",
+   "unit": 5,
+   "lesson": 17,
+   "role": "key",
+   "h1": "U5 L17 — Answer Key: Can You Write a Number and Its Denominator?",
+   "gdoc_title": "U5 L17 — Paper Check Denominator Every Time ANSWER KEY",
+   "gdoc_id": "1FozCecyAXDEBXPLIRrCh6ovNzXRwyXlo1ErqXB_2p0Y",
+   "score": 0.485,
+   "margin": 0.485,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L17-Worksheet.md",
+   "unit": 5,
+   "lesson": 17,
+   "role": "worksheet",
+   "h1": "U5 L17 — Paper Check: Can You Write a Number and Its Denominator?",
+   "gdoc_title": "U5 L17 — Paper Check Denominator Every Time Worksheet",
+   "gdoc_id": "1ruRJiTJZpEOWJUnM4JB-6KnEBJc5wZyPP9FTBWecry8",
+   "score": 0.59,
+   "margin": 0.59,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L19-Answer-Key.md",
+   "unit": 5,
+   "lesson": 19,
+   "role": "key",
+   "h1": "U5 L19 — Answer Key: The Engine Works. Does the Model?",
+   "gdoc_title": "U5 L19 — Paper Check The Engine Works Does The Model ANSWER KEY",
+   "gdoc_id": "1Xe3O7A1Zi4DZlwhkEe1GXoFG7Yz27Elq98RqpxOLCm0",
+   "score": 0.793,
+   "margin": 0.793,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L19-Worksheet.md",
+   "unit": 5,
+   "lesson": 19,
+   "role": "worksheet",
+   "h1": "U5 L19 — Paper Check: The Engine Works. Does the Model?",
+   "gdoc_title": "U5 L19 — Paper Check The Engine Works Does The Model Worksheet",
+   "gdoc_id": "1tqsErTU1vSP4X2NZKKQhnSKecOCK9OrMYu4bd2Y4xRA",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L21-Answer-Key.md",
+   "unit": 5,
+   "lesson": 21,
+   "role": "key",
+   "h1": "U5 L21 — Answer Key: Full-Unit Rehearsal, Part One",
+   "gdoc_title": "U5 L21 — Paper Check Full Unit Rehearsal Part One ANSWER KEY",
+   "gdoc_id": "1ftbE4R5iCDIwrlG_r74XwVmjcUh-BWWKBAWlUG1bHqo",
+   "score": 0.824,
+   "margin": 0.824,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L21-Worksheet.md",
+   "unit": 5,
+   "lesson": 21,
+   "role": "worksheet",
+   "h1": "U5 L21 — Paper Check: Full-Unit Rehearsal, Part One",
+   "gdoc_title": "U5 L21 — Paper Check Full Unit Rehearsal Part One Worksheet",
+   "gdoc_id": "1V34CfjKgsmJ2CkI7ZhyqlR3Pl1bUXOg0Sp7SpdkpQng",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L22-Answer-Key.md",
+   "unit": 5,
+   "lesson": 22,
+   "role": "key",
+   "h1": "U5 L22 — Answer Key: Full-Unit Rehearsal, Part Two",
+   "gdoc_title": "U5 L22 — Paper Check Rehearsal Part Two ANSWER KEY",
+   "gdoc_id": "1US-cbktBrkrxYx2bt_rjshzHZU0nJ_I2DgTYtC0mO9I",
+   "score": 0.69,
+   "margin": 0.69,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L22-Worksheet.md",
+   "unit": 5,
+   "lesson": 22,
+   "role": "worksheet",
+   "h1": "U5 L22 — Paper Check: Full-Unit Rehearsal, Part Two",
+   "gdoc_title": "U5 L22 — Paper Check Rehearsal Part Two Worksheet",
+   "gdoc_id": "1C7oGZFc0W5PNEVEJeYqqDnZoMnNnczNEcAJy6GmCboc",
+   "score": 0.857,
+   "margin": 0.857,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L23-Answer-Key.md",
+   "unit": 5,
+   "lesson": 23,
+   "role": "key",
+   "h1": "U5 L23 — Answer Key: Final Rehearsal, Then the Build",
+   "gdoc_title": "U5 L23 — Final Rehearsal Then The Build ANSWER KEY",
+   "gdoc_id": "1wcw2jMOpaTmrPW_XXSZ57G64sFGtNm7FT0vRrNgEqU0",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L23-Worksheet.md",
+   "unit": 5,
+   "lesson": 23,
+   "role": "worksheet",
+   "h1": "U5 L23 — Final Rehearsal, Then the Build",
+   "gdoc_title": "U5 L23 — Final Rehearsal Then The Build Worksheet",
+   "gdoc_id": "1mP0mVJim1Q2UkjB9mBkH4WrehlXhzYrhFQOXet-HPKE",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L25-Answer-Key.md",
+   "unit": 5,
+   "lesson": 25,
+   "role": "key",
+   "h1": "U5 L25 — Answer Key: Paper Check — The Number Is Finished. The Argument Is Not.",
+   "gdoc_title": "U5 L25 — Paper Check The Number Is Finished The Argument Is Not ANSWER KEY",
+   "gdoc_id": "1jagvaA6NcwWlOFcJPbds9yjSPJdW1Jgr8x14bGvx08I",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L25-Worksheet.md",
+   "unit": 5,
+   "lesson": 25,
+   "role": "worksheet",
+   "h1": "U5 L25 — Paper Check: The Number Is Finished. The Argument Is Not.",
+   "gdoc_title": "U5 L25 — Paper Check The Number Is Finished The Argument Is Not Worksheet",
+   "gdoc_id": "1gUl_OM1cxS8NmqEaCUXHgpd5OJMPJ5Kb1yX-GVMH3Po",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L27-Answer-Key.md",
+   "unit": 5,
+   "lesson": 27,
+   "role": "key",
+   "h1": "U5 L27 — Answer Key: Someone Else's Model — Find the Error in a Plausible Report",
+   "gdoc_title": "U5 L27 — Someone Elses Model Find The Error ANSWER KEY",
+   "gdoc_id": "1RyGimEXYD46mOFLWT-rfBd3mIc3dk5fbgdEOhvs4tOY",
+   "score": 0.769,
+   "margin": 0.769,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L27-Worksheet.md",
+   "unit": 5,
+   "lesson": 27,
+   "role": "worksheet",
+   "h1": "U5 L27 — Someone Else's Model: Find the Error in a Plausible Report",
+   "gdoc_title": "U5 L27 — Someone Elses Model Find The Error Worksheet",
+   "gdoc_id": "118Mnk9--X6fTrbgCoQycWW64WuEYSI77WK9N_5y1z00",
+   "score": 0.769,
+   "margin": 0.769,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L28-Answer-Key.md",
+   "unit": 5,
+   "lesson": 28,
+   "role": "key",
+   "h1": "U5 L28 — Answer Key: Confounding — When the Naive Association Lies",
+   "gdoc_title": "U5 L28 — Confounding When The Naive Association Lies ANSWER KEY",
+   "gdoc_id": "1m-jw9jQnhUDlW5S7-BoZK7Q_rCG4PRJ40W5aWFA-wfo",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L28-Worksheet.md",
+   "unit": 5,
+   "lesson": 28,
+   "role": "worksheet",
+   "h1": "U5 L28 — Confounding: When the Naive Association Lies",
+   "gdoc_title": "U5 L28 — Confounding When The Naive Association Lies Worksheet",
+   "gdoc_id": "1X6fhsp-xuxgBDuz1PI_qms5DOinzsXRP2_7YNel0OGI",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L29-Answer-Key.md",
+   "unit": 5,
+   "lesson": 29,
+   "role": "key",
+   "h1": "U5 L29 — Answer Key: The Whole Unit on One Page — What Connects to What",
+   "gdoc_title": "U5 L29 — The Whole Unit On One Page ANSWER KEY",
+   "gdoc_id": "1Ez5cX2x1ucbBEvS_Ew9SFoE66xC5EVKw7X8P-Q9nI_U",
+   "score": 0.809,
+   "margin": 0.809,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L29-Worksheet.md",
+   "unit": 5,
+   "lesson": 29,
+   "role": "worksheet",
+   "h1": "U5 L29 — The Whole Unit on One Page: What Connects to What",
+   "gdoc_title": "U5 L29 — The Whole Unit On One Page Worksheet",
+   "gdoc_id": "1zhTSU2cvEKrFvVTUQXTlwnKc08k8ffwxg7So3PEVKbY",
+   "score": 0.809,
+   "margin": 0.809,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L31-Answer-Key.md",
+   "unit": 5,
+   "lesson": 31,
+   "role": "key",
+   "h1": "U5 L31 — Answer Key: Unit Close — Final Assessment and Demonstration",
+   "gdoc_title": "U5 L31 — Unit Close Final Assessment And Demonstration ANSWER KEY",
+   "gdoc_id": "1v5KU93S3IEosuqFGI7N4UnpqLwkSfVfPxmqi5uLn3iQ",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 5 - Sets and Probability/Worksheets/U5-L31-Worksheet.md",
+   "unit": 5,
+   "lesson": 31,
+   "role": "worksheet",
+   "h1": "U5 L31 — Unit Close: Final Assessment and Demonstration",
+   "gdoc_title": "U5 L31 — Unit Close Final Assessment And Demonstration Worksheet",
+   "gdoc_id": "10ignrLK72sSnTOqAgSubJ7mjkK3PvuS2L2fs1CatYE8",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 6 - Geometry and Fractals/Worksheets/U6-L04-Paper-Check-Worksheet.md",
+   "unit": 6,
+   "lesson": 4,
+   "role": "worksheet",
+   "h1": "U6 L04 — Paper Check: Coordinates, Distance, Slope",
+   "gdoc_title": "U6 L04 — Paper Check: Coordinates, Distance, Slope Worksheet",
+   "gdoc_id": "1mbSgymrK5VLvGxS-aGmVRYRB2-i1Ouqr2ztv0aT_dUk",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 6 - Geometry and Fractals/Worksheets/U6-L06-Reflection-Worksheet.md",
+   "unit": 6,
+   "lesson": 6,
+   "role": "worksheet",
+   "h1": "U6 L06 — Reflection: Recursion vs Iteration, Side by Side",
+   "gdoc_title": "U6 L06 — Reflection: Recursion vs Iteration, Side by Side Worksheet",
+   "gdoc_id": "1U1IVJLmU6XcYw3I9f9eE0vljfHdMM48JC8jnqKKSvFs",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 6 - Geometry and Fractals/Worksheets/U6-L08-Paper-Check-Worksheet.md",
+   "unit": 6,
+   "lesson": 8,
+   "role": "worksheet",
+   "h1": "U6 L08 — Paper Check: Iteration, Recursion, and Fractals",
+   "gdoc_title": "U6 L08 — Paper Check: Iteration, Recursion, and Fractals Worksheet",
+   "gdoc_id": "19t5AELP6GYE1cuZRbOdYobexD3o3w7o9eq1nDrRf-_E",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 6 - Geometry and Fractals/Worksheets/U6-L12-Paper-Check-Worksheet.md",
+   "unit": 6,
+   "lesson": 12,
+   "role": "worksheet",
+   "h1": "U6 L12 — Paper Check: Measuring and Thresholding a Fractal",
+   "gdoc_title": "U6 L12 — Paper Check: Measuring and Thresholding a Fractal Worksheet",
+   "gdoc_id": "1qZtWSmvN4wd1fucNSBXp-vA_YANy47jZtie4TDNmrr4",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 6 - Geometry and Fractals/Worksheets/U6-L14-Reflection-Worksheet.md",
+   "unit": 6,
+   "lesson": 14,
+   "role": "worksheet",
+   "h1": "U6 L14 — Reflection: What the Fractal Project Cost and Bought",
+   "gdoc_title": "U6 L14 — Reflection What The Fractal Project Cost And Bought Worksheet",
+   "gdoc_id": "13CHggzEBE3cjaVfkXQAhsue13TURHkwHZHY8xLDtWCA",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 7 - Calculus and Modeling/Worksheets/U7-L04-Paper-Check-Worksheet.md",
+   "unit": 7,
+   "lesson": 4,
+   "role": "worksheet",
+   "h1": "U7 L04 — Paper Check: Difference Quotients and Step Size",
+   "gdoc_title": "U7 L04 — Paper Check L01 To L03 Worksheet",
+   "gdoc_id": "1Oii6t1Rriu0Ry8kgDeoxdQdvcp1B6O2xEMPY02jXKaM",
+   "score": 0.415,
+   "margin": 0.415,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 7 - Calculus and Modeling/Worksheets/U7-L06-Reflection-Worksheet.md",
+   "unit": 7,
+   "lesson": 6,
+   "role": "worksheet",
+   "h1": "U7 L06 — Reflection: The Trapezoid Rule, Done by Hand",
+   "gdoc_title": "U7 L06 — Reflection The Trapezoid Rule Done By Hand Worksheet",
+   "gdoc_id": "1bLUkmcuWa8vfluFye4DkiBI5OUmPMerAV2eVMRNp3_M",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 7 - Calculus and Modeling/Worksheets/U7-L08-Paper-Check-Worksheet.md",
+   "unit": 7,
+   "lesson": 8,
+   "role": "worksheet",
+   "h1": "U7 L08 — Paper Check: Quadrature and Residuals",
+   "gdoc_title": "U7 L08 — Paper Check L05 To L07 Worksheet",
+   "gdoc_id": "1E28DLyPL2_nKaX0HSpbWmW2b2yZVSZgKNYoFEUfU8q4",
+   "score": 0.512,
+   "margin": 0.512,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 7 - Calculus and Modeling/Worksheets/U7-L10-Reflection-Worksheet.md",
+   "unit": 7,
+   "lesson": 10,
+   "role": "worksheet",
+   "h1": "U7 L10 — Preview: What Makes an Anomaly an Anomaly",
+   "gdoc_title": "U7 L10 — Preview What Makes An Anomaly An Anomaly Worksheet",
+   "gdoc_id": "1JscAEuaWfJj2BK02TdVLNzRA4rZVn0tdwoDX419JTHg",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 7 - Calculus and Modeling/Worksheets/U7-L12-Paper-Check-Worksheet.md",
+   "unit": 7,
+   "lesson": 12,
+   "role": "worksheet",
+   "h1": "U7 L12 — Paper Check: Committing to the Detector's Parameters",
+   "gdoc_title": "U7 L12 — Paper Check L09 To L11 Worksheet",
+   "gdoc_id": "1_nzeXNVudpCK8bUgozteMBcRPz5jla1aOcpOsbWkQUA",
+   "score": 0.4,
+   "margin": 0.4,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 7 - Calculus and Modeling/Worksheets/U7-L14-Reflection-Worksheet.md",
+   "unit": 7,
+   "lesson": 14,
+   "role": "worksheet",
+   "h1": "U7 L14 — Reflection: Modeling and Its Limits",
+   "gdoc_title": "U7 L14 — Reflection Modeling And Its Limits Worksheet",
+   "gdoc_id": "1SbDMf_pd52BNJqC_WhzKuPY8bWJp5Q_d6ETWH02pxaM",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  },
+  {
+   "md": "Unit 7 - Calculus and Modeling/Worksheets/U7-L19-Reflection-Worksheet.md",
+   "unit": 7,
+   "lesson": 19,
+   "role": "worksheet",
+   "h1": "U7 L19 — Whole-Year Reflection: What Changed About How You Reason",
+   "gdoc_title": "U7 L19 — Whole Year Reflection What Changed About How You Reason Worksheet",
+   "gdoc_id": "1GoonLTgAkeGOcyg7uaAOjWtEPQOerCwSYV-1E5pfE-E",
+   "score": 1.0,
+   "margin": 1.0,
+   "candidates": 1
+  }
+ ]
 }
