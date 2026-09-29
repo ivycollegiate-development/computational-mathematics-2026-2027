@@ -1,0 +1,17 @@
+# Answer keys are teacher-only. They live in the school Google Drive, not here.
+# This repo is PUBLIC — a student can clone it and read every key.
+# Pattern is deliberate: a key in ANY unit folder is ignored.
+*-Answer-Key.md
+*-Answer-Key-*.md
+*-Answer-Sheet.md
+*-ANSWER-KEY.md
+
+# Anything under a Worksheets/ folder that is not student-facing.
+**/Worksheets/*-Key.md
+**/Worksheets/*-Key-*.md
+
+# Teacher-only material
+*-Teacher-Talking-Points.md
+*-Fix-Guide.md
+*-TALKING-POINTS.md
+*-FIX-GUIDE.md
