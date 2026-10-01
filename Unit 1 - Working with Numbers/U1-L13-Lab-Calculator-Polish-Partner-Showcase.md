@@ -1,6 +1,7 @@
 # Lesson 13 — Calculator Polish and Partner Showcase
 
-**LO:** exercise your calculator with unusual inputs, find what still breaks,
+**LO:** exercise your calculator with unusual inputs, find one thing that still
+breaks, fix it, then show a partner what your program does well.
 then show a partner what your program does well.
 
 **Folder:** `compmath-u1-calculator-lab` (in your VS Code workspace)
@@ -74,8 +75,8 @@ Two things worth knowing:
 
 ## Part 2 — Work the cases (15 min)
 
-Pick any five cases — spread them across the four groups rather than doing five
-from one. Run your calculator and type the case in.
+Pick any three cases — spread them across the four groups rather than doing all
+three from one. Run your calculator and type the case in.
 
 For each one write down all three of these, on paper or in a scratch file:
 
@@ -95,22 +96,23 @@ dud. Two examples from the starter code:
 - `get_number()` on `4` → returns `4.0` and moves on. **That is correct
   behavior**, and it is worth noting that it works.
 
-You are looking for **at least two genuine bugs**, and that is a floor, not a
-target. Many of you will find exactly two, because that is what is there. If you
-find one, keep looking — if you find four, do not go hunting for a fifth.
+You are looking for **one genuine bug**, and one is a complete result. Work three
+cases, name the one bug you will fix, and stop hunting — finding four is not
+better than finding one, and digging for damage that is not there wastes the time
+you need to prove your fix works.
 
-☐ I worked at least five cases. ☐ I have at least two genuine bugs written down.
+☐ I worked three cases. ☐ I have one genuine bug written down.
 ☐ I noted at least one case that behaved correctly.
 
 ---
 
 ## Part 3 — Fix what you found (15 min)
 
-Now make your calculator better. Pick **one** bug — your highest-value one — and
-fix it properly.
+Now make your calculator better. Fix the one bug you named in Part 2, properly.
 
-Do not fix all of them. Fixing one well and proving it works is worth more than
-three half-finished edits, because you have to show it working in Part 4.
+One fix, done well and proven, is the whole assignment. You have to show it
+working in Part 4, and that matters more than a longer list of problems you did
+not have time to address.
 
 Open `calculator.py`. You will see two functions with `FIX ME` comments:
 `get_number()` and `divide()`. Whichever bug you are fixing, put your code where
@@ -147,9 +149,9 @@ python3 test_calculator.py
 ```
 
 The starter ships with `1 of 4 passing` — one test already passes, and the other
-three are exactly the bugs you are hunting. **Your goal is 4 of 4.** If you
-fixed only one bug, expect 2 or 3 of 4, and that is a real result — say in your
-showcase what is still outstanding.
+three are the bugs you may find. **Your goal is 4 of 4.** You are fixing one
+today, so expect 2 of 4, and that is a real result — say in your showcase what is
+still outstanding.
 
 ☐ The test run improved from 1 of 4. ☐ I re-ran the failing case from Part 2 and it now behaves correctly.
 
@@ -181,7 +183,7 @@ and commit again.
 One person runs the calculator as the driver; the other calls out inputs. Swap
 after four minutes so you each drive once.
 
-**Driver:** run your calculator. **Caller:** feed it three cases you remember from
+**Driver:** run your calculator. **Caller:** feed it the cases you remember from
 Part 2 — including the one you fixed. The driver narrates what is happening on
 screen. The caller writes down anything surprising.
 
@@ -223,15 +225,15 @@ Upload your screenshot to the Classroom assignment:
 | Points | What earns them |
 |---|---|
 | 2 | Working calculator — add, subtract, multiply and divide all run |
-| 2 | At least two genuine bugs found **and written down** in Part 2 |
+| 2 | One genuine bug found **and written down** in Part 2 |
 | 1 | At least one case noted as correct behavior |
 | 2 | One bug fixed properly, with a comment explaining the change |
 | 2 | Partner showcase — drove the calculator and answered all three questions |
 | 1 | Screenshot turned in as evidence |
 
-**A note on the 2 points for bugs:** finding two is the bar, and finding four is
-not better than finding two. This is not a hunt for the most damage. Two
-honest bugs with clear write-ups earn full marks.
+**A note on the 2 points for the bug:** one honest bug with a clear write-up
+earns full marks. This is not a hunt for the most damage, and finding four is not
+better than finding one.
 
 ---
 
@@ -241,7 +243,7 @@ honest bugs with clear write-ups earn full marks.
 
 **Journal entry (5 min, U1 L12 handed you the prompt):**
 
-- Which single bug will you fix next? One. Not three.
+- Which single bug will you fix next time, after the assessment? One. Not three.
 - Which case surprised you the most?
 - What did your calculator do that you were actually proud of?
 
