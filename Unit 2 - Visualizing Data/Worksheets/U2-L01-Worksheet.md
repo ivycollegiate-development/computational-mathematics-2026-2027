@@ -43,9 +43,9 @@ Complete sentences where it asks *why*. A word or value is fine where it asks *w
 
 | Code | What Python does |
 |------------|------------------|
-   | `x == 0`                |               |
-   | `x = 0`                 |               |
-   | `x > 0 or x < 0`        |               |
+| `x == 0`                |               |
+| `x >= 0`                |               |
+| `x > 0 or x < 0`        |               |
 
 **6.** Why is `Fraction(1, 3)` exact but `1 / 3` is not? What kind of number does Python use for `/`?
 

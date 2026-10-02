@@ -37,7 +37,7 @@ it asks *what*.
 5. Write the truth table (just True/False) for each of these, assuming
    `x = 0`:
    - `x == 0`
-   - `x = 0`
+   - `x >= 0`
    - `x > 0 or x < 0`
 6. Why is `Fraction(1, 3)` exact but `1 / 3` is not? What kind of number does
    Python use for `/`?

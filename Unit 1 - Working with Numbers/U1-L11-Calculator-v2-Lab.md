@@ -6,7 +6,7 @@ Today you extend the calculator your team built in the two-day build (U1 L08)
 with everything from this unit: your conversions (U1 L09) and your plan (U1 L10). You work in
 **your own calculator lab repo** — no new invitations today.
 
-## PART 0 — OPEN YOUR CALCULATOR REPO (first 10 minutes)
+## PART 0 — OPEN YOUR CALCULATOR REPO
 
 In your VS Code workspace terminal — start with `pwd`:
 
@@ -23,7 +23,7 @@ python3 test_calculator.py
 - Confirm your **4/4 tests still pass** before you touch anything. If they do
   not, fix that first — today's work builds on it.
 
-## PART 1 — ADD THE CONVERSIONS (~30 min)
+## PART 1 — ADD THE CONVERSIONS
 
 Bring your converter functions (U1 L09) into `calculator.py`:
 
@@ -36,7 +36,7 @@ they are for. Extend the menu so each conversion is a real menu choice, and
 wire it through `get_number()` so bad input asks again (your U1 L08 guardrail
 already does the work).
 
-## PART 2 — ADD THE GUARDRAILS (~30 min)
+## PART 2 — ADD THE GUARDRAILS
 
 From your plan worksheet (U1 L10), add at least these two bounds:
 
@@ -50,7 +50,7 @@ Implementation hint: one small function that checks a bound before the math
 runs — `def is_too_big(n): ...` — beats scattering `if` statements everywhere.
 That is the defensive-programming habit: **validate before you compute.**
 
-## PART 3 — PAIR CODE REVIEW (~15 min)
+## PART 3 — PAIR CODE REVIEW
 
 Swap screens (or repos — read each other's pushed code on github.com) and find
 each other's guardrail implementations:
@@ -60,7 +60,7 @@ each other's guardrail implementations:
 - Give one specific compliment and one specific suggestion. "Looks good" is
   not a review.
 
-## PART 4 — SAVE YOUR WORK (5 min)
+## PART 4 — SAVE YOUR WORK
 
 ```bash
 cd ~/compmath-lab
