@@ -20,15 +20,15 @@ Be honest. It will not change the test — it tells me where to spend review tim
 
 Complete sentences where it asks *why*. A word or value is fine where it asks *what*.
 
-**1.** What type does Python give you for `7 / 2`, and what type for `7 // 2`? Give both values and both types.
+**1.** What type does Python give you for 7 / 2, and what type for 7 // 2? Give both values and both types.
 
    _________________________________________________________________________
 
-**2.** Why does `input()` need a wrapper like `int()` or `float()` when we want a number? What type does `input()` always return?
+**2.** Why does input() need a wrapper like int() or float() when we want a number? What type does input() always return?
 
    _________________________________________________________________________
 
-**3.** A user types `banana` into `age = int(input("Age: "))`. Name the exact exception Python raises, and write the one line that would catch it.
+**3.** A user types banana into age = int(input("Age: ")). Name the exact exception Python raises, and write the one line that would catch it.
 
    _________________________________________________________________________
 
@@ -38,28 +38,28 @@ Complete sentences where it asks *why*. A word or value is fine where it asks *w
 
    _________________________________________________________________________
 
-**5.** Write the value (just True/False) for each of these, assuming `x = 0`:
+**5.** Write the value (just True/False) for each of these, assuming x = 0:
 
 
 | Code | What Python does |
 |------------|------------------|
-| `x == 0`                |               |
-| `x >= 0`                |               |
-| `x > 0 or x < 0`        |               |
+| x == 0                |               |
+| x >= 0                |               |
+| x > 0 or x < 0        |               |
 
-**6.** Why is `Fraction(1, 3)` exact but `1 / 3` is not? What kind of number does Python use for `/`?
-
-   _________________________________________________________________________
-
-**7.** In your calculator lab, what did `get_number()` protect against, and what did it do when validation failed?
+**6.** Why is Fraction(1, 3) exact but 1 / 3 is not? What kind of number does Python use for /?
 
    _________________________________________________________________________
 
-**8.** Order these from smallest to largest step size (precision): `int`, `float`, `Fraction`. One sentence on why.
+**7.** In your calculator lab, what did get_number() protect against, and what did it do when validation failed?
 
    _________________________________________________________________________
 
-**9.** What does `%` return for `17 % 5`, and name one real use for modulo we discussed.
+**8.** Order these from smallest to largest step size (precision): int, float, Fraction. One sentence on why.
+
+   _________________________________________________________________________
+
+**9.** What does % return for 17 % 5, and name one real use for modulo we discussed.
 
    _________________________________________________________________________
 
@@ -110,7 +110,7 @@ a) There is one bug that makes this *quietly wrong* — find it and state the co
 
    _________________________________________________________________________
 
-b) The program still crashes on `banana`. Write the full `try/except` version of the last two lines.
+b) The program still crashes on banana. Write the full try/except version of the last two lines.
 
    _________________________________________________________________________
 
@@ -138,11 +138,11 @@ Not yet — turn your paper face down and wait quietly. If you finish early, rev
 
 ## Part 5 — Push
 
-- ☐  `journal-u2l01.md` created in `~/compmath-lab`, Part 4 answered, `git push` confirmed.
+☐  journal-u2l01.md created in ~/compmath-lab, Part 4 answered, git push confirmed.
 
 ## TURN IN
 
-- ☐  Photo of your paper assessment — all sections, legible, right side up.
-- ☐  Screenshot to the Classroom assignment by 11:59 PM tonight showing: your journal file with the Part 4 answers, and the successful `git push`.
+☐  Photo of your paper assessment — all sections, legible, right side up.
+☐  Screenshot to the Classroom assignment by 11:59 PM tonight showing: your journal file with the Part 4 answers, and the successful git push.
 
 Keep the journal — Unit 2 builds directly on what you found in the gaps.
