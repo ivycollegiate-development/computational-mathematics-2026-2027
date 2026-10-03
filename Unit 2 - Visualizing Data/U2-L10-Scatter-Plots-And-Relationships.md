@@ -170,3 +170,5 @@ git push
 
 Submit the screenshot to this assignment on Google Classroom.
 Keep the terminal open — spot-checks.
+
+**Next:** U2 L11 — Data Integrity and Clean Data (https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%202%20-%20Visualizing%20Data/U2-L11-Data-Integrity-And-Clean-Data.md)

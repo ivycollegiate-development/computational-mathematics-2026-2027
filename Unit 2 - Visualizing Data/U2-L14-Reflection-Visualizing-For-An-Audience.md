@@ -107,3 +107,5 @@ One screenshot showing, in order:
 
 Submit the screenshot to this assignment on Google Classroom.
 Keep the terminal open — spot-checks.
+
+**Next:** U2 L15 — Project Launch + Fall Break Prep (Half Day) (https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%202%20-%20Visualizing%20Data/U2-L15-Project-Launch-Visualizing-Threats.md)

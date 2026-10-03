@@ -83,4 +83,4 @@ Submit a photo of the corrected check sheet to this assignment on Google
 Classroom by 11:59 PM tonight.
 Keep the sheet — it is your study guide for the Unit 2 assessment.
 
-Next: U2-L07-Lab-Bar-Charts-And-Categorical-Data.md
+**Next:** U2 L07 — LAB: Bar Charts and Categorical Data (https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%202%20-%20Visualizing%20Data/U2-L07-Lab-Bar-Charts-And-Categorical-Data.md)

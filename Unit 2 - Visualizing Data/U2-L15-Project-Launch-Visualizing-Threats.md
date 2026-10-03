@@ -50,10 +50,10 @@ Before you come back on Nov 9, do exactly this, on paper:
 
 1. **Choose your dataset** from `data/`. Options:
    - `u2_campus_threat_daily.csv` (the campus network — 60 days)
-   - `dataset1_study_habits.csv`
-   - `dataset2_mental_health.csv`
-   - `dataset3_activities.csv`
-   - `student_performance_data.csv`
+   - `u2_dataset1_study_habits.csv`
+   - `u2_dataset2_mental_health.csv`
+   - `u2_dataset3_activities.csv`
+   - `u2_student_performance_data.csv`
 
 2. **Open it once.** Look at the columns and roughly how many rows. Write down
    the column names you will use.
@@ -67,9 +67,18 @@ Before you come back on Nov 9, do exactly this, on paper:
    of notes on what each shows. Ten minutes of sketching saves you an hour of
    coding on Nov 9.
 
-**Turn in:** one photo of the page — your dataset name, the one-sentence claim,
-and the three chart sketches. Upload to Google Classroom. **Due 11:59 PM Sunday
-Nov 8.**
+## TURN IN — PHOTO OF YOUR BREAK WORK (due 11:59 PM Sunday Nov 8)
+
+One photo of a single page of paper showing, in order:
+1. the name of the dataset you chose
+2. your column names
+3. your one-sentence claim
+4. your three sketched charts (rough boxes with labelled axes are fine)
+
+This is the only thing due before we come back. Nothing is due tonight.
+
+Submit the photo to this assignment on Google Classroom.
+Keep your Part 3 notes — you will build these charts on Nov 9.
 
 ## PART 4 — ON NOV 9, THIS IS WHAT YOU ALREADY HAVE DONE
 
@@ -109,3 +118,5 @@ When you do build, these apply to every chart, no exceptions:
 - ☐  `plt.savefig("name.png")` **before** `plt.show()`, or your PNG comes out blank
 - ☐  a short comment above each chart's code saying what it shows
 - ☐  clean the data **before** charting — a chart built on dirty data is a lie with axes
+
+**Next:** U2 L16 — Project Lab: Build Your Visualizations (https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%202%20-%20Visualizing%20Data/U2-L16-Project-Lab-Build-Your-Visualizations.md)

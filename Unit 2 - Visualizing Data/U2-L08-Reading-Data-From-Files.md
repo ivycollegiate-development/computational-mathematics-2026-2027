@@ -96,15 +96,19 @@ and averages in the same order.)
 
 ## PART 3 — THE MESSY FILES: REAL DATA IS MESSY (20 min)
 
-Now `ls data/` again. Three of these files are *not* clean:
+Now `ls data/` again. Not every file is as tidy as the study-habits one you
+have been using. Compare:
 
 ```bash
-head -4 data/u2_dataset1_study_habits.csv
+head -2 data/u2_dataset1_study_habits.csv
+head -2 data/u2_dataset2_mental_health.csv
 ```
 
-Line 1 is a **`#` comment line** — a note someone left in the file. If you hand
-that to `csv.DictReader` blindly, your "first row" becomes `# comment text` and
-every row is garbage.
+The first file goes straight to a header row. The second starts with a **`#`
+comment line** — a note someone left in the file explaining the units. If you
+hand that to `csv.DictReader` blindly, your "first row" becomes the comment
+text and every column name after it is garbage. This is the same bug as the
+U2 L07 lab, one file over.
 
 The fix: strip comment lines before parsing.
 
@@ -115,16 +119,29 @@ def load_csv(path):
     return list(csv.DictReader(lines))
 ```
 
-Test it on all three messy files (`u2_dataset1_study_habits.csv`,
+Test it on all three files (`u2_dataset1_study_habits.csv`,
 `u2_dataset2_mental_health.csv`, `u2_dataset3_activities.csv`):
 
-- `print(len(load_csv("data/u2_dataset1_study_habits.csv")))` — expect **52**,
-  not 53.
-- Print the keys of the first row — they should be the real column names, not
-  comment text.
+- `print(len(load_csv("data/u2_dataset1_study_habits.csv")))` — expect **52**.
+  This file has no comment line, so stripping changes nothing here.
+- `print(len(load_csv("data/u2_dataset2_mental_health.csv")))` — expect **60**.
+- `print(len(load_csv("data/u2_dataset3_activities.csv")))` — expect **50**.
+- Print the keys of the first row of each — they should be the real column
+  names, not comment text.
 
-In your notes: what would have gone silently wrong if you had *not* stripped
-the comment, and why is a wrong first row worse than a crash? (the U2 L07
+Now the part worth writing down: run the mental-health file WITHOUT the fix.
+
+```python
+rows = list(csv.DictReader(open("data/u2_dataset2_mental_health.csv")))
+print(list(rows[0].keys()))
+```
+
+You do not get a crash. You get wrong answers — the comment text becomes a
+column name, and a real column (`GPA`) has been pushed out of your dict
+entirely. A crash tells you something is wrong. This tells you everything is
+fine while you build a chart on it.
+
+In your notes: why is a wrong first row worse than a crash? (the U2 L07
 quietly-wrong bug, again.)
 
 ## PART 4 — BUILD YOUR PLOT-READY LIST (20 min, on your own)
@@ -166,3 +183,5 @@ printed lists have the **same length**, and that the messy-file loader reports
 Early finishers: add a guard that rejects rows where GPA isn't parseable
 (`try/except ValueError`) and counts how many you dropped; or extend the
 grouping to Math Score vs. Parent Education Level.
+
+**Next:** U2 L09 — Reflection: What Makes Data Real? (https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%202%20-%20Visualizing%20Data/U2-L09-Reflection-What-Makes-Data-Real.md)

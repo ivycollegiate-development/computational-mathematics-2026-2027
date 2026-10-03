@@ -103,3 +103,5 @@ Submit the PR link to this assignment on Google Classroom.
 
 Early finishers: add the fourth "audience choice" chart from U2 L14, or write a
 second version of one chart for a *different* audience and compare the two.
+
+**Next:** U2 L17 — Reflection: Peer Review Of Visualizations (https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%202%20-%20Visualizing%20Data/U2-L17-Reflection-Peer-Review-Of-Visualizations.md)

@@ -97,17 +97,25 @@ In your notes, then verify:
 
 ## PART 4 — PLOT OUR REAL DATA: STUDY HOURS (15 min)
 
-Yesterday's dataset, today as a picture. Still in the REPL (or open a file
-`first_plot.py` in VS Code if you prefer):
+Yesterday's dataset, today as a picture. Open your lab repo first:
+
+```bash
+cd ~/compmath-u2-data-lab
+git pull
+```
+
+Then still in the REPL (or open a file `first_plot.py` in VS Code if you
+prefer):
 
 ```python
 import csv
 import matplotlib.pyplot as plt
 
-with open("/tmp/u2_datasets/u2_dataset1_study_habits.csv") as f:
+with open("data/u2_dataset1_study_habits.csv") as f:
     rows = list(csv.reader(f))
 
-data = rows[2:]                       # skip comment line + header
+data = rows[1:]                       # this file has no comment line — skip the header
+print(len(data))                      # should be 52
 hours  = [float(r[1]) for r in data]
 scores = [float(r[2]) for r in data]
 
@@ -125,7 +133,8 @@ In your notes:
   step in a sequence.)
 - Does the cloud of points lean which way? What does the lean suggest?
 - Find in your mind's eye where a point at (1.0, 95) would sit. Would it
-  fit the pattern? That's an **outlier** — the U2 L04 topic.
+  fit the pattern? That's an **outlier** — we come back to outliers when we
+  clean data and build histograms later in this unit.
 
 ## PART 5 — SAVEFIG: MAKE IT A TURN-IN (10 min)
 
@@ -166,7 +175,7 @@ against exactly this list.
 Put your script and image in your lab repo:
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u2-data-lab
 git add first_plot.py score_vs_hours.png
 git commit -m "first matplotlib plot with labeled axes"
 git push
@@ -190,3 +199,5 @@ Keep the terminal open — spot-checks.
 Early finishers: add a second series to the scatter (Sleep_Hours vs.
 Test_Score) in a different color with `label=` and `plt.legend()`, and save
 a second PNG.
+
+**Next:** U2 L05 — Matplotlib: Customizing Plots (https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%202%20-%20Visualizing%20Data/U2-L05-Matplotlib-Customizing-Plots.md)

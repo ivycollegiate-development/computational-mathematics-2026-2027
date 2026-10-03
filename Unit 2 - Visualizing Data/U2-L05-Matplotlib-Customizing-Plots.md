@@ -158,3 +158,5 @@ git push
 **Spot-check before you say you're done:** open `my_chart.png` and confirm it
 has a real title, both axis labels, and a color you chose on purpose — not the
 matplotlib default blue.
+
+**Next:** U2 L06 — Paper Check: Charts So Far (https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%202%20-%20Visualizing%20Data/U2-L06-Paper-Check-Charts.md)

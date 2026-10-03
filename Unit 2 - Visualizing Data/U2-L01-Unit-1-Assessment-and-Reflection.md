@@ -142,3 +142,5 @@ git push
 
 Submit both to this assignment on Google Classroom.
 Keep the terminal open — spot-checks.
+
+**Next:** U2 L02 — Bridge: From Numbers to Data (https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%202%20-%20Visualizing%20Data/U2-L02-Bridge-From-Numbers-To-Data.md)

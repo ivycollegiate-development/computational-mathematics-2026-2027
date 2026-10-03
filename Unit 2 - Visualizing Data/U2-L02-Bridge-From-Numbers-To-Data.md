@@ -46,11 +46,24 @@ Questions to discuss with your table:
 
 ## PART 3 — CODE-ALONG: READING A CSV WITH ONLY THE STDLIB (15 min)
 
-Open your workspace. First command, always:
+Open your Unit 2 lab repo. If you have not cloned it yet, do this first:
 
 ```bash
-pwd
+cd ~
+git clone https://github.com/ivycollegiate-development/compmath-u2-data-lab-$(whoami)_student.git compmath-u2-data-lab
 ```
+
+(Your username + Personal Access Token, not your GitHub password.)
+
+Then get into it and pull the latest:
+
+```bash
+cd ~/compmath-u2-data-lab
+git pull
+```
+
+You should be inside `compmath-u2-data-lab`, where this unit's files live
+under `data/`. Every path from here on is relative to this folder.
 
 Then start the Python REPL:
 
@@ -65,13 +78,15 @@ no installs, ever:
 ```python
 import csv
 
-with open("/tmp/u2_datasets/u2_dataset1_study_habits.csv") as f:
+with open("data/u2_dataset1_study_habits.csv") as f:
     rows = list(csv.reader(f))
 
 print(len(rows))       # how many lines?
 print(rows[0])         # what's on the first line?
 print(rows[1])         # and the second?
 ```
+
+You should get **53** lines, and `rows[0]` should be the column names.
 
 Now answer in your notes, then test:
 
@@ -81,36 +96,52 @@ Now answer in your notes, then test:
 
 ## PART 4 — THE MESSY FIRST LINE (10 min)
 
-Try this:
+This file is well-behaved: a header, then 52 rows of data. Not every file
+this unit hands you is that polite. Here is the other one:
 
 ```python
-print(rows[0][1] + 1)
+with open("data/u2_dataset2_mental_health.csv") as f:
+    messy = list(csv.reader(f))
+
+print(messy[0])        # what is on line 1?
+print(messy[1])        # and line 2?
 ```
 
-It crashes. Why? Because the real file's first line is:
+Line 1 is a **`#` comment** — a note someone left in the file explaining the
+units. Line 2 is the real header.
 
-```text
-# U2 dataset 1 — study habits survey, collected via Google Form
-```
-
-That `#` line is a **comment** someone left in the data file. Real datasets
-are full of these surprises: comment lines, blank rows, missing values,
-weird units. Our first job as data people is to notice them *before* doing
-math.
+Try to use it without noticing, exactly as you would with the clean file:
 
 ```python
-data_rows = rows[2:]     # skip the comment line AND the header
-print(len(data_rows))    # should be 52
+print(messy[0][1] + 1)
+```
+
+It crashes. That `#` line is not data at all. Real datasets are full of these
+surprises: comment lines, blank rows, missing values, weird units. Our first
+job as data people is to notice them *before* doing math.
+
+The fix is to skip the comment and then skip the header:
+
+```python
+data_rows = messy[2:]     # skip the comment line AND the header
+print(len(data_rows))     # should be 60
 print(data_rows[0])
 ```
 
-In your notes: why index `2:` and not `1:`?
+In your notes: why index `2:` and not `1:`? What would `1:` have given you?
 
 ## PART 5 — COMPUTE: NUMBERS BECOME INFORMATION (15 min)
 
-Everything from Unit 1 applies now. Convert, then average:
+Everything from Unit 1 applies now. Go back to the clean file and convert,
+then average:
 
 ```python
+with open("data/u2_dataset1_study_habits.csv") as f:
+    rows = list(csv.reader(f))
+
+data_rows = rows[1:]     # this file has no comment line — header only
+print(len(data_rows))    # should be 52
+
 def mean(nums):
     return sum(nums) / len(nums)
 
@@ -145,7 +176,7 @@ This dataset describes *people* — including, in spirit, you. In your notes:
 In your lab repo:
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u2-data-lab
 touch journal-u2l02.md
 ```
 
@@ -156,7 +187,7 @@ Answer in 2-3 sentences each:
 - Write down your Part 5 numbers: n, both means, and the high-vs-low gap.
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u2-data-lab
 git add journal-u2l02.md
 git commit -m "U2 L02 data exploration journal"
 git push
@@ -169,9 +200,12 @@ git push
 ## TURN IN — SCREENSHOT (due 11:59 PM tonight)
 
 One screenshot showing, in order:
-1. your Part 3–4 REPL output (`len(rows)`, `rows[0]`, the comment-line crash)
-2. your Part 5 means and the high-vs-low comparison
-3. the successful `git push`
+1. your Part 3 output (`len(rows)` = 53, `rows[0]` = the column names)
+2. your Part 4 output: `messy[0]`, `messy[1]`, the crash, and `len(data_rows)` = 60
+3. your Part 5 means and the high-vs-low comparison
+4. the successful `git push`
 
 Submit the screenshot to this assignment on Google Classroom.
 Keep the terminal open — spot-checks.
+
+**Next:** U2 L03 — Launch: What Makes a Good Visualization (https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%202%20-%20Visualizing%20Data/U2-L03-Launch-What-Makes-A-Good-Visualization.md)

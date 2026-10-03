@@ -89,4 +89,4 @@ Submit a photo of the corrected check sheet to this assignment on Google
 Classroom by 11:59 PM tonight.
 Keep the sheet — it is your study guide for the unit project and assessment.
 
-Next: U2-L13-Histograms-And-Distributions.md
+**Next:** U2 L13 — Histograms and Distributions (https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%202%20-%20Visualizing%20Data/U2-L13-Histograms-And-Distributions.md)

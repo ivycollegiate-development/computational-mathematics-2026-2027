@@ -147,3 +147,5 @@ Classroom.
 Early finishers: reorder the bands left-to-right (A → Below) with an explicit
 list, or add a second series (Attendance-band averages for a different score
 column) with a legend.
+
+**Next:** U2 L08 — Reading Data From Files (https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%202%20-%20Visualizing%20Data/U2-L08-Reading-Data-From-Files.md)
