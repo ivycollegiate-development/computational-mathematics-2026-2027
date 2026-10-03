@@ -1,6 +1,5 @@
 # U7 L13 — Build Day 3: The False-Positive Problem, Honestly Handled
 
-**Date:** Wednesday, May 19, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Machine lesson (45 minutes)
 **LO:** 7.5 — quantify false positives, state the cost of a threshold, and make

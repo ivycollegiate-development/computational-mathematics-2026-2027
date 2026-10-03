@@ -1,6 +1,5 @@
 # U6 L03 — Coordinate Geometry in Code: Build `geomkit.py`
 
-**Date:** Wednesday, April 14, 2027
 **Unit:** 6 — Geometry and Fractals
 **Type:** Machine lesson (45 minutes)
 **LO:** 6.3 — implement distance, midpoint, and slope as a reusable module with

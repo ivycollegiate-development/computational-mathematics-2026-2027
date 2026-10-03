@@ -1,6 +1,5 @@
 # U5 L20 — The Bug That Passes Every Test
 
-**Date:** Tuesday, March 16, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Machine lesson (45 minutes)
 **LO:** 5.4, 5.9 — diagnose an over-counting error in a risk aggregator that

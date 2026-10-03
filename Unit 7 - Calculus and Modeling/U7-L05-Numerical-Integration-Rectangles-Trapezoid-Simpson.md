@@ -1,6 +1,5 @@
 # U7 L05 — Numerical Integration: Rectangles, Trapezoid, Simpson
 
-**Date:** Friday, May 7, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Machine lesson (45 minutes)
 **LO:** 7.3 — implement three quadrature rules and identify each one's error

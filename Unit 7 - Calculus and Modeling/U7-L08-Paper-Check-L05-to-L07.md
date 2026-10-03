@@ -1,6 +1,5 @@
 # U7 L08 — Paper Check: L05–L07
 
-**Date:** Wednesday, May 12, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Paper lesson (45 minutes)
 **LO:** 7.3, 7.4 — audit your own predictions, and diagnose a model from

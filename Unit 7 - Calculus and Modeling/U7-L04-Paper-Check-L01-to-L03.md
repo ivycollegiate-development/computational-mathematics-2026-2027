@@ -1,6 +1,5 @@
 # U7 L04 — Paper Check: L01–L03
 
-**Date:** Thursday, May 6, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Paper lesson (45 minutes)
 **LO:** 7.1, 7.2 — locate the minimum of an error curve, and explain it

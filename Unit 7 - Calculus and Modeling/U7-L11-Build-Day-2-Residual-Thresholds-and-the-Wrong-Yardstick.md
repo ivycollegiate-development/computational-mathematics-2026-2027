@@ -1,6 +1,5 @@
 # U7 L11 — Build Day 2: Residual Thresholds, and the Wrong Yardstick
 
-**Date:** Monday, May 17, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Machine lesson (45 minutes)
 **LO:** 7.5 — set an anomaly threshold and justify it against a stated false-

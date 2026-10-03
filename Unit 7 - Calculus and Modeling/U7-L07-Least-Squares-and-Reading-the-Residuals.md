@@ -1,6 +1,5 @@
 # U7 L07 — Least Squares, and Reading the Residuals
 
-**Date:** Tuesday, May 11, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Machine lesson (45 minutes)
 **LO:** 7.4 — fit a least-squares line and diagnose model adequacy from the

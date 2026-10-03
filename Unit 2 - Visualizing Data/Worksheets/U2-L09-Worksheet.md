@@ -90,7 +90,7 @@ If our data is synthetic, what are we then allowed to *claim* from our charts?
 
 ## Part 6 — Push
 
-- ☐  `journal-1019.md` created in `~/compmath-u2-data-lab`, Part 5 answered, `git push` confirmed.
+- ☐  `journal-$(whoami).md` created in `~/compmath-u2-data-lab`, Part 5 answered, `git push` confirmed.
 
 ## TURN IN
 

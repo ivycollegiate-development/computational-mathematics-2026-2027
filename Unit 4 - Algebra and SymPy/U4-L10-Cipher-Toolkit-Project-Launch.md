@@ -1,6 +1,5 @@
 # U4 L10 — Cipher Toolkit Project Launch
 
-**Date:** Friday, January 22, 2027
 **Unit:** 4 — Algebra and SymPy
 **Type:** Machine (project launch, 45 minutes)
 **LO:** 4.1, 4.2, 4.3 — combine symbolic and modular reasoning into one working

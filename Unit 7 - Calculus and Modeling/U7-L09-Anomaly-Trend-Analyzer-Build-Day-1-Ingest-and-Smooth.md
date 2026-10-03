@@ -1,6 +1,5 @@
 # U7 L09 — Anomaly Trend Analyzer Build Day 1: Ingest and Smooth
 
-**Date:** Thursday, May 13, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Machine lesson (45 minutes)
 **LO:** 7.5 — ingest a series, estimate a baseline, and justify the detrending

@@ -1,6 +1,5 @@
 # U6 L12 — Paper Check: L09–L11
 
-**Date:** Tuesday, April 27, 2027
 **Unit:** 6 — Geometry and Fractals
 **Type:** Paper lesson (45 minutes)
 **LO:** 6.6, 6.7 — defend a measurement's limits, and defend a threshold choice

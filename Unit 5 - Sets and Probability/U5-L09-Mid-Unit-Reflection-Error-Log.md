@@ -1,6 +1,5 @@
 # U5 L09 — Mid-Unit Reflection: Reading Your Own Error Log
 
-**Date:** Monday, March 1, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (reflection, 50 minutes)
 **LO:** 5.1–5.6 — diagnose your own error patterns and name which of them will

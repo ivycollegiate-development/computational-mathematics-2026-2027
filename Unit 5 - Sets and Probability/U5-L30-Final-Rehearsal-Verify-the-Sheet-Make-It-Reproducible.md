@@ -1,6 +1,5 @@
 # U5 L30 — Final Rehearsal: Verify the Sheet, Then Make It Reproducible
 
-**Date:** Tuesday, March 30, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Machine lesson (final rehearsal, 45 minutes)
 **LO:** 5.1–5.10 — verify hand-worked results against executable code; produce a

@@ -1,6 +1,5 @@
 # U6 L15 — Demo Day and Unit 6 Wrap
 
-**Date:** Friday, April 30, 2027
 **Unit:** 6 — Geometry and Fractals
 **Type:** Machine lesson (45 minutes)
 **LO:** 6.7 — present a measurement, its limits, and defend them under question

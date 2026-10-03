@@ -1,6 +1,5 @@
 # U7 L20 — Demo. Unit 7 Complete. Course Complete
 
-**Date:** Friday, May 28, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Paper lesson (45 minutes)
 **LO:** 7.5 — demonstrate a completed project and close the course

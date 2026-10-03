@@ -43,7 +43,7 @@ Before each line, write down what you think it prints. Then run it. Were you rig
 
 ## Part 3: Journal (last 5 minutes)
 
-Create `journal-0909.md` in your home directory. Write 2-3 sentences:
+Create `journal-$(whoami).md` in your home directory — put your userid in the filename so it is clearly yours. Write 2-3 sentences:
 - One real situation where `%` (remainder) is the useful operator
 - Which operator surprised you most today, and why
 

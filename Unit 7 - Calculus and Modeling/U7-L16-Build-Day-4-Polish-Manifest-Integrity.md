@@ -1,6 +1,5 @@
 # U7 L16 — Build Day 4: Polish, Manifest, Integrity
 
-**Date:** Monday, May 24, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Machine lesson (45 minutes)
 **LO:** 7.5 — verify a submitted artifact is reproducible and internally

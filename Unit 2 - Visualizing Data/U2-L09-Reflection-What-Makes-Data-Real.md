@@ -86,10 +86,10 @@ and you vote. We keep score on how often the class is right.
 In your data-lab repo (you are already inside it — verify with `pwd`):
 
 ```bash
-touch journal-1019.md
+touch journal-$(whoami).md
 ```
 
-Open `journal-1019.md` in VS Code and answer in 3–4 sentences:
+Open `journal-$(whoami).md` in VS Code and answer in 3–4 sentences:
 
 - Where did our performance data come from, and why does that matter for the
   charts I made last week?
@@ -103,8 +103,8 @@ Your journal is already inside your repo, so push it. Type each command exactly:
 
 ```bash
 cd ~/compmath-u2-data-lab
-git add journal-1019.md
-git commit -m "Day 1019 journal: data provenance"
+git add journal-$(whoami).md
+git commit -m "Journal: data provenance"
 git push
 ```
 

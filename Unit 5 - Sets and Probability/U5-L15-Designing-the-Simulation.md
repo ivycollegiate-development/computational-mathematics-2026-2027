@@ -1,6 +1,5 @@
 # U5 L15 — Designing the Simulation: What Are You Actually Sampling?
 
-**Date:** Tuesday, March 9, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (50 minutes)
 **LO:** 5.9–5.10 — specify a simulation in writing: population, sample, sampling

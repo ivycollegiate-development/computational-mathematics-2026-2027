@@ -1,6 +1,5 @@
 # U5 L23 — Final Rehearsal, Then the Build
 
-**Date:** Friday, March 19, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (final rehearsal, 50 minutes)
 **LO:** 5.1–5.10 — one end-to-end scenario, then assemble the unit's artefact

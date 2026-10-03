@@ -1,6 +1,5 @@
 # U7 L10 — Preview: What Makes an Anomaly an Anomaly
 
-**Date:** Friday, May 14, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Paper lesson (45 minutes)
 **LO:** 7.5 — state the definition of an anomaly precisely enough to implement

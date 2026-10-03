@@ -1,6 +1,5 @@
 # U6 L07 — Building a Fractal: The `deco` Pattern
 
-**Date:** Tuesday, April 20, 2027
 **Unit:** 6 — Geometry and Fractals
 **Type:** Machine lesson (45 minutes)
 **LO:** 6.5 — implement a recursive function-drawing routine and predict what

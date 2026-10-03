@@ -1,6 +1,5 @@
 # U5 L21 — Paper Check: Full-Unit Rehearsal, Part One
 
-**Date:** Wednesday, March 17, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (paper check, 50 minutes)
 **LO:** 5.1–5.8 — timed rehearsal of the whole unit under exam conditions

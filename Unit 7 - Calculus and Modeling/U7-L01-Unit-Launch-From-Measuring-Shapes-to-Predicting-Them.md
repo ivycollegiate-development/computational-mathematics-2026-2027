@@ -1,6 +1,5 @@
 # U7 L01 — Unit Launch: From Measuring Shapes to Predicting Them
 
-**Date:** Monday, May 3, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Paper lesson (45 minutes)
 **LO:** 7.1 — distinguish a measured quantity from a modelled one, and explain

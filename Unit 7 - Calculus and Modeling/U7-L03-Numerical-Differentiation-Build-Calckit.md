@@ -1,6 +1,5 @@
 # U7 L03 — Numerical Differentiation: Build `calckit.py`
 
-**Date:** Wednesday, May 5, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Machine lesson (45 minutes)
 **LO:** 7.2 — implement forward, backward, and central differences and find the

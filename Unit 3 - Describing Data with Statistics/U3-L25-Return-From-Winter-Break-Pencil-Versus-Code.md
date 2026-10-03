@@ -1,6 +1,5 @@
 # U3 L25 — Return From Winter Break: Does Your Pencil Match Your Code?
 
-**Date:** Jan 4 (Mon) — first class back
 **LO:** check your hand-computed statistics against code, and be honest about
 which Unit 3 ideas you actually own.
 

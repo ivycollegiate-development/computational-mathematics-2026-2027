@@ -1,6 +1,5 @@
 # U5 L18 — The Monte Carlo Engine, and Your Model as a Shape
 
-**Date:** Friday, March 12, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Machine lesson (45 minutes)
 **LO:** 5.10 — implement a Monte Carlo engine for a threat model; validate it

@@ -1,6 +1,5 @@
 # U6 L05 — Iteration: What Recursion Looks Like When You Watch It Run
 
-**Date:** Friday, April 16, 2027
 **Unit:** 6 — Geometry and Fractals
 **Type:** Machine lesson (45 minutes)
 **LO:** 6.4 — write the same algorithm iteratively and recursively, and measure

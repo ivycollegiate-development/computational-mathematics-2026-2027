@@ -1,6 +1,5 @@
 # U6 L10 — Fractal Detection Model Due
 
-**Date:** Friday, April 23, 2027
 **Unit:** 6 — Geometry and Fractals
 **Type:** Paper lesson (45 minutes)
 **LO:** 6.6 — submit a measured, reproducible artifact; state its limits

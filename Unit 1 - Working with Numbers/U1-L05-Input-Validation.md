@@ -93,7 +93,7 @@ pwd
 cd ~
 git clone https://github.com/ivycollegiate-development/compmath-u1-calculator-lab-$(whoami)_student.git compmath-lab
 cd compmath-lab
-touch journal-0917.md
+touch journal-$(whoami).md
 ```
 
 - `whoami` shows your userid, and `$(whoami)` inserts it into the URL
@@ -112,8 +112,8 @@ Your journal is already inside your repo, so push it. Type each command exactly:
 
 ```bash
 cd ~/compmath-lab
-git add journal-0917.md
-git commit -m "Day 0917 journal"
+git add journal-*.md
+git commit -m "Journal"
 git push
 ```
 

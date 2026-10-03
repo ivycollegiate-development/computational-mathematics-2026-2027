@@ -1,6 +1,5 @@
 # U5 L02 — Venn Diagrams by Hand: Union, Intersection, Difference
 
-**Date:** Thursday, February 18, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (50 minutes)
 **LO:** 5.2 — draw and read a two-set Venn diagram; compute union, intersection,

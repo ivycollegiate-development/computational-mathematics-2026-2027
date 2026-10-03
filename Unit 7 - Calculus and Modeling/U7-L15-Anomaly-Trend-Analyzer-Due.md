@@ -1,6 +1,5 @@
 # U7 L15 — Anomaly Trend Analyzer Due
 
-**Date:** Friday, May 21, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Paper lesson (45 minutes)
 **LO:** 7.5 — submit a detector whose thresholds, limits, and coverage are

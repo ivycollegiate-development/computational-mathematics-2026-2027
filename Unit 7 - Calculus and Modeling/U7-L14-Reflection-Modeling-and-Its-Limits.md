@@ -1,6 +1,5 @@
 # U7 L14 — Reflection: Modeling and Its Limits
 
-**Date:** Thursday, May 20, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Paper lesson (45 minutes)
 **LO:** 7.5 — assess the validity conditions of your model and plan the

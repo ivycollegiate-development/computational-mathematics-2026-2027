@@ -1,6 +1,5 @@
 # U4 L05 — Modular Arithmetic: The Algebra Underneath the Cipher
 
-**Date:** Jan 11 (Mon)
 **LO:** do arithmetic in `Z_n`, find modular inverses, and explain why Fermat's little theorem makes public-key cryptography possible.
 
 Everything so far this unit has been real algebra: `x` is a number, somewhere,

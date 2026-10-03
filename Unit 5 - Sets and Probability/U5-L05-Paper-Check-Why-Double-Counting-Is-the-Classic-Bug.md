@@ -1,6 +1,5 @@
 # U5 L05 — Paper Check L01–L04: Why Double-Counting Is the Classic Bug
 
-**Date:** Tuesday, February 23, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (paper check, 50 minutes)
 **LO:** 5.1–5.4 — demonstrate fluency with set vocabulary, Venn regions, and

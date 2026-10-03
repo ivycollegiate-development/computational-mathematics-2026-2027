@@ -1,6 +1,5 @@
 # U6 L06 — Reflection: Recursion vs Iteration, Side by Side
 
-**Date:** Monday, April 19, 2027
 **Unit:** 6 — Geometry and Fractals
 **Type:** Paper lesson (45 minutes)
 **LO:** 6.4 — defend a choice between two implementations of the same algorithm,

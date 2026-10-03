@@ -1,6 +1,5 @@
 # U7 L02 — The Difference Quotient, By Hand Until It Obvious
 
-**Date:** Tuesday, May 4, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Paper lesson (45 minutes)
 **LO:** 7.2 — construct a difference quotient and predict its limiting behaviour

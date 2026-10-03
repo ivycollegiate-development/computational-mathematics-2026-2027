@@ -1,6 +1,5 @@
 # U6 L08 — Paper Check: L05–L07
 
-**Date:** Wednesday, April 21, 2027
 **Unit:** 6 — Geometry and Fractals
 **Type:** Paper lesson (45 minutes)
 **LO:** 6.4, 6.5 — trace recursion by hand, and audit your predictions about

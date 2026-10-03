@@ -1,6 +1,5 @@
 # U5 L17 — Paper Check: Can You Write a Number and Its Denominator?
 
-**Date:** Thursday, March 11, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (paper check, 50 minutes)
 **LO:** 5.1–5.10 — cumulative retrieval across the unit, with emphasis on

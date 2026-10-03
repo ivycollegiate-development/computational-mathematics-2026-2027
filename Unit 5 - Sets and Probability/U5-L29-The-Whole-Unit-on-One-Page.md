@@ -1,6 +1,5 @@
 # U5 L29 — The Whole Unit on One Page: What Connects to What
 
-**Date:** Monday, March 29, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (consolidation, 50 minutes)
 **LO:** 5.1–5.10 — organise the unit's concepts into one dependency structure;

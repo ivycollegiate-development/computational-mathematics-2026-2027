@@ -1,6 +1,5 @@
 # U6 L09 — Fractal Detection Model, Build Day 1: Generate and Measure
 
-**Date:** Thursday, April 22, 2027
 **Unit:** 6 — Geometry and Fractals
 **Type:** Machine lesson (45 minutes)
 **LO:** 6.6 — generate fractal structures and measure their dimension by box

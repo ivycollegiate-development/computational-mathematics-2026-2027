@@ -65,12 +65,12 @@ In your calculator lab repo (start with `pwd` — know where you are):
 ```bash
 pwd
 cd ~/compmath-lab
-touch journal-0921-$(whoami).md
+touch journal-$(whoami).md
 ```
 
 - `whoami` shows your userid, and `$(whoami)` inserts it into the filename
   automatically — so the file is clearly yours in the commit history.
-- Open `journal-0921-$(whoami).md` and answer in 3-5 sentences:
+- Open `journal-$(whoami).md` and answer in 3-5 sentences:
 
   - Which Python tool (`try/except`, type conversion, input validation) is most
     important for security, and why? (Your Part 3 answer, tightened.)
@@ -99,7 +99,7 @@ Then push as usual:
 cd ~/compmath-lab
 git config pull.rebase false
 git pull
-git add journal-0921-$(whoami).md
+git add journal-$(whoami).md
 git commit -m "Day 0921 journal — defensive programming"
 git push
 ```

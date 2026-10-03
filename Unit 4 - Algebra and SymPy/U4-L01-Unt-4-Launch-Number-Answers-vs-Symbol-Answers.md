@@ -1,6 +1,5 @@
 # U4 L01 — Unit 4 Launch: Number Answers vs. Symbol Answers
 
-**Date:** Jan 5 (Tue)
 **LO:** understand what a computer gains from keeping a variable symbolic, and preview the four things SymPy will do for you.
 
 Unit 4 is **Algebra and SymPy**. Everything in it is math you already know. The

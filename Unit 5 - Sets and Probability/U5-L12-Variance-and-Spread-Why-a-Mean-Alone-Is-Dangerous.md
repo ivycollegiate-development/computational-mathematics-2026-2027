@@ -1,6 +1,5 @@
 # U5 L12 — Variance and Spread: Why a Mean Alone Is Dangerous
 
-**Date:** Thursday, March 4, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Machine lesson (45 minutes)
 **LO:** 5.8 — compute variance and standard deviation; explain why two

@@ -1,6 +1,5 @@
 # U5 L25 — Paper Check: The Number Is Finished. The Argument Is Not.
 
-**Date:** Tuesday, March 23, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (paper check, 50 minutes)
 **LO:** 5.9–5.10 — defend a completed model in prose; distinguish a number that

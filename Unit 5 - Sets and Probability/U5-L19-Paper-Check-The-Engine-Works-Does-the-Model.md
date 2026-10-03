@@ -1,6 +1,5 @@
 # U5 L19 — Paper Check: The Engine Works. Does the Model?
 
-**Date:** Monday, March 15, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (paper check, 50 minutes)
 **LO:** 5.9–5.10 — separate implementation correctness from model validity; audit

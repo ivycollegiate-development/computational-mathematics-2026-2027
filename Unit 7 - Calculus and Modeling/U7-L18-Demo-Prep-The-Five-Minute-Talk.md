@@ -1,6 +1,5 @@
 # U7 L18 — Demo Prep: The Five-Minute Talk
 
-**Date:** Wednesday, May 26, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Paper lesson (45 minutes)
 **LO:** 7.5 — deliver a five-minute technical talk with a live run

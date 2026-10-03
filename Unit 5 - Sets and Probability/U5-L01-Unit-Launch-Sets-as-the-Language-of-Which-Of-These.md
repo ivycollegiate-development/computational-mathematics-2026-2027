@@ -1,6 +1,5 @@
 # U5 L01 — Unit Launch: Sets as the Language of "Which of These"
 
-**Date:** Wednesday, February 17, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (unit launch, 50 minutes)
 **LO:** 5.1 — state membership, inclusion, and exclusion precisely, and explain why

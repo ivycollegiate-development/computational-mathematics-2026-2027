@@ -1,6 +1,5 @@
 # U4 L06 — Midterm Consolidation I: Units 1–4 on Paper, Cold (Full Period)
 
-**Date:** Jan 12 (Tue)
 **LO:** find your own gaps across Units 1–4 before the midterm, in writing, with no machine to hide behind.
 
 **No laptop today. Pencil, notebook, and your own brain.** This is the first

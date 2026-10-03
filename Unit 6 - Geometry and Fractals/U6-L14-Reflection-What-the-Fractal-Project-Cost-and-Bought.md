@@ -1,6 +1,5 @@
 # U6 L14 — Reflection: What the Fractal Project Cost and Bought
 
-**Date:** Thursday, April 29, 2027
 **Unit:** 6 — Geometry and Fractals
 **Type:** Paper lesson (45 minutes)
 **LO:** 6.1–6.7 — assess your own work and the unit's ideas in writing

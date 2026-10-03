@@ -50,7 +50,7 @@ Type both into your Codespace terminal:
 
 ### Journal (last 5 minutes)
 
-Create a file in your home directory called `journal-0908.md` (in VS Code: File → New File → save as `journal-0908.md`) and write 2-3 sentences:
+Create a file in your home directory called `journal-$(whoami).md` — put your userid in the filename so it is clearly yours (in VS Code: File → New File → save as `journal-<your-userid>.md`) — and write 2-3 sentences:
 - One situation where `//` is the *correct* choice, and one where `/` is.
 - Which one do you think is more dangerous if you pick the wrong one? Why?
 

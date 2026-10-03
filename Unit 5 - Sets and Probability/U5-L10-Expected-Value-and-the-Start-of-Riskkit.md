@@ -1,6 +1,5 @@
 # U5 L10 — Expected Value, and the Start of `riskkit.py`
 
-**Date:** Tuesday, March 2, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Machine lesson (45 minutes)
 **LO:** 5.7 — compute expected value from an outcome distribution; write

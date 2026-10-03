@@ -1,6 +1,5 @@
 # U4 L07 — Hashing for Integrity: Detecting Change (Full Lab)
 
-**Date:** Jan 13 (Wed)
 **LO:** use a hash to detect that data changed, build a verifiable manifest, and explain what a hash does and does not prove.
 
 Yesterday you found out what you do not know. Today we build the second half of

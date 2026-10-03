@@ -1,6 +1,5 @@
 # U4 L09 — Paper Check Under Exam Conditions: Last Class Before Midterms (Full Period)
 
-**Date:** Jan 15 (Fri) — **last class before midterms**
 **LO:** perform, under timed closed-book conditions, the full Units 1–4 content you will be examined on.
 
 This is not a practice quiz with a study guide. It is a **paper check under

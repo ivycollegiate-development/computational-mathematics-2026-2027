@@ -1,6 +1,5 @@
 # U7 L06 — Reflection: The Trapezoid Rule, Done by Hand
 
-**Date:** Monday, May 10, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Paper lesson (45 minutes)
 **LO:** 7.3 — derive the trapezoid rule from first principles and predict its

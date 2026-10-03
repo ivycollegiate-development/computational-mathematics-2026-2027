@@ -1,6 +1,5 @@
 # U5 L26 — The Manifest: A Result That Carries Its Own Provenance
 
-**Date:** Wednesday, March 24, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Machine lesson (45 minutes)
 **LO:** 5.10 — emit a self-describing result manifest; separate a result from

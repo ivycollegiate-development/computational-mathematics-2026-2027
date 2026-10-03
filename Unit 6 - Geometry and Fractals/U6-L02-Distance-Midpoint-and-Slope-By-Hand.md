@@ -1,6 +1,5 @@
 # U6 L02 — Distance, Midpoint, and Slope, By Hand
 
-**Date:** Tuesday, April 13, 2027
 **Unit:** 6 — Geometry and Fractals
 **Type:** Paper lesson (45 minutes)
 **LO:** 6.2 — compute distance, midpoint, and slope from first principles, and

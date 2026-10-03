@@ -1,6 +1,5 @@
 # U5 L22 — Paper Check: Full-Unit Rehearsal, Part Two
 
-**Date:** Thursday, March 18, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (paper check, 50 minutes)
 **LO:** 5.9–5.10 — timed rehearsal of the modelling and defence sections of the

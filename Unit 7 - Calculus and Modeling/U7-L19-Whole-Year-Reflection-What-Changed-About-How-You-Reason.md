@@ -1,6 +1,5 @@
 # U7 L19 — Whole-Year Reflection: What Changed About How You Reason
 
-**Date:** Thursday, May 27, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Paper lesson (45 minutes)
 **LO:** course-wide — identify durable reasoning habits gained across Units 0–7

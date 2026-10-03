@@ -1,6 +1,5 @@
 # U5 L13 — Paper Check L11–L12: The Mean Is Not a Risk Description
 
-**Date:** Friday, March 5, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (paper check, 50 minutes)
 **LO:** 5.7–5.8 — compute and interpret EV, variance, and standard deviation;

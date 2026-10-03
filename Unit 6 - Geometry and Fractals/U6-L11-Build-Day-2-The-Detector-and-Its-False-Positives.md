@@ -1,6 +1,5 @@
 # U6 L11 — Build Day 2: The Detector, and Its False Positives
 
-**Date:** Monday, April 26, 2027
 **Unit:** 6 — Geometry and Fractals
 **Type:** Machine lesson (45 minutes)
 **LO:** 6.7 — apply a measured threshold to classify inputs, and demonstrate

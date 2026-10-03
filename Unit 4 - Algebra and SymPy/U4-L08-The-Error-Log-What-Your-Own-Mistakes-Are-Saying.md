@@ -1,6 +1,5 @@
 # U4 L08 — The Error Log: What Your Own Mistakes Are Actually Saying (Paper)
 
-**Date:** Jan 14 (Thu)
 **LO:** classify your Unit 4 algebra errors by root cause and identify the single habit producing most of them.
 
 **No laptop today.** Pencils, your error log from L02 through L07, and your

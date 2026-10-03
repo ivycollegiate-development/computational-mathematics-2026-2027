@@ -1,6 +1,5 @@
 # U5 L04 — Inclusion–Exclusion, and the Counting Error It Prevents
 
-**Date:** Monday, February 22, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Machine lesson (45 minutes)
 **LO:** 5.4 — apply inclusion–exclusion to two and three sets; explain precisely

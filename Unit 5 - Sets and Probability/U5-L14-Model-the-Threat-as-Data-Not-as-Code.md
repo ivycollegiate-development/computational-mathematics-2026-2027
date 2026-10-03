@@ -1,6 +1,5 @@
 # U5 L14 — Model the Threat as Data, Not as Code
 
-**Date:** Monday, March 8, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Machine lesson (45 minutes)
 **LO:** 5.9 — represent a threat model as validated data; attach a provenance

@@ -1,6 +1,5 @@
 # U6 L04 — Paper Check: L01–L03
 
-**Date:** Thursday, April 15, 2027
 **Unit:** 6 — Geometry and Fractals
 **Type:** Paper lesson (45 minutes)
 **LO:** 6.1, 6.2, 6.3 — verify hand computation against code output, and keep an

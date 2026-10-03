@@ -1,6 +1,5 @@
 # U5 L11 — Paper Check L06–L10
 
-**Date:** Wednesday, March 3, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (paper check, 50 minutes)
 **LO:** 5.5–5.7 — compute conditional probabilities, posteriors, and expected

@@ -1,6 +1,5 @@
 # U5 L07 — Bayes by Hand, No Code: The Hard One
 
-**Date:** Thursday, February 25, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (50 minutes)
 **LO:** 5.6 — derive Bayes' theorem from a tree or a table; compute a posterior

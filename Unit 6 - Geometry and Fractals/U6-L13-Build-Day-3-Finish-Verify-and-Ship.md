@@ -1,6 +1,5 @@
 # U6 L13 — Build Day 3: Finish, Verify, and Ship
 
-**Date:** Wednesday, April 28, 2027
 **Unit:** 6 — Geometry and Fractals
 **Type:** Machine lesson (45 minutes)
 **LO:** 6.6, 6.7 — finalise, verify reproducibility, and prepare a five-minute

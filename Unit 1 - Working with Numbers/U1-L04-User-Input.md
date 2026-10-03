@@ -96,14 +96,14 @@ Name your journal uniquely with your userid — `$(whoami)` puts your
 userid in the filename automatically:
 
 ```bash
-touch journal-0916-$(whoami).md
+touch journal-$(whoami).md
 ```
 
-So `ilin27_student` gets `journal-0916-ilin27_student.md`. Answer in 2-3 sentences:
+So `ilin27_student` gets `journal-ilin27_student.md`. Answer in 2-3 sentences:
 - Why does `input()` hand you a string instead of a number?
 - What did `banana` do to the age calculator, and why?
 
-Also create `repl-notes-0916-$(whoami).md` (same trick) and paste in your PART 2
+Also create `repl-notes-$(whoami).md` (same trick) and paste in your PART 2
 guesses (right or wrong — the guesses are the point) beside what really happened.
 
 ## PART 6 — FIRST PUSH (last 10 min — rehearsal for the graded U1 L08 lab)
@@ -115,9 +115,9 @@ cd ~
 git init compmath-u1-push-test
 cd compmath-u1-push-test
 git remote add origin https://github.com/ivycollegiate-development/compmath-u1-calculator-lab-$(whoami)_student.git
-cp ~/journal-0916-*.md ~/repl-notes-0916-*.md .
-git add journal-0916-*.md repl-notes-0916-*.md
-git commit -m "Day 09 journal and REPL notes"
+cp ~/journal-*.md ~/repl-notes-*.md .
+git add journal-*.md repl-notes-*.md
+git commit -m "Journal and REPL notes"
 git push -u origin main
 ```
 

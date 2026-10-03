@@ -1,6 +1,5 @@
 # U2 L15 — Project Launch + Fall Break Prep (Half Day)
 
-**Date:** Oct 30 (Fri) — **HALF DAY, dismissal 12:30**
 **LO:** launch the Unit 2 project and set up a clean break so the Nov 9–11 build days are productive.
 
 This is a half day, so the launch is deliberately shorter than a normal period and
@@ -43,7 +42,7 @@ ls data/
 - **Open it and read the header row.** Know your column names before the break —
   this is the single thing that makes Nov 9 fast.
 
-## PART 3 — 🍂 FALL BREAK ASSIGNMENT (launched now, due Sun Nov 8, 2026, 11:59 PM — the last day of Fall Break; classes resume Mon Nov 9)
+## PART 3 — 🍂 FALL BREAK ASSIGNMENT (due 11:59 PM on the last day of Fall Break)
 
 **No code over the break. No repo work. This is paper.**
 

@@ -1,6 +1,5 @@
 # U5 L08 — Bayes in Code: The Base-Rate Trap, Demonstrated
 
-**Date:** Friday, February 26, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Machine lesson (45 minutes)
 **LO:** 5.6 — implement Bayes' theorem exactly; sweep the false-positive rate and

@@ -1,6 +1,5 @@
 # U5 L28 — Confounding: When the Naive Association Lies
 
-**Date:** Friday, March 26, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (50 minutes)
 **LO:** 5.5, 5.9 — compute a stratified conditional probability; quantify the

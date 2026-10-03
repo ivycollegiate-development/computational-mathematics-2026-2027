@@ -1,6 +1,5 @@
 # U3 L24 — Winter Break Launch: Field Notes (Full Day)
 
-**Date:** Dec 17 (Thu) — last day before Winter Break
 **LO:** close Unit 3 on paper, and set up a break task that works on a plane.
 
 Today you finish the `statslib` lab from L23. Then we do the last thing in the
@@ -25,7 +24,7 @@ Before anything else:
 the file with a comment saying what you think is wrong. That is worth more on
 Jan 4 than a green run you got by removing the evidence.
 
-## PART 2 — ❄️ WINTER BREAK ASSIGNMENT (launched Thu Dec 17, due Sun Jan 3, 2027, 11:59 PM — the last day of Winter Break; classes resume Mon Jan 4)
+## PART 2 — ❄️ WINTER BREAK ASSIGNMENT (due 11:59 PM on the last day of Winter Break)
 
 **No code over the break. No repo work. This is paper.**
 

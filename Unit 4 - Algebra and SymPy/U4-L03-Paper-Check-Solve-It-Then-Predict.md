@@ -1,6 +1,5 @@
 # U4 L03 — Paper Check: Solve It, Then Predict (No Laptop)
 
-**Date:** Jan 7 (Thu)
 **LO:** hand-solve linear and quadratic equations, and predict the machine's answer before checking it.
 
 **No laptop today.** Pencil, notebook, and the `symkit.py` you built yesterday

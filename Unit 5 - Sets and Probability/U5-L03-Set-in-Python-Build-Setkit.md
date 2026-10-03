@@ -1,6 +1,5 @@
 # U5 L03 — `set` in Python: Build `setkit.py`, Then Check the Paper
 
-**Date:** Friday, February 19, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Machine lesson (45 minutes)
 **LO:** 5.3 — use Python's `set` type for the five operations; build `setkit.py`

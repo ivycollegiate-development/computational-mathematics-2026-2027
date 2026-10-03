@@ -131,8 +131,8 @@ Hint for line 5: `[0.1] * 10` makes a list of ten 0.1s; `sum(...)` adds them up.
 ## Part 6: Journal (last 5 minutes)
 
 Leave the REPL: type **exit()** and press Enter. Then create a journal file using VS Code: in the file explorer (left sidebar), make sure you're in your home directory, click the **New File** icon, name it:
-**journal-0910.md**
-Or from the terminal: **nano journal-0910.md** (type your entry, `Ctrl+O` Enter to save, `Ctrl+X` to exit).
+**journal-$(whoami).md**
+Or from the terminal: **nano journal-$(whoami).md** (type your entry, `Ctrl+O` Enter to save, `Ctrl+X` to exit).
 
 Write 2–3 sentences answering:
 - In your own words: why can't a computer store 0.1 exactly using floats?

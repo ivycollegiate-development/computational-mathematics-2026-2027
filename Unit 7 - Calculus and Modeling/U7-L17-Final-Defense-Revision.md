@@ -1,6 +1,5 @@
 # U7 L17 — Final Defense Revision
 
-**Date:** Tuesday, May 25, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Paper lesson (45 minutes)
 **LO:** 7.5 — rehearse and tighten a five-minute technical defense

@@ -1,6 +1,5 @@
 # U5 L24 — Close the Loop: Watch the Old Bug Bite Your Own Model
 
-**Date:** Monday, March 22, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Machine lesson (45 minutes)
 **LO:** 5.4, 5.9 — demonstrate the L20 over-count in the project's own threat

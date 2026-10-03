@@ -1,6 +1,5 @@
 # U7 L12 — Paper Check: L09–L11
 
-**Date:** Tuesday, May 18, 2027
 **Unit:** 7 — Calculus and Modeling
 **Type:** Paper lesson (45 minutes)
 **LO:** 7.5 — defend a detrending method, a scale estimator, and a threshold,

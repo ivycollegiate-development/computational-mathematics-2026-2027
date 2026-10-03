@@ -1,6 +1,5 @@
 # U5 L06 — Conditional Probability from a Contingency Table
 
-**Date:** Wednesday, February 24, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Machine lesson (45 minutes)
 **LO:** 5.5 — read and build a contingency table; compute conditional

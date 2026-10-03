@@ -1,6 +1,5 @@
 # U4 L04 — Solving Systems and Reading the Whole Answer
 
-**Date:** Jan 8 (Fri)
 **LO:** solve systems with SymPy, and read the three possible answer shapes — point, nothing, or family.
 
 Yesterday you hand-solved and predicted. Today you find out how often you were

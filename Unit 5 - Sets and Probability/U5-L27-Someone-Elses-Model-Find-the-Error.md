@@ -1,6 +1,5 @@
 # U5 L27 — Someone Else's Model: Find the Error in a Plausible Report
 
-**Date:** Thursday, March 25, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (50 minutes)
 **LO:** 5.4, 5.9 — critique an external risk model; locate the error that

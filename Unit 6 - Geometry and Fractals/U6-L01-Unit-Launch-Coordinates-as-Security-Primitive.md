@@ -1,6 +1,5 @@
 # U6 L01 — Unit Launch: Coordinates as a Security Primitive
 
-**Date:** Monday, April 12, 2027
 **Unit:** 6 — Geometry and Fractals
 **Type:** Paper lesson (45 minutes)
 **LO:** 6.1 — explain why a position on a plane is a *fact about a system*, and

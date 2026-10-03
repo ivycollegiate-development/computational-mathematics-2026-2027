@@ -1,6 +1,5 @@
 # U4 L02 — SymPy First Contact: Symbols, Expand, Factor, Simplify
 
-**Date:** Jan 6 (Wed)
 **LO:** declare symbols, run the four algebraic verbs, and use round-tripping as a self-check.
 
 Yesterday's idea, today in the machine. We do not do anything you could not do

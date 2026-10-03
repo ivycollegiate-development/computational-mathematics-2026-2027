@@ -1,6 +1,5 @@
 # U5 L31 — Unit Close: Final Assessment and Demonstration
 
-**Date:** Wednesday, March 31, 2027
 **Unit:** 5 — Sets and Probability
 **Type:** Paper lesson (final assessment, 50 minutes)
 **LO:** 5.1–5.10 — final assessment; demonstrate the artefact to a reader who
