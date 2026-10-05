@@ -1,3 +1,20 @@
+# RETIRED — do not print or assign
+
+> **Superseded by [`Unit-1-Assessment.md`](Unit-1-Assessment.md).**
+> Kept for reference only. This was written for an earlier plan in which U1-L16
+> was the paper practice day. L16 is now the crash course — a repo session, not
+> a paper day — and the real assessment lives in `Assessments/`.
+>
+> Known problems if you are reviving any of this: this paper claims the real
+> assessment is "tomorrow" (it is now two sessions later), and its closing line
+> sends students to "the U1 L15 review session," which has already happened.
+>
+> Two things here are better than the current assessment and were preserved:
+> the self-mark confidence grid, and the debrief's "what to listen for" notes.
+> See the retired answer key.
+
+---
+
 # U1 L16 — Unit 1 Practice Exam (Paper Day)
 
 Names: ___________________________  Date: ____

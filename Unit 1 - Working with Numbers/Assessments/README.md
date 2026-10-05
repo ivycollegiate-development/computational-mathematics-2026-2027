@@ -41,3 +41,27 @@ Unit 1:
 
 The assessment is administered during the U2-L01 lesson period, which is why
 that lesson lives in the Unit 2 folder. It assesses Unit 1 content, not Unit 2.
+
+## Retired
+
+[`Retired-U1-L16-Practice-Exam.md`](Retired-U1-L16-Practice-Exam.md) and its key
+are from an earlier plan in which L16 was the paper practice day. Do not print or
+assign them. Their good parts were carried forward:
+
+- The float-gap arithmetic behind the `10**15` ceiling (old key Q7) is now the
+  worked justification under 13c in the current key, with the computed gaps at
+  `10**15` / `10**16` / `10**17`.
+- The 1991 Patriot clock (old key Q7) is now a teacher-background note. Silent
+  precision loss is a strong discussion hook; trivia does not belong on a graded
+  paper.
+- The debrief's "what to listen for" notes are now in
+  `Worksheets/U1-L14-Answer-Key.md`.
+- The self-mark "got it / not yet" confidence grid is on the L14 worksheet and
+  the practice exam; the graded assessment deliberately has neither.
+
+## A note on keys
+
+This repo is **public**. Every `*-Answer-Key*.md` file is gitignored on purpose
+— a student can clone this and read the key. Keys live in the school Google
+Drive, not here. If you add a key to this folder it will not be committed, which
+is correct; copy it to Drive instead.
