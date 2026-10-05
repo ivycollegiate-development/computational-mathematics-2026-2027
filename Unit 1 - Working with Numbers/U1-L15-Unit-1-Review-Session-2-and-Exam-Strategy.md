@@ -65,9 +65,15 @@ lost points on through carelessness alone — forgetting a `try`, writing
 If you lost points to carelessness, that is the most useful finding of the
 week. It is also the easiest to fix: slow down by ten seconds per question.
 
-## TURN IN — NOTHING
+## TURN IN — THE WORKSHEET
 
-No submission today. Your notes are the deliverable.
+☐  Part 1 red-list round two filled in before the stress test.
+
+☐  Part 3 done closed-notes, 20 minutes, no terminal.
+
+☐  Part 4 marked honestly, with a careless-error count.
+
+Turn in the completed worksheet today — it is what you study from tonight.
 
 **Tomorrow's coversheet** has one question that matters more than it looks:
 *one thing you hope is NOT on the test.* Be honest. It tells me where to spend
