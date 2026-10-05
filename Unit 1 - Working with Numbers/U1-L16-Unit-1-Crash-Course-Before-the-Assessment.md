@@ -3,8 +3,13 @@
 **LO:** convert yesterday's paper stress test into working code, so nothing on
 the assessment tomorrow is a surprise you could have fixed today.
 
+> **Sequence note.** The Unit 1 assessment paper and its answer key are in
+> `Assessments/` — see [`Assessments/README.md`](Assessments/README.md) for the
+> full order of L14 → L15 → L16 → assessment → L17. This lesson is the last
+> prep session before the paper.
+
 Tomorrow is the Unit 1 assessment. You already did a closed-notes run
-yesterday and you have an honest red list from Monday. Today is not a review
+yesterday and you have an honest red list from earlier this week. Today is not a review
 lecture — it is the last chance to **make the broken thing work** before you
 are asked to explain it on paper.
 
