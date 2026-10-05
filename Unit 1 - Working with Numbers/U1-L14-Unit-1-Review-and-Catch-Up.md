@@ -1,8 +1,8 @@
-# U1 L14 — Unit 1 Review & Catch-Up (Oct 5, Mon — TECH DAY)
+# U1 L14 — Unit 1 Review & Catch-Up (TECH DAY)
 
-**LO:** close the gaps in Unit 1 before the U1 L16 assessment, and rehearse the problem types it will ask.
+**LO:** close the gaps in Unit 1 before the Unit 1 Assessment, and rehearse the problem types it will ask.
 
-Thursday is the Unit 1 assessment. Today is the working session that decides
+The Unit 1 assessment is next. Today is the working session that decides
 how ready you are for it — not a cram session, but a **gap-finding** one. Bring
 your calculator lab repo open.
 

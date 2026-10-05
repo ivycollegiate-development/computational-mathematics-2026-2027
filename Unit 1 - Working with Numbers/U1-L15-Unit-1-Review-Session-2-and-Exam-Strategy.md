@@ -1,4 +1,4 @@
-# U1 L15 — Unit 1 Review Session 2 & Exam Strategy (Oct 6, Tue — TECH DAY)
+# U1 L15 — Unit 1 Review Session 2 & Exam Strategy (TECH DAY)
 
 **LO:** consolidate Unit 1 before tomorrow's assessment, and learn how to attack a paper exam you have only seen once.
 

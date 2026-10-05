@@ -20,74 +20,22 @@ Then close your notes. Deep breath. You have seen every problem type below.
 
 ## PART 2 — WRITTEN ASSESSMENT (35 min, no computers)
 
-### Section A — Short Response (10 questions, 2 points each)
+The exam is a standalone paper:
+[`Unit 1 - Working with Numbers/Assessments/Unit-1-Assessment.md`](https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%201%20-%20Working%20with%20Numbers/Assessments/Unit-1-Assessment.md)
 
-Answer in complete sentences where it asks *why*; a word or value is fine where
-it asks *what*.
+**Print it double-sided before class.** 50 points, 35 minutes, pen and paper.
+Structure:
 
-1. What type does Python give you when you write `7 / 2`, and what type for
-   `7 // 2`? Give both answers and both types.
-2. Why does `input()` need a wrapper like `int()` or `float()` around it when
-   we want a number? What type does `input()` always return?
-3. A user types `banana` into `age = int(input("Age: "))`. Name the exact
-   exception Python raises, and write the one line of `try/except` that would
-   catch it.
-4. What is the difference between a program that **crashes** and a program
-   that is **quietly wrong**? Which one is more dangerous, and why?
-5. Write the truth table (just True/False) for each of these, assuming
-   `x = 0`:
-   - `x == 0`
-   - `x >= 0`
-   - `x > 0 or x < 0`
-6. Why is `Fraction(1, 3)` exact but `1 / 3` is not? What kind of number does
-   Python use for `/`?
-7. In your calculator lab, what did the `get_number()` function protect
-   against, and what did it do when validation failed?
-8. Order these from smallest to largest step size (precision):
-   `int`, `float`, `Fraction`. One sentence on why.
-9. What does `%` (modulo) return for `17 % 5`, and name one real use for
-   modulo we discussed in class.
-10. The security lens: give one example from Unit 1 of "trusting the user"
-    going wrong, and the one rule you now apply to every input.
+| Section | Points | Covers |
+|---|---|---|
+| A — Short Response | 20 | 10 questions: `/` vs `//`, `input()` conversion, `ValueError`, quiet vs crash, truth table, `Fraction` vs `float`, modulo, precision order, `get_number()`, security lens |
+| B — Code Reading | 10 | Problem 11 (the price loop), Problem 12 (the broken `f_to_c`) |
+| C — Boundaries | 10 | −273.15 °C / 0 K guard, the `10**15` ceiling and why it exists |
+| D — Write Code | 10 | `get_int(prompt)` — validate, re-ask, refuse out of range |
 
-### Section B — Code Reading (2 problems, 5 points each)
-
-*You do not run this code. You read it like a debugger would.*
-
-**Problem 11.** Read this program:
-
-```python
-total = 0
-for price in ["3.50", "4", "1.25", "oops"]:
-    total = total + float(price)
-print("Total:", total)
-```
-
-a) What happens on the third loop iteration? Be precise about which value
-   is being converted.
-b) What happens on the fourth iteration? Name the exception.
-c) Rewrite ONLY the loop body so a bad price prints a warning and the
-   program keeps going instead of crashing. (Two or three lines is enough.)
-
-**Problem 12.** Read this converter:
-
-```python
-def f_to_c(f):
-    return f * 5 / 9 - 32
-
-temp = input("Enter °F: ")
-print(f_to_c(float(temp)))
-```
-
-a) There is one bug that makes this *quietly wrong* — find it and state what
-   the correct line is. (Hint: test it mentally with 212 °F.)
-b) The program still crashes on `banana`. Write the full `try/except` version
-   of the last two lines.
-c) One sentence: why is bug (a) worse than bug (b)?
-
-When you finish the written section, turn your paper face down and wait
-quietly. If you finish early, review your answers — there is no extra credit
-for finishing fast.
+Do not deviate from the printed paper. The coversheet on the front carries your
+name, your confident item, and the "one thing I hope is NOT on the test" note
+from Part 1.
 
 ## PART 3 — HAND BACK THE COMPUTERS: GRADE RELEASE WALKTHROUGH (10 min)
 

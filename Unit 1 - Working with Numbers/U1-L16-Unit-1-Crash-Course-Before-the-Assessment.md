@@ -1,4 +1,4 @@
-# U1 L16 — Unit 1 Crash Course: Last Call Before the Assessment (Oct 7, Wed — TECH DAY)
+# U1 L16 — Unit 1 Crash Course: Last Call Before the Assessment (TECH DAY)
 
 **LO:** convert yesterday's paper stress test into working code, so nothing on
 the assessment tomorrow is a surprise you could have fixed today.

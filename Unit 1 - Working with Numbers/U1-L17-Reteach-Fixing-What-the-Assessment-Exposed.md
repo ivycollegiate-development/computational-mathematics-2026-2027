@@ -1,4 +1,4 @@
-# U1 L17 — Reteach: Fixing What the Assessment Exposed (Oct 9, Fri — TECH DAY)
+# U1 L17 — Reteach: Fixing What the Assessment Exposed (TECH DAY)
 
 **LO:** turn yesterday's graded assessment into working code, so the gap you
 were graded on stops being a gap.
@@ -90,7 +90,7 @@ while True:
 ## PART 3 — PROVE IT (10 min)
 
 Push the fix. Then, in one sentence in your commit message, name the concept
-you were missing on Wednesday and what you did about it.
+you were missing on the assessment and what you did about it.
 
 That sentence is the deliverable. The code is the proof.
 
@@ -105,6 +105,6 @@ Submit the screenshot to this assignment on Google Classroom.
 
 Keep the terminal open — spot-checks.
 
-**Next Monday we start Unit 2** — visualizing data. The habits you just
+**Next lesson we start Unit 2** — visualizing data. The habits you just
 repaired (validate input, guard the boundary, distrust a quiet answer) are the
 same habits that make a chart honest.
