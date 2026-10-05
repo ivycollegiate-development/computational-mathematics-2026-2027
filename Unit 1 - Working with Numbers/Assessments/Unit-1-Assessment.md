@@ -7,7 +7,7 @@
 Print double-sided. Do not write your name inside the body — write it on the
 coversheet only.
 
-Total: 40 points.
+Total: 50 points.
 
 ---
 
