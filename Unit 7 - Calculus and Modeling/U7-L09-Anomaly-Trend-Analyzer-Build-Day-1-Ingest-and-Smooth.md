@@ -146,7 +146,7 @@ trend recovered: +0.3058/day   (I built in +0.35)
 ```
 
 - ☐  Seven offsets, one per weekday. The largest is day 2 at `+11.645`. **Name
-     the day** (day 0 = Monday): ______
+     the day** (day 0): ______
 - ☐  The offsets are a clean sinusoid — high midweek, low at the weekend. **Does
      that make sense for request counts?** ______
 - ☐  The recovered trend is `+0.3058/day`; I built in `+0.35`. So the recovery
@@ -190,9 +190,9 @@ The day-of-week offsets in Part 4 are exactly the shape you see in local
 network and service data, and the weekend trough in particular is strong enough
 to dominate a naive baseline. That matters operationally because **the quiet
 weekend is when the threshold should be tightest and most people set it
-uniformly**. A detector that treats a Saturday like a Wednesday is either blind
-on weekdays or drowning in weekend false positives, depending on which day you
-tuned it on. The correct move is a per-day-of-week threshold, and the offsets
+uniformly**. A detector that treats a weekend reading like a weekday reading is either
+blind on weekdays or drowning in weekend false positives, depending on which
+instance you tuned it on. The correct move is a per-day-of-week threshold, and the offsets
 you printed today are the first half of building one.
 
 The other locally relevant piece: holidays and long weekends break the
@@ -204,5 +204,5 @@ version subtracts known holiday dates explicitly, and the residuals get checked
 against the calendar before anything else. That check is the same one from L08's
 Taiwan context, and it is still the highest-value five minutes in the analysis.
 
-**Next:** L10, Fri May 14 — paper. What actually makes an anomaly an anomaly,
+**Next:** L10 — paper. What actually makes an anomaly an anomaly,
 before we pick a number.

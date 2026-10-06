@@ -35,7 +35,7 @@ Five minutes each, in order. Laptop, projector, live code.
 
 ## PART 2 — THE QUESTION ROUND (10 min)
 
-I will ask two questions per student from the four prepared on Wednesday. The
+I will ask two questions per student from the four prepared in U6 L13. The
 ones that trip people up:
 
 **"Your error was 0.000000. If the method is that good, why is it wrong on four
@@ -69,9 +69,9 @@ else — and proving that is the actual answer.
 |---|---|---|
 | Paper checks L02, L04, L08, L12, L14 | as scheduled | 20% |
 | Prediction audits (honesty scored) | as scheduled | 10% |
-| Geometry Error Log, complete | Fri Apr 30 | 10% |
-| Fractal Detection Models project | Fri Apr 23 | 45% |
-| Demo | Fri Apr 30 | 15% |
+| Geometry Error Log, complete | Apr 30 | 10% |
+| Fractal Detection Models project | Apr 23 | 45% |
+| Demo | Apr 30 | 15% |
 
 **On the project and the demo:** the marks are not for a number that looks
 right. They are for a number that is right, a stated limit that is the real
@@ -82,7 +82,7 @@ failures. I have graded enough of both to know the difference.
 
 ## WHERE UNIT 6 GOES NEXT
 
-Unit 7 opens Monday, and it is a different subject wearing the same clothes.
+Unit 7 opens in U7 L01, and it is a different subject wearing the same clothes.
 
 Everything in Unit 6 was about **measuring a shape that already exists**. Unit 7
 is about **fitting a curve to data that already exists, and then predicting what
@@ -112,5 +112,5 @@ wild produces confident nonsense.** Say that sentence out loud at your demo if
 there is room. It is the most practical thing in the unit, and it sets up
 the U7 L01 lesson better than any transition I could write.
 
-Unit 7 begins Monday, May 3. Bring your laptop, your error log, and your
+Unit 7 begins May 3 in U7 L01. Bring your laptop, your error log, and your
 project defense. We start with derivatives you cannot take by hand, on purpose.

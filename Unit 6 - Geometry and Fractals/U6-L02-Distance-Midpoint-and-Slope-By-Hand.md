@@ -8,7 +8,7 @@ predict the *form* the code will return for each
 ---
 
 **No laptop today.** This is the one day in the unit where doing it by hand is
-not nostalgia. Wednesday we write `geomkit.py`, and I want to see how many of
+not nostalgia. In U6 L03 we write `geomkit.py`, and I want to see how many of
 you can predict its output before you run it.
 
 ## PART 1 — DISTANCE, THREE TIMES (12 min)
@@ -91,6 +91,6 @@ is what tells an engineer whether a stretch will erode in a typhoon. Get the
 coordinate frame wrong on those and you get the wrong answer about whether a
 channel floods.
 
-**Next:** L03, Wed Apr 14 — laptop. We build `geomkit.py` and check every
+**Next:** L03, Apr 14 — laptop. We build `geomkit.py` and check every
 prediction on the table above, one at a time, and I will call on people who
 predicted wrong.

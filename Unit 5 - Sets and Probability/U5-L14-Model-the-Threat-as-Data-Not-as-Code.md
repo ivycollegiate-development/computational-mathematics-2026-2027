@@ -13,7 +13,7 @@ field to every parameter and enforce it in code
 without one the arithmetic is a calculator.
 
 Today you enter three threats. The assignment is not the numbers — you will
-change the numbers on Thursday and the model should not care. The assignment is
+change the numbers in a later lesson and the model should not care. The assignment is
 the **shape of the record**: every threat carries a likelihood, an impact, and
 a string saying where that likelihood came from. Code that refuses to load a
 threat without that string is code that cannot produce an undefended number.

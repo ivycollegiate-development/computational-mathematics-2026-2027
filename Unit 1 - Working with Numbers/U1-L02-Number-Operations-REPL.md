@@ -1,6 +1,6 @@
 # U1 L02 — Number Operations in the REPL
 
-**Unit 1 · Wednesday (Code-along day)**
+**Unit 1 · Code-along day**
 
 Everything today happens in your VS Code workspace. No paper worksheet.
 

@@ -106,7 +106,7 @@ touch journal-$(whoami).md
 - Which input from PART 2 is the most dangerous, and why?
 - What is the one rule you will apply to every program you write from here on?
 
-## PART 6 — PUSH (last 10 min — same loop as Wednesday, now routine)
+## PART 6 — PUSH (last 10 min — same loop as U1 L04, now routine)
 
 Your journal is already inside your repo, so push it. Type each command exactly:
 
@@ -119,7 +119,7 @@ git push
 
 - **Asked for a username/password?** Use your GitHub username plus your Personal
   Access Token (PAT) — never your GitHub password. Raise your hand if yours is lost.
-- **Success?** You should see a push confirmation line. Same loop as Wednesday:
+- **Success?** You should see a push confirmation line. Same loop as U1 L04:
   edit → add → commit → push.
 
 ## TURN IN — SCREENSHOT (due 11:59 PM tonight)

@@ -172,7 +172,7 @@ version of the exercise.
 
 ## 📋 PREVIEW OF TOMORROW
 
-**Next:** L04, Fri Jan 8 — back to the machine, and now `solve` gets serious:
+**Next:** L04 — back to the machine, and now `solve` gets serious:
 systems with two unknowns, the `dict` form for multiple symbols, the conditions
 under which `solve` returns an empty list, and turning that into a function you
 can call with anything.

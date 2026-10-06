@@ -30,7 +30,7 @@ Then, on paper, list every topic from Unit 1 and mark yourself honestly:
 | Finding factors and multiples | | | |
 | Writing your own tests | | | |
 
-**Everything Red is your study list for Wednesday.** Green means move on. Be
+**Everything Red is your study list for U1 L16.** Green means move on. Be
 honest — this list is for you, not for me.
 
 ## PART 1 — RED-TOPIC CLINIC (25 min)

@@ -80,7 +80,7 @@ wrong on the unit test, in order, before the end of the month" is.
 
 ## WHAT HAPPENS AFTER TODAY
 
-- **Mon May 31 – Thu Jun 3: finals**, four days, cumulative across Units 0–7.
+- **May 31 – Jun 3: finals**, four days, cumulative across Units 0–7.
 - Your project files and this error log are the artifact you keep. **The error
   log is the most useful thing in your folder** — it is a record of how your
   reasoning actually changed, and it is worth more to a reader than any single

@@ -70,7 +70,7 @@ the board, using your actual wrong answers, before the project starts.
 
 ## PART 5 — LOOK AHEAD: THE PROJECT (10 min, in pairs)
 
-Wednesday is histograms; Friday the project launches — three visualizations
+U2 L13 covers histograms; the project launches in U2 L15 — three visualizations
 built from a real dataset, with cleaning you do yourself. In your notes:
 
 - Your project chart must survive the question "where did this data come
@@ -78,7 +78,7 @@ built from a real dataset, with cleaning you do yourself. In your notes:
   student-performance dataset, including how many rows it had before and
   after cleaning.
 - Predict: which is more dangerous to a chart — a blank cell or an impossible
-  value? Defend your choice; we compare answers Wednesday.
+  value? Defend your choice; we compare answers in U2 L13.
 
 ## TURN IN — PAPER (collected at the end of class)
 

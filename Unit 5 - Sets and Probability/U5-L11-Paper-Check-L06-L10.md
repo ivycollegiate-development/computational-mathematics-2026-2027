@@ -121,7 +121,7 @@ from:
 - ☐  **The finding, in one sentence:** in a risk model, the things that look
       most like measurements are actually: ______
 - ☐  One thing you could do to turn one of those assumptions into a measurement
-      by next Friday: ______
+      by U5 L12: ______
 
 ## TURN IN — Paper Check L06–L10
 
@@ -136,7 +136,7 @@ misses one, and correctly identifies every assumption gets the higher mark.
 
 ## 📋 PREVIEW OF TOMORROW
 
-**Next:** L12, Thu Mar 4 — back to the machine, and the day you find out that
+**Next:** L12, Mar 4 — back to the machine, and the day you find out that
 expected value is not enough. Four gambles, all with EV = 1,000, and they are
 not remotely the same bet. `riskkit.py` gets `variance` and a function that
 reports the shape, not just the mean.

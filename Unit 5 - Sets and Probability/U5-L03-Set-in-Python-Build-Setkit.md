@@ -235,7 +235,7 @@ and watch the paper disagree than see seven green ticks.
 ## 🇹🇼 TAIWAN CONTEXT
 
 `discard` versus `remove` is the difference between a log line and an outage.
-The Monday internet-exposed routers in Unit 4, and the many small businesses
+The internet-exposed routers in Unit 4, and the many small businesses
 that still run them, produce their worst incidents from code paths that assume
 input is well-formed: an asset id that no longer exists, a record deleted by a
 different team an hour ago, an entry the migration script did not write. A

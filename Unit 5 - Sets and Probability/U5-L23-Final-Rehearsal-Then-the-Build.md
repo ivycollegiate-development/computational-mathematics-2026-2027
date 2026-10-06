@@ -94,15 +94,15 @@ compmath-u5-risk-simulator/
 the README and run nothing. If they read it and cannot tell what you assumed and
 why, the code behind it does not help them.
 
-## 📋 PREVIEW OF MONDAY
+## 📋 PREVIEW OF U5 L24
 
-**Next:** L24, Mon Mar 22 — back to the machine, and the day we take the bug from
+**Next:** L24, Mar 22 — back to the machine, and the day we take the bug from
 L20 and *watch it happen in your own model*. You will run the naive aggregator
 and the fixed one side by side, confirm the gap is exactly the shared-exposure
-credit, and then commit the correct version. After Monday the double-count is
+credit, and then commit the correct version. After U5 L24 the double-count is
 closed.
 
-**Bring Monday:** the repository, the README, and any test you are unsure about.
+**Bring U5 L24:** the repository, the README, and any test you are unsure about.
 
 ## 🇹🇼 TAIWAN CONTEXT
 

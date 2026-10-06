@@ -85,11 +85,11 @@ model adds nothing." What is the strongest counter-argument? ______
    first attempt and write the honest version underneath. The gap is the lesson
    and I grade the revision.
 
-## 📋 PREVIEW OF FRIDAY
+## 📋 PREVIEW OF U5 L23
 
-**Next:** L23, Fri Mar 19 — **paper, one more time, and then we build.** The
+**Next:** L23, Mar 19 — **paper, one more time, and then we build.** The
 final rehearsal is a single scenario end to end, and then we spend the last
 hour of the week assembling `riskkit.py` into the artefact it is meant to be.
 Bring everything you have written in the last three days.
 
-**Bring Friday:** both rehearsal papers, your error log, and `riskkit.py`.
+**Bring U5 L23:** both rehearsal papers, your error log, and `riskkit.py`.

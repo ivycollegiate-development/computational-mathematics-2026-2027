@@ -5,9 +5,9 @@
 Today is a paper and discussion day — your only terminal work is the journal at
 the end. The U1 L11 Calculator v2 lab builds directly on what you decide today.
 
-## PART 1 — OPENING REVIEW: WHAT HAPPENED FRIDAY (10 min)
+## PART 1 — OPENING REVIEW: WHAT HAPPENED LAST LESSON (10 min)
 
-Last Friday (U1 L06) we learned `try/except`. Reconstruct it together before I
+In U1 L06 we learned `try/except`. Reconstruct it together before I
 show anything:
 
 - What does `try` do, and what does `except ValueError:` catch?

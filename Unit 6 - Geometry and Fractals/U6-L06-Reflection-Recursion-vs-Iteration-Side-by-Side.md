@@ -15,7 +15,7 @@ which one to ship — because that is the actual job.
 
 ## PART 1 — THE EVIDENCE ON THE TABLE (10 min)
 
-From Friday, copied from a real run:
+From U6 L05, copied from a real run:
 
 | algorithm | result at n=20 | work done |
 |---|---|---|
@@ -110,6 +110,6 @@ recursion is not. The recursive part is where you *discover* things; the
 iterative part is where you *decide* things. Keeping those two phases separate
 is what makes the decision step testable.
 
-**Next:** L07, Tue Apr 20 — laptop, and we build an actual fractal with the
+**Next:** L07, Apr 20 — laptop, and we build an actual fractal with the
 `deco` pattern. Everything so far has been preparation for recursion that
 earns its keep.

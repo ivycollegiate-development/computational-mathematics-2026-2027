@@ -7,7 +7,7 @@ difference, and symmetric difference by counting regions
 
 ---
 
-**No laptop today.** Pencil, ruler, notebook. Friday you will write code that
+**No laptop today.** Pencil, ruler, notebook. In U5 L03 you will write code that
 has to reproduce exactly what you count by hand today, so today's counts are
 the specification your code gets tested against. If the hand count is wrong,
 the code will be wrong in exactly the same way and the test will pass.
@@ -116,8 +116,8 @@ Fill in all eight regions, including the outside:
      What did that tell them? ______
 
 The last question is the one to keep. **A negative region is not an arithmetic
-mistake — it is your model telling you the story you told is impossible.** By
-Friday you will see the same thing in code: a model that produces a probability
+mistake — it is your model telling you the story you told is impossible.** In
+U5 L03 you will see the same thing in code: a model that produces a probability
 over 1 is not broken, it is confessing.
 
 ## PART 5 — PREDICT TOMORROW'S CODE (6 min)
@@ -144,14 +144,14 @@ print — the **value and the form**:
 1. One photo of the two-circle table (Part 1) and the operations table (Part 2)
 2. One photo of the three-circle eight-region table (Part 4), including the
    total row
-3. Your Part 5 prediction table, written before Friday
+3. Your Part 5 prediction table, written before U5 L03
 
 **No credit for a total that does not equal 120.** If your regions are wrong
 but your total is right, that is worse than being wrong and knowing it.
 
 ## 📋 PREVIEW OF TOMORROW
 
-**Next:** L03, Fri Feb 19 — back to the machine. You build `setkit.py`, and then
+**Next:** L03, Feb 19 — back to the machine. You build `setkit.py`, and then
 you run it against today's hand counts. The interesting moment is when the two
 disagree: one of you is wrong, and finding out which is the actual lesson.
 

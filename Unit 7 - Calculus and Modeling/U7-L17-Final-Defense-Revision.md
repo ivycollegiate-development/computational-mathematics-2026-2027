@@ -112,4 +112,4 @@ places where it applies. A percentage metric bounded above and below behaves
 differently again, and the honest answer is that the pipeline would need the
 metric's distribution checked before its threshold was trusted.
 
-**Next:** L18, Wed May 26 — paper. Demo prep: the five-minute talk, dry run.
+**Next:** L18 — paper. Demo prep: the five-minute talk, dry run.

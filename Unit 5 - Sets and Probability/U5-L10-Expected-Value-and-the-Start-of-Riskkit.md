@@ -73,7 +73,7 @@ and a guaranteed 50 has EV 50 — but a *coin flip for 100 against −100* has t
 same EV as a *guaranteed 0*, which is a different thing from the guaranteed 50
 you just computed. **EV is not a score of how good the deal is. It is a
 weighted average, and two distributions with the same average can be nothing
-alike.** Wednesday is about that in full.
+alike.** U5 L12 is about that in full.
 
 - ☐  Why is `7/2` a better answer than `3.5` in a program that only prints it?
       ______

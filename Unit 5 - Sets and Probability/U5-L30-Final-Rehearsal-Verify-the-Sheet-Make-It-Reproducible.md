@@ -197,7 +197,7 @@ third:
 
 ## 📋 PREVIEW OF TOMORROW
 
-**Next and last:** L31, Wed Mar 31 — **paper, 50 minutes, and we close the
+**Next and last:** L31, Mar 31 — **paper, 50 minutes, and we close the
 unit.** A final assessment, the two written artefacts returned with comments, and
 the demonstration. Bring the repository and be ready to run it in front of
 someone who has not seen it.

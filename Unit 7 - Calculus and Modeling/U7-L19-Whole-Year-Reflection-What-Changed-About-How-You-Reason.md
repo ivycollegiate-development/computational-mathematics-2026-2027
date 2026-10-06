@@ -123,4 +123,4 @@ careless, and the specific skill that prevents it is small: run the thing, read
 the actual output, and only then write it down. Nearly everything worth keeping
 from this year is downstream of that.
 
-**Next:** L20, Fri May 28 — **Demo. Unit 7 complete. Course complete.**
+**Next:** L20 — **Demo. Unit 7 complete. Course complete.**

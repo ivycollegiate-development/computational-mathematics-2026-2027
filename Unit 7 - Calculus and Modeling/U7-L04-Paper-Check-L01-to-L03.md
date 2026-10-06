@@ -15,7 +15,7 @@ From memory, then check against your own notes.
 
 1. Forward difference at `h = 1e-3` for `x²` at 2: ______
 2. True derivative there: ______
-3. The `h` that minimised the forward error on Wednesday: ______
+3. The `h` that minimised the forward error in L03: ______
 4. The error at that `h`: ______
 5. Central difference at `h = 1e-4`, error: ______
 6. Between `h = 1e-9`, `1e-10`, and `1e-11`, the forward answer was ______
@@ -83,7 +83,7 @@ unit.
 - ☐  Which of your Part 1 misses would have been caught by a unit of **paper**
      rather than by running the code? ______
 
-## PART 5 — PREDICT TUESDAY (bonus, 5 min)
+## PART 5 — PREDICT (bonus, 5 min)
 
 Next lesson is numerical integration. Predict, with no more than two sentences
 of reasoning each:
@@ -96,7 +96,7 @@ of reasoning each:
    be roughly ______ times as accurate as a rule using one. ______
 
 Answer 8 carefully — "4" is the expected answer and the reason is not obvious.
-Carry it to Tuesday.
+Carry it forward.
 
 ## 🇹🇼 TAIWAN CONTEXT
 
@@ -114,5 +114,5 @@ which then fails to fire on a real event. Both are the same mistake — choosing
 the number without looking at the other number — and both are avoidable by
 writing the two figures next to each other in the same sentence.
 
-**Next:** L05, Fri May 7 — laptop. `calckit.py` grows an integration half, and
+**Next:** L05 — laptop. `calckit.py` grows an integration half, and
 we find out whether Simpson's rule really is worth the extra function calls.

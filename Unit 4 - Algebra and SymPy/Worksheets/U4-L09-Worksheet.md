@@ -32,7 +32,7 @@ Last class before midterms. Closed book, no laptop, no notebook, no error log, n
 
 ## Section B — Visualizing Data (Unit 2), 6 marks
 
-5. [2] A chart shows failed logins spiking hugely on a Monday. Give **two** reasons the chart might be misleading that have nothing to do with the data.
+5. [2] A chart shows failed logins spiking hugely on a weekday. Give **two** reasons the chart might be misleading that have nothing to do with the data.
 
    _____________________________________________________________________
 
@@ -147,12 +147,12 @@ Do this alone, in writing, before you open your notebook. Mark each section `✓
 
 | day                      | the one thing I will fix     | how I will prove it to myself     |
 | ------------------------ | ---------------------------- | --------------------------------- |
-| Fri Jan 15 (tonight)     | ______________________       | ______________________            |
-| Sat Jan 16               | ______________________       | ______________________            |
-| Sun Jan 17               | ______________________       | ______________________            |
+| Jan 15 (tonight)     | ______________________       | ______________________            |
+| Jan 16               | ______________________       | ______________________            |
+| Jan 17               | ______________________       | ______________________            |
 
-5. Sunday night: I will be studying until __________ and then stopping.
+5. The night before the exams: I will be studying until __________ and then stopping.
 
-6. Monday morning, before the exam: I will ______________________
+6. The morning of the exams: I will ______________________
 
 **TURN IN** — one photo of the complete paper with your start and finish times, one photo of Sections E and F, and a paragraph answering Section E question 4, at the end of the period.

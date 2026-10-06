@@ -181,4 +181,4 @@ hand-typed figures cannot be verified at all — not because they are wrong, but
 because there is no way to tell. **Anything you cannot regenerate, you cannot
 defend**, and the cost of generating it is one afternoon.
 
-**Next:** L17, Tue May 25 — paper. Final defense revision.
+**Next:** L17 — paper. Final defense revision.

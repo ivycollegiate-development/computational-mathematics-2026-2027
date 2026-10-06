@@ -13,7 +13,7 @@ recursive function is invisible until you print from inside it.
 **The security lens, up front.** Recursive descent appears constantly in parsing
 — reading a log file, walking a directory tree, decoding nested JSON. A
 recursive parser with no depth limit is a denial-of-service bug waiting for a
-deeply nested input. You will build one on Monday. Today you learn what the
+deeply nested input. You will build one in U6 L06. Today you learn what the
 stack actually costs.
 
 ## PART 1 — THE SAME ALGORITHM, TWICE (12 min)
@@ -145,7 +145,7 @@ Look at the last two. The arguments barely changed and the call count went from
      recurses once per nesting level, fed a payload nested 2000 deep, what
      happens to the *server*, and what is the one-line fix? ______
 
-**Next:** L06, Mon Apr 19 — we put recursion and iteration side by side on
+**Next:** L06, Apr 19 — we put recursion and iteration side by side on
 paper, and you write the defense of when each one is right.
 
 ## TURN IN — Recursion and Iteration Checklist

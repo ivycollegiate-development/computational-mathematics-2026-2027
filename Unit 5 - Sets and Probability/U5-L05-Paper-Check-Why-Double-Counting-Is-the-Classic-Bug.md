@@ -11,7 +11,7 @@ inclusion–exclusion under exam conditions
 are allowed at the bottom. Everything in this check was taught in the last four
 days and can be done with a pencil.
 
-This is not a quiz for its own sake. By Friday you start computing conditional
+This is not a quiz for its own sake. In U5 L06 you start computing conditional
 probability, and conditional probability is where a sloppy set count turns into
 a wrong denominator — which is where a wrong denominator becomes a wrong risk
 decision.
@@ -100,7 +100,7 @@ information given.
 3. A security report says "the incident touched 3 servers, 12 accounts, and 4
    subnets — 19 affected entities." What is the name of the error, and what
    should the report have said instead? ______
-4. A store counts 200 transactions on Monday and 180 on Tuesday, and the manager
+4. A store counts 200 transactions on one day and 180 on the next, and the manager
    says "380 transactions over two days." Is that necessarily wrong? What would
    make it wrong? ______
 
@@ -127,9 +127,9 @@ Open your **Sets and Probability Error Log**, three columns: *what I wrote*,
 - ☐  The single error in this log you think I will see again on the test:
       ______
 
-## PART 5 — PREDICT FRIDAY (6 min)
+## PART 5 — PREDICT U5 L06 (6 min)
 
-Friday is conditional probability from a contingency table. Write, in one
+U5 L06 is conditional probability from a contingency table. Write, in one
 sentence each, in your own words and before seeing it:
 
 - ☐  What a **conditional** probability asks, and how it differs from an ordinary
@@ -142,7 +142,7 @@ sentence each, in your own words and before seeing it:
 
 1. One photo of Parts 1–3, all work shown, no blank tables
 2. One photo of the error log with causes tagged
-3. Your three Part 5 sentences, written before Friday
+3. Your three Part 5 sentences, written before U5 L06
 
 **Grade this on the reasoning, not the arithmetic.** A wrong number with a
 correct diagnosis of *why* it is wrong is worth more here than a right number
@@ -151,7 +151,7 @@ page; give it a real sentence.
 
 ## 📋 PREVIEW OF TOMORROW
 
-**Next:** L06, Wed Feb 24 — back to the machine, and the day conditional
+**Next:** L06, Feb 24 — back to the machine, and the day conditional
 probability arrives. You will build a contingency table, and the whole lesson
 turns on one idea: **the conditional changes the denominator and nothing else.**
 

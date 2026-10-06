@@ -154,16 +154,16 @@ to them.
 4. The Part 4 answer
 5. A note on which of your own model's numbers you now trust least: ______
 
-## 📋 PREVIEW OF FRIDAY
+## 📋 PREVIEW OF U5 L28
 
-**Next:** L28, Fri Mar 26 — **paper, and the hardest arithmetic in the unit.**
+**Next:** L28, Mar 26 — **paper, and the hardest arithmetic in the unit.**
 Conditional probability under confounding, in the form you will actually meet
 it: an exposure that causes an outcome *and* is associated with a second factor
 that causes the same outcome. The result is that the naive association
 overstates the effect, sometimes by a lot, and the arithmetic for quantifying
 how much is two lines.
 
-**Bring Friday:** calculator, and the L06 contingency table fresh in your mind —
+**Bring U5 L28:** calculator, and the L06 contingency table fresh in your mind —
 we are going to need both margins and a third layer.
 
 ## 🇹🇼 TAIWAN CONTEXT

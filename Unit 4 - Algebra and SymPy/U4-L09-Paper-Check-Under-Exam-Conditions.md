@@ -4,7 +4,7 @@
 
 This is not a practice quiz with a study guide. It is a **paper check under
 exam conditions** — timed, closed-book, no laptop, no notes, no phone. The
-midterm block opens **Monday Jan 18** and runs through **Thursday Jan 21**.
+midterm block opens **Jan 18** and runs through **Jan 21**.
 
 I am going to treat today the way the exam will treat you, because the gap
 between "I understand this" and "I can produce this in 45 minutes with no
@@ -61,7 +61,7 @@ exactly what goes wrong if you choose wrong?
 
 ### SECTION B — Visualizing Data (Unit 2) — 6 marks, ~7 min
 
-**B1** [2] A chart shows failed logins spiking hugely on a Monday. Give **two**
+**B1** [2] A chart shows failed logins spiking hugely on a weekday. Give **two**
 reasons the chart might be misleading that have nothing to do with the data.
 
 **B2** [2] A y-axis runs from 94 to 100 on a chart of success rate. Is this
@@ -150,7 +150,7 @@ reproduce on demand, and reproducing it on demand is what an exam tests.
 
 1. The section I lost the most marks in is ______ , and the specific question
    types are ______
-2. The single concept I will not be able to do in 45 minutes on Monday:
+2. The single concept I will not be able to do in 45 minutes at L09:
    ______
 3. The pattern in my `✗` and `?` marks — is it one habit, or several?
    ______
@@ -164,16 +164,16 @@ test you took twice.
 
 | day | the one thing I will fix | how I will prove it to myself |
 |---|---|---|
-| Fri Jan 15 (tonight) | | |
-| Sat Jan 16 | | |
-| Sun Jan 17 | | |
+| Jan 15 (tonight) | | |
+| Jan 16 | | |
+| Jan 17 | | |
 
 Three days. One thing each. If a row says "review Unit 3," rewrite it — that is
 not a thing you can do, and it is the most common way students waste the last
 weekend before an exam.
 
-- ☐  Sunday night: I will be studying until ______ and then stopping.
-- ☐  Monday morning, before the exam: I will ______
+- ☐  The night before the exam: I will be studying until ______ and then stopping.
+- ☐  The morning of the exam: I will ______
 
 ## TURN IN (Google Classroom, due 11:59 PM tonight)
 
@@ -190,14 +190,14 @@ worth more to you than 85% with "I need to study more."
 ## 📋 AFTER MIDTERMS
 
 - **Jan 18–21** — midterm block. Nothing from me except the exam.
-- **Jan 22 (Fri)** — back to Unit 4. You start the **Cipher Toolkit** project:
+- **Jan 22** — back to Unit 4. You start the **Cipher Toolkit** project:
   `modkit.py` and `integrity.py` from L05 and L07 become the engine, and you
   build the deliverable. Bring this paper back — I want to compare your Jan 22
   self-assessment against today's.
 - **CNY break: Feb 4–14.** Eleven days. Project work over the break is paper
   only; the build days are Feb 15 onward.
 
-**Next:** L10, Fri Jan 22 — Cipher Toolkit project launch. Bring the errors
+**Next:** L10 — Cipher Toolkit project launch. Bring the errors
 from today's paper. Especially the `?`s.
 
 ## 🇹🇼 TAIWAN CONTEXT

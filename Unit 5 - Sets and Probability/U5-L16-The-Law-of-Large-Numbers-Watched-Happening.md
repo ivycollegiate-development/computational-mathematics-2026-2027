@@ -14,7 +14,7 @@ approximately X*. That claim is only defensible if you know **how approximately*
 and that number is the standard error — which is the Law of Large Numbers turned
 into a quantity with units.
 
-Today you watch convergence happen and then quantify it. Friday you simulate
+Today you watch convergence happen and then quantify it. In U5 L18 you simulate
 the thing you actually care about.
 
 ## PART 1 — WATCH IT CONVERGE (12 min)
@@ -130,7 +130,7 @@ something about the generator.
 - ☐  Your result is 0.16 standard errors from the truth. Is that surprising?
       ______
 - ☐  **At what n does the standard error drop below 0.01, and what does that
-      number tell you about a project with a Friday deadline?** ______
+      number tell you about a project with a deadline?** ______
 
 ## PART 3 — THE BAD SEED, AND WHAT IT IS FOR (10 min)
 
@@ -202,7 +202,7 @@ Add to `riskkit.py`:
 
 - ☐  Using your own simulator's real sd, compute how many samples you need for
       a probability accurate to 0.001. Write the number: ______
-- ☐  Is that number something you could run before a Friday deadline? ______
+- ☐  Is that number something you could run before a deadline? ______
 
 ## PART 5 — CLOSE (3 min)
 

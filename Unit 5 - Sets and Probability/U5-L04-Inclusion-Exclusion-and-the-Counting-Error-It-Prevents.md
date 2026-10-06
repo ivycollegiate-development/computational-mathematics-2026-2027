@@ -146,7 +146,7 @@ one level down, and it is the step people skip.
 
 ## PART 4 — BUILD IT INTO `setkit.py` (8 min)
 
-Add to the file you started Friday:
+Add to the file you started in U5 L03:
 
 - ☐  `union_size(a, b, both)` — the size-level version from Part 2
 - ☐  `exactly_one_size(a, b, both)` — the `- 2*both` version

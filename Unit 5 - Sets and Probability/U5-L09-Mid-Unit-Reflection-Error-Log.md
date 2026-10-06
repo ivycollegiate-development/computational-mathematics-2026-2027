@@ -134,7 +134,7 @@ March 19, or a reflection that was not written honestly. Both score zero here.
 
 ## 📋 PREVIEW OF TOMORROW
 
-**Next:** L10, Tue Mar 2 — back to the machine, and the topic you have been
+**Next:** L10, Mar 2 — back to the machine, and the topic you have been
 dodging: **expected value.** The question the whole project is built on, and the
 one where a single wrong assumption about a probability becomes a wrong dollar
 figure. `riskkit.py` gets started today.

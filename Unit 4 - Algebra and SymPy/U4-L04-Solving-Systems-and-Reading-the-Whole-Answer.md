@@ -210,20 +210,20 @@ never for `a/b` on two literals, whenever the answer feeds a comparison.**
 **The graded part is the float/Rational analysis.** Everyone can call `solve`.
 Knowing that `36/19` is not `36/19` until you say so is the actual content.
 
-## 📋 PREVIEW OF MONDAY
+## 📋 PREVIEW OF L05
 
-**Next:** L05, Mon Jan 11 — modular arithmetic. `7 mod 5`, why `(-3) mod 5` is
+**Next:** L05 — modular arithmetic. `7 mod 5`, why `(-3) mod 5` is
 not `-3` in Python, arithmetic in `Z_n`, and the one theorem — Fermat's little
 theorem — that makes public-key ciphers possible. This is the day the algebra
 finally does something you would use it for.
 
-**Bring Monday:** laptop, `symkit.py`, and the Part 2 table above. You will need
+**Bring to L05:** laptop, `symkit.py`, and the Part 2 table above. You will need
 the row about free symbols.
 
 ## 🇹🇼 TAIWAN CONTEXT
 
-Watch one thing before Monday: SymPy printed `I` for the imaginary unit in the
+Watch one thing before L05: SymPy printed `I` for the imaginary unit in the
 L03 check — capital `i`, and Python's own `1j` is a different object. A letter
 substitution cipher maps letters to numbers, and the moment a cipher has to
-handle negatives or non-integers, the modular arithmetic from Monday stops being
+handle negatives or non-integers, the modular arithmetic from L05 stops being
 a curiosity and starts being a requirement. That is why it is L05 and not L07.

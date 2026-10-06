@@ -2,7 +2,7 @@
 
 **LO:** create line plots, bar charts, and scatter plots with appropriate labels, colors, and formatting.
 
-Monday you made your first plots (U2 L03). Today we make them *readable* —
+In U2 L03 you made your first plots. Today we make them *readable* —
 titles, labels, colors, grids, legends — and save them as image files. Three
 chart types, one script, zero `pip install` (matplotlib 3.10 is already on your
 machine).

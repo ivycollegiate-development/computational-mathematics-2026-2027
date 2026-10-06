@@ -71,7 +71,7 @@ third of each is left blank, which is exactly what makes the gap pattern.
 The last one is the whole point. It is `2^(steps+1) - 1`. Check yours against
 the `steps=2` case: at `steps = 2` that gives 7, which should match your table.
 
-2. Same trace for `countdown_rec(3)` from Friday. How many calls, and how many
+2. Same trace for `countdown_rec(3)` from U6 L05. How many calls, and how many
    hit the base case? ______
 
 - ☐  `countdown_rec` makes `n+1` calls. `deco` makes `2^(s+1) - 1`. Which one
@@ -86,7 +86,7 @@ the top quarter blank" is a better answer than a bad drawing.
 
 3. `plot(c, lambda t: t*t, 0, 1, 1)` — one level. What is drawn, and what is
    *not*? ______
-4. `plot(c, lambda t: t*t, 0, 1, 5)` — the one from Tuesday. Which part of the
+4. `plot(c, lambda t: t*t, 0, 1, 5)` — the one from U6 L07. Which part of the
    curve is best resolved? ______
 5. `plot(c, math.sin, 0, 6.28, 5)` — name the part of the plot that the U6 L07
    output failed to resolve: ______
@@ -99,7 +99,7 @@ the top quarter blank" is a better answer than a bad drawing.
 
 ## PART 3 — PREDICTION AUDIT (8 min)
 
-- ☐  Tuesday you predicted what increasing `steps` would do. Did it do that?
+- ☐  In U6 L07 you predicted what increasing `steps` would do. Did it do that?
      ______
 - ☐  A prediction I got wrong: ______ because ______
 - ☐  the U6 L07 `deco` call-count question — my answer was ______, the real
@@ -125,7 +125,7 @@ One sentence, no jargon:
 ## 🇹🇼 TAIWAN CONTEXT
 
 Recursive descent over a hierarchy is how configuration and policy are
-evaluated in production network stacks, and the depth budget from Tuesday is a
+evaluated in production network stacks, and the depth budget from U6 L07 is a
 real operational parameter, not a teaching device. When the budget is set too
 small, a legitimately nested policy fails to load and the failure surfaces as
 "policy rejected" with no indication of why — which costs an engineer an
@@ -133,5 +133,5 @@ afternoon. When it is set unbounded, a crafted deeply nested input is a cheap
 denial of service. Choosing the budget is a risk decision, and like every
 decision in this course, it should be written down with a reason attached.
 
-**Next:** L09, Thu Apr 22 — project build day 1. Generate the fractals and
+**Next:** L09, Apr 22 — project build day 1. Generate the fractals and
 measure them. This is the first day of the Fractal Detection Models project.

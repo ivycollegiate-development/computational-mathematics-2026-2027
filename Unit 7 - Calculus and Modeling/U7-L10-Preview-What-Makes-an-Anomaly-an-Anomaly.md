@@ -6,7 +6,7 @@
 
 ---
 
-**No laptop.** Pencil. Monday builds the detector; today you decide what it will
+**No laptop.** Pencil. L11 builds the detector; today you decide what it will
 look for, on paper, before any of it is written.
 
 ## PART 1 — FOUR DEFINITIONS, FOUR DIFFERENT DETECTORS (15 min)
@@ -141,5 +141,5 @@ sensitivity was destroyed. **Every threshold change needs a line in the
 changelog with a reason**, and "it was firing too much" is not a sufficient
 reason, because it does not distinguish a bad model from a bad threshold.
 
-**Next:** L11, Mon May 17 — laptop. The detector exists, and now you find out
+**Next:** L11 — laptop. The detector exists, and now you find out
 what it costs when it is wrong.

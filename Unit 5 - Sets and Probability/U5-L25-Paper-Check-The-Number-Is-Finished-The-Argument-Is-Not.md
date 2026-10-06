@@ -128,15 +128,15 @@ Constraints:
 3. **The one-page argument**
 4. Your own word count, written on the page
 
-**Bring Wednesday:** everything, plus your `riskkit.py`. We produce the manifest.
+**Bring U5 L26:** everything, plus your `riskkit.py`. We produce the manifest.
 
-## 📋 PREVIEW OF WEDNESDAY
+## 📋 PREVIEW OF U5 L26
 
-**Next:** L26, Wed Mar 24 — **machine day, and the deliverable.** We take
+**Next:** L26, Mar 24 — **machine day, and the deliverable.** We take
 `shape_report` and make it emit a manifest: a self-describing block of output
 that states the number, its period, its population, its assumptions, its
 tolerance, and its own seed. The point is that a result which does not carry
 its own provenance is a number, and a number with provenance is evidence.
 
-**Bring Wednesday:** the repository, the README, the one-page argument, and a
+**Bring U5 L26:** the repository, the README, the one-page argument, and a
 clear head — the manifest is the thing an assessor will read first.

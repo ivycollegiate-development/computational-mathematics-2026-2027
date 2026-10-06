@@ -33,7 +33,7 @@ fractal-project/
 
 ## PART 2 — THE DEFENSE, SIX QUESTIONS (20 min)
 
-This goes in `README.md`. Rough is fine — you revise on Wed Apr 28. **Answer
+This goes in `README.md`. Rough is fine — you revise on Apr 28. **Answer
 all six.**
 
 1. Your `measure.py` fits a slope to `log(N)` against `log(k)`. **State that
@@ -70,7 +70,7 @@ argument.
      the fresh clone, it does not count as done
 - ☐  Submit the Classroom link with the repo URL in the description
 - ☐  Attach `results.txt` and the SHA-256 of `measure.py` itself
-- ☐  By tonight, also confirm: **Mon Apr 26 you will be adding the detector,
+- ☐  By tonight, also confirm: **In U6 L11 you will be adding the detector,
      and it is going to produce false positives.** Do not write a defense that
      claims your current numbers are the finished result
 
@@ -100,5 +100,5 @@ reader can tell a genuinely quiet period from a period where you simply could
 not see far enough. That is not a limitation you hide; it is a condition you
 publish.
 
-**Next:** L11, Mon Apr 26 — build day 2, and the false-positive problem. Bring
+**Next:** L11, Apr 26 — build day 2, and the false-positive problem. Bring
 your laptop and your defense draft.

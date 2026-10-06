@@ -110,5 +110,5 @@ signal is noise you generated yourself. Every serious detection review I know of
 builds in the "print three examples and actually look at them" step, because it
 catches more real problems than any additional tuning.
 
-**Next:** L15, Fri Apr 30 — demo day and unit wrap. Bring your laptop, your
+**Next:** L15, Apr 30 — demo day and unit wrap. Bring your laptop, your
 one-page defense, and your error log.

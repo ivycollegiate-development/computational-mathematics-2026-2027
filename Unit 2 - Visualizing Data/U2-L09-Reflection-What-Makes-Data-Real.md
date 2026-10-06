@@ -97,7 +97,7 @@ Open `journal-$(whoami).md` in VS Code and answer in 3–4 sentences:
   provenance chain, and what would you have to believe to trust it?
 - One rule I will apply to every dataset from here on:
 
-## PART 6 — PUSH (last 10 min — same loop as Wednesday, now routine)
+## PART 6 — PUSH (last 10 min — same loop as U2 L08, now routine)
 
 Your journal is already inside your repo, so push it. Type each command exactly:
 

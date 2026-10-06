@@ -108,16 +108,16 @@ is that there is no single paragraph that serves both.
    it should be visibly better than the first — say in one line what you
    changed and why: ______
 
-## 📋 PREVIEW OF FRIDAY
+## 📋 PREVIEW OF U5 L18
 
-**Next:** L18, Fri Mar 12 — back to the machine, and the biggest build of the
+**Next:** L18, Mar 12 — back to the machine, and the biggest build of the
 unit so far. You write the Monte Carlo engine: sample years, compare against the
 closed form, watch the empirical rate converge on 0.592, and then look at the
 distribution of annual loss — which is the first time you see your own model as
 a **shape** rather than a number. The build is about 40 lines and every one of
-them is on the spec you wrote Monday.
+them is on the spec you wrote in U5 L15.
 
-**Bring Friday:** laptop, your simulation spec from L15, and the paragraph. We
+**Bring U5 L18:** laptop, your simulation spec from L15, and the paragraph. We
 start by reading three specs.
 
 ## 🇹🇼 TAIWAN CONTEXT

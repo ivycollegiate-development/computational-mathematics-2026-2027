@@ -25,11 +25,11 @@ The U1 L08 Calculator v1 lab runs in your own GitHub repo, so you need a GitHub 
 In your workspace browser, go to https://github.com and look at the top-right corner:
 
 - **Already signed in?** Good. Copy your GitHub username into the top of your journal file.
-- **No account, or not signed in?** Raise your hand — sort it out now, not on Monday.
+- **No account, or not signed in?** Raise your hand — sort it out now, not later.
   Create one with your SCHOOL email: https://github.com/signup
 - **Have an account but forgot the username?** Raise your hand.
 
-Mr. Jones is collecting usernames today. Without one, your Monday lab repo cannot be created.
+Mr. Jones is collecting usernames today. Without one, your Calculator v1 lab repo (U1 L08) cannot be created.
 
 ## PART 1 — INPUT() (10 min)
 
@@ -78,7 +78,7 @@ print("You are about", age, "years old.")
 ```
 
 Run it with a few different years. Then feed it `banana` and watch it die.
-Leave it broken on purpose — you fix it on Friday.
+Leave it broken on purpose — you fix it in a later lesson.
 
 ## PART 4 — PITFALL DEMO (5 min)
 
@@ -129,7 +129,7 @@ without typing anything.
   Token (PAT) — never your GitHub password. Raise your hand and we will set your PAT
   up; every push from here on needs one.
 - **`repository not found` or `403`?** Your account is not connected to your repo yet —
-  raise your hand. This is exactly the thing we want to catch TODAY rather than Monday.
+  raise your hand. This is exactly the thing we want to catch TODAY rather than later.
 - **Success?** You should see `Branch 'main' set up to track...`. Open your repo on
   github.com and both files will be sitting there. That is the whole loop:
   edit → add → commit → push. You will repeat it every week.

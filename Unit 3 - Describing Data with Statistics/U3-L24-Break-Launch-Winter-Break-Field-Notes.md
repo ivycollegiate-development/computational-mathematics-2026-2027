@@ -39,7 +39,7 @@ deadline is real. Before you come back on Jan 4, do exactly this, on paper:
    - If not, pick a different number. Do not invent data you did not live.
 
 2. **Collect 21 values, on paper.** A small table: date, value, one word of
-   context. "Tue, 6.5 h, exam week." "Wed, 4, presentation." The third column is
+   context. "6.5 h, exam week." "4, presentation." The third column is
    what turns 21 numbers into data later — you will not remember why a value was
    weird without it.
 
@@ -83,7 +83,7 @@ deadline is real. Before you come back on Jan 4, do exactly this, on paper:
 
 **Turn in:** one photo of the pages — the table, the five numbers, the
 five-number summary, the outliers, and the one-sentence claim. Upload to Google
-Classroom. **Due 11:59 PM Sunday Jan 3.**
+Classroom. **Due 11:59 PM Jan 3.**
 
 ## PART 3 — ON JAN 4, THIS IS WHAT YOU WILL ALREADY HAVE DONE
 
@@ -108,8 +108,8 @@ Briefly, so you can rest instead of worrying:
 
 ## 🇹🇼 BREAK CONTEXT
 
-**Winter Break: dismiss 12:30 Friday Dec 18, out through Sunday Jan 3. Classes
-resume Monday Jan 4.** Sixteen days.
+**Winter Break: dismiss 12:30 Dec 18, out through Jan 3. Classes
+resume Jan 4.** Sixteen days.
 
 Comp Math is an **early-period** course. The first period after a break is not
 the time to learn something new, which is why Jan 4 is a return day and not a
@@ -126,6 +126,6 @@ launch. Sleep more than you study.
 
 ## NO TURN-IN TONIGHT
 
-Nothing is due tonight. The break assignment above is due **Sunday Jan 3** — photograph
+Nothing is due tonight. The break assignment above is due **Jan 3** — photograph
 the instructions or write the four steps down before you leave so you remember
 them on Jan 4.

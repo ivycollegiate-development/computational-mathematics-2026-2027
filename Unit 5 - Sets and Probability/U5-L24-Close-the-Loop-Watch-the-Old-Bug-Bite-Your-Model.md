@@ -217,7 +217,7 @@ Same bug, one level down — the L04 lesson reappearing inside the fix.
 
 - ☐  **Delete** `expected_loss_v1` and `simulate_year_v1` from `riskkit.py`. Not
       commented out, not kept "for reference." Deleted.
-- ☐  Add the regression test that would have caught it *before* Monday:
+- ☐  Add the regression test that would have caught it *before* U5 L24:
 
 ```python
 # kill switch: two threats on one asset must cost the asset once

@@ -14,7 +14,7 @@ You have been building pieces since Jan 6. `symkit.py` does symbolic algebra,
 are a project. Today they become one program that someone else could run, and
 you defend why it is built the way it is.
 
-**Due: Monday, February 15, 11:59 PM.** The demo is Tue Feb 16. You get the
+**Due: February 15, 11:59 PM.** The demo is Feb 16. You get the
 **whole CNY break as build time** (Feb 3–14) — that is deliberate. Bring a
 laptop, work in short sessions, and push. The in-class build days below are
 *setup and structure*, not the only time you work on it.
@@ -111,12 +111,12 @@ standard. Code that only works on your laptop is not done.
 
 | When | What |
 |------|------|
-| Fri Jan 22 | Repo live, three ciphers round-trip, defense drafted |
-| Thu Jan 28 | Brute-force solver working, test driver green |
-| Fri Jan 29 | Edge cases handled, manifest generated, defense revised |
+| Jan 22 | Repo live, three ciphers round-trip, defense drafted |
+| Jan 28 | Brute-force solver working, test driver green |
+| Jan 29 | Edge cases handled, manifest generated, defense revised |
 | **CNY Feb 3–14** | **Build days. Laptop. Short sessions, push often.** |
-| Mon Feb 15 | **Everything finished.** Final checks, final push |
-| Tue Feb 16 | Demo. Unit 4 complete |
+| Feb 15 | **Everything finished.** Final checks, final push |
+| Feb 16 | Demo. Unit 4 complete |
 
 **Build over the break — how.** Ten days is a lot, and it will evaporate if
 you wait for a free afternoon that never comes. Work in 30-minute blocks. One
@@ -124,7 +124,7 @@ component per session. Commit at the end of every session so you can always
 recover. If you finish early, the *best* use of the time is the edge-case
 table and the defense — not new features.
 
-**Next:** L11, Fri Jan 29 — in-class build day and final checks. Then CNY,
+**Next:** L11 — in-class build day and final checks. Then CNY,
 then the Feb 16 demo. After the demo the unit is done and U5 starts Feb 17.
 
 ## TURN IN — Cipher Toolkit Launch Checklist

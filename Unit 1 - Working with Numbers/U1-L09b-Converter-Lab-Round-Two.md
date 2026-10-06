@@ -3,7 +3,7 @@
 **LO:** extend your converter with new unit families and your first real
 guardrails — checks that stop bad values before they become bad answers.
 
-Last Friday you fixed a quietly-wrong formula and added input validation. Your
+In U1 L09 you fixed a quietly-wrong formula and added input validation. Your
 converter has temperature, distance, and weight, and all 5 self-checks pass.
 Today I hand you two more unit families — **speed** and **volume** — and you add
 them the same way a working programmer would: a little at a time, with a test
@@ -103,7 +103,7 @@ git push
 ## TURN IN — UPDATE YOUR PULL REQUEST (due at end of class, 11:59 PM tonight)
 
 1. Push your final work (all tests passing, guardrail in place).
-2. Your Pull Request from last Friday is still open — your new commits attach
+2. Your Pull Request from the U1 L09b lab is still open — your new commits attach
    to it automatically. Open it on github.com and confirm your latest commits
    appear.
 3. In your PR, leave one comment: which of today's additions would you keep if

@@ -7,7 +7,7 @@ by hand and explain the base-rate trap in your own words
 
 ---
 
-**No laptop today, and that is deliberate.** Friday you will code Bayes, and
+**No laptop today, and that is deliberate.** In U5 L08 you will code Bayes, and
 coding it is easy. Understanding why the answer is so small — and why almost
 everyone's first answer is large — is not a coding skill, and if you let Python
 do it today you will not notice the mistake when it happens.
@@ -164,7 +164,7 @@ formula you derived and can explain is the whole point of the lesson.
 
 ## 📋 PREVIEW OF TOMORROW
 
-**Next:** L06's file, L08, Fri Feb 26 — back to the machine. You will code
+**Next:** L06's file, L08, Feb 26 — back to the machine. You will code
 `bayes()` in four lines, watch it reproduce today's 4.72% exactly, and then run
 it across a sweep of false-positive rates to see the shape of the curve. The
 code is easy. The thing worth your attention is how little it changes your

@@ -119,5 +119,5 @@ produces an alert about a device that never moved. **The frame is part of the
 coordinate**, and forgetting that is a real incident class, not a textbook
 trick.
 
-**Next:** L02, Tue Apr 13 — distance, midpoint, and slope by hand. Pencil
-again, and we will not open a terminal until Wednesday.
+**Next:** L02, Apr 13 — distance, midpoint, and slope by hand. Pencil
+again, and we will not open a terminal until U6 L03.

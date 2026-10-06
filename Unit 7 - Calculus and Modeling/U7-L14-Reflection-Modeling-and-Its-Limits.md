@@ -115,4 +115,4 @@ about which of the two you are buying**, written down where the people who
 inherit the dashboard will find it. Inherited dashboards that nobody wrote down
 the reasoning for are how this failure becomes permanent.
 
-**Next:** L15, Fri May 21 — **Anomaly Trend Analyzer due.**
+**Next:** L15 — **Anomaly Trend Analyzer due.**

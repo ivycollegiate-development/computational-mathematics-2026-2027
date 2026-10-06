@@ -250,7 +250,7 @@ a student who understands one.
 
 ## 📋 PREVIEW OF TOMORROW
 
-**Next:** L08, Thu Jan 14 — paper, and the day your error log gets used. We take
+**Next:** L08 — paper, and the day your error log gets used. We take
 the Unit 4 algebra errors you have been collecting since L02, classify them by
 root cause, and find out whether you have one habit causing most of them.
 
@@ -265,5 +265,5 @@ not match what the manifest promised. It is also, in weaker form, how Taiwan's
 national ID card checksum digit works — the last digit is not part of your ID
 number's meaning, it is there so a mistyped digit fails a modular check instead
 of silently becoming a different person. That is the modular arithmetic from
-Monday, used as an error detector, which is a third thing modular arithmetic
+L05, used as an error detector, which is a third thing modular arithmetic
 does after ciphers and ciphers' inverses.

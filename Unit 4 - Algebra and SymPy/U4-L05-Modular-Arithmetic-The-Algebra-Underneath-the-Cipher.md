@@ -306,7 +306,7 @@ what that means for a cipher, has understood the unit.
 
 ## 📋 PREVIEW OF TOMORROW
 
-**Next:** L06, Tue Jan 12 — paper. **Midterm consolidation block, day 1.** Units 1
+**Next:** L06 — paper. **Midterm consolidation block, day 1.** Units 1
 through 4 on paper, cold, timed. Bring your Unit 3 break pages and your Unit 4
 error log; you will need both.
 

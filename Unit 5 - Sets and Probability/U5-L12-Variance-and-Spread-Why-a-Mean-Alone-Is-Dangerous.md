@@ -167,7 +167,7 @@ it yourself: `skew`'s big outcome is on the *good* side, so a threshold-based
 downside measure sees only the small losses. **`skew` has a huge standard
 deviation and no dangerous tail.** Variance and shortfall are looking at
 opposite ends of the distribution, and neither is the whole story. The version
-that sees both is the histogram — and on Friday you build one by sampling,
+that sees both is the histogram — and in a later lesson you build one by sampling,
 which is the Monte Carlo engine your project needs.
 
 - ☐  Write the sentence: *for a risk that can bankrupt the organization, the

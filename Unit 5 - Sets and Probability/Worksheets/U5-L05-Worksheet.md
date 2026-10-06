@@ -72,7 +72,7 @@ For each: name what was added, say which two groups could overlap, and give the 
 1. A school reports "412 students in clubs this year, up from 388 last year, so participation rose by 24 students." What is wrong with the comparison: ______________
 2. An admin counts 55 in band and 38 in choir and reports "93 in performing arts." Nothing states the overlap. What must be known for 93 to be correct: ______________
 3. A security report says "the incident touched 3 servers, 12 accounts, and 4 subnets — 19 affected entities." Name the error and say what the report should have said instead: ______________
-4. A store counts 200 transactions Monday and 180 Tuesday, and the manager says "380 over two days." Is that necessarily wrong, and what would make it wrong: ______________
+4. A store counts 200 transactions one day and 180 the next, and the manager says "380 over two days." Is that necessarily wrong, and what would make it wrong: ______________
 
 ☐  In which of the four is the error most likely to be caught by a reviewer, and why is that the dangerous one: ______________
 

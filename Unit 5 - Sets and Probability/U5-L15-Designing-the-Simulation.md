@@ -7,7 +7,7 @@ procedure, and the exact question the simulation is meant to answer
 
 ---
 
-**No laptop today, and the reason is specific.** On Friday you will write a
+**No laptop today, and the reason is specific.** In U5 L18 you will write a
 Monte Carlo engine, and the single most common way it fails is not a bug. It is
 answering a question nobody asked, correctly, about the wrong population.
 
@@ -106,7 +106,7 @@ simulation result, it is a selection.
 
 ## PART 4 — WRITE THE SPEC (10 min)
 
-This is the artifact Friday implements. Write it as if handing it to a
+This is the artifact U5 L18 implements. Write it as if handing it to a
 programmer who has never met you and will not ask questions.
 
 ```
@@ -156,12 +156,12 @@ on whether it does what this page says.
 
 ## 📋 PREVIEW OF TOMORROW
 
-**Next:** L16, Wed Mar 10 — back to the machine, and the day the Law of Large
+**Next:** L16, Mar 10 — back to the machine, and the day the Law of Large
 Numbers becomes a thing you have watched happen. You will run the same experiment
 at 10, 100, 1,000, 10,000, and 100,000 samples and watch the sample mean
 converge — and watch how badly a bad seed misleads you in the first two lines
-of output. The specification you wrote today is what you will implement on
-Friday.
+of output. The specification you wrote today is what you will implement in
+U5 L18.
 
 **Bring tomorrow:** laptop, and the spec. I will go through two of them at the
 start of class.

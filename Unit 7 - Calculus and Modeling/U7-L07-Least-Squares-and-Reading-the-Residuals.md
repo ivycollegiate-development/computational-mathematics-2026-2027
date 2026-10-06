@@ -201,5 +201,5 @@ same window. **A detector trained on a misspecified model does not just fail to
 help; it teaches people to ignore it.** Specify the model correctly first, and
 the residual-based alarm becomes trustworthy. That ordering is not a detail.
 
-**Next:** L08, Wed May 12 — paper check on L06–L07, and we diagnose residual
+**Next:** L08 — paper check on L06–L07, and we diagnose residual
 patterns from paper sketches alone.

@@ -91,14 +91,14 @@ makes that number unquotable on its own. ______
 4. One paragraph: **which of A–C you would most want back, and what the error
    pattern behind it tells you about how you read** ______
 
-## 📋 PREVIEW OF THURSDAY
+## 📋 PREVIEW OF U5 L22
 
-**Next:** L22, Thu Mar 18 — **paper again, and the second half of the
+**Next:** L22, Mar 18 — **paper again, and the second half of the
 rehearsal.** The modelling section: the assumptions, the base rate, and the
 defence paragraph. No calculator allowed for the prose sections, because you will
 not have one when you are defending a number to someone who is questioning it.
 
-**Bring Thursday:** today's marked paper, and your L20 fix. Friday I will
+**Bring U5 L22:** today's marked paper, and your L20 fix. In U5 L23 I will
 rehearse the defence itself.
 
 ## 🇹🇼 TAIWAN CONTEXT
@@ -124,4 +124,4 @@ the next incident.
 
 So the sentence you write for B4 is not pedantry. It is the sentence that
 distinguishes an analyst from a recipient of a brochure, and it is the sentence
-your defence paragraph will be built out of on Friday.
+your defence paragraph will be built out of in U5 L23.

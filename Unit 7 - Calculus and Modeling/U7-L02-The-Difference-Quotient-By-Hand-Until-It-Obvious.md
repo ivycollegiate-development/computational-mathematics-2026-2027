@@ -36,8 +36,8 @@ has a name: `h`.
 - ☐  So why not just take `h` as small as possible? **Think about how this
      would be done on a real sensor, not a textbook.** ______
 
-That last question is the whole lesson and it has a concrete answer on
-Wednesday. Hold onto it.
+That last question is the whole lesson and it has a concrete answer in
+L03. Hold onto it.
 
 ## PART 2 — TWO WAYS TO BE WRONG (15 min)
 
@@ -115,5 +115,5 @@ time in the output, because a derivative you have smoothed is measuring a
 different thing than the raw signal's derivative. The trade is not hidden — it
 is disclosed, in the same place you put the units.
 
-**Next:** L03, Wed May 5 — laptop. We build `calckit.py` and check every row of
+**Next:** L03 — laptop. We build `calckit.py` and check every row of
 Part 3, and I want to see which of you guessed the bottom row correctly.

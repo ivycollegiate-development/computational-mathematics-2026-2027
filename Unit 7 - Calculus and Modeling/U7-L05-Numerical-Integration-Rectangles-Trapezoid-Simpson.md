@@ -228,5 +228,5 @@ whether anything happened. Same data, one extra number, and the entire failure
 mode disappears. This is cheap and it is not standard practice, which is
 precisely why it is worth forming the habit now.
 
-**Next:** L06, Mon May 10 — paper check on L04–L05, and we build the error
+**Next:** L06 — paper check on L04–L05, and we build the error
 order table by hand from your own output.

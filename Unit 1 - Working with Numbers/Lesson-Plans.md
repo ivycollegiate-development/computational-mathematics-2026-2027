@@ -2,7 +2,7 @@
 
 **Duration:** ~3-4 weeks
 **Project:** Calculator with Guardrails
-**Rhythm:** M-W-F coding · T-Th reflection
+**Rhythm:** Coding and reflection sessions
 
 ---
 
@@ -74,6 +74,6 @@ Students build a multi-function calculator that handles:
 
 ## Assessment
 
-- Weekly 5-question quiz (Friday, last 10 min)
+- Weekly 5-question quiz (last 10 min)
 - Project rubric: validates input (30%), handles edge cases (30%), core functionality (30%), stretch (10%)
-- T-Th reflection entries graded on thoughtfulness (check/check-plus/check-minus)
+- Reflection entries graded on thoughtfulness (check/check-plus/check-minus)

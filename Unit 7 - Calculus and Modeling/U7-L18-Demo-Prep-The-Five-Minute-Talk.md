@@ -13,7 +13,7 @@ thing.
 
 ## PART 1 — THE RUN, PLANNED (15 min)
 
-Decide these before Friday, not during.
+Decide these before L20, not during.
 
 - ☐  1. **What exactly will you type on screen?** Write the literal commands:
      ______
@@ -102,4 +102,4 @@ part of what L15's near-constant guard was about. The five-minute demo is
 simply the smallest honest test of reproducibility available, and it is a test
 everyone passes on their own laptop and then fails in the room.
 
-**Next:** L19, Thu May 27 — paper. Whole-year reflection.
+**Next:** L19 — paper. Whole-year reflection.

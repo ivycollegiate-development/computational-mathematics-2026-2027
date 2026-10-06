@@ -15,7 +15,7 @@ was wrong on four of eight cases. Today you write down what that means.
 
 ## PART 1 — RECALL THE MEASUREMENT (10 min)
 
-From Thursday, complete from memory, then check against your own `results.txt`.
+From U6 L09, complete from memory, then check against your own `results.txt`.
 
 1. Koch perimeter at `n = 3`: ______ segments, each of length ______,
    perimeter ______
@@ -106,5 +106,5 @@ most needs, because the reader is usually an operator who will take your
 threshold at face value and has no way to discover your false-positive cases for
 themselves.
 
-**Next:** L13, Wed Apr 28 — build day 3. Finish, tighten the defense, generate
+**Next:** L13, Apr 28 — build day 3. Finish, tighten the defense, generate
 the manifest. Tomorrow is the demo.

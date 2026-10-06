@@ -7,7 +7,7 @@ error order before computing
 
 ---
 
-**No laptop.** Pencil and graph paper. Friday you ran the trapezoid rule; today
+**No laptop.** Pencil and graph paper. In L05 you ran the trapezoid rule; today
 you derive it, and then you predict its behaviour without running anything.
 
 ## PART 1 — BUILD IT FROM A PICTURE (15 min)
@@ -70,7 +70,7 @@ No laptop. Predict the shape of each answer, then write what you predict for
 12. Bonus: does Simpson's rule being exact on cubics surprise you given that
     trapezoid is only exact on straight lines? ______
 
-**No run today.** These go into the paper check on Wednesday against your own
+**No run today.** These go into the paper check in L08 against your own
 output, which is the only honest way to do a prediction audit.
 
 ## PART 4 — ERROR LOG (8 min)
@@ -80,7 +80,7 @@ output, which is the only honest way to do a prediction audit.
      **careless**
 - ☐  One tag that is new since the last paper check: ______
 - ☐  **Write down your Part 3 predictions somewhere you cannot revise them.**
-     You will find out on Wednesday whether the *sign* of your error was right,
+     You will find out in L08 whether the *sign* of your error was right,
      which is a different and more useful check than the exact digits
 
 ## 🇹🇼 TAIWAN CONTEXT
@@ -92,7 +92,7 @@ arrive at uneven intervals, the honest integration is not a uniform-panel rule
 at all; it is a weighted average where **each panel is weighted by its own
 width**. Assuming a uniform interval when the sensors actually reported
 irregularly is a specification error that quietly biases the total, and it
-produces exactly the signature from Friday: a summary that looks reasonable and
+produces exactly the signature from L05: a summary that looks reasonable and
 is systematically off in a direction nobody can see.
 
 It is worth knowing the local detail: rainfall and flow gauges in Taiwan
@@ -102,5 +102,5 @@ sampling will be wrong. The defensible version of the computation weights by
 actual elapsed time. The undWeighted version is the one that ends up in
 spreadsheets.
 
-**Next:** L07, Tue May 11 — laptop. We fit a model to data and read what the fit
+**Next:** L07 — laptop. We fit a model to data and read what the fit
 leaves behind. Predictions from Part 3 get graded first.

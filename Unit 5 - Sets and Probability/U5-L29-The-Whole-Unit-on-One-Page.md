@@ -139,11 +139,11 @@ of the error.
 
 ## 📋 PREVIEW OF TOMORROW
 
-**Next and last:** L30, Tue Mar 30 — **machine day, and the final rehearsal.**
+**Next and last:** L30, Mar 30 — **machine day, and the final rehearsal.**
 We take the one-page sheet, verify it against running code, fix whatever is
 wrong, and then run the complete suite. It is a working session, not a teaching
 session, and the thing I want from you is a repository that a stranger can clone
 and understand without you in the room.
 
-**Bring Tuesday:** the one-page sheet, the repository, and the two written
+**Bring U5 L30:** the one-page sheet, the repository, and the two written
 artefacts (L27's critique, L28's correction). We will use all three.

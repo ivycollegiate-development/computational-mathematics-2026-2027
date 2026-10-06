@@ -221,5 +221,5 @@ exactly the manufactured dip discussed in the Unit 6 detector work. Median-based
 statistics are the practical defence, and knowing why is worth more than
 remembering that they are.
 
-**Next:** L12, Tue May 18 — paper check, and you decide the threshold out loud
+**Next:** L12 — paper check, and you decide the threshold out loud
 with the evidence from today on the table.

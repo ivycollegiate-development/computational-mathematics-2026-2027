@@ -119,15 +119,15 @@ Write it here:
    artifact and I will read it more carefully than the arithmetic.
 4. Your error log updated
 
-## 📋 PREVIEW OF MONDAY
+## 📋 PREVIEW OF U5 L14
 
-**Next:** L14, Mon Mar 8 — back to the machine, and `riskkit.py` gets real
+**Next:** L14, Mar 8 — back to the machine, and `riskkit.py` gets real
 content for the first time. You will enter a threat model as **data**, with a
 likelihood and an impact and, in a string field, the reason you believe that
 number. The data structure is the assignment. Everything you compute later will
 be as honest as the metadata you attach here.
 
-**Bring Monday:** laptop, and the paragraph. I want to see which sentence you
+**Bring U5 L14:** laptop, and the paragraph. I want to see which sentence you
 revised.
 
 ## 🇹🇼 TAIWAN CONTEXT

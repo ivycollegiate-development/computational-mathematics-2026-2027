@@ -12,7 +12,7 @@ need to install anything.
 Here are two views of the same data:
 
 ```text
-Table:   Mon 12, Tue 18, Wed 9, Thu 22, Fri 30, Sat 25, Sun 15
+Table:   Day 1: 12, Day 2: 18, Day 3: 9, Day 4: 22, Day 5: 30, Day 6: 25, Day 7: 15
 ```
 
 Now picture it as a line climbing and dipping through the week. In your
@@ -26,7 +26,7 @@ Key ideas to write down:
 
 - A table stores values; a chart exposes **shape, trend, and outliers**.
 - A chart is an *argument* — someone chose what to plot. We'll spend
- Tuesday learning to question that choice.
+ U2 L05 learning to question that choice.
 
 ## PART 2 — CODE-ALONG: YOUR FIRST PLOT (15 min)
 
@@ -81,7 +81,7 @@ Rebuild your chart properly:
 ```python
 plt.plot(days, temps, marker="o")
 plt.title("Daily High Temperature, One Week (°C)")
-plt.xlabel("Day of Week (1 = Monday)")
+plt.xlabel("Day of Week (1-7)")
 plt.ylabel("High Temperature (°C)")
 plt.grid(True)
 plt.show()
@@ -167,7 +167,7 @@ With your table, rank these sins from worst to least-worst and defend it:
 - y-axis starting at a weird number to exaggerate a trend
 - rainbow colors on a black background
 
-One sentence each in your notes. Tuesday we judge a real news chart
+One sentence each in your notes. In U2 L05 we judge a real news chart
 against exactly this list.
 
 ## PART 7 — SAVE YOUR WORK + PUSH (last 10 min)

@@ -48,7 +48,7 @@ def measure(cells, n, boxes=(2, 4, 8, 16, 32)):
 ```
 
 Note the sign convention: I regress `log(N)` on `log(k)`, both increasing, so
-the slope comes out **positive** for a dimension. On Friday I briefly had it
+the slope comes out **positive** for a dimension. In U6 L10 I briefly had it
 negative because I regressed on `log(1/k)`. Same data, same regression, sign
 flipped by the axis convention. **That is worth a paragraph in your defense.**
 
@@ -166,5 +166,5 @@ false-positive rate on a *known-clean* window alongside the detection rate,
 because the clean-window rate is the number an operator will actually feel, and
 it is the one nobody reports unless asked.
 
-**Next:** L12, Tue Apr 27 — paper check on L09–L11, and you will defend your
+**Next:** L12, Apr 27 — paper check on L09–L11, and you will defend your
 threshold choice in writing.

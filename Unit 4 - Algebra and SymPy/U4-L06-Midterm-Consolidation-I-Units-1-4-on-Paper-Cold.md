@@ -145,20 +145,20 @@ you can correct.
 
 ## PART 4 — BUILD THE SIX-DAY PLAN (10 min)
 
-Six days: Wed Jan 13, Thu Jan 14, Fri Jan 15, weekend, then exams. Fill this
-in now, in pencil, and bring it Friday.
+Six days: Jan 13, Jan 14, Jan 15, weekend, then exams. Fill this
+in now, in pencil, and bring it to L09.
 
 | day | what I study | how long | what I will produce as evidence |
 |---|---|---|---|
-| Wed Jan 13 | | | |
-| Thu Jan 14 | | | |
-| Fri Jan 15 | | | |
-| Sat Jan 16 | | | |
-| Sun Jan 17 | | | |
+| Jan 13 | | | |
+| Jan 14 | | | |
+| Jan 15 | | | |
+| Jan 16 | | | |
+| Jan 17 | | | |
 
 The last column is the part that matters. **"Review statistics" is not evidence.
 Re-deriving the `k` formula from scratch with no notes, on paper, and checking
-it against L08, is evidence.** I will ask you on Friday what you produced.
+it against L08, is evidence.** I will ask you at L09 what you produced.
 
 - ☐  My two priority concepts from Part 3 #2 are scheduled on which days:
      ______
@@ -180,14 +180,14 @@ well-reasoned wrong answer scores higher than a bare correct one, and I will
 mark it that way. The diagnostic is graded on whether the six-day plan is
 specific enough to actually follow.
 
-## 📋 PREVIEW OF THURSDAY
+## 📋 PREVIEW OF L08
 
 **Next:** L07 is on the machine — hashing for data integrity, the other half of
 the Unit 4 story, and the direct application of everything in today's Section D.
-Then L08 Thursday gives you back your error log, and L09 Friday is the full paper
+Then L08 gives you back your error log, and L09 is the full paper
 check under exam conditions.
 
-**Bring Thursday:** laptop, your error log, and this paper.
+**Bring to L08:** laptop, your error log, and this paper.
 
 ## 🇹🇼 TAIWAN CONTEXT
 
@@ -195,5 +195,5 @@ The midterm week runs Jan 18–21 and Unit 4 continues on Jan 22. Today is the
 last lesson before your exam block opens, which is exactly why it is a
 diagnostic and not a lesson. If you are going to use a calculator on the exam,
 the habit to build tonight is checking SymPy's answers against your own
-arithmetic once — as you saw on Friday, `36/19` is not always what it looks
+arithmetic once — as you saw in L04, `36/19` is not always what it looks
 like.

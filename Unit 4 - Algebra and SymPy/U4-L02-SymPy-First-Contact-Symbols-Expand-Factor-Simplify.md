@@ -229,7 +229,7 @@ a screenshot of it returning the truth. I need to know what you assumed.
 
 ## 📋 PREVIEW OF TOMORROW
 
-**Next:** L03, Thu Jan 7 — paper. You hand-solve, then predict what the machine
+**Next:** L03 — paper. You hand-solve, then predict what the machine
 will say, then check. Same four verbs, no laptop, and the place where the two
 versions of algebra start to disagree in ways worth noticing.
 
@@ -240,4 +240,4 @@ versions of algebra start to disagree in ways worth noticing.
 One habit worth starting now: keep Unit 4 algebra errors in one place. Start a
 page in your notebook titled **Algebra Error Log** with two columns — *what I
 wrote* and *what it should have been*. L08 is built entirely out of that page,
-and pages you start today are worth more than ones you start on Thursday.
+and pages you start today are worth more than ones you start in L03.

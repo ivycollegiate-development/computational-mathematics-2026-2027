@@ -96,9 +96,9 @@ Your definition of done must include all five of these:
 
 | Lab        | Date           | What you build                           | What done looks like       |
 | ---------- | -------------- | ---------------------------------------- | -------------------------- |
-| L14        | Thu Dec 4      | `stats_engine.py` — load, compute, summarise | ______________________     |
-| L15        | Mon Dec 7      | `privacy_filter.py` — the gate, and the refusals | ______________________     |
-| L17        | Wed Dec 9      | `dashboard.py` — the four charts         | ______________________     |
-| L19        | Fri Dec 11     | Fix the findings from peer review        | ______________________     |
+| L14        | Dec 4          | `stats_engine.py` — load, compute, summarise | ______________________     |
+| L15        | Dec 7          | `privacy_filter.py` — the gate, and the refusals | ______________________     |
+| L17        | Dec 9          | `dashboard.py` — the four charts         | ______________________     |
+| L19        | Dec 11         | Fix the findings from peer review        | ______________________     |
 
 **TURN IN** — this specification sheet at the end of the period.

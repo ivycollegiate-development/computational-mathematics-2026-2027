@@ -10,10 +10,10 @@ This full-year course (prerequisite: Pre-Calculus) explores mathematics through 
 
 ## Weekly Rhythm
 
-| Day | Format | Focus |
+| Session type | Format | Focus |
 |-----|--------|-------|
-| **Monday, Wednesday, Friday** | Coding / Hands-on | New concepts, code-along, lab work, project time |
-| **Tuesday, Thursday** | Reflection / Discussion | Math journaling, security case studies, unplugged activities |
+| **Coding sessions** | Coding / Hands-on | New concepts, code-along, lab work, project time |
+| **Reflection sessions** | Reflection / Discussion | Math journaling, security case studies, unplugged activities |
 
 ## Tools & Platforms
 - **Coding:** VS Code via GitHub Codespaces (cloud-based, nothing to install)
@@ -40,7 +40,7 @@ This full-year course (prerequisite: Pre-Calculus) explores mathematics through 
 |-----------|--------|
 | Unit Projects | 40% |
 | Weekly Assignments & Quizzes | 25% |
-| Participation & Reflections (T-Th) | 15% |
+| Participation & Reflections (reflection sessions) | 15% |
 | Vocabulary & Writing | 10% |
 | Midterm & Final Exam (10% each) | 10% |
 

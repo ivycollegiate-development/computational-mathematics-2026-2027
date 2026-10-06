@@ -124,9 +124,9 @@ runs a Monte Carlo simulation of the same model.
 
 | When | What |
 |---|---|
-| Wed Mar 17 | paper design of the threat model, in class |
-| Fri Mar 26 | **Risk Simulator due, 11:59 PM** |
-| Wed Mar 31 | **Demo. Unit 5 complete** |
+| Mar 17 | paper design of the threat model, in class |
+| Mar 26 | **Risk Simulator due, 11:59 PM** |
+| Mar 31 | **Demo. Unit 5 complete** |
 
 Two things to say out loud now, because they are the whole grade:
 
@@ -181,7 +181,7 @@ paper.
 
 ## 📋 PREVIEW OF TOMORROW
 
-**Next:** L02, Thu Feb 18 — still paper. You draw the circles by hand: union,
+**Next:** L02, Feb 18 — still paper. You draw the circles by hand: union,
 intersection, difference, and the symmetric difference, and you fill in the
 region-by-region counts that the U5 L03 code will have to reproduce exactly.
 

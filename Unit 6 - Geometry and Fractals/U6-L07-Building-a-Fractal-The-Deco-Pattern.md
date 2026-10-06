@@ -223,5 +223,5 @@ engine with too small a budget silently refuses a legitimate policy. Both
 failures have happened; the second is worse, because it looks like a
 configuration error rather than a bug.
 
-**Next:** L08, Wed Apr 21 — paper check on L05–L07, and the return of the
+**Next:** L08, Apr 21 — paper check on L05–L07, and the return of the
 prediction audit.

@@ -13,7 +13,7 @@ the decisions are yours, the code just implements them.
 
 ## PART 1 — RECALL THE NUMBERS (12 min)
 
-From Monday, from memory, then check.
+From L11, from memory, then check.
 
 1. The two planted event times: ______ , and their signed magnitudes: ______
 2. The detrended MAD spread: ______
@@ -55,7 +55,7 @@ one-sided and does lag. It is not evidence that the interior residuals are large
 ## PART 3 — COMMIT TO YOUR PARAMETERS (14 min)
 
 This is the deliverable. Write these down as final answers, with a one-line
-reason each. You will use them Friday.
+reason each. You will use them in L15.
 
 | parameter | my choice | reason (one line) |
 |---|---|---|
@@ -117,5 +117,5 @@ adopting: **every windowed figure states its own sample size, and refuses to
 compare against a full-period baseline when it is materially short.** A number
 without its denominator is not a measurement; it is a feeling.
 
-**Next:** L13, Wed May 19 — laptop. The false-positive problem, handled
+**Next:** L13 — laptop. The false-positive problem, handled
 honestly, using the parameters you committed to on paper.

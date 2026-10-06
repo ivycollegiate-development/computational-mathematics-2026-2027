@@ -16,11 +16,11 @@ structure is, and defend the limits of what your number means.
 
 | milestone | when |
 |---|---|
-| generate + measure | Thu Apr 22 (today) |
-| **due** | **Fri Apr 23, 11:59 PM** |
-| build day 2: the detector, and its false positives | Mon Apr 26 |
-| build day 3: finish, manifest, defense | Wed Apr 28 |
-| **demo** | **Fri Apr 30** |
+| generate + measure | Apr 22 (today) |
+| **due** | **Apr 23, 11:59 PM** |
+| build day 2: the detector, and its false positives | Apr 26 |
+| build day 3: finish, manifest, defense | Apr 28 |
+| **demo** | **Apr 30** |
 
 The deliverable is a program plus a one-page defense. Today is the *measurement*
 half. The honest half.
@@ -162,7 +162,7 @@ each doubling of box size is one halving of the grid.
      never that clean? ______
 
 The last one is the honest caveat: this is a **self-similar integer** case with
-no noise. Monday you will measure things that are not clean at all, and the
+no noise. In U6 L11 you will measure things that are not clean at all, and the
 error will not be zero. **Do not report this number as if it were typical.**
 
 ## TURN IN — Build Day 1 Checklist

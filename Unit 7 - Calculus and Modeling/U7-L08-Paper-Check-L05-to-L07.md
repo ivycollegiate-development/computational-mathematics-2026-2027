@@ -12,7 +12,7 @@ unrevised, which is the whole point of writing them down.
 
 ## PART 1 — THE PREDICTION AUDIT (15 min)
 
-From Monday, Part 3, predicted before running anything:
+From L06, Part 3, predicted before running anything:
 
 | `n` | your predicted value | actual value | your predicted error | actual error |
 |---|---|---|---|---|
@@ -127,5 +127,5 @@ calendar first costs five minutes and prevents a tuning mistake that is very har
 to see later, because a detector that has been tuned to never fire looks exactly
 like a detector that has nothing to report.
 
-**Next:** L09, Thu May 13 — laptop. The Anomaly Trend Analyzer begins: ingest,
+**Next:** L09 — laptop. The Anomaly Trend Analyzer begins: ingest,
 smooth, and the moment you get something you can look at.

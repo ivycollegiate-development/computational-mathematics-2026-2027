@@ -333,15 +333,15 @@ that escapes before anyone has read it.
 5. **No pip installs.** Standard library and SymPy only. Tell me if something is
    missing.
 
-## 📋 PREVIEW OF THURSDAY
+## 📋 PREVIEW OF U5 L27
 
-**Next:** L27, Thu Mar 25 — **paper, and the hardest conversation in the unit.**
+**Next:** L27, Mar 25 — **paper, and the hardest conversation in the unit.**
 I am going to hand you a plausible, well-presented, wrong model from someone
 else's organisation and ask you to find the error. You will not be given a bug
 in the code. You will be given a **number** that is wrong, and your job will be
 to find the assumption that produced it.
 
-**Bring Thursday:** your manifest, and the one-page argument from Tuesday.
+**Bring U5 L27:** your manifest, and the one-page argument from U5 L25.
 
 ## 🇹🇼 TAIWAN CONTEXT
 

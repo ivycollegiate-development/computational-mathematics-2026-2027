@@ -134,7 +134,7 @@ possible picture of what you actually understand about where errors come from.
 
 ## 📋 PREVIEW OF TOMORROW
 
-**Next:** L20, Tue Mar 16 — back to the machine, and this is the lesson I have
+**Next:** L20, Mar 16 — back to the machine, and this is the lesson I have
 been building toward since L04. We will take a correct-looking risk aggregator,
 give it a full test suite, run it, **watch every test pass**, and then discover
 it overstates the risk — because the model it implements is wrong about the

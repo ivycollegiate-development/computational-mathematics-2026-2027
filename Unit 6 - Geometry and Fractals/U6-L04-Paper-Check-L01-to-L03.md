@@ -120,5 +120,5 @@ metres will be off by a factor of 3.3 for anything someone typed in 尺, and
 nothing in the arithmetic will look wrong. Unit conversion is a security
 control, not a convenience.
 
-**Next:** L05, Fri Apr 16 — back to the machine, and recursion finally arrives.
+**Next:** L05, Apr 16 — back to the machine, and recursion finally arrives.
 We watch it run before we believe it.

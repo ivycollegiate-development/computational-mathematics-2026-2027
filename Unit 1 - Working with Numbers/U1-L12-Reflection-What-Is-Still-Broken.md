@@ -9,7 +9,7 @@ listing, because you will be reading your own code.
 
 ## PART 1 — REOPEN THE CODE (10 min)
 
-You last touched the calculator Wednesday (U1 L11) — conversions plus the two
+You last touched the calculator in U1 L11 — conversions plus the two
 guardrails. Before writing anything, read your own code with fresh eyes and
 answer in your notes:
 

@@ -18,9 +18,9 @@ Do these in order. Do not skip to the code.
      && python3 measure.py && python3 test_measure.py`. Output must match
      `data/results.txt` exactly
 - ☐  **Manifest regenerated** and committed
-- ☐  **`results.txt` in the repo is current** — not a version from Thursday
-- ☐  `README.md` has all six defense questions from Friday, and the three
-     sentences from Monday
+- ☐  **`results.txt` in the repo is current** — not a version from U6 L09
+- ☐  `README.md` has all six defense questions from U6 L10, and the three
+     sentences from U6 L11
 - ☐  The false-positive section is still there and still names the circle and
      the noise
 - ☐  Your Part 3 paragraph from yesterday is in the README
@@ -121,5 +121,5 @@ avoids harm does the same thing: it states the conditions under which its
 output should not be trusted, in the output itself, not in a separate
 document the reader will not open.
 
-**Next:** L14, Thu Apr 29 — one clean reflection day after the project. Pencil.
+**Next:** L14, Apr 29 — one clean reflection day after the project. Pencil.
 We finish the unit by looking at what the project cost and what it bought.

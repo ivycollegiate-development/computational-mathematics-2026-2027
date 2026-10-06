@@ -195,5 +195,5 @@ field. Publish the filter, publish the step, and compare both against the
 threshold in the same sentence. An alarm whose accuracy is not stated next to
 its threshold is not a specification, it is a hope.
 
-**Next:** L04, Thu May 6 — paper check on L01–L03, and we do the error-curve
+**Next:** L04 — paper check on L01–L03, and we do the error-curve
 drawing properly.

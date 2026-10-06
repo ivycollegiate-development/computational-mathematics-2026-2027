@@ -135,5 +135,5 @@ at 3am cannot tell them apart if you have flattened the exception. The
 convention that costs nothing and saves the incident: **refuse loudly, and
 carry an explicit "unknown" state through every layer above you.**
 
-**Next:** L04, Thu Apr 15 — paper check on L01–L03. Pencil, and we find out
+**Next:** L04, Apr 15 — paper check on L01–L03. Pencil, and we find out
 which of us was actually doing the geometry.

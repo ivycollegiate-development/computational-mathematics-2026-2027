@@ -287,7 +287,7 @@ only kind of test that can catch a bug whose arithmetic was never wrong.
 1. `riskkit.py` with `at_least_one`, `expected_loss`, the migration, and all
    three tests
 2. The Part 1, Part 2, and Part 3 outputs, run live
-3. **Your sealed prediction from Friday**, brought out again, with a note on
+3. **Your sealed prediction from U5 L19**, brought out again, with a note on
    whether you predicted *this* bug
 4. Your two sentences from Part 5
 5. **No pip installs.** Standard library and SymPy only. Tell me if something is

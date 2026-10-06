@@ -79,15 +79,15 @@ the week tells you to.
 
 | day | date | what you can do after it | paper or machine |
 |---|---|---|---|
-| L01 | Jan 5 (Tue) | name what symbolic means | paper |
-| L02 | Jan 6 (Wed) | use `Symbol`, `expand`, `factor`, `simplify` on paper *and* in code | machine |
-| L03 | Jan 7 (Thu) | hand-solve, then predict what the machine will say | paper |
-| L04 | Jan 8 (Fri) | solve systems and read a full symbolic solution | machine |
-| L05 | Jan 11 (Mon) | do arithmetic in `Z_n` and explain why ciphers need it | machine |
-| L06 | Jan 12 (Tue) | midterm consolidation: Units 1–4 on paper, cold | paper |
-| L07 | Jan 13 (Wed) | use a hash to detect that data changed | machine |
-| L08 | Jan 14 (Thu) | find and fix your own algebra errors from an error log | paper |
-| L09 | Jan 15 (Fri) | full paper check under exam conditions | paper |
+| L01 | Jan 5 | name what symbolic means | paper |
+| L02 | Jan 6 | use `Symbol`, `expand`, `factor`, `simplify` on paper *and* in code | machine |
+| L03 | Jan 7 | hand-solve, then predict what the machine will say | paper |
+| L04 | Jan 8 | solve systems and read a full symbolic solution | machine |
+| L05 | Jan 11 | do arithmetic in `Z_n` and explain why ciphers need it | machine |
+| L06 | Jan 12 | midterm consolidation: Units 1–4 on paper, cold | paper |
+| L07 | Jan 13 | use a hash to detect that data changed | machine |
+| L08 | Jan 14 | find and fix your own algebra errors from an error log | paper |
+| L09 | Jan 15 | full paper check under exam conditions | paper |
 
 - ☐  Which of these nine is the one you are most worried about? ______
 - ☐  Which do you expect to be easiest? ______
@@ -169,7 +169,7 @@ Bring: pencil, notebook, a laptop, and the `PART 1` guard code from today typed
 into a file called `sympy_check.py`. We will run it first thing and find out
 whether the server has the library — before anything depends on it.
 
-**Next:** L02, Wed Jan 6 — first contact with the machine. `Symbol`, `expand`,
+**Next:** L02 — first contact with the machine. `Symbol`, `expand`,
 `factor`, `simplify`, and the round-trip check from Part 1 written as code.
 
 ## 🇹🇼 TAIWAN CONTEXT
@@ -177,6 +177,6 @@ whether the server has the library — before anything depends on it.
 Unit 4 is a **TTh-heavy** unit in terms of the paper/machine split — three of
 the nine days are paper consolidation before midterms. If you want an early edge:
 Mersenne primes and Fermat's little theorem are worth ten minutes of reading
-before Monday, because L05 assumes you have seen `a^p ≡ a (mod p)` at least
+before L05, because L05 assumes you have seen `a^p ≡ a (mod p)` at least
 once. `2^p - 1` being prime for prime `p` is the idea behind a whole family of
 public-key ciphers. You do not need to know that today.

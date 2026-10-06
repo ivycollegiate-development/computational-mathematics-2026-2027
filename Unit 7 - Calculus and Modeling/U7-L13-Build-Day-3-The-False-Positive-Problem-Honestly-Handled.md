@@ -91,7 +91,7 @@ decline. Habituation is a property of the human, not of the threshold.
 
 ## PART 3 — MAKE THE DETECTOR REPORT ITS OWN COVERAGE (12 min)
 
-From Monday, the short-window failure:
+From L11, the short-window failure:
 
 ```text
 --- FIRST 8 POINTS ONLY, k=3, MAD
@@ -198,5 +198,5 @@ baseline. That single habit would prevent a large fraction of the "why did
 nobody notice until the incident was an hour old" conversations that this unit
 is really about.
 
-**Next:** L14, Thu May 20 — paper reflection on modeling and its limits, and the
-final write-up plan for Friday.
+**Next:** L14 — paper reflection on modeling and its limits, and the
+final write-up plan for L15.

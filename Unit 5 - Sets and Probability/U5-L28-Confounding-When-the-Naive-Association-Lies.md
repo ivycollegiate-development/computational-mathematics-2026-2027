@@ -161,16 +161,16 @@ effect size as a reason to do nothing.
 4. **One paragraph: what would you have to measure, and how much of it, to
    separate the remote-access effect from the exposure effect?** ______
 
-## 📋 PREVIEW OF MONDAY
+## 📋 PREVIEW OF U5 L29
 
-**Next:** L29, Mon Mar 29 — **paper, and the session before the last one.** We
+**Next:** L29, Mar 29 — **paper, and the session before the last one.** We
 close the unit's conceptual work: sets, probability, Bayes, expected value,
 variance, simulation, and the model-versus-implementation distinction, laid out
 as one structure so you can see the whole thing at once and know exactly where
 the test will reach.
 
-**Bring Monday:** the L27 critique and the L28 correction, both in hand. They are
-the two written artefacts the unit produces, and Monday is where we decide what
+**Bring U5 L29:** the L27 critique and the L28 correction, both in hand. They are
+the two written artefacts the unit produces, and U5 L29 is where we decide what
 they are for.
 
 ## 🇹🇼 TAIWAN CONTEXT

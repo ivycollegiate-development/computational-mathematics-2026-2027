@@ -89,23 +89,23 @@ and proves nothing, while a clean redo on paper is a test.
 
 ## PART 4 — THE STUDY PLAN, CHECKED (10 min)
 
-Open your L06 six-day plan. You wrote it Tuesday. Today is Wednesday of that
-plan's own schedule, and the first row has already passed.
+Open your L06 six-day plan. You wrote it in L06. We are now into that plan's
+own schedule, and the first row has already passed.
 
 | day | what I planned | did I do it? | what I actually produced as evidence |
 |---|---|---|---|
-| Wed Jan 13 | | yes / no | |
-| Thu Jan 14 | | yes / no | |
-| Fri Jan 15 | | | |
-| Sat Jan 16 | | | |
-| Sun Jan 17 | | | |
+| Jan 13 | | yes / no | |
+| Jan 14 | | yes / no | |
+| Jan 15 | | | |
+| Jan 16 | | | |
+| Jan 17 | | | |
 
 Be honest in the middle column. There is no partial credit for claiming you did
 something you did not, and I would rather know the plan is unrealistic than
-discover it on Sunday night.
+discover it the night before the exams.
 
-- ☐  Row 1 (Wed) — hashing, and my evidence is: ______
-- ☐  Rows 3 and 4 (Fri–Sun) — the three days that matter most. What is the
+- ☐  Row 1 — hashing, and my evidence is: ______
+- ☐  Rows 3 and 4 — the three days that matter most. What is the
      highest-value thing I can put in each? ______
 - ☐  Am I leaving a day with nothing scheduled, on purpose, for sleep? Yes / No
 
@@ -142,7 +142,7 @@ matches the time you actually have.
 
 ## 📋 TOMORROW
 
-**Next:** L09, Fri Jan 15 — the last class before midterms. A **full paper check
+**Next:** L09 — the last class before midterms. A **full paper check
 under exam conditions**: timed, closed-book, no laptop, no notes. This is not a
 rehearsal of a rehearsal. Bring two sharpened pencils, a calculator if you want
 one, and nothing else.

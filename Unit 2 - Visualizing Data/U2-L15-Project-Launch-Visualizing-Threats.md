@@ -60,14 +60,14 @@ Before you come back on Nov 9, do exactly this, on paper:
 
 3. **Write the one sentence** your three charts will prove. Not a topic — a claim.
    - Too vague: *"my chart is about logins."*
-   - Good: *"Failed logins spike on Monday mornings, so the attack pattern follows the school week, not chance."*
+   - Good: *"Failed logins spike early in the school week, so the attack pattern follows the school schedule, not chance."*
    - Also fine: *"Weekend login success rates are higher than weekday rates, so automated attacks run on the schedule where defenders are not watching."*
 
 4. **Sketch your three charts** on paper — rough boxes, labelled axes, one line
    of notes on what each shows. Ten minutes of sketching saves you an hour of
    coding on Nov 9.
 
-## TURN IN — PHOTO OF YOUR BREAK WORK (due 11:59 PM Sunday Nov 8)
+## TURN IN — PHOTO OF YOUR BREAK WORK (due 11:59 PM Nov 8)
 
 One photo of a single page of paper showing, in order:
 1. the name of the dataset you chose
@@ -98,15 +98,15 @@ remember it.
 
 ## 🇹🇼 BREAK CONTEXT
 
-**Fall Break: dismiss 12:30 Friday Oct 30, out through Sunday Nov 8. Classes
-resume Monday Nov 9.** For AP Cybersecurity
+**Fall Break: dismiss 12:30 Oct 30, out through Nov 8. Classes
+resume Nov 9.** For AP Cybersecurity
 the break assignment is a home physical-security audit — also paper, also not a
 laptop. The break is ten days. Use the first week to rest and the last two days
 to do the work.
 
-## 🧩 SATURDAY CTF
+## 🧩 WEEKEND CTF
 
-No Saturday sessions in the fall — the CTF series runs in spring 2027. If you
+No weekend sessions in the fall — the CTF series runs in spring 2027. If you
 already have a CTF writeup repo, keep it tidy this break. Nothing is required.
 
 ## 📋 CHART RULES (for Nov 9 onward — not today)

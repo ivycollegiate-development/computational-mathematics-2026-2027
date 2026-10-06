@@ -92,9 +92,9 @@ You will build a program that takes a threat model as data (assets, threats, lik
 
 | When           | What                                     |
 | -------------- | ---------------------------------------- |
-| Wed Mar 17     | paper design of the threat model, in class |
-| Fri Mar 26     | Risk Simulator due, 11:59 PM             |
-| Wed Mar 31     | Demo. Unit 5 complete                    |
+| Mar 17     | paper design of the threat model, in class |
+| Mar 26     | Risk Simulator due, 11:59 PM             |
+| Mar 31     | Demo. Unit 5 complete                    |
 
 ☐  In one sentence, a set question you actually needed this week: ______________
 

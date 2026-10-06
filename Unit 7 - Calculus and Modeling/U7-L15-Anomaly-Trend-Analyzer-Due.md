@@ -159,5 +159,5 @@ nobody is looking. **Test the boring case deliberately.** A tool is not
 trustworthy until it has been shown to behave sanely when there is nothing to
 report.
 
-**Next:** L16, Mon May 24 — machine day. Polish, manifest, integrity check, and
+**Next:** L16 — machine day. Polish, manifest, integrity check, and
 the demo script.

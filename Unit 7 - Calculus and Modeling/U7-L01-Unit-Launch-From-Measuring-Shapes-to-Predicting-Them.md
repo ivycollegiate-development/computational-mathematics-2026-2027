@@ -7,7 +7,7 @@ why a model needs a stated failure condition
 
 ---
 
-**No laptop today.** Pencil. Last Friday you finished a unit about measuring
+**No laptop today.** Pencil. You have just finished a unit about measuring
 shapes that exist. This unit is about **inventing curves for data that exists
 and then trusting them with predictions.** It is a different kind of danger.
 
@@ -111,14 +111,14 @@ weekday peak will report a steep rise and predict it continuing. A linear fit
 across a month of traffic data that ignores the weekly cycle is not slightly
 wrong — it is confidently, systematically wrong, and the direction of the error
 depends on where in the week the window starts. The one-day-ahead forecast for
-Monday morning will be badly off in a way that looks like a model failure and
+the first morning of the week will be badly off in a way that looks like a model failure and
 is actually a **specification** failure: the model had no room for a weekly
 term.
 
 That is the error class this entire unit is built to prevent, and the reason
-residuals — which you meet on Thursday — are the most important thing in the
+residuals — which you meet in L04 — are the most important thing in the
 course. Residuals are how you notice you left a term out.
 
-**Next:** L02, Tue May 4 — paper check and the arithmetic of a difference
-quotient, by hand, until the shape of the thing is obvious. Then Wednesday we
+**Next:** L02 — paper check and the arithmetic of a difference
+quotient, by hand, until the shape of the thing is obvious. Then in L03 we
 make the computer do it.

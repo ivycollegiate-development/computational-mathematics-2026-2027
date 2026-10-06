@@ -2,7 +2,7 @@
 
 **LO:** plan and build the first version of the unit project — a calculator that validates input and handles errors — as a team.
 
-**This lab is a TEAM lab, and the build takes TWO days.** Teams of 3-4. I picked the teams; your team name and teammates are on the board. The plan day (no electronics) is done — your worksheet Parts A-E are agreed and checked. Now you build on **Day 1 (Wednesday)** and **Day 2 (Thursday)** in your team Codespace. Everything you decided on the plan day is what you build these two days, so follow the plan.
+**This lab is a TEAM lab, and the build takes TWO lessons.** Teams of 3-4. I picked the teams; your team name and teammates are on the board. The plan day (no electronics) is done — your worksheet Parts A-E are agreed and checked. Now you build on **Day 1** and **Day 2** in your team Codespace. Everything you decided on the plan day is what you build these two lessons, so follow the plan.
 
 ## PART 0 — THE PLAN YOU MADE (keep it open)
 

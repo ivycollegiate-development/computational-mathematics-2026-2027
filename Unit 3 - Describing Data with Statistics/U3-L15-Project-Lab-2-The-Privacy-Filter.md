@@ -162,7 +162,7 @@ anything.
 > effect. Their dashboard prints forty lines of your debugging before it
 > draws anything, and if a demo raises, their chart never renders and the
 > traceback points at the wrong file entirely. You will hit this. Separate
-> them now and you will not debug it at 9pm on a Friday.
+> them now and you will not debug it at 9pm.
 
 ```python
 def privacy_gate(rows, published_fields, group_cols, min_k=MIN_K):
