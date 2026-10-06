@@ -12,9 +12,9 @@
 | Unit | Book Chapter | Focus | Dates | Tech | Paper | Total |
 |------|-------------|-------|-------|:----:|:-----:|:----:|
 | U0 | Survey | Syllabus, paper survey, what is computational math | Sep 01 – Sep 04 | 2 | 2 | 4 |
-| U1 | Ch 1 — Working with Numbers | Types, operators, functions, error handling, input validation | Sep 07 – Oct 02 | 12 | 8 | 20 |
-| U2 | Ch 2 — Visualizing Data | Matplotlib, line/bar/scatter, reading data, integrity | Oct 05 – Oct 29 | 11 | 8 | 19 |
-| | | **Fall Break (Oct 30 half-day: project launch + break work, Oct 31–Nov 8 off)** | | | |
+| U1 | Ch 1 — Working with Numbers | Types, operators, functions, error handling, input validation | Sep 07 – Oct 07 | 12 | 8 | 20 |
+| U2 | Ch 2 — Visualizing Data | Matplotlib, line/bar/scatter, reading data, integrity | Oct 08 – Oct 30 | 11 | 8 | 19 |
+| | | **Fall Break (Oct 30 half-day — Unit 2 Wrap; Oct 31–Nov 8 off; Nov 09–13 FLEX)** | | | |
 | U3 | Ch 3 — Describing Data with Stats | Mean/mode/median, variance, stddev, PII, anonymization | Nov 09 – Dec 17 | 17 | 12 | 29 |
 | | | **Winter Break (Dec 18 half-day, Dec 19–Jan 3 off)** | | | |
 | U4 | Ch 4 — Algebra & SymPy | Symbolic math, modular arithmetic, ciphers, hashing | Jan 05 – Feb 16 | 12 | 8 | 20 |
@@ -40,9 +40,9 @@
 | 6 | **Oct 05** | **Oct 06** | **Oct 07** | **Oct 08** | **Oct 09** | U2 |
 | 7 | **Oct 12** | **Oct 13** | **Oct 14** | **Oct 15** | **Oct 16** | U2 |
 | 8 | **Oct 19** | **Oct 20** | **Oct 21** | **Oct 22** | **Oct 23** | U2 |
-| 9 | **Oct 26** | **Oct 27** | **Oct 28** | **Oct 29** | Oct 30½ | U2→project |
+| 9 | **Oct 26** | **Oct 27** | **Oct 28** | **Oct 29** | Oct 30 (wrap) | U2→wrap |
 | | | | **=== FALL BREAK ===** | Oct 31–Nov 8 | | |
-| 10 | **Nov 09** | **Nov 10** | **Nov 11** | **Nov 12** | **Nov 13** | U3 |
+| 10 | **Nov 09** | **Nov 10** | **Nov 11** | **Nov 12** | **Nov 13** | FLEX |
 | 11 | **Nov 16** | **Nov 17** | **Nov 18** | **Nov 19** | **Nov 20** | U3 |
 | 12 | **Nov 23** | **Nov 24** | **Nov 25** | **Nov 26** | **Nov 27** | U3 |
 | 13 | **Nov 30** | **Dec 01** | **Dec 02** | **Dec 03** | **Dec 04** | U3 |

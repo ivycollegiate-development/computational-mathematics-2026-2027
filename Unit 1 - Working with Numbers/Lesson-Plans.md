@@ -37,31 +37,31 @@ Students build a multi-function calculator that handles:
 ## Suggested Week Breakdown
 
 ### Week 1: Python Basics + Input
-| Day | Topic | Format |
+| Session | Topic | Format |
 |-----|-------|--------|
-| M | REPL crash course, variables, basic math ops | Code-along |
-| T | Reflection: "What's the difference between `3/2` and `3//2`?" + journal | Discussion |
-| W | User input, type conversion, string → number | Code-along |
-| Th | Unplugged: Input validation flowchart | Paper activity |
-| F | Lab: Simple calculator (no guardrails yet) | Lab time |
+| 1 | REPL crash course, variables, basic math ops | Code-along |
+| 2 | Reflection: "What's the difference between `3/2` and `3//2`?" + journal | Discussion |
+| 3 | User input, type conversion, string → number | Code-along |
+| 4 | Unplugged: Input validation flowchart | Paper activity |
+| 5 | Lab: Simple calculator (no guardrails yet) | Lab time |
 
 ### Week 2: Loops + Error Handling
-| Day | Topic | Format |
+| Session | Topic | Format |
 |-----|-------|--------|
-| M | `while` loops for continuous calculation, `try/except` | Code-along |
-| T | Case study: Therac-25 and what happens when input isn't validated | Discussion |
-| W | Unit conversion functions | Code-along |
-| Th | Reflection: "What inputs could break your calculator?" — write test cases | Journal |
-| F | Lab: Add error handling to calculator | Lab time |
+| 1 | `while` loops for continuous calculation, `try/except` | Code-along |
+| 2 | Case study: Therac-25 and what happens when input isn't validated | Discussion |
+| 3 | Unit conversion functions | Code-along |
+| 4 | Reflection: "What inputs could break your calculator?" — write test cases | Journal |
+| 5 | Lab: Add error handling to calculator | Lab time |
 
 ### Week 3: Project Work
-| Day | Topic | Format |
+| Session | Topic | Format |
 |-----|-------|--------|
-| M | Stretch concepts: types of numbers (Fraction, Decimal) | Mini-lesson |
-| T | Peer review: swap calculators, try to break each other's | Pair activity |
-| W | Project work | Lab time |
-| Th | Reflection: "What's the most surprising thing your code can't handle?" | Journal |
-| F | Project due + showcase | Presentations |
+| 1 | Stretch concepts: types of numbers (Fraction, Decimal) | Mini-lesson |
+| 2 | Peer review: swap calculators, try to break each other's | Pair activity |
+| 3 | Project work | Lab time |
+| 4 | Reflection: "What's the most surprising thing your code can't handle?" | Journal |
+| 5 | Project due + showcase | Presentations |
 
 ---
 
