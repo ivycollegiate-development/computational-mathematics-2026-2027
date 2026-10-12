@@ -1,18 +1,22 @@
 # U2 L08 — Reading Data From Files
 
-**LO:** load data from CSV files into Python and prepare it for visualization.
+**LO:** load data from CSV files into Python, handle real-world messiness (comment lines, missing values), and prepare clean lists ready for visualization.
 
-Today you get YOUR OWN copy of the **data lab** repo — a different one from
-U2 L07's. Real datasets, including a 1000-row performance file, and the
-honest truth about real data: it is messy. By the end you will have a clean
-per-row list ready to plot next week.
+**Estimated time:** 90 minutes (was ~75). We move slower so the data-loading habits become automatic.
 
-## PART 0 — GET YOUR DATA-LAB REPO (first 10 minutes)
+---
 
-1. Check your school Gmail — accept the invitation to your own private repo.
-2. Your repo is `compmath-u2-data-lab-<your-name>` under the
-   `ivycollegiate-development` organization.
-3. Clone it:
+Today you get YOUR OWN copy of the **data lab** repo — a different one from U2 L07's. Real datasets, including a 1000-row performance file, and the honest truth about real data: it is messy. By the end you will have a clean per-row list ready to plot in U2 L10.
+
+---
+
+## PART 0 — GET YOUR DATA-LAB REPO (first 15 minutes)
+
+**Step 1:** Check your school Gmail — accept the invitation to your own private repo. (If you don't see it, check Spam/Promotions, then ask.)
+
+**Step 2:** Your repo is named `compmath-u2-data-lab-<your-name>_student` under the `ivycollegiate-development` organization.
+
+**Step 3:** Clone it. Start with `pwd` — always know where you are.
 
 ```bash
 pwd
@@ -23,18 +27,26 @@ ls
 ls data/
 ```
 
-The star of today is `data/u2_student_performance_data.csv` — **1000 rows**:
-Student ID, Gender, Age, Parent Education Level, Hours Studied Per Week, Sleep
-Hours Per Night, Extracurricular Activities, Math Score, Science Score, English
-Score, Overall GPA, Absence Rate.
+**Why this sequence:** Same as U2 L07 — `pwd` confirms location, `cd ~` guarantees predictable path, `$(whoami)` matches your username to the repo suffix, `ls` verifies.
 
-## PART 1 — CODE-ALONG: `csv.DictReader` END TO END (15 min)
+**The star of today:** `data/u2_student_performance_data.csv` — **1000 rows** with these columns:
+- Student ID, Gender, Age, Parent Education Level
+- Hours Studied Per Week, Sleep Hours Per Night, Extracurricular Activities
+- Math Score, Science Score, English Score, Overall GPA, Absence Rate
+
+---
+
+## PART 1 — CODE-ALONG: `csv.DictReader` END TO END (20 min)
+
+Create your working file:
 
 ```bash
 touch load_scores.py
 ```
 
-No pandas, no pip installs — matplotlib and `csv` are preinstalled. Start:
+No pandas, no pip installs — matplotlib and `csv` are preinstalled on the VPS (Python 3.10+, matplotlib 3.10.9).
+
+Start with the minimal load:
 
 ```python
 import csv
@@ -47,20 +59,28 @@ print(rows[0].keys())     # the column names
 print(rows[0]["Overall GPA"])
 ```
 
-- `DictReader` reads the **first row as the keys** and hands you every row as a
-  dict. One catch: every value arrives as a **string**, even numbers.
-- Convert on the way through: `gpa = float(row["Overall GPA"])`.
+**What just happened:**
+- `csv.DictReader(f)` reads the **first row as the keys** (column names) and hands you every subsequent row as a `dict`.
+- `list(...)` consumes the iterator into a list so you can index it (`rows[0]`, `len(rows)`).
+- **Critical catch:** Every value arrives as a **string**, even numbers. `"3.7"` not `3.7`. You **must** convert: `gpa = float(row["Overall GPA"])`.
 
-In the REPL (`python3`), first answer, then test:
+**In the REPL (`python3`), first answer, then test:**
 
-- What type is `rows[0]["Age"]` before you convert it?
-- What happens with `float("")` — and what error name is that?
+1. What type is `rows[0]["Age"]` before you convert it?
+   > **Answer:** `str` — `"16"` not `16`.
 
-## PART 2 — CODE-ALONG: SELECT, FILTER, AGGREGATE (20 min)
+2. What happens with `float("")` — and what error name is that?
+   > **Answer:** `ValueError: could not convert string to float: ''`. Empty strings crash `float()`. Real data has holes — you'll handle this in Part 4.
 
-Three moves, all with plain dicts — append to `load_scores.py` as we go.
+**Why `DictReader` over `reader`:** `reader` gives you lists (you'd need to remember column indices). `DictReader` gives you dicts with names — self-documenting and robust to column reordering.
 
-**Select** columns you care about (skip the rest):
+---
+
+## PART 2 — CODE-ALONG: SELECT, FILTER, AGGREGATE (25 min)
+
+Three moves, all with plain dicts and lists. Append to `load_scores.py` as we go.
+
+### Select — columns you care about (skip the rest)
 
 ```python
 records = [{"gpa": float(r["Overall GPA"]),
@@ -69,14 +89,20 @@ records = [{"gpa": float(r["Overall GPA"]),
            for r in rows]
 ```
 
-**Filter** with a plain `if`:
+**What this does:** Builds a new list of *smaller* dicts with only the three columns you need, and converts them to `float` immediately. The original `rows` list (1000 dicts × 12 keys) is still there if you need other columns later.
+
+**Why not modify in place?** Keeping the raw `rows` separate from the cleaned `records` lets you restart the cleaning without re-reading the file.
+
+### Filter — keep only what you need
 
 ```python
 heavy = [r for r in records if r["study"] >= 10]
 print(len(heavy))   # how many study 10+ hours/week?
 ```
 
-**Aggregate** with a dict of accumulators (same pattern as the U2 L07 lab):
+**What this does:** List comprehension with an `if` clause. Reads as "keep `r` if `r['study'] >= 10`."
+
+### Aggregate — group and summarize (same pattern as U2 L07 lab)
 
 ```python
 by_study = {}   # study-hours -> [gpa_sum, count]
@@ -90,27 +116,38 @@ for r in records:
 avg_by_study = {h: s / n for h, (s, n) in by_study.items()}
 ```
 
-Answer in your notes: which of these three outputs is the one you would hand
-to `plt.plot` next week, and in what form? (Two parallel lists: sorted keys,
-and averages in the same order.)
+**Walkthrough:**
+- `by_study` maps integer study hours → `[running_sum, running_count]`
+- `int(r["study"])` truncates decimals (6.5 → 6). This is a *choice* — we're binning by whole hours.
+- The `if band not in by_study` guard initializes the accumulator for a new band.
+- `s / n` uses **float division** (`/`), not `//`. Integer division would truncate the average.
 
-## PART 3 — THE MESSY FILES: REAL DATA IS MESSY (20 min)
+**Answer in your notes:** Which of these three outputs (`records`, `heavy`, `avg_by_study`) is the one you would hand to `plt.plot` next week, and in what form?
 
-Now `ls data/` again. Not every file is as tidy as the study-habits one you
-have been using. Compare:
+> **Expected answer:** `avg_by_study` — but `plt.plot` needs two parallel lists: sorted keys (x) and averages in the same order (y).
+> ```python
+> x = sorted(avg_by_study)
+> y = [avg_by_study[k] for k in x]
+> ```
+
+---
+
+## PART 3 — THE MESSY FILES: REAL DATA IS MESSY (25 min)
+
+Now `ls data/` again. Not every file is as tidy as the 1000-row file. Compare:
 
 ```bash
 head -2 data/u2_dataset1_study_habits.csv
 head -2 data/u2_dataset2_mental_health.csv
 ```
 
-The first file goes straight to a header row. The second starts with a **`#`
-comment line** — a note someone left in the file explaining the units. If you
-hand that to `csv.DictReader` blindly, your "first row" becomes the comment
-text and every column name after it is garbage. This is the same bug as the
-U2 L07 lab, one file over.
+**The difference:**
+- `u2_dataset1_study_habits.csv` goes straight to a header row.
+- `u2_dataset2_mental_health.csv` starts with a **`#` comment line** — a note someone left in the file explaining the units.
 
-The fix: strip comment lines before parsing.
+**If you hand that to `csv.DictReader` blindly:** Your "first row" becomes the comment text (e.g., `# Mental health survey, GPA on 4.0 scale`). Every column name after it is garbage. You don't get a crash — you get **wrong answers** silently.
+
+**The fix:** Strip comment lines before parsing.
 
 ```python
 def load_csv(path):
@@ -119,41 +156,55 @@ def load_csv(path):
     return list(csv.DictReader(lines))
 ```
 
-Test it on all three files (`u2_dataset1_study_habits.csv`,
-`u2_dataset2_mental_health.csv`, `u2_dataset3_activities.csv`):
+**What this does:**
+- Reads the file line by line
+- Keeps only lines that don't start with `#`
+- Passes the filtered lines to `csv.DictReader` — which still sees the *real* header row first
 
-- `print(len(load_csv("data/u2_dataset1_study_habits.csv")))` — expect **52**.
-  This file has no comment line, so stripping changes nothing here.
-- `print(len(load_csv("data/u2_dataset2_mental_health.csv")))` — expect **60**.
-- `print(len(load_csv("data/u2_dataset3_activities.csv")))` — expect **50**.
-- Print the keys of the first row of each — they should be the real column
-  names, not comment text.
+**Test it on all three files:**
 
-Now the part worth writing down: run the mental-health file WITHOUT the fix.
+```python
+print(len(load_csv("data/u2_dataset1_study_habits.csv")))   # expect 52
+print(len(load_csv("data/u2_dataset2_mental_health.csv")))  # expect 60
+print(len(load_csv("data/u2_dataset3_activities.csv")))     # expect 50
+
+# Print keys of first row of each — should be real column names
+print(list(load_csv("data/u2_dataset1_study_habits.csv")[0].keys()))
+print(list(load_csv("data/u2_dataset2_mental_health.csv")[0].keys()))
+print(list(load_csv("data/u2_dataset3_activities.csv")[0].keys()))
+```
+
+**Now the part worth writing down:** Run the mental-health file **WITHOUT** the fix.
 
 ```python
 rows = list(csv.DictReader(open("data/u2_dataset2_mental_health.csv")))
 print(list(rows[0].keys()))
 ```
 
-You do not get a crash. You get wrong answers — the comment text becomes a
-column name, and a real column (`GPA`) has been pushed out of your dict
-entirely. A crash tells you something is wrong. This tells you everything is
-fine while you build a chart on it.
+**What you see:** No crash. The comment text becomes a column name (e.g., `'# Mental health survey, GPA on 4.0 scale'`). A real column (`GPA`) has been pushed out of your dict entirely.
 
-In your notes: why is a wrong first row worse than a crash? (the U2 L07
-quietly-wrong bug, again.)
+**In your notes:** Why is a wrong first row worse than a crash?
 
-## PART 4 — BUILD YOUR PLOT-READY LIST (20 min, on your own)
+> **Answer:** A crash tells you something is wrong *immediately*. A wrong first row tells you everything is fine while you build a chart on corrupted data — the U2 L07 "quietly wrong" bug, again. This is the most dangerous kind of bug because it doesn't announce itself.
 
-Goal: one list, clean and ordered, ready for a chart. In `load_scores.py`:
+---
+
+## PART 4 — BUILD YOUR PLOT-READY LIST (25 min, on your own)
+
+**Goal:** One list, clean and ordered, ready for a chart. In `load_scores.py`:
 
 1. Load the 1000-row file with `DictReader`.
-2. Filter out any row with a missing or empty GPA (real datasets have holes).
+2. **Filter out any row with a missing or empty GPA** (real datasets have holes).
 3. Convert GPA and Sleep Hours to floats.
-4. Group by sleep band (under 6, 6–7, 7–8, over 8) and compute average GPA
-   per band — accumulate in a dict, exactly like Part 2.
-5. End the script by printing two parallel lists, e.g.:
+4. Group by sleep band and compute average GPA per band — accumulate in a dict, exactly like Part 2.
+
+   **Sleep bands:**
+   - `"under 6"` for sleep < 6
+   - `"6–7"` for 6 ≤ sleep < 7
+   - `"7–8"` for 7 ≤ sleep < 8
+   - `"over 8"` for sleep ≥ 8
+
+5. End the script by printing two parallel lists:
 
 ```python
 bands = sorted(avg_by_sleep)
@@ -162,10 +213,36 @@ print(bands)
 print(avgs)
 ```
 
-That pair of lists is next week's bar chart. If the script runs clean and
-prints both, you have won today.
+**The missing-GPA filter (add inside your loop):**
 
-## PART 5 — TURN IN
+```python
+gpa_str = row["Overall GPA"]
+if not gpa_str:        # empty string
+    continue           # skip this row
+gpa = float(gpa_str)
+```
+
+**The sleep band function (define before the loop):**
+
+```python
+def sleep_band(hours):
+    if hours < 6:
+        return "under 6"
+    elif hours < 7:
+        return "6–7"
+    elif hours < 8:
+        return "7–8"
+    else:
+        return "over 8"
+```
+
+**Why this order of `elif`:** A value of 6.5 passes `hours < 6`? No. Passes `hours < 7`? Yes → returns `"6–7"`. Correct. If you wrote `hours < 8` first, 6.5 would match that and return `"7–8"` — wrong band. **Order matters.**
+
+**That pair of lists (`bands`, `avgs`) is U2 L10's bar chart.** If the script runs clean and prints both with the same length, you have won today.
+
+---
+
+## PART 5 — TURN IN (5 min)
 
 ```bash
 cd ~/compmath-u2-data-lab
@@ -174,14 +251,33 @@ git commit -m "load csv, filter and aggregate gpa by sleep band"
 git push
 ```
 
-(Password prompt = Personal Access Token, not your GitHub password.)
+**Password prompt = Personal Access Token, not your GitHub password.**
 
-**Spot-check:** run `python3 load_scores.py` one last time and confirm the two
-printed lists have the **same length**, and that the messy-file loader reports
-52 rows. Then submit your repo link to this assignment on Google Classroom.
+**Spot-check before submitting:** Run `python3 load_scores.py` one last time and confirm:
+- [ ] The two printed lists have the **same length** (4 bands each)
+- [ ] The messy-file loader reports 52 rows for `u2_dataset1_study_habits.csv`
+- [ ] No `ValueError` crashes on empty strings
 
-Early finishers: add a guard that rejects rows where GPA isn't parseable
-(`try/except ValueError`) and counts how many you dropped; or extend the
-grouping to Math Score vs. Parent Education Level.
+Then submit your repo link to the U2 L08 assignment on Google Classroom.
 
-**Next:** U2 L09 — Reflection: What Makes Data Real? (https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%202%20-%20Visualizing%20Data/U2-L09-Reflection-What-Makes-Data-Real.md)
+**Early finishers:** Add a guard that rejects rows where GPA isn't parseable (`try/except ValueError`) and counts how many you dropped; or extend the grouping to Math Score vs. Parent Education Level.
+
+---
+
+## WHY THIS MATTERS (the bigger picture)
+
+This lesson teaches the **data hygiene habits** that separate toy exercises from real analysis:
+
+| Habit | Why it matters |
+|-------|----------------|
+| `DictReader` + immediate `float()` conversion | Prevents string-vs-number bugs downstream |
+| Separate `records` from raw `rows` | Lets you re-clean without re-reading |
+| Strip comment lines (`#`) before parsing | Silent corruption is the worst kind |
+| Filter missing values *before* converting | `float("")` crashes; `if not val: continue` doesn't |
+| Explicit banding function with ordered `elif` | Prevents off-by-one binning errors |
+| Parallel lists for plotting | `plt.bar`/`plt.plot` need matching x/y sequences |
+
+Every subsequent lab (U2 L10, U2 L13, U2 L15–L18) assumes you can load, clean, and structure data this way without hand-holding. The column names change; the discipline doesn't.
+
+**Next:** U2 L09 — Reflection: What Makes Data Real?  
+[U2-L09-Reflection-What-Makes-Data-Real.md](U2-L09-Reflection-What-Makes-Data-Real.md)
