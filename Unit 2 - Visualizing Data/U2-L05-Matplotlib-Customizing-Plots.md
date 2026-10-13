@@ -258,11 +258,11 @@ In `charts.py`, build **one chart of your choice** from this data — your pick 
 
 ## PART 6 — TURN IN (15 min)
 
-Add today's work to the lab repo you already have (the one from Unit 1 — `~/compmath-lab`). Copy your files in, then in the terminal:
+Add today's work to the lab repo you already have (the one from Unit 1 — `~/compmath-u1-calculator-lab`). Copy your files in, then in the terminal:
 
 ```bash
-cp ~/u2-l05/charts.py ~/u2-l05/my_chart.png ~/compmath-lab/
-cd ~/compmath-lab
+cp ~/u2-l05/charts.py ~/u2-l05/my_chart.png ~/compmath-u1-calculator-lab/
+cd ~/compmath-u1-calculator-lab
 git add charts.py my_chart.png
 git commit -m "U2 L05 three chart types plus custom chart"
 git push

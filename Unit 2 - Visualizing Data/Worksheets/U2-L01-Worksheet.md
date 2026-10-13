@@ -138,7 +138,7 @@ Not yet — turn your paper face down and wait quietly. If you finish early, rev
 
 ## Part 5 — Push
 
-☐  journal-u2l01.md created in ~/compmath-lab, Part 4 answered, git push confirmed.
+☐  journal-u2l01.md created in ~/compmath-u1-calculator-lab, Part 4 answered, git push confirmed.
 
 ## TURN IN
 

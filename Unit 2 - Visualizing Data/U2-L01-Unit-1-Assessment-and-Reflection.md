@@ -53,7 +53,7 @@ Open your lab repo and create today's journal:
 
 ```bash
 pwd
-cd ~/compmath-lab
+cd ~/compmath-u1-calculator-lab
 touch journal-u2l01.md
 ```
 
@@ -69,7 +69,7 @@ Answer in the file, 3-5 sentences each:
 ## PART 5 — PUSH (last 5 min — same loop, now routine)
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u1-calculator-lab
 git add journal-u2l01.md
 git commit -m "U2 L01 assessment reflection journal"
 git push

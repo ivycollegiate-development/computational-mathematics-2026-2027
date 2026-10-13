@@ -106,7 +106,7 @@ Write one sentence: **the next chart I make will ______________ that my last one
 
 ## Part 7 — Push
 
-- ☐  `journal-u2l04.md` created in `~/compmath-lab`, Part 6 answered, `git push` confirmed.
+- ☐  `journal-u2l04.md` created in `~/compmath-u1-calculator-lab`, Part 6 answered, `git push` confirmed.
 
 ## TURN IN
 
