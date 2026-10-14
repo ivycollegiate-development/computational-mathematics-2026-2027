@@ -1,18 +1,18 @@
 # U2 L07 — LAB: Bar Charts and Categorical Data
 
-**LO:** apply matplotlib skills to real categorical data from datasets; debug band assignment and averaging logic.
+**LO:** apply matplotlib skills to real data from a repo; fix two *label-rule* bugs in a charting script and get a self-check from 2/4 to 4/4; recognize when a bar chart's bands, not its labels, are the problem.
 
-**Estimated time:** 85 minutes (was ~65). We move slower so the debugging process teaches, not just the result.
-
----
-
-Today you get YOUR OWN copy of a data-lab repo. It comes with real data files and a self-check that starts at **2/4 passing**. Your job: finish the bar chart and make it **4/4**.
-
-The paper check you took in U2 L06 covered chart choice, the label rule, and reading matplotlib output. That is the foundation for everything below — if a question comes back on the label rule, it is because the bars you build today are read by a real audience.
+**Estimated time:** 85 minutes. We move slower so the debugging process teaches, not just the result.
 
 ---
 
-## PART 0 — GET YOUR LAB REPO (first 15 minutes)
+Today you get YOUR OWN copy of a lab repo. It comes with real data files, a charting script with **two `FIX ME` bugs**, and a self-check that starts at **2/4 passing**. Your job: fix the bugs and make it **4/4**.
+
+The paper check you took in U2 L06 covered chart choice, the **label rule**, and reading matplotlib output. That is the foundation for everything below — the two bugs in this lab are both label-rule bugs.
+
+---
+
+## PART 0 — GET YOUR LAB REPO (first 10 minutes)
 
 **Step 1:** Check your school Gmail — you have an invitation to collaborate on your own private repo. Accept it. (If you don't see it, check Spam/Promotions, then ask.)
 
@@ -36,58 +36,66 @@ ls
 
 **If the clone fails:** Re-copy the exact URL from the invitation email — that is always the fix. Typos in the org name (`ivycollegiate-development`) or the `_student` suffix are the most common causes.
 
-**Inside, look at `ls data/`:** You should see:
+**What you should see.** `ls` shows the charting script `charts.py`, the graders' `self_check.py`, a `README.md`, and a `data/` folder. `ls data/` shows five CSV files, including the three Unit 2 datasets you previewed in U2 L05:
+
 - `u2_dataset1_study_habits.csv`
 - `u2_dataset2_mental_health.csv`
 - `u2_dataset3_activities.csv`
 
-These are the same CSV files you saw previews of in U2 L05. Today we work with the first one.
+Today we work with the first one.
 
 ---
 
-## PART 1 — MEET THE DATA (15 min)
+## PART 1 — MEET THE DATA (10 min)
 
-The study-habits file has 52 rows, one per student:
+The study-habits file has **50 rows**, one per student. Its columns:
 
 ```
 Student_ID, Study_Hours, Test_Score, Attendance, Sleep_Hours
 ```
 
-Peek at the top three rows with:
+Peek at the top of the file:
 
 ```bash
-head -4 data/u2_dataset1_study_habits.csv
+head -6 data/u2_dataset1_study_habits.csv
 ```
 
-(The `-4` shows the header + 3 data rows.)
+**Look closely at the first lines.** The very first line starts with a `#` (a comment), and there is a **blank line** before the real header row. If you hand that file straight to `csv.DictReader`, the reader treats the *comment* as the header, and every column name comes out wrong. Open `charts.py` and find how it guards against this — the loading block near the top filters the file before reading:
+
+```python
+lines = [ln for ln in f if ln.strip() and not ln.startswith("#")]
+```
 
 **In your notes, answer:**
 
 1. Which columns are **numbers** (quantitative) and which is a **category** (categorical)?
    - *Hint:* What would it mean to take an average of it? You can average `Study_Hours` (6.5 hours makes sense). You cannot average `Student_ID` ("S01" + "S02" ÷ 2 = nonsense).
-
 2. From U2 L05: what chart type compares *categories*?
 
 **Expected reasoning:**
-- **Numerical:** `Study_Hours`, `Test_Score`, `Attendance`, `Sleep_Hours` — all are quantities you can add, average, compare with `<`/`>`
+- **Quantitative:** `Study_Hours`, `Test_Score`, `Attendance`, `Sleep_Hours` — all are quantities you can add, average, compare with `<`/`>`
 - **Categorical:** `Student_ID` — it's an identifier, not a quantity
 - **Chart type for comparing categories:** Bar chart (U2 L05 Part 2)
 
-**Why this matters:** The whole lab is about taking a numerical column (`Test_Score`), grouping it by a *derived* categorical column (attendance bands we'll create from the numerical `Attendance`), and comparing the group averages with a bar chart. If you confuse the types, you'll pick the wrong chart.
+**Why this matters:** The bar chart in this lab takes a *derived* categorical column — study-hour **bands** (`<1h`, `1-2h`, `2-3h`, `3h+`) — and counts how many students fall in each. The number on the y-axis is a **count of students**, not a score. If you confuse the types, you'll label the axis wrong. (That is literally Bug 2.)
 
 ---
 
-## PART 2 — SEE IT FAIL (15 min)
+## PART 2 — SEE IT FAIL (10 min)
 
-Run the starter script:
+Run the charting script:
 
 ```bash
-python3 chart_bars.py
+python3 charts.py
 ```
 
-It runs without crashing but the chart is not done — the attendance bands are placeholders and the averages are wrong. Look at the saved `attendance_scores.png` (it should appear in the repo folder). Notice:
-- The x-axis has band labels but they're wrong
-- The y-axis values look too low (truncated)
+It runs without crashing and saves two files:
+- `chart_study_vs_score.png` — a scatter plot of study hours vs test score
+- `chart_study_bands.png` — a bar chart counting students by study-hour band
+
+Open both. Notice what's wrong:
+- The scatter plot has a title but **no axis labels** — you can't tell what either axis measures.
+- The bar chart has **no title and no axis labels at all** — and its y-axis counts *students*, which nothing on the chart says.
 
 Then run the self-check:
 
@@ -98,107 +106,81 @@ python3 self_check.py
 You should see **2/4 passing**. Your goal today: **all 4 passing**.
 
 **What the self-check tests (you don't need to read the file, but this is what it verifies):**
-1. Band assignment logic is correct (A/B/C/Below thresholds)
-2. Averages use float division, not integer division
-3. Chart saves as `attendance_scores.png`
-4. Chart has title, x-label, y-label (the label rule)
+1. Both chart files exist (`chart_study_vs_score.png`, `chart_study_bands.png`)
+2. The charts have **2 titles and 3 or more axis labels** (the label rule)
+3. `charts.py` runs without errors
+4. Your work is committed
 
 ---
 
 ## PART 3 — FIX IT (in pairs, ~45 min)
 
-Open `chart_bars.py`. There are two `FIX ME` bugs. We'll tackle them one at a time.
+Open `charts.py`. There are two `FIX ME` comments. We'll tackle them one at a time. **Neither bug makes the script crash** — that is the whole lesson today.
 
-### Bug 1 — Band assignment (quietly wrong, not crashing)
+### Bug 1 — The scatter chart has no axis labels
 
-Find the `band_of(attendance)` function. It's supposed to bucket each student's attendance percentage into:
-- `"A"` for 90% and above
-- `"B"` for 80–89%
-- `"C"` for 70–79%
-- `"Below"` for under 70%
-
-**The bug:** The thresholds in the code don't match the comment above the function. This is a *silent* bug — no error, just wrong bands.
-
-**How to debug it:**
-1. Read the function carefully. Trace through with a test value: `attendance = 85`. What band does it return? What *should* it return?
-2. Add a temporary print to verify:
+Find the scatter block:
 
 ```python
-print(band_of(95))  # should be "A"
-print(band_of(85))  # should be "B"
-print(band_of(75))  # should be "C"
-print(band_of(65))  # should be "Below"
+plt.scatter(xs, ys, color="tab:blue")
+# FIX ME #1: a chart with no labels is unreadable.
+# Add a title and axis labels (what would you call each axis? include units)
+plt.title("Study Hours vs Test Score")
 ```
 
-Run `python3 chart_bars.py` and check the output. Fix the thresholds until all four print correctly.
+The title is there, but the **two axes are unlabeled**. Apply the label rule from U2 L06: **every axis gets a label, and the label carries its units.**
 
-**Why this is tricky:** The conditions are likely written as `if attendance >= 90:` then `elif attendance >= 80:` etc. But if the order is wrong (e.g., checking `>= 70` before `>= 80`), values 80–89 get caught by the 70-check and misclassified as "C". **Order of `elif` matters.**
+- x-axis is study hours → label it with the unit, e.g. `"Study Hours (hours per week)"`
+- y-axis is test score → label it with the unit, e.g. `"Test Score (points)"`
 
-### Bug 2 — Averaging (integer division truncates)
+Add `plt.xlabel(...)` and `plt.ylabel(...)` right after the title.
 
-Find where the averages are computed. Look for `//` (integer division / floor division).
+**The honest-title upgrade (still Bug 1):** the starter title `"Study Hours vs Test Score"` just names the columns. L06's label rule says the title should **state the finding**. After you look at the scatter, improve it — e.g. `"More Study Hours Go With Higher Test Scores"`.
 
-**The bug:** `//` truncates the decimal. If a band's scores are 71, 73, 74, the sum is 218, count is 3. `218 // 3 = 72` (truncated). `218 / 3 = 72.666...` (correct).
+### Bug 2 — The bar chart has no title and no axis labels
 
-**How to debug it:**
-1. Change `//` to `/`
-2. Pick one band and verify by hand against the raw rows:
-   - `grep '"A"' data/u2_dataset1_study_habits.csv` (or whatever band you're checking)
-   - Average the `Test_Score` column manually
-   - Compare to what your script prints
-
-**The reading pattern (same as Unit 1):**
+Find the bar-chart block:
 
 ```python
-import csv
-
-rows = []
-with open("data/u2_dataset1_study_habits.csv") as f:
-    for row in csv.DictReader(f):
-        rows.append(row)
+plt.figure()
+plt.bar(list(bands.keys()), list(bands.values()), color="tab:orange")
+# FIX ME #2: this chart should label its axes too -- and the y-axis
+# here counts STUDENTS, so make that obvious. Add title + both labels.
 ```
 
-**Why `csv.DictReader`:** It reads the header row and gives you each row as a `dict` with column names as keys. So `row["Attendance"]` gives you the attendance string, `row["Test_Score"]` gives the score string. You must convert with `float()`.
+This chart has none of the three. Add all three:
+- **Title** that states the finding
+- **x-label** — what the bars *are* (the study-hour band)
+- **y-label** — a count of students, and it must **say "students"**, because a reader who sees an unlabeled y-axis will guess it's a score or a time
 
-**The aggregation pattern:**
+**Run `python3 self_check.py` after each fix.** Each PASS is a guardrail — don't move to the next fix until the current one passes. After both label fixes you should be at **3/4**; the last check stays red until you commit.
 
-```python
-totals = {}   # band -> [score_sum, count]
-for row in rows:
-    band = band_of(float(row["Attendance"]))
-    score = float(row["Test_Score"])
-    if band not in totals:
-        totals[band] = [0.0, 0]
-    totals[band][0] += score
-    totals[band][1] += 1
+### Look harder at the bar chart (the real point of the day)
 
-avg = {band: s / n for band, (s, n) in totals.items()}
+Once the labels are on, read the bars. Count how many students are in each band. You will find three of the four bars are **empty** and one bar holds **all 50**.
+
+That is not a labeling problem — the labels are now correct. It is a **band** problem: the bands were written for students who study 0–3+ hours, but run this and look at the real range:
+
+```bash
+python3 -c "import csv;f=open('data/u2_dataset1_study_habits.csv');v=[float(r['Study_Hours']) for r in csv.DictReader(l for l in f if l.strip() and not l.startswith('#'))];print(min(v),max(v))"
 ```
 
-**Walkthrough:**
-- `totals` maps band name → `[running_sum, running_count]`
-- For each row: compute band, convert score to float, add to that band's sum and count
-- After the loop: `avg` builds a dict of band → average (sum / count) using a dict comprehension
-- **Crucial:** `s / n` uses float division (`/`), not `//`
-
-**Run `python3 self_check.py` after each fix.** Each PASS is a guardrail — don't move to the next fix until the current one passes.
+Every student studies between **12.5 and 35.2** hours a week. So a chart with one bar and three blanks is *technically honest but useless*. **In your notes:** if you were allowed to change the band cut-offs, where would you put them? Be ready to defend it.
 
 ### Milestone for today: 4/4 passing
 
-And the saved bar chart (`attendance_scores.png`) must show:
-- Average score per attendance band
-- **Title** that states the finding (not just "Attendance vs Score")
-- **x-label:** "Attendance band"
-- **y-label:** "Average test score"
-- **Honest y-axis starting at 0** — the label rule from U2 L05 applies. A truncated y-axis (starting at 60, for example) would exaggerate the differences between bands. We want honest comparison.
+And both saved charts must satisfy the label rule:
+- **Scatter:** title that states the finding, x-label with units, y-label with units
+- **Bar:** title that states the finding, x-label (the band), y-label that names the count of students
+- **Honest y-axis:** a bar chart's y-axis starts at 0. A truncated y-axis exaggerates differences between bars.
 
 ---
 
 ## PART 4 — EXTENSION (if 4/4 early)
 
-- Redo the chart with `Sleep_Hours` bands instead — does the shape look different? (Define your own bands: e.g., `<6`, `6–7`, `7–8`, `8+`)
+- Re-band by `Sleep_Hours` instead of `Study_Hours` — define your own bands (e.g. `6.0–6.5`, `6.5–7.0`, `7.0–7.5`, `7.5–8.0`) and re-chart. Does the shape look different? Do your bands leave empty bars too?
 - Add the second dataset (`u2_dataset2_mental_health.csv`: `Stress_Level`, `Hours_Exercise`, `GPA`, `Social_Hours`) and chart GPA grouped by stress level.
-- No pandas, no pip installs — matplotlib 3.10 and `csv` are all you need.
+- No pandas, no pip installs — matplotlib and `csv` are all you need.
 
 ---
 
@@ -206,8 +188,8 @@ And the saved bar chart (`attendance_scores.png`) must show:
 
 ```bash
 cd ~/compmath-u2-viz-basics
-git add chart_bars.py attendance_scores.png
-git commit -m "fix band assignment and averaging, chart 4 of 4 passing"
+git add charts.py chart_study_vs_score.png chart_study_bands.png
+git commit -m "add chart titles and axis labels, self-check 4 of 4"
 git push
 ```
 
@@ -215,35 +197,39 @@ git push
 
 ---
 
-## TURN IN — PULL REQUEST LINK (due 23:59 tonight)
+## TURN IN — REPO LINK (due 23:59 tonight)
 
-1. Push your final `chart_bars.py` and `attendance_scores.png` (self-check 4/4).
-2. Confirm the push landed: on github.com, open **your** repo and check the latest commit shows both files.
+1. Push your final `charts.py` and both chart PNGs (self-check 4/4).
+2. Confirm the push landed: on github.com, open **your** repo and check the latest commit shows the changed files.
 
-**Spot-check before submitting:** Open `attendance_scores.png` and verify:
-- [ ] The y-axis starts at 0
-- [ ] Every bar has a band label (A, B, C, Below)
-- [ ] The title states the finding, not just the columns (e.g., "Average Test Score by Attendance Band — A-band students score 15 points higher than Below-band")
-- [ ] The file is not 0 bytes
+**Spot-check before submitting:** Open the charts and verify:
+- [ ] The scatter chart has a title, an x-label, and a y-label (units included)
+- [ ] The bar chart has a title, an x-label, and a y-label that names the count of students
+- [ ] The bar chart's y-axis starts at 0
+- [ ] The title states the finding, not just the column names
+- [ ] The PNG files are not 0 bytes
 
 Then submit your repo link to the U2 L07 assignment on Google Classroom.
 
-**Early finishers:** Reorder the bands left-to-right (A → Below) with an explicit list, or add a second series (Attendance-band averages for a different score column) with a legend.
+**Early finishers:** Re-cut the study-hour bands so the bars spread out (see Part 3), or reorder the bars from most-studied to least-studied with an explicit list.
 
 ---
 
 ## WHY THIS MATTERS (the bigger picture)
 
 This lab teaches the **full data-to-viz pipeline** you'll use all year:
-1. **Get data** — clone repo, verify CSV structure
+
+1. **Get data** — clone repo, verify CSV structure (and dodge the comment/blank-line trap)
 2. **Read data** — `csv.DictReader`, convert strings to numbers
 3. **Transform data** — derive categories from numbers (banding)
-4. **Aggregate data** — group by category, compute summary statistics
-5. **Visualize** — bar chart with proper labels, honest axis
+4. **Aggregate data** — group by category, count (or average) within each group
+5. **Visualize** — chart with proper labels and an honest axis
 6. **Verify** — self-check guards, visual spot-check
 7. **Publish** — git commit, push, submit link
 
+The deepest lesson today is the last one in Part 3: **a chart can run perfectly and still lie.** No error message will ever tell you a bar chart has one bar and three blanks, or that its axes are unlabeled. The self-check catches the missing labels; *you* are the only check on whether the chart tells the truth.
+
 Every subsequent lab (U2 L08, U2 L10, U2 L13, and the Unit 2 project U2 L15–L18) follows this same skeleton. The column names and chart types change; the pipeline doesn't.
 
-**Next:** U2 L08 — Reading Data From Files  
+**Next:** U2 L08 — Reading Data From Files
 [U2-L08-Reading-Data-From-Files.md](U2-L08-Reading-Data-From-Files.md)
