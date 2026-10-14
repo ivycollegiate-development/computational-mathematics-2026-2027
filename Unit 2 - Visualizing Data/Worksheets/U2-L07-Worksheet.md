@@ -54,7 +54,7 @@ Now open `charts.py` and find the lines that load the data (around line 13). The
 | Attendance                                                                |                                        |                                        |
 | Sleep_Hours                                                                |                                        |                                        |
 
-**The bar chart in this lab groups students into bands** (`<1h`, `1-2h`, `2-3h`, `3h+`). Those bands are:
+**The bar chart in this lab groups students into bands** (`10-15h`, `15-20h`, `20-25h`, `25-30h`, `30-35h`, `35+h`). Those bands are:
 
    (circle one)   quantitative          categorical
 
@@ -110,7 +110,7 @@ Write the exact label lines you added (units included):
 
 Open `chart_study_bands.png`. This one has no title and no axis labels at all.
 
-**Check 1.** What is on the x-axis? (the four bands) ______________________________________
+**Check 1.** What is on the x-axis? (the six bands) ______________________________________
 
 **Check 2.** What is on the y-axis — a *score*, a *time*, or a *count of students*?
 
@@ -130,14 +130,16 @@ Write the three label lines you added:
 
 | Band | How many students fell in it? (read the bar) |
 |------|----------------------------------------------|
-| `<1h` |                                        |
-| `1-2h` |                                        |
-| `2-3h` |                                        |
-| `3h+` |                                        |
+| `10-15h` |                                        |
+| `15-20h` |                                        |
+| `20-25h` |                                        |
+| `25-30h` |                                        |
+| `30-35h` |                                        |
+| `35+h` |                                        |
 
-**Check 4.** Every student landed in one band. Which one? __________________
+**Check 4.** The students are spread across multiple bands now — good. Which band has the most students? _______________________________
 
-**Check 5.** The bands were written for 0–3+ hours, but run this and write the real range:
+**Check 5.** Run this and write the real range:
 
 ```bash
 python3 -c "import csv;f=open('data/u2_dataset1_study_habits.csv');v=[float(r['Study_Hours']) for r in csv.DictReader(l for l in f if l.strip() and not l.startswith('#'))];print(min(v),max(v))"
@@ -145,7 +147,7 @@ python3 -c "import csv;f=open('data/u2_dataset1_study_habits.csv');v=[float(r['S
 
    minimum study hours: __________   maximum: __________
 
-**Check 6 — the honest-chart question.** Given that range, is a band chart with three empty bars a fair picture of this data? One sentence, your call.
+**Check 6 — the honest-chart question.** These bands cover the data range and spread students across several bars. Is this an honest picture of the data? One sentence.
 
    _________________________________________________________________________
 
@@ -205,7 +207,7 @@ git push
 
 ## Extension (only if you already have 4/4)
 
-Re-band by `Sleep_Hours` instead — your own bands, e.g. `<6`, `6–7`, `7–8`, `8+` — and re-chart. One line: does the shape look different from the study-hours chart?
+Re-band by `Sleep_Hours` instead — your own bands, e.g. `6.0-6.5`, `6.5-7.0`, `7.0-7.5`, `7.5-8.0` — and re-chart. One line: does the shape look different from the study-hours chart?
 
    _________________________________________________________________________
 
