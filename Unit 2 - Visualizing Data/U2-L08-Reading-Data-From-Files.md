@@ -75,11 +75,9 @@ print(rows[0]["Overall GPA"])
 
 **In the REPL (`python3`), first answer, then test:**
 
-1. What type is `rows[0]["Age"]` before you convert it?
-   > **Answer:** `str` — `"16"` not `16`.
+1. What type is `rows[0]["Age"]` before you convert it? Record your answer on the worksheet (Part B, question 6).
 
-2. What happens with `float("")` — and what error name is that?
-   > **Answer:** `ValueError: could not convert string to float: ''`. Empty strings crash `float()`. Real data has holes — you'll handle this in Part 4.
+2. What happens with `float("")` — and what error name is that? Record your answer on the worksheet (Part A, question 2).
 
 **Why `DictReader` over `reader`:** `reader` gives you lists (you'd need to remember column indices). `DictReader` gives you dicts with names — self-documenting and robust to column reordering.
 
@@ -131,13 +129,7 @@ avg_by_study = {h: s / n for h, (s, n) in by_study.items()}
 - The `if band not in by_study` guard initializes the accumulator for a new band.
 - `s / n` uses **float division** (`/`), not `//`. Integer division would truncate the average.
 
-**Answer in your notes:** Which of these three outputs (`records`, `heavy`, `avg_by_study`) is the one you would hand to `plt.plot` next week, and in what form?
-
-> **Expected answer:** `avg_by_study` — but `plt.plot` needs two parallel lists: sorted keys (x) and averages in the same order (y).
-> ```python
-> x = sorted(avg_by_study)
-> y = [avg_by_study[k] for k in x]
-> ```
+**Answer in your notes:** Which of these three outputs (`records`, `heavy`, `avg_by_study`) is the one you would hand to `plt.plot` next week, and in what form? Record your answer on the worksheet (Part E, question 13).
 
 ---
 
@@ -192,9 +184,7 @@ print(list(rows[0].keys()))
 
 **What you see:** No crash. The comment text becomes a column name (e.g., `'# Mental health survey, GPA on 4.0 scale'`). A real column (`GPA`) has been pushed out of your dict entirely.
 
-**In your notes:** Why is a wrong first row worse than a crash?
-
-> **Answer:** A crash tells you something is wrong *immediately*. A wrong first row tells you everything is fine while you build a chart on corrupted data — the U2 L07 "quietly wrong" bug, again. This is the most dangerous kind of bug because it doesn't announce itself.
+**In your notes:** Why is a wrong first row worse than a crash? Record your answer on the worksheet (Part D, question 12).
 
 ---
 
