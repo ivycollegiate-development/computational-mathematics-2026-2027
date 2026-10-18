@@ -50,7 +50,7 @@ Open your Unit 2 lab repo. If you have not cloned it yet, do this first:
 
 ```bash
 cd ~
-git clone https://github.com/ivycollegiate-development/compmath-u2-data-lab-$(whoami)_student.git compmath-u2-data-lab
+git clone https://github.com/ivycollegiate-development/compmath-u2-data-lab-$(whoami)_student.git compmath-u2-data-lab-$(whoami)_student
 ```
 
 (Your username + Personal Access Token, not your GitHub password.)

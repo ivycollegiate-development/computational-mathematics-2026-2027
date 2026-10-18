@@ -21,8 +21,8 @@ Today you get YOUR OWN copy of the **data lab** repo — a different one from U2
 ```bash
 pwd
 cd ~
-git clone https://github.com/ivycollegiate-development/compmath-u2-data-lab-$(whoami)_student.git compmath-u2-data-lab
-cd compmath-u2-data-lab
+git clone https://github.com/ivycollegiate-development/compmath-u2-data-lab-$(whoami)_student.git compmath-u2-data-lab-$(whoami)_student
+cd compmath-u2-data-lab-$(whoami)_student
 ls
 ls data/
 ```
