@@ -18,16 +18,22 @@ Today you get YOUR OWN copy of the **data lab** repo — a different one from U2
 
 **Step 3:** Clone it. Start with `pwd` — always know where you are.
 
+**Already have this repo from U2 L02?** Don't re-clone — pull instead:
+
 ```bash
 pwd
 cd ~
-git clone https://github.com/ivycollegiate-development/compmath-u2-data-lab-$(whoami)_student.git compmath-u2-data-lab-$(whoami)_student
+if [ ! -d compmath-u2-data-lab-$(whoami)_student ]; then
+  git clone https://github.com/ivycollegiate-development/compmath-u2-data-lab-$(whoami)_student.git compmath-u2-data-lab-$(whoami)_student
+fi
 cd compmath-u2-data-lab-$(whoami)_student
+git config pull.rebase false
+git pull
 ls
 ls data/
 ```
 
-**Why this sequence:** Same as U2 L07 — `pwd` confirms location, `cd ~` guarantees predictable path, `$(whoami)` matches your username to the repo suffix, `ls` verifies.
+**Why this sequence:** `pwd` confirms you're where you expect, `cd ~` guarantees a predictable path, the `if` check skips the clone when your copy already exists, `git pull` fetches anything new, and `ls` verifies. Re-cloning into an existing folder fails with a fatal error — pulling never does.
 
 **The star of today:** `data/u2_student_performance_data.csv` — **1000 rows** with these columns:
 - Student ID, Gender, Age, Parent Education Level
