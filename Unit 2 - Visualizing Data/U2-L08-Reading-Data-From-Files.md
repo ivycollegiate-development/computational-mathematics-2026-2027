@@ -48,7 +48,10 @@ Create your working file:
 
 ```bash
 touch load_scores.py
+code load_scores.py
 ```
+
+`code <file>` opens the file in the VS Code editor pane — type the code there, save with Ctrl+S, and run it in the terminal with `python3 load_scores.py`.
 
 No pandas, no pip installs — matplotlib and `csv` are preinstalled on the VPS (Python 3.10+, matplotlib 3.10.9).
 
