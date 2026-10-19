@@ -63,7 +63,7 @@ import csv
 with open("data/u2_student_performance_data.csv") as f:
     rows = list(csv.DictReader(f))
 
-print(len(rows))          # 1000
+print(len(rows))          # record the count on the worksheet (Part B, Q4)
 print(rows[0].keys())     # the column names
 print(rows[0]["Overall GPA"])
 ```
@@ -166,10 +166,11 @@ def load_csv(path):
 **Test it on all three files:**
 
 ```python
-print(len(load_csv("data/u2_dataset1_study_habits.csv")))   # expect 52
-print(len(load_csv("data/u2_dataset2_mental_health.csv")))  # expect 60
-print(len(load_csv("data/u2_dataset3_activities.csv")))     # expect 50
+print(len(load_csv("data/u2_dataset1_study_habits.csv")))
+print(len(load_csv("data/u2_dataset2_mental_health.csv")))
+print(len(load_csv("data/u2_dataset3_activities.csv")))
 
+# record each count on the worksheet (Part D, Q11)
 # Print keys of first row of each — should be real column names
 print(list(load_csv("data/u2_dataset1_study_habits.csv")[0].keys()))
 print(list(load_csv("data/u2_dataset2_mental_health.csv")[0].keys()))
