@@ -94,7 +94,8 @@ records = [{"gpa": float(r["Overall GPA"]),
             "study": float(r["Hours Studied Per Week"]),
             "sleep": float(r["Sleep Hours Per Night"])}
            for r in rows
-           if r["Hours Studied Per Week"] and r["Sleep Hours Per Night"]]```
+           if r["Hours Studied Per Week"] and r["Sleep Hours Per Night"]]
+```
 
 **What this does:** Builds a new list of *smaller* dicts with only the three columns you need, and converts them to `float` immediately. The original `rows` list (1000 dicts × 12 keys) is still there if you need other columns later.
 
