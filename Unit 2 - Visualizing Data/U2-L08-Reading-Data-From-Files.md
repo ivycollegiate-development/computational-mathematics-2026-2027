@@ -95,9 +95,11 @@ records = [{"gpa": float(r["Overall GPA"]),
             "sleep": float(r["Sleep Hours Per Night"])}
            for r in rows
            if r["Hours Studied Per Week"] and r["Sleep Hours Per Night"]]
+
+print(len(records))  # record this on the worksheet (Part C)
 ```
 
-**What this does:** Builds a new list of *smaller* dicts with only the three columns you need, and converts them to `float` immediately. The original `rows` list (1000 dicts × 12 keys) is still there if you need other columns later.
+**What this does:** Prints the number of valid records built by the comprehension, giving you the count you need for the worksheet (Part C). Builds a new list of *smaller* dicts with only the three columns you need, and converts them to `float` immediately. The original `rows` list (1000 dicts × 12 keys) is still there if you need other columns later.
 
 **Why not modify in place?** Keeping the raw `rows` separate from the cleaned `records` lets you restart the cleaning without re-reading the file.
 
