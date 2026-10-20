@@ -145,8 +145,8 @@ head -2 data/u2_dataset1_study_habits.csv
 head -2 data/u2_dataset2_mental_health.csv
 ```
 
-**The difference:**
-- `u2_dataset1_study_habits.csv` goes straight to a header row.
+**There is no difference with these two:**
+- `u2_dataset1_study_habits.csv` starts with a **`#` comment line** — a note someone left in the file explaining the units explaining Student Study Habits & Performance.
 - `u2_dataset2_mental_health.csv` starts with a **`#` comment line** — a note someone left in the file explaining the units.
 
 **If you hand that to `csv.DictReader` blindly:** Your "first row" becomes the comment text (e.g., `# Mental health survey, GPA on 4.0 scale`). Every column name after it is garbage. You don't get a crash — you get **wrong answers** silently.
