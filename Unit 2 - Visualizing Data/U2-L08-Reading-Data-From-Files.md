@@ -248,7 +248,7 @@ def sleep_band(hours):
 ## PART 5 — TURN IN (5 min)
 
 ```bash
-cd ~/compmath-u2-data-lab
+cd ~/compmath-u2-data-lab-$(whoami)_student
 git add load_scores.py
 git commit -m "load csv, filter and aggregate gpa by sleep band"
 git push
