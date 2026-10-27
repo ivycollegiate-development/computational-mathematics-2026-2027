@@ -2,11 +2,9 @@
 
 Names: ___________________________  Date: ____
 
-Fill this in **as you work**, not at the end. Every blank wants the thing you actually saw on your screen — the value your code printed, the count the self-check gave you, the exact labels you typed. This sheet is your record of how you debugged it.
+Fill this in **as you work**, not at the end. Every blank wants the thing you actually saw on your screen — the value your code printed, the count the self-check gave you, the exact labels you typed.
 
-## Part 0 — Get your lab repo (10 min)
-
-Clone your copy of the lab, then look around before you touch anything.
+## Part 0 — Get your lab repo (5 min)
 
 ```bash
 cd ~
@@ -18,159 +16,121 @@ ls data/
 
 | Checkpoint | What I saw |
 |------------|------------|
-| `ls` showed a `.py` script, a self-check, and a `data/` folder     |                                        |
-| The name of the charting script is                                 |                                        |
-| `ls data/` showed how many CSV files?                              |                                        |
+| `ls` showed a `.py` script, a self-check, and a `data/` folder | |
+| Charting script name | |
+| `ls data/` — how many CSV files? | |
 
-## Part 1 — Meet the data (10 min)
+## Part 1 — Meet the data (5 min)
 
-Run this and paste the first six lines:
+Open `data/u2_dataset1_study_habits.csv` and read the first 6 lines. **The first line starts with `#` and there's a blank line before the real header.** Why would that break `csv.DictReader`?
 
-```bash
-head -6 data/u2_dataset1_study_habits.csv
-```
+_________________________________________________________________________
 
-   _________________________________________________________________________
+In `charts.py` (around line 13), the loader filters those lines out. Write the filter condition:
 
-   _________________________________________________________________________
+_________________________________________________________________________
 
-   _________________________________________________________________________
-
-**Look closely at the top of that file.** The very first line starts with a `#`, and there is a blank line before the real header. Why would that break a script that reads the file with `csv.DictReader`?
-
-   _________________________________________________________________________
-
-Now open `charts.py` and find the lines that load the data (around line 13). They filter those lines out. Write the filter condition you see:
-
-   _________________________________________________________________________
-
-**Classify each column.** Write **quantitative** (a number you can average) or **categorical** (a label / group). `Student_ID` is done for you.
+**Classify each column** — quantitative (averagable) or categorical (label/group). `Student_ID` is done.
 
 | Column | Quantitative or categorical? | Note |
 |--------|------------------------------|------|
-| Student_ID                                                                | categorical                            | it is an ID, not a real group — numbers that mean nothing |
-| Study_Hours                                                                |                                        |                                        |
-| Test_Score                                                                |                                        |                                        |
-| Attendance                                                                |                                        |                                        |
-| Sleep_Hours                                                                |                                        |                                        |
+| Student_ID | categorical | it is an ID, not a real group — numbers that mean nothing |
+| Study_Hours | | |
+| Test_Score | | |
+| Attendance | | |
+| Sleep_Hours | | |
 
-**The bar chart in this lab groups students into bands** (`10-15h`, `15-20h`, `20-25h`, `25-30h`, `30-35h`, `35+h`). Those bands are:
+**The bar chart groups students into bands:** `10-15h`, `15-20h`, `20-25h`, `25-30h`, `30-35h`, `35+h`.  
+Those bands are: (circle one) **quantitative** / **categorical**
 
-   (circle one)   quantitative          categorical
+## Part 2 — Run → check → fix → re-check (30 min)
 
-## Part 2 — See it fail (10 min)
-
-Run the charting script, then the self-check. Record the exact numbers.
+Run the script and self-check. Record exact numbers.
 
 ```bash
 python3 charts.py
 python3 self_check.py
 ```
 
-**Check 1.** The self-check printed ______ / 4 passing.
+| Check | What the self-check printed |
+|-------|----------------------------|
+| Check 1 | ______ / 4 passing |
+| Check 2 | Two chart files saved: 1. ________________  2. ________________ |
+| Check 3 | Charts are missing: _________________________________________ |
+| Check 4 | Which chart is missing its title? _____________________________ |
 
-**Check 2.** `charts.py` saved two files. Name them:
+---
 
-   1. _________________________________________________________________________
+### Fix 1: scatter chart (`chart_study_vs_score.png`)
 
-   2. _________________________________________________________________________
+| Check | Answer |
+|-------|--------|
+| As study hours go up, test scores tend to: | go up / go down / stay flat |
+| Axis labels added (exact lines, units included): | |
+| x-axis | `_________________________________________________________________` |
+| y-axis | `_________________________________________________________________` |
+| x-axis units: | ________________________________________________ |
+| y-axis units: | ________________________________________________ |
 
-**Check 3.** The self-check says the charts are missing something. In your own words, what?
+---
 
-   _________________________________________________________________________
+### Fix 2: bar chart (`chart_study_bands.png`)
 
-   _________________________________________________________________________
+| Check | Answer |
+|-------|--------|
+| x-axis shows: | (the six bands) ______________________________________ |
+| y-axis is a: | score / time / **count of students** (circle one) |
+| Title line added: | `_________________________________________________________________` |
+| x-label line added: | `_________________________________________________________________` |
+| y-label line added: | `_________________________________________________________________` |
 
-**Check 4 — predict.** One chart already has a title; the other has none. Which chart is missing its title?
+**Count bar heights:**
 
-   _________________________________________________________________________
+| Band | How many students? (read the bar) |
+|------|-----------------------------------|
+| `10-15h` | |
+| `15-20h` | |
+| `20-25h` | |
+| `25-30h` | |
+| `30-35h` | |
+| `35+h` | |
 
-## Part 3 — Fix 1: the scatter chart
+Which band has the most students? _______________________________
 
-Open the saved file `chart_study_vs_score.png`. Read the scatter plot and answer from the picture, not from the numbers.
-
-**Check 1.** As study hours go up, test scores tend to (circle one):   go up / go down / stay flat.
-
-**Check 2.** The plot's title is there, but the two **axes are unlabeled**. That breaks the label rule from L06. Add them in `charts.py` right after the scatter line.
-
-Write the exact label lines you added (units included):
-
-| Axis | The line I typed |
-|------|------------------|
-| x | _________________________________________________________________________ |
-| y | _________________________________________________________________________ |
-
-**Check 3.** What are the units on each axis? Be specific.
-
-   x-axis units: ______________________________________________________________
-
-   y-axis units: ______________________________________________________________
-
-## Part 4 — Fix 2: the bar chart
-
-Open `chart_study_bands.png`. This one has no title and no axis labels at all.
-
-**Check 1.** What is on the x-axis? (the six bands) ______________________________________
-
-**Check 2.** What is on the y-axis — a *score*, a *time*, or a *count of students*?
-
-   _________________________________________________________________________
-
-That matters: a y-axis that counts students must say so, or the reader will guess wrong.
-
-Write the three label lines you added:
-
-| Element | The line I typed |
-|---------|------------------|
-| title | _________________________________________________________________________ |
-| x-label | _________________________________________________________________________ |
-| y-label | _________________________________________________________________________ |
-
-**Check 3 — look hard at the chart.** Count how many bars actually have height.
-
-| Band | How many students fell in it? (read the bar) |
-|------|----------------------------------------------|
-| `10-15h` |                                        |
-| `15-20h` |                                        |
-| `20-25h` |                                        |
-| `25-30h` |                                        |
-| `30-35h` |                                        |
-| `35+h` |                                        |
-
-**Check 4.** The students are spread across multiple bands now — good. Which band has the most students? _______________________________
-
-**Check 5.** Run this and write the real range:
+**Real data range — run this:**
 
 ```bash
 python3 -c "import csv;f=open('data/u2_dataset1_study_habits.csv');v=[float(r['Study_Hours']) for r in csv.DictReader(l for l in f if l.strip() and not l.startswith('#'))];print(min(v),max(v))"
 ```
 
-   minimum study hours: __________   maximum: __________
+minimum study hours: __________   maximum: __________
 
-**Check 6 — the honest-chart question.** These bands cover the data range and spread students across several bars. Is this an honest picture of the data? One sentence.
+**Honest-chart call** — these bands cover the data range and spread students across several bars. Is this an honest picture? One sentence.
 
-   _________________________________________________________________________
+_________________________________________________________________________
 
-   _________________________________________________________________________
+_________________________________________________________________________
 
-## Part 5 — Verify 4/4 (5 min)
+---
 
-Re-run the self-check.
+### Verify 4/4
+
+Re-run self-check after fixes:
 
 ```bash
 python3 charts.py
 python3 self_check.py
 ```
 
-| After I fixed the labels, the self-check says | ______ / 4 |
-|-----------------------------------------------|------------|
-| If it is not 4 yet, what check is still failing? |                                        |
+| After I fixed the labels, self-check says | ______ / 4 |
+|-------------------------------------------|------------|
+| If not 4 yet, which check fails? | |
 
 **Why does the last check (work committed) still fail until you push?** One sentence.
 
-   _________________________________________________________________________
+_________________________________________________________________________
 
-## Part 6 — Save and submit (5 min)
+## Part 3 — Save and submit (5 min)
 
 ```bash
 cd ~/compmath-u2-viz-basics
@@ -181,41 +141,20 @@ git push
 
 | Checkpoint | Result |
 |------------|--------|
-| Self-check after the push = ___ / 4                                  |                                        |
-| My latest commit on github.com shows the changed files              |                                        |
-| Did git ask for a password? (if yes, stop and ask — PAT issue)       |                                        |
-
-## Part 7 — Reflection (in your journal, `journal-u2l07.md`)
-
-1. A chart that runs without errors can still be wrong — it just doesn't tell you. Which was harder to notice today: a broken script, or a chart that ran fine but said nothing on its axes?
-
-   _________________________________________________________________________
-
-   _________________________________________________________________________
-
-2. Why does the y-axis of a *count* chart need its own label, when the scatter chart's y-axis was a score?
-
-   _________________________________________________________________________
-
-3. In Check 6 of Part 4 you judged whether the bands fit the data. What would you change about the bands to make the chart more useful?
-
-   _________________________________________________________________________
-
-4. Next time I open a chart I made and it "looks fine," the first thing I will check is:
-
-   _________________________________________________________________________
+| Self-check after push = ___ / 4 | |
+| Latest commit on github.com shows changed files | |
+| Git asked for password? (if yes → PAT issue) | |
 
 ## Extension (only if you already have 4/4)
 
-Re-band by `Sleep_Hours` instead — your own bands, e.g. `6.0-6.5`, `6.5-7.0`, `7.0-7.5`, `7.5-8.0` — and re-chart. One line: does the shape look different from the study-hours chart?
+Re-band by `Sleep_Hours` — your own bands, e.g. `6.0-6.5`, `6.5-7.0`, `7.0-7.5`, `7.5-8.0` — and re-chart. One line: does the shape look different from the study-hours chart?
 
-   _________________________________________________________________________
+_________________________________________________________________________
 
 ## TURN IN
 
-☐  Parts 0–6 complete on this sheet — every blank filled with what you actually saw.
-☐  `journal-u2l07.md` created in your lab repo, Part 7 answered, `git push` confirmed.
-☐  Screenshot to the U2 L07 Classroom assignment by 11:59 PM tonight showing: this completed worksheet, both chart PNGs, and `self_check.py` printing 4 of 4.
+☐  Parts 0–3 complete — every blank filled with what you actually saw.  
+☐  Screenshot to the U2 L07 Classroom assignment by 11:59 PM tonight showing: this completed worksheet, both chart PNGs, and `self_check.py` printing 4 of 4.  
 ☐  Your repo link submitted on the U2 L07 assignment.
 
 Keep this sheet. Labeling a chart is not extra credit — an unlabeled chart is not finished.

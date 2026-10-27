@@ -144,7 +144,9 @@ Submit the screenshot to the U2 L17 assignment on Google Classroom.
 - **Honesty** → "Will my boss make a wrong decision because of how I drew this?"
 - **Impact** → "Did I answer the question, or just show data?"
 
-**U2 L18 (tomorrow) is the final polish:** You will have one more lab period to incorporate any remaining feedback, add the audience-choice chart if you want, and submit the final PR. The project is due at the end of U2 L18.
+**U2 L17b (next class) is the Unit 2 Stress Test & Exam Strategy:** traffic-light diagnosis, verb drill, timed stress test, and your personal exam card. Bring your journal and be ready to mark your Reds.
+
+**Then U2 L18 (after that)** is the final project push.
 
 **Next:** U2 L18 — Project Final Push: Polish And Submit  
 [U2-L18-Project-Final-Push-Polish-And-Submit.md](U2-L18-Project-Final-Push-Polish-And-Submit.md)

@@ -1,125 +1,133 @@
-# U2 L14 — Worksheet: Visualizing For An Audience
+# U2 L14 — Paper Check: Unit 2 Review
 
 Names: ___________________________  Date: ____
 
-Starts on paper, ends in the terminal.
+Closed notes. 25 minutes, then swap, grade with the key, and correct every miss in a second color. The corrections are the point — this is your study guide for the project and the unit wrap.
 
-## Part 1 — Where Unit 2 stands (10 min)
+## 1: The check
 
+### Section A — Chart types and when to use them
 
-| Question | My answer |
-|------------|------------|
-| The four pieces of plot anatomy every chart must have                            |                                      |
-| What does `csv.DictReader` give back when you loop over it, and what is each row? |                                      |
-| When we cleaned the threat data, what kinds of "dirty" rows did we throw out?     |                                      |
-| Line chart vs bar chart — when would you pick each?                               |                                      |
+1. You have 72 days of phishing reports (a sequence in time). Which chart type, and why?
 
-The sentence the whole part is for: **a chart owes the person reading it ______________.**
+_________________________________________________________________________
 
-   _________________________________________________________________________
+2. You want to compare average phishing reports on weekdays vs weekends (two categories). Which chart type?
 
-## Part 2 — Same data, three audiences (20 min)
+_________________________________________________________________________
 
-One dataset: the daily phishing reports from our campus threat data. Before you design, here are the real numbers so you can design against something true.
+3. You want to see the distribution of login success rates across all 72 days (one column, shape of the data). Which chart type?
 
+_________________________________________________________________________
 
-| Fact about the dataset | Value |
-|------------------------|------------|
-| Days in the file                                     |                                |
-| Total phishing reports across all of them           |                                |
-| Busiest day for phishing reports                     |                                |
-| Quietest day for phishing reports                   |                                |
-| Average phishing reports on a WEEKDAY               |                                |
-| Average phishing reports on a WEEKEND               |                                |
-| Weekday average ÷ weekend average                    |                                |
+### Section B — Plot anatomy and the label rule
 
-Now design for each audience.
+4. Write the three parts every complete chart must have (the label rule from U2 L03/L05):
 
-**Audience 1 — the security team.** They need to spot which days had attack spikes so they can respond.
+_________________________________________________________________________
 
+5. A chart shows a steep drop in phishing reports over three months, but the y-axis starts at 15 instead of 0. What does this hide from the reader?
 
-| Design choice | My decision |
-|---------------|-------------|
-| Chart type, and why |                                              |
-| x-axis (with units) |                                              |
-| y-axis (with units) |                                              |
-| The exact title     |                                              |
-| Numbers I highlight |                                              |
-| Numbers I leave out |                                              |
+_________________________________________________________________________
 
-**Audience 2 — the principal.** She needs to know in one glance whether the problem is getting better or worse.
+6. A news chart says "Phishing reports fell 50%!" but only shows a bar chart of two months with no denominator (no total students, no total emails). What is the misleading part?
 
+_________________________________________________________________________
 
-| Design choice | My decision |
-|---------------|-------------|
-| Chart type, and why |                                              |
-| x-axis (with units) |                                              |
-| y-axis (with units) |                                              |
-| The exact title     |                                              |
-| Numbers I highlight |                                              |
-| Numbers I leave out |                                              |
+### Section C — Reading code: predict the output
 
-**Audience 3 — the parents at an open house.** They need to know their kids are safe, without jargon.
+7. `plt.savefig("chart.png")` runs AFTER `plt.show()`. What is wrong with the saved file, and what is the correct order?
 
+_________________________________________________________________________
 
-| Design choice | My decision |
-|---------------|-------------|
-| Chart type, and why |                                              |
-| x-axis (with units) |                                              |
-| y-axis (with units) |                                              |
-| The exact title     |                                              |
-| Numbers I highlight |                                              |
-| Numbers I leave out |                                              |
+8. `plt.hist(data, bins=5)` vs `plt.hist(data, bins=100)` on the same column. What does each one risk hiding or inventing?
 
-Are these three charts "the same data" or "different stories"? Where is the line between **simplifying for an audience** and **misleading** them?
+_________________________________________________________________________
 
-   _________________________________________________________________________
+9. `plt.clf()` is called between two plots in a script. What does it do, and what goes wrong with the second `savefig` if you skip it?
 
-   _________________________________________________________________________
+_________________________________________________________________________
 
-## Part 3 — Plan your project charts (15 min)
+### Section D — Cleaning rules (from U2 L08, U2 L11)
 
-Tomorrow the project launches: three required visualizations from `u2_campus_threat_daily.csv`. Plan all three on paper.
+10. A CSV cell is blank (`""`). Name the two choices you have and one tradeoff of each.
 
-**Chart 1 — the daily timeline of phishing reports and failed logins**
+_________________________________________________________________________
 
-- ☐  Chart type I will use, and one sentence on why it fits the question
-- ☐  What goes on each axis, with units
-- ☐  The exact title I will give it, and who my audience is
-- ☐  One thing that could go wrong
+_________________________________________________________________________
 
-**Chart 2 — the weekday vs weekend comparison**
+11. Why does `to_float` return `None` instead of letting the `ValueError` crash the script?
 
-- ☐  Chart type I will use, and one sentence on why it fits the question
-- ☐  What goes on each axis, with units
-- ☐  The exact title I will give it, and who my audience is
-- ☐  One thing that could go wrong
+_________________________________________________________________________
 
-**Chart 3 — the histogram of login success rate**
+12. Your cleaning drops 50 of 1,000 rows. What does that quietly change about every chart you build afterward?
 
-- ☐  Chart type I will use, and one sentence on why it fits the question
-- ☐  What goes on each axis, with units
-- ☐  The exact title I will give it, and who my audience is
-- ☐  One thing that could go wrong
+_________________________________________________________________________
 
-## Part 4 — Journal (last 5 min)
+### Section E — One fix-it (3 points)
 
-Which of the three audiences was hardest to design for, and why?
+13. This code has three bugs. Name all three:
 
-   _________________________________________________________________________
+```python
+plt.bar(["Mon", "Tue", "Wed"], [15, 18, 22])
+plt.title("Daily Phishing Reports")
+plt.legend()
+plt.savefig("phish.png")
+plt.show()
+```
 
-The one rule you will follow so your charts are clear **and** honest:
+Bug 1: ______________________________________________________________
 
-   _________________________________________________________________________
+Bug 2: ______________________________________________________________
 
-## Part 5 — Push
+Bug 3: ______________________________________________________________
 
-- ☐  `analysis.md` updated with the Part 2 and Part 3 plans, `git push` confirmed.
+---
 
-## TURN IN
+## 2: Swap and grade
 
-- ☐  All three audience designs filled in, with exact titles written out.
-- ☐  All three project charts planned with the four checkboxes each.
-- ☐  Screenshot to the Classroom assignment by 11:59 PM tonight showing: your Part 2 planning notes, your Part 3 planning checklist, and the successful `git push`.
+Graded by: ___________________________  Score: ________ / 16
 
-Keep the notes — tomorrow you build exactly what you planned.
+---
+
+## 3: Corrections
+
+For each miss, correct it in a second color and write one line: what I had in my head vs what is true.
+
+_________________________________________________________________________
+
+_________________________________________________________________________
+
+_________________________________________________________________________
+
+_________________________________________________________________________
+
+_________________________________________________________________________
+
+---
+
+## 4: Look ahead — the project (U2 L15–L18)
+
+The Unit 2 project launches next class (U2 L15): three visualizations built from the campus threat data, with cleaning you do yourself.
+
+Write the one-sentence provenance statement you would make for the threat dataset, including how many days it covers and any cleaning you already know it needs:
+
+_________________________________________________________________________
+
+_________________________________________________________________________
+
+Predict: which is more dangerous to a chart — a blank cell or an impossible value? Defend your choice.
+
+_________________________________________________________________________
+
+_________________________________________________________________________
+
+---
+
+## Hand-in
+
+☐  Check sheet completed, graded by partner, corrections in a second color.
+
+☐  Photo of the corrected check sheet submitted to the Classroom assignment by 11:59 PM tonight.
+
+Keep the sheet — it is your study guide for the Unit 2 project and the unit wrap.

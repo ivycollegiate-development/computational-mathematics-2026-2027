@@ -283,5 +283,8 @@ Submit to the U2 L15 assignment on Google Classroom.
 
 **Build days (U2 L16–L17):** You will have two full lab periods to build Charts 2 and 3, write the three analyses, and polish. Students who finish Chart 1 today with a clean dataset and a clear claim will build Charts 2 and 3 in one period each. Students who don't will spend both periods debugging data issues.
 
-**Next:** U2 L16 — Project Lab: Build Your Visualizations  
-[U2-L16-Project-Lab-Build-Your-Visualizations.md](U2-L16-Project-Lab-Build-Your-Visualizations.md)
+**Next:** U2 L18 — Project Final Push: Polish and Submit  \
+[U2-L18-Project-Final-Push-Polish-And-Submit.md](U2-L18-Project-Final-Push-Polish-And-Submit.md)
+
+**Then:** U2 L19 — Unit 2 Assessment (second day back from Fall Break) + Reflection  \
+[U2-L19-Reflection-Unit-2-Wrap-What-Makes-A-Secure-Visualization.md](U2-L19-Reflection-Unit-2-Wrap-What-Makes-A-Secure-Visualization.md)

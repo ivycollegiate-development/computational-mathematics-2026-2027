@@ -13,9 +13,9 @@
 |------|-------------|-------|-------|:----:|:-----:|:----:|
 | U0 | Survey | Syllabus, paper survey, what is computational math | Sep 01 – Sep 04 | 2 | 2 | 4 |
 | U1 | Ch 1 — Working with Numbers | Types, operators, functions, error handling, input validation | Sep 07 – Oct 07 | 12 | 8 | 20 |
-| U2 | Ch 2 — Visualizing Data | Matplotlib, line/bar/scatter, reading data, integrity | Oct 08 – Oct 30 | 11 | 8 | 19 |
-| | | **Fall Break (Oct 30 half-day — Unit 2 Wrap; Oct 31–Nov 8 off; Nov 09–13 FLEX)** | | | |
-| U3 | Ch 3 — Describing Data with Stats | Mean/mode/median, variance, stddev, PII, anonymization | Nov 09 – Dec 17 | 17 | 12 | 29 |
+|| U2 | Ch 2 — Visualizing Data | Matplotlib, line/bar/scatter, reading data, integrity | Oct 08 – Nov 03 | 13 | 8 | 21 ||
+||| | | **Fall Break (Nov 03 — Unit 2 Wrap; Nov 04–12 off; Nov 13 FLEX; Nov 16 — Unit 2 Assessment)** | | | ||
+|| U3 | Ch 3 — Describing Data with Stats | Mean/mode/median, variance, stddev, PII, anonymization | Nov 17 – Dec 17 | 17 | 12 | 29 ||
 | | | **Winter Break (Dec 18 half-day, Dec 19–Jan 3 off)** | | | |
 | U4 | Ch 4 — Algebra & SymPy | Symbolic math, modular arithmetic, ciphers, hashing | Jan 05 – Feb 16 | 12 | 8 | 20 |
 | | | **Chinese New Year (Feb 03 half-day, Feb 04–14 off)** | | | |
@@ -24,7 +24,7 @@
 | U6 | Ch 6 — Geometry & Fractals | Coordinates, recursion, fractals, pattern detection | Apr 12 – Apr 30 | 9 | 6 | 15 |
 | U7 | Ch 7 — Calculus & Modeling | Limits conceptually, derivatives, integrals, anomaly detection | May 03 – May 28 | 12 | 8 | 20 |
 | | | **Finals Week (May 31 – Jun 03)** | | | |
-| | | **Total Instruction** | | **97** | **66** | **163** |
+|| | | **Total Instruction** | | **99** | **66** | **165** ||
 
 ---
 
@@ -39,37 +39,37 @@
 | 5 | **Sep 28** | **Sep 29** | **Sep 30** | **Oct 01** | **Oct 02** | U1→U1 |
 | 6 | **Oct 05** | **Oct 06** | **Oct 07** | **Oct 08** | **Oct 09** | U2 |
 | 7 | **Oct 12** | **Oct 13** | **Oct 14** | **Oct 15** | **Oct 16** | U2 |
-| 8 | **Oct 19** | **Oct 20** | **Oct 21** | **Oct 22** | **Oct 23** | U2 |
-| 9 | **Oct 26** | **Oct 27** | **Oct 28** | **Oct 29** | Oct 30 (wrap) | U2→wrap |
-| | | | **=== FALL BREAK ===** | Oct 31–Nov 8 | | |
-| 10 | **Nov 09** | **Nov 10** | **Nov 11** | **Nov 12** | **Nov 13** | FLEX |
-| 11 | **Nov 16** | **Nov 17** | **Nov 18** | **Nov 19** | **Nov 20** | U3 |
-| 12 | **Nov 23** | **Nov 24** | **Nov 25** | **Nov 26** | **Nov 27** | U3 |
-| 13 | **Nov 30** | **Dec 01** | **Dec 02** | **Dec 03** | **Dec 04** | U3 |
-| 14 | **Dec 07** | **Dec 08** | **Dec 09** | **Dec 10** | **Dec 11** | U3 |
-| 15 | **Dec 14** | **Dec 15** | **Dec 16** | **Dec 17** | Dec 18½ | U3→project |
+|| 8 | **Oct 19** | **Oct 20** | **Oct 21** | **Oct 22** | **Typhoon Day** | U2 ||
+|| 9 | **Oct 26** | **Oct 27** | **Oct 28** | **Oct 29** | **Oct 30** | U2 ||
+|| 10 | **Nov 03** | | | **=== FALL BREAK ===** | Nov 04–12 | U2→wrap ||
+|| 11 | | | | **Nov 13** | **FLEX** | FLEX ||
+|| 12 | **Nov 16 (Assessment)** | **Nov 17** | **Nov 18** | **Nov 19** | **Nov 20** | U3 ||
+|| 13 | **Nov 23** | **Nov 24** | **Nov 25** | **Nov 26** | **Nov 27** | U3 ||
+|| 14 | **Nov 30** | **Dec 01** | **Dec 02** | **Dec 03** | **Dec 04** | U3 ||
+|| 15 | **Dec 07** | **Dec 08** | **Dec 09** | **Dec 10** | **Dec 11** | U3 ||
+|| 16 | **Dec 14** | **Dec 15** | **Dec 16** | **Dec 17** | Dec 18½ | U3→project ||
 | | | | **=== WINTER BREAK ===** | Dec 19–Jan 3 | | |
-| 16 | **Jan 04** | **Jan 05** | **Jan 06** | **Jan 07** | **Jan 08** | U4 |
-| 17 | **Jan 11** | **Jan 12** | **Jan 13** | **Jan 14** | **Jan 15** | U4 |
-| 18 | Jan 18–21 **MIDTERMS** | | | | **Jan 22** | U4 |
-| 19 | **Jan 25** | **Jan 26** | **Jan 27** | **Jan 28** | **Jan 29** | U4 |
-| 20 | **Feb 01** | **Feb 02** | Feb 03½ | | | U4 |
-| | | | **=== CNY BREAK ===** | Feb 04–14 | | |
-| 21 | **Feb 15** | **Feb 16** | **Feb 17** | **Feb 18** | **Feb 19** | U5 |
-| 22 | **Feb 22** | **Feb 23** | **Feb 24** | **Feb 25** | **Feb 26** | U5 |
-| 23 | **Mar 01** | **Mar 02** | **Mar 03** | **Mar 04** | **Mar 05** | U5 |
-| 24 | **Mar 08** | **Mar 09** | **Mar 10** | **Mar 11** | **Mar 12** | U5 |
-| 25 | **Mar 15** | **Mar 16** | **Mar 17** | **Mar 18** | **Mar 19** | U5 |
-| 26 | **Mar 22** | **Mar 23** | **Mar 24** | **Mar 25** | **Mar 26** | U5 |
-| 27 | **Mar 29** | **Mar 30** | **Mar 31** | Apr 01 | Apr 02½ | U5→project |
-| | | | **=== SPRING BREAK ===** | Apr 03–11 | | |
-| 28 | **Apr 12** | **Apr 13** | **Apr 14** | **Apr 15** | **Apr 16** | **U6** ⚡ compressed |
-| 29 | **Apr 19** | **Apr 20** | **Apr 21** | **Apr 22** | **Apr 23** | U6 |
-| 30 | **Apr 26** | **Apr 27** | **Apr 28** | **Apr 29** | **Apr 30** | U6→project |
-| 31 | **May 03** | **May 04** | **May 05** | **May 06** | **May 07** | U7 |
-| 32 | **May 10** | **May 11** | **May 12** | **May 13** | **May 14** | U7 |
-| 33 | **May 17** | **May 18** | **May 19** | **May 20** | **May 21** | U7 |
-| 34 | **May 24** | **May 25** | **May 26** | **May 27** | **May 28** | U7→project |
+|| 17 | **Jan 04** | **Jan 05** | **Jan 06** | **Jan 07** | **Jan 08** | U4 ||
+|| 18 | **Jan 11** | **Jan 12** | **Jan 13** | **Jan 14** | **Jan 15** | U4 ||
+|| 19 | Jan 18–21 **MIDTERMS** | | | | **Jan 22** | U4 ||
+|| 20 | **Jan 25** | **Jan 26** | **Jan 27** | **Jan 28** | **Jan 29** | U4 ||
+|| 21 | **Feb 01** | **Feb 02** | Feb 03½ | | | U4 ||
+|| | | | **=== CNY BREAK ===** | Feb 04–14 | | ||
+|| 22 | **Feb 15** | **Feb 16** | **Feb 17** | **Feb 18** | **Feb 19** | U5 ||
+|| 23 | **Feb 22** | **Feb 23** | **Feb 24** | **Feb 25** | **Feb 26** | U5 ||
+|| 24 | **Mar 01** | **Mar 02** | **Mar 03** | **Mar 04** | **Mar 05** | U5 ||
+|| 25 | **Mar 08** | **Mar 09** | **Mar 10** | **Mar 11** | **Mar 12** | U5 ||
+|| 26 | **Mar 15** | **Mar 16** | **Mar 17** | **Mar 18** | **Mar 19** | U5 ||
+|| 27 | **Mar 22** | **Mar 23** | **Mar 24** | **Mar 25** | **Mar 26** | U5 ||
+|| 28 | **Mar 29** | **Mar 30** | **Mar 31** | Apr 01 | Apr 02½ | U5→project ||
+|| | | | **=== SPRING BREAK ===** | Apr 03–11 | | ||
+|| 29 | **Apr 12** | **Apr 13** | **Apr 14** | **Apr 15** | **Apr 16** | **U6** ⚡ compressed ||
+|| 30 | **Apr 19** | **Apr 20** | **Apr 21** | **Apr 22** | **Apr 23** | U6 ||
+|| 31 | **Apr 26** | **Apr 27** | **Apr 28** | **Apr 29** | **Apr 30** | U6→project ||
+|| 32 | **May 03** | **May 04** | **May 05** | **May 06** | **May 07** | U7 ||
+|| 33 | **May 10** | **May 11** | **May 12** | **May 13** | **May 14** | U7 ||
+|| 34 | **May 17** | **May 18** | **May 19** | **May 20** | **May 21** | U7 ||
+|| 35 | **May 24** | **May 25** | **May 26** | **May 27** | **May 28** | U7→project ||
 | | | | **=== FINALS WEEK ===** | May 31–Jun 03 | | |
 
 **Bold** = full day | ½ = half-day dismissal | Midterms = modified schedule (no regular classes)
@@ -88,9 +88,11 @@
 | Oct 15 | PSAT |
 | Oct 17 | Family Day |
 | Oct 29 | Halloween Dance |
-| Oct 30 | Fall Break — half day (12:30 dismissal) |
-| Oct 31–Nov 8 | Fall Break |
-| Nov 14 | Common Good Day |
+|| Nov 03 | Fall Break — half day (12:30 dismissal), Unit 2 Wrap (Reflection) ||
+|| Nov 04–12 | Fall Break ||
+|| Nov 13 | FLEX Day 1 — First day back from break ||
+|| Nov 14 | Common Good Day ||
+|| Nov 16 | Unit 2 Assessment (50 pts, 35 min, closed computer) ||
 | Nov 26 | Thanksgiving Formal Dinner |
 | Dec 18 | Winter Break — half day (12:30 dismissal) |
 | Dec 19–Jan 3 | Winter Break |
@@ -116,7 +118,7 @@
 | Unit | Project | Due |
 |------|---------|-----|
 | U1 | **Calculator with Guardrails** | Oct 02 |
-| U2 | **Visualizing Threats** (data viz with integrity lens) | Nov 11 |
+| U2 | **Visualizing Threats** (data viz with integrity lens) | Nov 02 (project week ends) → **Polished PR by Nov 14 (Common Good Day)** |
 | U3 | **Privacy-Aware Stats Dashboard** | Dec 17 |
 | U4 | **Cipher Toolkit** (Math Wars) | Feb 15 (demo Feb 16) |
 | U5 | **Risk Simulator** (threat modeling) | Mar 31 |

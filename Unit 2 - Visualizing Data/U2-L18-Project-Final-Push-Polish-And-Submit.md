@@ -115,7 +115,7 @@ Submit the PR link to the U2 L18 assignment on Google Classroom.
 
 **The honesty audit is the most important part of this course.** In the real world, no one checks your charts line by line — they trust you. The only reason they can trust you is that you've internalized the habit of asking: *What did I leave out? What did I drop? What would change the reader's conclusion?* That habit is what this unit was for.
 
-**U2 L19 (tomorrow) is the unit wrap:** You will reflect on what you learned, and I will assess whether the vocabulary (chart types, cleaning rules, audience design, honesty audit) is fluent. The paper checks (U2 L06, U2 L12) and today's self-audit are your study guides.
+**U2 L19 (after Fall Break, second day back)** is the Unit 2 Assessment + Reflection: paper test first (35 min), then synthesis reflection. The assessment covers everything we built and debugged in Unit 2. Your paper checks (L06, L12), today's self-audit, and the Stress Test (L17b) are your study guides.
 
 **Next:** U2 L19 — Reflection: Unit 2 Wrap — What Makes A Secure Visualization  
 [U2-L19-Reflection-Unit-2-Wrap-What-Makes-A-Secure-Visualization.md](U2-L19-Reflection-Unit-2-Wrap-What-Makes-A-Secure-Visualization.md)

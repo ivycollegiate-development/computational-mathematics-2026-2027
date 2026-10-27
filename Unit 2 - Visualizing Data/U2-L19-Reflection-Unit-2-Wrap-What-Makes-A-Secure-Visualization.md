@@ -1,12 +1,54 @@
-# U2 L19 — Reflection: Unit 2 Wrap — What Makes A Secure Visualization?
+# U2 L19 — Unit 2 Assessment + Reflection: What Makes A Secure Visualization?
 
-**LO:** synthesize Unit 2 — connect visualization, data integrity, and privacy into one principle you can defend.
-
-**Estimated time:** 70 minutes (was ~50). We move slower so the reflection is genuine, not performative.
+**LO:** demonstrate mastery of Unit 2 (visualization, data integrity, privacy), then synthesize into one defensible principle.
+**Estimated time:** 70 minutes (35 min paper + 35 min reflection).
+**Schedule:** Half day — Unit 2 Assessment administered on the second day back from Fall Break, then reflection.
 
 ---
 
-**No electronics today.** This is a reflection and a gallery. Your project is already submitted (U2 L18). Nothing to build. Bring your journal and your own three charts in your head — we are talking about what you learned and why it matters.
+**No electronics during the assessment.** The written part is closed-computer — no
+terminals, no notes, no neighbors. Everything on the paper is something we
+built or debugged together in Unit 2. After the assessment, we reflect.
+
+## PART 0 — BEFORE THE ASSESSMENT (5 min)
+
+Put everything away except a pen or pencil. On the cover of your paper, write:
+
+- your name
+- one thing from Unit 2 you feel confident about
+- one thing you hope is NOT on the test (be honest — it won't change the test,
+  but it tells me where to spend review time in Unit 3)
+
+Then close your notes. Deep breath. You have seen every problem type below.
+
+## PART 0B — WRITTEN ASSESSMENT (35 min, no computers)
+
+The exam is a standalone paper:
+[`Unit 2 - Visualizing Data/Assessments/Unit-2-Assessment.md`](https://github.com/ivycollegiate-development/computational-mathematics-2026-2027/blob/main/Unit%202%20-%20Visualizing%20Data/Assessments/Unit-2-Assessment.md)
+
+**Print it double-sided before class.** 50 points, 35 minutes, pen and paper.
+Structure:
+
+| Section | Points | Covers |
+|---|---|---|
+| A — Short Response | 20 | 10 questions: chart-type taxonomy, matplotlib syntax, `csv.DictReader` behavior, comment-line bug, sanity bounds vs outliers, `figure`/`savefig`/`show` order |
+| B — Code Reading | 10 | Problem 11 (cleaning loop), Problem 12 (timeline chart bugs) |
+| C — Data Integrity & Honesty | 10 | Provenance, blank-GPA bias, outlier vs signal, k-anonymity |
+| D — Write Code | 10 | `load_and_clean(csv_path, sanity_dict)` — strip comments, convert, apply bounds, print drops, audit assert |
+
+Do not deviate from the printed paper. The coversheet on the front carries your
+name, your confident item, and the "one thing I hope is NOT on the test" note
+from Part 0.
+
+## PART 0C — GRADE RELEASE WALKTHROUGH (10 min)
+
+We go over the answer key together, problem by problem. As we do:
+
+- Mark each problem **got it** or **not yet** — no points yet, just honesty.
+- For every **not yet**, write one sentence: *what specifically confused me?*
+  "I didn't study" is not an answer. "I mixed up `plt.plot` and `plt.scatter`" is.
+
+These sentences are raw material for your journal in Part 4.
 
 ---
 
