@@ -14,7 +14,7 @@
 | U0 | Survey | Syllabus, paper survey, what is computational math | Sep 01 – Sep 04 | 2 | 2 | 4 |
 | U1 | Ch 1 — Working with Numbers | Types, operators, functions, error handling, input validation | Sep 07 – Oct 07 | 12 | 8 | 20 |
 || U2 | Ch 2 — Visualizing Data | Matplotlib, line/bar/scatter, reading data, integrity | Oct 08 – Nov 03 | 13 | 8 | 21 ||
-||| | | **Fall Break (Nov 03 — Unit 2 Wrap; Nov 04–12 off; Nov 13 FLEX; Nov 16 — Unit 2 Assessment)** | | | ||
+||| | | **Fall Break (Oct 30 – Nov 08 off; Nov 09–12 project week; Nov 13 FLEX; Nov 16 — Unit 2 Assessment)** | | | ||
 || U3 | Ch 3 — Describing Data with Stats | Mean/mode/median, variance, stddev, PII, anonymization | Nov 17 – Dec 17 | 17 | 12 | 29 ||
 | | | **Winter Break (Dec 18 half-day, Dec 19–Jan 3 off)** | | | |
 | U4 | Ch 4 — Algebra & SymPy | Symbolic math, modular arithmetic, ciphers, hashing | Jan 05 – Feb 16 | 12 | 8 | 20 |
@@ -41,7 +41,7 @@
 | 7 | **Oct 12** | **Oct 13** | **Oct 14** | **Oct 15** | **Oct 16** | U2 |
 || 8 | **Oct 19** | **Oct 20** | **Oct 21** | **Oct 22** | **Typhoon Day** | U2 ||
 || 9 | **Oct 26** | **Oct 27** | **Oct 28** | **Oct 29** | **Oct 30** | U2 ||
-|| 10 | **Nov 03** | | | **=== FALL BREAK ===** | Nov 04–12 | U2→wrap ||
+|| 10 | **Nov 03** | | | **=== FALL BREAK ===** | Oct 30 – Nov 08 | U2→wrap ||
 || 11 | | | | **Nov 13** | **FLEX** | FLEX ||
 || 12 | **Nov 16 (Assessment)** | **Nov 17** | **Nov 18** | **Nov 19** | **Nov 20** | U3 ||
 || 13 | **Nov 23** | **Nov 24** | **Nov 25** | **Nov 26** | **Nov 27** | U3 ||
@@ -89,8 +89,8 @@
 | Oct 17 | Family Day |
 | Oct 29 | Halloween Dance |
 || Nov 03 | Fall Break — half day (12:30 dismissal), Unit 2 Wrap (Reflection) ||
-|| Nov 04–12 | Fall Break ||
-|| Nov 13 | FLEX Day 1 — First day back from break ||
+|| Oct 30 – Nov 08 | Fall Break ||
+|| Nov 13 | FLEX Day (classes resume Nov 09) ||
 || Nov 14 | Common Good Day ||
 || Nov 16 | Unit 2 Assessment (50 pts, 35 min, closed computer) ||
 | Nov 26 | Thanksgiving Formal Dinner |
