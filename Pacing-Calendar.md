@@ -41,8 +41,8 @@
 | 7 | **Oct 12** | **Oct 13** | **Oct 14** | **Oct 15** | **Oct 16** | U2 |
 || 8 | **Oct 19** | **Oct 20** | **Oct 21** | **Oct 22** | **Typhoon Day** | U2 ||
 || 9 | **Oct 26** | **Oct 27** | **Oct 28** | **Oct 29** | **Oct 30** | U2 ||
-|| 10 | **Nov 03** | | | **=== FALL BREAK ===** | Oct 30 – Nov 08 | U2→wrap ||
-|| 11 | | | | **Nov 13** | **FLEX** | FLEX ||
+|| 10 | **Nov 02 – Nov 06** | | | | | **=== FALL BREAK ===** | U2→wrap ||
+|| 11 | **Nov 09** | **Nov 10** | **Nov 11** | **Nov 12** | **Nov 13 FLEX** | U2 ||
 || 12 | **Nov 16 (Assessment)** | **Nov 17** | **Nov 18** | **Nov 19** | **Nov 20** | U3 ||
 || 13 | **Nov 23** | **Nov 24** | **Nov 25** | **Nov 26** | **Nov 27** | U3 ||
 || 14 | **Nov 30** | **Dec 01** | **Dec 02** | **Dec 03** | **Dec 04** | U3 ||
@@ -88,7 +88,7 @@
 | Oct 15 | PSAT |
 | Oct 17 | Family Day |
 | Oct 29 | Halloween Dance |
-|| Nov 03 | Fall Break — half day (12:30 dismissal), Unit 2 Wrap (Reflection) ||
+|| Oct 30 | Fall Break begins — half day (12:30 dismissal), Unit 2 Wrap (Reflection) ||
 || Oct 30 – Nov 08 | Fall Break ||
 || Nov 13 | FLEX Day (classes resume Nov 09) ||
 || Nov 14 | Common Good Day ||
