@@ -68,7 +68,7 @@ def to_int(v):
 SANITY = {
     "phishing_reports": (0, 100),
     "failed_logins": (0, 5000),
-    "total_logins": (1, 10000),
+    "phishing_clicks": (0, 100),
     "login_success_rate": (0.0, 1.0),
     "Age": (10, 22),
     "Overall GPA": (0.0, 4.0),

@@ -144,7 +144,7 @@ Submit the screenshot to the U2 L17 assignment on Google Classroom.
 - **Honesty** → "Will my boss make a wrong decision because of how I drew this?"
 - **Impact** → "Did I answer the question, or just show data?"
 
-**U2 L17b (next class) is the Unit 2 Stress Test & Exam Strategy:** traffic-light diagnosis, verb drill, timed stress test, and your personal exam card. Bring your journal and be ready to mark your Reds.
+**Next class (U2 L18) is the Project Final Push:** polish what the review exposed, then submit. The Unit 2 assessment follows. Bring your journal and be ready to mark your Reds.
 
 **Then U2 L18 (after that)** is the final project push.
 
