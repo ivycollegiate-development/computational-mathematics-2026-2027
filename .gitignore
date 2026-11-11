@@ -15,3 +15,6 @@
 *-Fix-Guide.md
 *-TALKING-POINTS.md
 *-FIX-GUIDE.md
+
+# Golden expected output for the functional test — teacher only
+threats_clean_expected.csv

@@ -1,12 +1,11 @@
 # Unit 2 Assessment — Computational Mathematics
-**Schedule:** Unit 2 Assessment (Half Day)
-**Time:** 35 minutes
-**Conditions:** Closed computer. Pen and paper only. No notes, no phone, no neighbors.
+**Schedule:** Unit 2 Assessment + Reflection
+**Time:** 30 minutes assessment + 20 minutes reflection = 50 minutes total
+**Conditions:** Closed computer for assessment portion. Pen and paper only. No notes, no phone, no neighbors. Reflection portion: open notes allowed.
 
-Print double-sided. Do not write your name inside the body — write it on the
-coversheet only.
+Print double-sided. Do not write your name inside the body — write it on the coversheet only.
 
-Total: 50 points.
+Total: 50 points (35 assessment / 15 reflection).
 
 ---
 
@@ -18,8 +17,7 @@ Before you start, on the cover of your paper write:
 - One thing from Unit 2 you feel confident about
 - One thing you hope is **NOT** on this test
 
-The coversheet is not graded. The third answer is the useful one — it tells me
-where to spend review time in Unit 3.
+The coversheet is not graded. The third answer is the useful one — it tells me where to spend review time in Unit 3.
 
 ---
 
@@ -27,15 +25,15 @@ where to spend review time in Unit 3.
 
 - Answer in complete sentences where the question asks *why*.
 - A value or a word is fine where the question asks *what*.
-- **Answer the verb.** "What happens when…" wants the actual error, not the fix.
-  "Why" wants a sentence, not a value. Most lost points on this test come from
-  answering a different question than the one asked.
+- **Answer the verb.** "What happens when…" wants the actual error, not the fix. "Why" wants a sentence, not a value. Most lost points on this test come from answering a different question than the one asked.
 - Show your work on every code question. Partial credit is real.
 - If you finish early, review. There is no extra credit for finishing fast.
 
 ---
 
-## SECTION A — SHORT RESPONSE (10 questions, 2 points each = 20 points)
+## PART 1 — ASSESSMENT (30 minutes, 35 points)
+
+### SECTION A — SHORT RESPONSE (7 questions, 3 points each = 21 points)
 
 **1.** Complete the table from memory:
 
@@ -58,19 +56,9 @@ where to spend review time in Unit 3.
 
 **7.** `plt.savefig("file.png", dpi=150, bbox_inches="tight")` — What does `dpi=150` do? What does `bbox_inches="tight"` do? **Critical rule:** `savefig` must come **before** or **after** `plt.show()`?
 
-**8.** `csv.DictReader(f)` — What does it return? What is the type of each row? What is the type of every value inside that row?
-
-**9.** A CSV file starts with `# Mental health survey, GPA on 4.0 scale` as its first line. What happens if you pass this file directly to `csv.DictReader`? Why is this "worse than a crash"?
-
-**10.** **Sanity bounds vs statistical outliers** — Why use sanity bounds (fixed domain rules like `GPA: (0.0, 4.0)`) instead of statistical outliers (e.g., 1.5×IQR)? Give two reasons.
-
----
-
-## SECTION B — CODE READING (2 problems, 5 points each = 10 points)
+### SECTION B — CODE READING (1 problem, 8 points)
 
 *You do not run this code. You read it the way a debugger would.*
-
-### Problem 11
 
 ```python
 import csv
@@ -115,61 +103,19 @@ for r in rows:
     clean_rows.append(r)
 ```
 
-**a.** A row has `"Age": "N/A"`. Trace through the loop: which `if` block triggers, what is printed, and what happens to that row?
+**a.** A row has `"Age": "N/A"`. Trace through the loop: which `if` block triggers, what is printed, and what happens to that row? (2 pts)
 
-**b.** A row has `"Overall GPA": "3.8"` and `"Absence Rate": "1.5"`. Which `if` block triggers, what is printed, and what happens to that row?
+**b.** A row has `"Overall GPA": "3.8"` and `"Absence Rate": "1.5"`. Which `if` block triggers, what is printed, and what happens to that row? (2 pts)
 
-**c.** The `assert rows_in == rows_out + rows_dropped` at the end of the full script would catch what bug that a simple `print` would miss?
+**c.** The `assert rows_in == rows_out + rows_dropped` at the end of the full script would catch what bug that a simple `print` would miss? (2 pts)
 
-**d.** Why does `to_float` catch **both** `ValueError` and `TypeError`? Give one input that triggers each.
+**d.** Why does `to_float` catch **both** `ValueError` and `TypeError`? Give one input that triggers each. (2 pts)
 
-**e.** The `break` inside each `if` block — what does it do? What would happen if it were missing?
-
----
-
-### Problem 12
-
-```python
-import csv
-import matplotlib.pyplot as plt
-
-with open("data/threats_clean.csv", newline="") as f:
-    rows = list(csv.DictReader(f))
-
-dates = [r["date"] for r in rows]
-phishing = [r["phishing_reports"] for r in rows]
-failed = [r["failed_logins"] for r in rows]
-
-plt.figure(figsize=(10, 5))
-plt.plot(dates, phishing, marker="o", label="Phishing reports", alpha=0.7)
-plt.plot(dates, failed, marker="s", label="Failed logins", alpha=0.7)
-plt.title("Daily Phishing Reports and Failed Logins — Oct 2026")
-plt.xlabel("Date")
-plt.ylabel("Count")
-plt.legend()
-plt.xticks(rotation=45)
-plt.tight_layout()
-plt.show()
-plt.savefig("timeline.png", dpi=150)
-```
-
-**a.** There is one bug that makes the saved PNG **blank**. Find it and write the corrected line.
-
-**b.** The y-axis starts at a non-zero value. What one line would you add to make it an honest axis?
-
-**c.** The x-axis labels overlap. The code includes `plt.xticks(rotation=45)` — why might they *still* overlap, and what else is needed?
-
-**d.** One sentence: why is bug (a) worse than bug (b)?
-
-**e.** The chart is for a **parent audience**. The current title uses jargon ("Phishing reports"). Rewrite the title for parents.
-
----
-
-## SECTION C — DATA INTEGRITY & HONESTY (1 problem, 10 points)
+### SECTION C — DATA INTEGRITY & HONESTY (1 problem, 6 points)
 
 Your unit had exactly three integrity principles. Use them.
 
-**13.** You cleaned 1,000 rows down to 947. The dropped rows were disproportionately low-GPA students who left GPA blank.
+**8.** You cleaned 1,000 rows down to 947. The dropped rows were disproportionately low-GPA students who left GPA blank.
 
 ```python
 SANITY = {
@@ -179,30 +125,36 @@ SANITY = {
 }
 ```
 
-**a.** Write the one-sentence **provenance statement** you would put in your project `analysis.md`. (3 points)
+**a.** Write the one-sentence **provenance statement** you would put in your project `analysis.md`. (2 pts)
 
-**b.** In one sentence: why does dropping blank-GPA rows *bias* the average GPA upward? (2 points)
+**b.** In one sentence: why does dropping blank-GPA rows *bias* the average GPA upward? (2 pts)
 
-**c.** A histogram of `login_success_rate` shows most days near 0.95, with a thin tail to 0.60. Your partner says "those are outliers, drop them." You say "no, they're the story." Who is right, and why? (2 points)
-
-**d.** A chart of phishing reports by class period could let someone guess *which class* fell for them. What change to the chart fixes this risk? Name the principle. (3 points)
+**c.** A histogram of `login_success_rate` shows most days near 0.95, with a thin tail to 0.60. Your partner says "those are outliers, drop them." You say "no, they're the story." Who is right, and why? (2 pts)
 
 ---
 
-## SECTION D — WRITE CODE (1 problem, 10 points)
+## PART 2 — REFLECTION (20 minutes, 15 points)
 
-**14.** Write a function called `load_and_clean(csv_path, sanity_dict)` that:
+*Open notes allowed. Write on this paper or separate sheets — staple to assessment.*
 
-- reads the CSV at `csv_path` with `csv.DictReader`
-- **strips comment lines** (lines starting with `#`) before parsing
-- for each column in `sanity_dict`: converts to `float`, drops rows with blank or unparseable values, drops rows where the value is outside the `(low, high)` bounds
-- prints each dropped row's reason (e.g., `"Dropped row: blank Overall GPA"`)
-- returns the list of cleaned rows (each row is a dict with numeric values as `float`)
-- includes the **audit assertion** at the end: `assert rows_in == rows_out + rows_dropped, "Count mismatch"`
+**9. Project Themes (5 pts)** — Name **three distinct themes** from your Unit 2 project (e.g., data cleaning choices, chart type decisions, audience adaptation, privacy considerations). For each, write one sentence explaining why it mattered.
 
-You may assume `sanity_dict` maps column names to `(low, high)` tuples. Do not use `eval()`. Do not add features that were not asked for.
+1. Theme: ____________________________________________________________
+   Why it mattered: _____________________________________________________
 
-Write the whole function.
+2. Theme: ____________________________________________________________
+   Why it mattered: _____________________________________________________
+
+3. Theme: ____________________________________________________________
+   Why it mattered: _____________________________________________________
+
+**10. Gallery Security Questions (5 pts)** — During the L16 gallery walk, you saw classmates' projects. Pick **one** project (not yours) and answer:
+
+- What chart choice made their data honest (or dishonest)?
+- What privacy risk did their visualization create (or avoid)?
+- One question you would ask the author about their data pipeline.
+
+**11. Personal Principle (5 pts)** — Based on everything in Unit 2 (cleaning, charting, gallery, privacy), write **one defensible principle** you will carry into Unit 3. One paragraph. It must be specific enough to apply to a new dataset tomorrow.
 
 ---
 
