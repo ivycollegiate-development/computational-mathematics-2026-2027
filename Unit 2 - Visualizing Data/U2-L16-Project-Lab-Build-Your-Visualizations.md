@@ -61,7 +61,7 @@ Also confirm Chart 1 still regenerates (`python3 project_charts.py` should alrea
 
 **The claim you are testing:** attacks follow the school week.
 
-Add this block to `project_charts.py`, after Chart 1:
+**Add this block to `project_charts.py`, after Chart 1.** The `rows` list you already built at the top of that file (the `csv.DictReader` read of the clean file) is your data source — reuse it, do not re-read the CSV and do not rename it. If your file calls it something else, use your name in the `for` line below.
 
 ```python
 from datetime import datetime
@@ -70,7 +70,7 @@ def is_weekend(d):
     return datetime.strptime(d, "%Y-%m-%d").weekday() >= 5   # 5 = Sat, 6 = Sun
 
 wd, we = [], []
-for row in clean_rows:
+for row in rows:
     (we if is_weekend(row["date"]) else wd).append(int(row["phishing_reports"]))
 
 avg_wd, avg_we = sum(wd) / len(wd), sum(we) / len(we)
@@ -99,10 +99,10 @@ plt.clf()
 
 ## PART 2 — CHART 3: LOGIN SUCCESS RATE (16 min)
 
-Same pattern, different question: what shape does a rate have?
+Same pattern, different question: what shape does a rate have? Same `rows` list — nothing new to load.
 
 ```python
-rates = [float(row["login_success_rate"]) for row in clean_rows]
+rates = [float(row["login_success_rate"]) for row in rows]
 
 plt.figure(figsize=(7, 4))
 plt.hist(rates, bins=15, edgecolor="white")
