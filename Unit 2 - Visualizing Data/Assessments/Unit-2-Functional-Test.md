@@ -7,8 +7,8 @@
 
 - **No notes, no browser, no chat.** You may use `man`, `--help`, and the Python REPL (`python3`).
 - **Start in a fresh terminal.** `cd ~` first. Run `pwd` and confirm you are in `/home/<your-username>`.
-- **All work in `~/functional-test/`.** Create it, work there, submit from there.
-- **Submit:** `git` push to a new repo `compmath-u2-functional-test-<your-username>_student` (the invitation email has the link). Push your work, then submit the **PR link** to Classroom.
+- **All work in `~/functional-test/`.** Your repo already exists — clone it (see Submit). Work there, submit from there.
+- **Submit:** commit and push to your own repo `compmath-u2-functional-test-<your-username>_student`, then paste the **commit hash** into the Classroom assignment. No PR is needed and no browser is allowed.
 - **Keep the terminal open** — spot-checks happen.
 
 ---
@@ -51,11 +51,11 @@ date, phishing_reports, failed_logins, login_success_rate
    All checks passed
    ```
 
-**Run it and verify:** `python3 clean_threats.py` → six `[PASS]` lines, clean CSV written.
+**Run it and verify:** `python3 clean_threats.py` → prints the `Rows in / Rows out / Rows dropped` summary, writes `threats_clean.csv`, and ends with `All checks passed`.
 
 ---
 
-## Task 2 — Chart 1: Daily Timeline (15 pts)
+## Task 2 — Chart 1: Daily Timeline (10 pts)
 
 **Create `project_charts.py`** that:
 
@@ -73,7 +73,7 @@ date, phishing_reports, failed_logins, login_success_rate
 
 ---
 
-## Task 3 — Chart 2: Weekday vs Weekend (15 pts)
+## Task 3 — Chart 2: Weekday vs Weekend (10 pts)
 
 **In the same `project_charts.py`** (after Chart 1, same `rows` list):
 
@@ -91,7 +91,7 @@ date, phishing_reports, failed_logins, login_success_rate
 
 ---
 
-## Task 4 — Analysis (15 pts)
+## Task 4 — Analysis (10 pts)
 
 **Create `analysis.md`** with **three paragraphs** (one per chart + one synthesis):
 
@@ -111,8 +111,8 @@ date, phishing_reports, failed_logins, login_success_rate
 - [ ] `chart1_timeline.png` and `chart2_weekday_weekend.png` **render** (open them)
 - [ ] `analysis.md` has **three paragraphs**, each with audience, key number, limitation
 - [ ] `analysis.md` synthesis paragraph names **honesty principles** from Unit 2
-- [ ] **Git repo** has all files committed and pushed
-- [ ] **PR opened** on GitHub with latest commit visible
+- [ ] **Git repo** has all files committed and pushed to your own repo
+- [ ] **Commit hash** (`git log --oneline -1`) pasted into the Classroom assignment
 
 ---
 
@@ -121,9 +121,9 @@ date, phishing_reports, failed_logins, login_success_rate
 | Task | Points | Criteria |
 |------|--------|----------|
 | 1. Load & Clean | 20 | Comment strip, sanity bounds, per-row drop reasons, audit assertion, clean CSV, summary prints |
-| 2. Chart 1 | 15 | Correct data, finding title, honest y-axis, labels, legend, savefig before show, clf |
-| 3. Chart 2 | 15 | Correct split, averages printed on bars, finding title, honest y-axis, savefig before show, clf |
-| 4. Analysis | 15 | Three paragraphs, audience + key number + limitation each, synthesis names honesty principles |
+| 2. Chart 1 | 10 | Correct data, finding title, honest y-axis, labels, legend, savefig before show, clf |
+| 3. Chart 2 | 10 | Correct split, averages printed on bars, finding title, honest y-axis, savefig before show, clf |
+| 4. Analysis | 10 | Three paragraphs, audience + key number + limitation each, synthesis names honesty principles |
 | **Deductions** | | |
 |  | -5 | Any `plt.show()` before `savefig` (blank PNG) |
 |  | -5 | Missing audit assertion or count mismatch |
@@ -135,15 +135,20 @@ date, phishing_reports, failed_logins, login_success_rate
 
 ## Submit
 
-1. `cd ~/functional-test`
-2. `git init`
-3. `git add .`
-4. `git commit -m "Unit 2 functional test submission"`
-5. `git remote add origin https://github.com/ivycollegiate-development/compmath-u2-functional-test-$(whoami)_student.git`
-6. `git push -u origin main`
-7. Open PR on GitHub → submit **PR link** to Classroom assignment "U2 Functional Test"
+Your repo is already created and already contains `threats_raw.csv`. **Do not run `git init`.**
+
+1. `cd ~`
+2. `git clone https://github.com/ivycollegiate-development/compmath-u2-functional-test-$(whoami)_student.git functional-test`
+3. `cd functional-test`
+4. Work here. `threats_raw.csv` is already in this folder.
+5. `git add .`
+6. `git commit -m "Unit 2 functional test submission"`
+7. `git push origin main`
+8. `git log --oneline -1` → paste that line (commit hash + message) into the Classroom assignment "U2 Functional Test — Live Coding"
 
 **Password prompt = Personal Access Token, not your GitHub password.**
+
+**No internet browsing. If the push fails, keep working locally and tell me at the end — I will collect the work from the VPS directly.**
 
 ---
 

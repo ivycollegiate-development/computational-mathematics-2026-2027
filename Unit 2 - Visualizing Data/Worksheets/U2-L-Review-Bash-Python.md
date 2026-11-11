@@ -1,5 +1,5 @@
 # U2 Review — Bash Commands & Python Function Properties
-**Closed notes. 15 minutes. Swap and grade with the key — corrections in a second color.**
+**Closed notes. 20 minutes to write. Then 15 minutes to swap and grade with the key — corrections in a second color.**
 
 ---
 
