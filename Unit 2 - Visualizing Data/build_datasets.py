@@ -109,25 +109,20 @@ w("u2_student_performance_data.csv", h4, r4)
 print(f"    injected {inj} damaged cells (blank/impossible/type-trap)")
 
 # ---------- 5. u2_campus_threat_daily.csv — the Unit 2 PROJECT dataset (L15/L16) ----------
-# Needs: phishing_reports, failed_logins, login_success_rate, dates.
-# L16 requires weekday-vs-weekend to show a school-week pattern -> weekend dip.
-h5 = ["Date","Phishing_Reports","Failed_Logins","Successful_Logins","Login_Success_Rate","Day_Type"]
-r5 = []
-import datetime as dt
-d = dt.date(2026, 9, 1)
-end = dt.date(2026, 11, 11)   # covers the Nov 9-11 project build; L19 is no-electronics
-while d <= end:
-    weekend = d.weekday() >= 5
-    phish  = rng.randint(4, 12) if weekend else rng.randint(10, 26)
-    failed = rng.randint(6, 14) if weekend else rng.randint(18, 48)
-    ok     = rng.randint(40, 90) if weekend else rng.randint(150, 400)
-    # Incident days: login success collapses, failed logins spike. L16 requires
-    # a bimodal/skewed distribution for the histogram and a real outlier story.
-    if d in {dt.date(2026,9,17), dt.date(2026,10,2), dt.date(2026,10,27)}:
-        failed = rng.randint(120, 180)
-        ok     = rng.randint(25, 55)
-    rate   = round(ok/(ok+failed), 3)
-    r5.append([d.isoformat(), phish, failed, ok, rate, "Weekend" if weekend else "Weekday"])
-    d += dt.timedelta(days=1)
-w("u2_campus_threat_daily.csv", h5, r5)
+# DO NOT REGENERATE THIS FILE. It is versioned verbatim in data/ and is the exact
+# artifact students pull into compmath-u2-data-lab.
+# L15/L16 quote specific numbers from it — weekday 7.98 over 44 days, weekend 2.88
+# over 16 days, median login_success_rate 0.56, 4 days above 0.90, one day at 0.0,
+# 60 rows 2026-10-05..2026-12-03 — and grading depends on those numbers being right.
+# Re-running an RNG cannot reproduce them, so it would silently desync lessons,
+# worksheets, and the student template. verify_datasets.py checks the locked values.
+THREAT_CSV = os.path.join(OUT, "u2_campus_threat_daily.csv")
+if not os.path.exists(THREAT_CSV):
+    raise SystemExit(
+        "MISSING: data/u2_campus_threat_daily.csv is versioned, not generated. "
+        "Restore it from git (git checkout -- data/u2_campus_threat_daily.csv)."
+    )
+with open(THREAT_CSV, newline="") as _f:
+    _n = sum(1 for _ in csv.reader(_f)) - 1
+print(f"  u2_campus_threat_daily.csv: {_n} data rows (versioned, not regenerated)")
 print("\nAll datasets written to", OUT)

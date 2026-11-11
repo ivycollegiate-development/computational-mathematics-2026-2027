@@ -72,18 +72,33 @@ ok(traps>0, f"(c) type traps present (float() would raise): {traps}")
 ok("Age of 3" or any(float(r['Age'])<10 for r in p if r['Age'].replace('.','').isdigit()), "L11's 'Age of 3' example actually exists")
 
 print("\n== L15/L16: campus threat project dataset ==")
+# This file is VERSIONED VERBATIM (see build_datasets.py block 5) and is the exact
+# artifact in the student template repo compmath-u2-viz-basics. The numbers below are
+# quoted in L15/L16 and in the L16 worksheet/answer keys — if this script goes red,
+# the dataset drifted, not the lessons.
 with open(f"{D}/u2_campus_threat_daily.csv",newline="") as f: c=list(csv.DictReader(f))
-for col in ["Date","Phishing_Reports","Failed_Logins","Successful_Logins","Login_Success_Rate","Day_Type"]:
-    ok(col in c[0], f"has {col}")
-ok(all(float(r["Login_Success_Rate"])==round(int(r["Successful_Logins"])/(int(r["Successful_Logins"])+int(r["Failed_Logins"])),3) for r in c), "Login_Success_Rate is internally consistent")
+ok(c and list(c[0].keys())==["date","phishing_reports","failed_logins","phishing_clicks","login_success_rate"],
+   f"header is the 5 project columns ({list(c[0].keys()) if c else 'empty'})")
+ok(len(c)==60, f"exactly 60 rows ({len(c)})")
 import datetime as dt
-dates=[dt.date.fromisoformat(r["Date"]) for r in c]
+dates=[dt.date.fromisoformat(r["date"]) for r in c]
 ok(dates==sorted(dates), "dates are chronological (L16 requires this)")
-ok(dates[-1]>=dt.date(2026,11,11), f"covers the Nov 9-11 project build (last={dates[-1]})")
-wd=[float(r["Phishing_Reports"]) for r in c if r["Day_Type"]=="Weekday"]
-we=[float(r["Phishing_Reports"]) for r in c if r["Day_Type"]=="Weekend"]
-ok(sum(wd)/len(wd) > sum(we)/len(we), f"weekday phishing > weekend ({sum(wd)/len(wd):.1f} vs {sum(we)/len(we):.1f}) — L16's school-week pattern is real")
-ok(all(float(r['Login_Success_Rate'])<0.98 for r in c), "no impossible success rates")
-lows=[r for r in c if float(r["Login_Success_Rate"])<0.80]
-ok(len(lows)>0, f"outliers on the low end exist for the L16 histogram ({len(lows)} days < 0.80)")
-print("\n   lowest 3 success rates:", sorted((float(r['Login_Success_Rate']),r['Date']) for r in c)[:3])
+ok(dates[0]==dt.date(2026,10,5) and dates[-1]==dt.date(2026,12,3),
+   f"term window 2026-10-05..2026-12-03 ({dates[0]}..{dates[-1]})")
+ok(all(dates[i+1]-dates[i]==dt.timedelta(days=1) for i in range(len(dates)-1)),
+   "dates are contiguous, one day apart")
+ok(all((r["phishing_reports"] or "").strip() and (r["failed_logins"] or "").strip()
+       and (r["phishing_clicks"] or "").strip() and (r["login_success_rate"] or "").strip() for r in c),
+   "no blank cells (the real run must drop 0 rows)")
+ok(all(0.0<=float(r["login_success_rate"])<=1.0 for r in c), "all rates inside 0.0..1.0")
+
+wd=[int(r["phishing_reports"]) for r in c if dt.date.fromisoformat(r["date"]).weekday()<5]
+we=[int(r["phishing_reports"]) for r in c if dt.date.fromisoformat(r["date"]).weekday()>=5]
+ok(len(wd)==44 and len(we)==16, f"weekday/weekend split is 44/16 ({len(wd)}/{len(we)})")
+ok(round(sum(wd)/len(wd),2)==7.98, f"weekday avg phishing_reports == 7.98 ({sum(wd)/len(wd):.2f})")
+ok(round(sum(we)/len(we),2)==2.88, f"weekend avg phishing_reports == 2.88 ({sum(we)/len(we):.2f})")
+
+rates=sorted(float(r["login_success_rate"]) for r in c)
+ok(rates[29]==0.56 and rates[30]==0.56, f"median login_success_rate == 0.56 ({rates[29]}..{rates[30]})")
+ok(sum(1 for r in rates if r>0.90)==4, f"exactly 4 days above 0.90 ({sum(1 for r in rates if r>0.90)})")
+ok(rates[0]==0.0, f"one day collapses to 0.0 (min={rates[0]})")
