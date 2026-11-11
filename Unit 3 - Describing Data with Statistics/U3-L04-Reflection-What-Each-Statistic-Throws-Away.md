@@ -102,7 +102,7 @@ Keep this sketch. You will build it in the project labs.
 ## PART 6 — JOURNAL + PUSH (last 10 min)
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u3-stats-lab
 touch journal-u3l04.md
 ```
 

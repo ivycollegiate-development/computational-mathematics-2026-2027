@@ -18,7 +18,8 @@ Write these rules down before you write code. You will test against them.
 ```text
 R1. mean(v)          -> float. Error on an empty list.
 R2. median(v)        -> float. Works for odd and even n.
-R3. mode(v)          -> value, or None if every value is unique.
+R3. mode(v)          -> the single most frequent value; None if no value is
+                        strictly most frequent (all unique, or a tie at the top)
 R4. stdev(v)         -> float (population, divide by n).
 R5. percentile(v, p) -> float. p in [0, 1], matching U3 L08/L14/L21.
 R6. five_number(v)   -> (min, q1, median, q3, max)
@@ -60,18 +61,85 @@ def _check(values):
     return out
 ```
 
-Now every function **starts** with `_check`, including `stdev`, which must
-additionally reject a single value.
+Now every function **starts** with `_check`, including `stdev`.
+
+### The functions
+
+Six of these you already wrote in L14 and L21. Paste them, add `_check` as the
+first line of each, and delete the old `if not values: raise` lines that
+`_check` now handles for you. `mode` and the `percentile` range check are new.
+
+```python
+def mean(values):
+    v = _check(values)
+    return sum(v) / len(v)
+
+def median(values):
+    v = sorted(_check(values))
+    mid = len(v) // 2
+    if len(v) % 2:
+        return v[mid]
+    return (v[mid - 1] + v[mid]) / 2
+
+def mode(values):
+    """Single most frequent value, or None if the top count is shared."""
+    v = _check(values)
+    counts = {}
+    for x in v:
+        counts[x] = counts.get(x, 0) + 1
+    top = max(counts.values())
+    winners = [x for x, c in counts.items() if c == top]
+    return winners[0] if len(winners) == 1 else None
+
+def stdev(values):
+    """Population standard deviation: divides by n."""
+    v = _check(values)
+    m = sum(v) / len(v)
+    return (sum((x - m) ** 2 for x in v) / len(v)) ** 0.5
+
+def percentile(values, p):
+    """Inclusive method: interpolate at position (n-1) x p. p is 0-1."""
+    if not 0 <= p <= 1:
+        raise ValueError("p must be between 0 and 1, got %r" % (p,))
+    v = sorted(_check(values))
+    k = (len(v) - 1) * p
+    lo = int(k)
+    hi = min(lo + 1, len(v) - 1)
+    if lo == hi:
+        return v[lo]
+    return v[lo] + (v[hi] - v[lo]) * (k - lo)
+
+def five_number(values):
+    """(min, q1, median, q3, max)."""
+    s = sorted(_check(values))
+    return (s[0], percentile(s, 0.25), percentile(s, 0.50),
+            percentile(s, 0.75), s[-1])
+
+def iqr_fences(values):
+    """(lo, hi): 1.5 x IQR below q1 and above q3."""
+    f = five_number(values)
+    iqr = f[3] - f[1]
+    return f[1] - 1.5 * iqr, f[3] + 1.5 * iqr
+
+def outliers(values):
+    lo, hi = iqr_fences(values)
+    v = _check(values)
+    return [x for x in v if x < lo or x > hi]
+```
 
 ### The test suite
 
-Write `test_statslib.py` **in the same file, below the functions**, guarded:
+Write the tests at the bottom of `statslib.py`, under a guard:
 
 ```python
 if __name__ == "__main__":
     test_mean()
     test_median()
-    ...
+    test_mode()
+    test_stdev()
+    test_percentile()
+    test_five_number()
+    test_iqr_and_outliers()
     print("all tests passed")
 ```
 
@@ -114,7 +182,6 @@ def test_percentile():
     expect_error(lambda: percentile([1, 2], -0.1), "between 0 and 1")
 
 def test_five_number():
-    # n=5 -> p25 lands exactly on index 1, p75 on index 3. No interpolation.
     # n=5 -> p25 lands exactly on index 1, p75 on index 3. No interpolation.
     assert five_number([1, 2, 3, 4, 5]) == (1, 2.0, 3.0, 4.0, 5)
 
@@ -261,7 +328,7 @@ python3 statslib.py
    median of **242.76**. A reader glances at the report and sees both. What
    single line would you add to that report so nobody quotes 716.07 as
    "typical"? ______
-5. The report says `stdev 6346.21 (population, divides by n)`. Is that number
+5. The report says `stdev 6330.32 (population, divides by n)`. Is that number
    useful to a reader? Why or why not? ______
 6. Your `outliers` line for `Spend_USD` will list **14** values, several of
    which (510.87, 544.98) are ordinary. Should `describe` print them all, print

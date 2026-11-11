@@ -12,12 +12,12 @@ As with L03, no `statistics` library — you write the formulas.
 ## PART 0 — SET UP (5 min)
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u3-stats-lab
 pwd
 ```
 
 ```python
-with open("/tmp/u3_datasets/u3_donations.txt") as f:
+with open("data/u3_donations.txt") as f:
     raw = [line.strip() for line in f if line.strip()]
 
 donations = [float(line) for line in raw if not line.startswith("#")]

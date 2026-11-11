@@ -9,8 +9,8 @@ and here it is now."**
 ## PART 0 — SET UP (5 min)
 
 ```bash
-cd ~/compmath-lab
-git checkout u3-dashboard-fix
+cd ~/compmath-u3-stats-lab
+git checkout -b u3-dashboard-fix
 ```
 
 If you are on a branch name from L17, use that. Either way, confirm:
@@ -108,14 +108,14 @@ ax.set_xlabel("Spend (USD, log10 scale — each bar is a 10x range)")
   Print your bin counts and compare:
 
   ```python
-  log_values = [math.log10(v) for v in values if v > 0]
-  lo, hi = min(log_values), max(log_values)
-  counts = [0] * 20
-  for x in log_values:
-      i = min(19, int((x - lo) / (hi - lo) * 20))
-      counts[i] += 1
-  print(counts)
-  ```
+log_values = [math.log10(v) for v in values if v > 0]
+lo, hi = min(log_values), max(log_values)
+counts = [0] * 20
+for x in log_values:
+    i = min(19, int((x - lo) / (hi - lo) * 20))
+    counts[i] += 1
+print(counts)
+```
 
   You should get roughly `[4, 6, 12, 11, 13, 12, 10, 17, 6, 10, 8, 4, 3, 1, 0, 0, 1, 0, 0, 1]`
   — spread across the range instead of piled in one place. If your counts
@@ -173,14 +173,15 @@ Your gate must still block. A fix to the charts must never have quietly
 weakened the filter.
 
 ```bash
-sed -i '' 's/PUBLISHED_FIELDS = \["Age"\]/PUBLISHED_FIELDS = ["Age", "City"]/' dashboard.py
+sed -i.bak 's/PUBLISHED_FIELDS = \["Age"\]/PUBLISHED_FIELDS = ["Age", "City"]/' dashboard.py
 python3 dashboard.py
 ```
 
-It must refuse, exit non-zero, and write **no** PNG. Then:
+`-i.bak` works on macOS and Linux alike and leaves `dashboard.py.bak` — that
+backup is your rollback. Then:
 
 ```bash
-sed -i '' 's/PUBLISHED_FIELDS = \["Age", "City"\]/PUBLISHED_FIELDS = ["Age"]/' dashboard.py
+sed -i.bak 's/PUBLISHED_FIELDS = \["Age", "City"\]/PUBLISHED_FIELDS = ["Age"]/' dashboard.py
 python3 dashboard.py
 ```
 

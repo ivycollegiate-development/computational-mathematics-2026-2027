@@ -7,12 +7,13 @@ out what pictures *lose*. Every chart you made last unit has something it
 cannot tell you. Today we name that gap, and we start building the tool that
 fills it.
 
-Your datasets for this unit are already on your workspace at
-`/tmp/u3_datasets/`. You never install anything.
+Clone your Unit 3 repo once. Every dataset for this unit ships inside it, in
+`data/`. You never install anything.
 
 ```bash
-cd ~/compmath-lab
-ls /tmp/u3_datasets/
+cd ~ && git clone <your-repo-url> compmath-u3-stats-lab
+cd compmath-u3-stats-lab
+ls data/
 ```
 
 ## PART 1 — WHAT YOUR CHARTS CANNOT SAY (10 min)
@@ -46,7 +47,7 @@ Our dataset for the first three lessons is an alumni donation log: 200
 entries, one number per line.
 
 ```bash
-head -5 /tmp/u3_datasets/u3_donations.txt
+head -5 data/u3_donations.txt
 ```
 
 Read the top of the file. There is a `#` comment line, then values. This is
@@ -55,7 +56,7 @@ the same layout you handled in Unit 2 — comment first, data after.
 Load it exactly the way L11 taught you, and print the first five:
 
 ```python
-with open("/tmp/u3_datasets/u3_donations.txt") as f:
+with open("data/u3_donations.txt") as f:
     raw = [line.strip() for line in f if line.strip()]
 
 data = [line for line in raw if not line.startswith("#")]
@@ -124,7 +125,7 @@ is the difference between a number and a statistic.
 ## PART 6 — JOURNAL + PUSH (last 10 min)
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u3-stats-lab
 touch journal-u3l01.md
 ```
 

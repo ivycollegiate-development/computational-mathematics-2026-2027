@@ -12,7 +12,7 @@ point is to know what the code is doing when a real library does it for you.
 ## PART 0 — SET UP (5 min)
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u3-stats-lab
 pwd
 ```
 
@@ -20,7 +20,7 @@ Load the donations. This is the same shape as Unit 2: comment line, then
 values.
 
 ```python
-with open("/tmp/u3_datasets/u3_donations.txt") as f:
+with open("data/u3_donations.txt") as f:
     raw = [line.strip() for line in f if line.strip()]
 
 donations = [float(line) for line in raw if not line.startswith("#")]
@@ -135,7 +135,7 @@ Put it together. Write this into a file called `centers.py` and run it:
 ```python
 from collections import Counter
 
-with open("/tmp/u3_datasets/u3_donations.txt") as f:
+with open("data/u3_donations.txt") as f:
     raw = [line.strip() for line in f if line.strip()]
 donations = [float(line) for line in raw if not line.startswith("#")]
 

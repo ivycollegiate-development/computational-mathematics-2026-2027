@@ -76,7 +76,8 @@ If `v[5]=12` and `v[6]=14`, the 25th percentile = ______.
 
 ```python
 def five_number(v):
-    # your code here
+    pass  # your code here
+
 ```
 
 ---

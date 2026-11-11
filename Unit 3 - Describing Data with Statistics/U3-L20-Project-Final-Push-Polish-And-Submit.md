@@ -10,7 +10,7 @@ put your name on.
 ## PART 0 — THE HONEST STARTING CHECK (10 min)
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u3-stats-lab
 git checkout u3-dashboard-fix
 git log --oneline | head -5
 python3 dashboard.py
@@ -27,10 +27,9 @@ Before you polish anything, answer these three in your notes:
 Question 3 is the real one. Test it honestly:
 
 ```bash
-cd /tmp && rm -rf clone-test && git clone <your-repo-url> clone-test
+cd /tmp && rm -rf clone-test && git clone -b u3-dashboard-fix <your-repo-url> clone-test
 cd clone-test
-mkdir -p /tmp/u3_datasets
-cp <path to>/u3_project_dataset.csv /tmp/u3_datasets/
+ls data/
 python3 dashboard.py
 ```
 
@@ -50,13 +49,11 @@ someone else use it safely. Write `README.md`:
 to answer>
 
 ## Data
-`/tmp/lab-data/u3_project_dataset.csv` — 120 members, 10 columns.
+`data/u3_project_dataset.csv` — 120 members, 10 columns.
 <where it comes from, and whether it is real or synthetic>
 
 ## How to run
 ```bash
-mkdir -p /tmp/u3_datasets
-cp /tmp/lab-data/u3_project_dataset.csv /tmp/u3_datasets/
 python3 dashboard.py
 ```
 Outputs `dashboard.png`. Requires Python 3.10+ and matplotlib.
@@ -102,9 +99,9 @@ Ten minutes, and only these four things. Do not start redesigning.
    anything is tiny, change the figure size — do not shrink the font.
 4. **One honest subtitle** on the figure:
    ```python
-   fig.suptitle("Member statistics — anonymized, k≥5, no direct identifiers",
-                fontsize=13)
-   ```
+fig.suptitle("Member statistics — anonymized, k≥5, no direct identifiers",
+             fontsize=13)
+```
    If your actual k is not ≥5, this text is a lie. Fix the text or fix the
    filter.
 

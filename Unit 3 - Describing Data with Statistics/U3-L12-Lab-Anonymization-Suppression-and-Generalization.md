@@ -13,7 +13,7 @@ decide how much trade is right, and to be able to defend it.
 ## PART 0 — SET UP (5 min)
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u3-stats-lab
 pwd
 ```
 
@@ -22,7 +22,7 @@ import csv
 import statistics as st
 from collections import Counter
 
-with open("/tmp/u3_datasets/u3_project_dataset.csv") as f:
+with open("data/u3_project_dataset.csv") as f:
     lines = [ln for ln in f.read().splitlines() if not ln.strip().startswith("#")]
 
 rows = list(csv.DictReader(lines))

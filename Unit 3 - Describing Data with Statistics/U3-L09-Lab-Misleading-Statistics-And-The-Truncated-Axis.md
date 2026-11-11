@@ -11,7 +11,7 @@ recognize it in the wild.
 ## PART 0 — SET UP (5 min)
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u3-stats-lab
 pwd
 ```
 
@@ -19,7 +19,7 @@ pwd
 import csv
 import statistics as st
 
-with open("/tmp/u3_datasets/u3_wage_comparison.csv") as f:
+with open("data/u3_wage_comparison.csv") as f:
     lines = [ln for ln in f.read().splitlines() if not ln.strip().startswith("#")]
 rows = list(csv.DictReader(lines))
 
@@ -115,7 +115,7 @@ to **88,873.44** — about 4,000 dollars, 4.3%. That sounds small, but it is
 the *top* person removed; four analysts sit above 300,000. Now remove all four:
 
 ```python
-body = [v for v in analyst if v <= 200000]
+body = [v for v in analyst if v <= 300000]
 print(f"mean of the other {len(body)}: {st.mean(body):.2f}")
 print(f"median of the other {len(body)}: {st.median(body):.2f}")
 ```

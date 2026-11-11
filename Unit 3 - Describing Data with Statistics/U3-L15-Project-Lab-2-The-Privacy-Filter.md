@@ -13,7 +13,7 @@ dataset.**
 ## PART 0 — SET UP (5 min)
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u3-stats-lab
 git checkout u3-dashboard
 ```
 
@@ -68,7 +68,7 @@ def check_identifiers(rows):
   output order changes run to run is impossible to test.)
 
 ```python
-rows = load("/tmp/u3_datasets/u3_project_dataset.csv")
+rows = load("data/u3_project_dataset.csv")
 problems, quasi = check_identifiers(rows)
 print("problems:", problems)
 print("quasi-identifiers to handle:", quasi)

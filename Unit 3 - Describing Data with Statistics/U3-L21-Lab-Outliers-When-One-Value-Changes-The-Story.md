@@ -8,8 +8,8 @@ stop assuming, and we deal with the values that are not.
 ## PART 0 — GET THE DATA (5 min)
 
 ```bash
-mkdir -p /tmp/u3_datasets
-cp /tmp/lab-data/u3_project_dataset.csv /tmp/u3_datasets/
+cd ~/compmath-u3-stats-lab
+ls data/
 ```
 
 ```python
@@ -17,17 +17,24 @@ import csv
 import math
 
 def load(path):
-    lines = open(path).read().splitlines()
-    lines = [l for l in lines if l.strip() and not l.startswith("#")]
-    return list(csv.DictReader(lines))
+    """Rows from a file with a comment preamble and a real header."""
+    with open(path, encoding="utf-8") as f:
+        lines = [l for l in f.read().splitlines()
+                 if l.strip() and not l.startswith("#")]
+    rows = list(csv.DictReader(lines))
+    if not rows:
+        raise ValueError(f"{path}: no data rows")
+    return rows
 
 def numeric(rows, col):
+    """One column as floats. Skips blanks and junk, but raises if the column
+    does not exist — a missing column must not look like an empty one."""
     out = []
     for r in rows:
         try:
             out.append(float(r[col]))
-        except (ValueError, KeyError):
-            pass
+        except (TypeError, ValueError):
+            continue
     return out
 ```
 
@@ -44,21 +51,20 @@ def percentile(values, p):
     return s[lo] + (s[hi] - s[lo]) * (k - lo)
 
 def five_number(values):
-    return {
-        "min":  min(values),
-        "q1":   percentile(values, 0.25),
-        "median": percentile(values, 0.50),
-        "q3":   percentile(values, 0.75),
-        "max":  max(values),
-    }
+    """(min, Q1, median, Q3, max) — same order as the L14 engine."""
+    s = sorted(values)
+    if not s:
+        raise ValueError("five_number of empty list")
+    return (s[0], percentile(s, 0.25), percentile(s, 0.50),
+            percentile(s, 0.75), s[-1])
 
 def iqr_fences(values):
-    f = five_number(values)
-    iqr = f["q3"] - f["q1"]
-    return f, f["q1"] - 1.5 * iqr, f["q3"] + 1.5 * iqr
+    lo_v, q1, med, q3, hi_v = five_number(values)
+    iqr = q3 - q1
+    return q1 - 1.5 * iqr, q3 + 1.5 * iqr
 
 def outliers(values):
-    f, lo, hi = iqr_fences(values)
+    lo, hi = iqr_fences(values)
     return [v for v in values if v < lo or v > hi]
 ```
 
@@ -68,12 +74,13 @@ point — one implementation, tested once.
 Now run it on the three numeric columns and **write the actual output here**:
 
 ```python
-rows = load("/tmp/u3_datasets/u3_project_dataset.csv")
+rows = load("data/u3_project_dataset.csv")
 
 for col in ["Age", "Monthly_Visits", "Spend_USD"]:
     v = numeric(rows, col)
-    f, lo, hi = iqr_fences(v)
-    print(f"{col:15} n={len(v)} median={f['median']:.2f} IQR={f['q3']-f['q1']:.2f} "
+    lo_v, q1, med, q3, hi_v = five_number(v)
+    lo, hi = iqr_fences(v)
+    print(f"{col:15} n={len(v)} median={med:.2f} IQR={q3-q1:.2f} "
           f"fence=({lo:.2f}, {hi:.2f}) outliers={len(outliers(v))}")
 ```
 
@@ -103,20 +110,20 @@ Now answer, in writing:
    the mean:
 
    ```python
-   def stdev_population(values):
-       m = sum(values) / len(values)
-       return math.sqrt(sum((v - m) ** 2 for v in values) / len(values))
+def stdev_population(values):
+    m = sum(values) / len(values)
+    return math.sqrt(sum((v - m) ** 2 for v in values) / len(values))
 
-   def high_outliers_2sd(values):
-       m = sum(values) / len(values)
-       cut = m + 2 * stdev_population(values)
-       return [v for v in values if v > cut]
+def high_outliers_2sd(values):
+    m = sum(values) / len(values)
+    cut = m + 2 * stdev_population(values)
+    return [v for v in values if v > cut]
 
-   for col in ["Monthly_Visits", "Spend_USD"]:
-       v = numeric(rows, col)
-       print(col, "IQR flags:", len(outliers(v)),
-             " 2SD-above-mean flags:", len(high_outliers_2sd(v)))
-   ```
+for col in ["Monthly_Visits", "Spend_USD"]:
+    v = numeric(rows, col)
+    print(col, "IQR flags:", len(outliers(v)),
+          " 2SD-above-mean flags:", len(high_outliers_2sd(v)))
+```
 
    Run it and record what you get. Your two rules should disagree — on
    `Monthly_Visits` they will both flag 12, and on `Spend_USD` they will not
@@ -155,7 +162,10 @@ them?
 **First, measure.** Do not argue about it — get the numbers:
 
 ```python
-def mean_of(values):  return sum(values) / len(values)
+def mean_of(values):
+    if not values:
+        raise ValueError("mean of empty list")
+    return sum(values) / len(values)
 
 spend = numeric(rows, "Spend_USD")
 flagged = outliers(spend)
@@ -199,8 +209,8 @@ fourteenth of your dataset. ______
 The 18,500.00 was built in on purpose. Find out how:
 
 ```bash
-cd ~/Projects/computational-mathematics-2026-2027
-grep -n "18500" "Unit 3 - Describing Data with Statistics/build_datasets.py"
+cd ~/compmath-u3-stats-lab
+grep -n "18500" data/u3_project_dataset.csv
 ```
 
 9. How was that value introduced — as a plausible member, or as a deliberate

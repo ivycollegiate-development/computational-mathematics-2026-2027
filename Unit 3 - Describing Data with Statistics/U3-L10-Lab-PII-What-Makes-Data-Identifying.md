@@ -13,7 +13,7 @@ anything until you can prove it is safe.
 ## PART 0 — SET UP (5 min)
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u3-stats-lab
 pwd
 ```
 
@@ -27,7 +27,7 @@ corrupted analysis. Use `csv`.
 import csv
 from collections import Counter
 
-with open("/tmp/u3_datasets/u3_clinic_visits.csv") as f:
+with open("data/u3_clinic_visits.csv") as f:
     lines = [ln for ln in f.read().splitlines() if not ln.strip().startswith("#")]
 
 rows = list(csv.DictReader(lines))

@@ -13,7 +13,7 @@ will actually ask you.
 ## PART 0 — SET UP (5 min)
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u3-stats-lab
 pwd
 ```
 
@@ -25,7 +25,7 @@ sibling file — so read it with `csv`, never with `split(",")`.
 import csv
 import statistics as st
 
-with open("/tmp/u3_datasets/u3_wage_comparison.csv") as f:
+with open("data/u3_wage_comparison.csv") as f:
     lines = [ln for ln in f.read().splitlines() if not ln.strip().startswith("#")]
 
 rows = list(csv.DictReader(lines))

@@ -12,7 +12,7 @@ title, axis labels with units, and a note naming what it hides.
 ## PART 0 — SET UP (5 min)
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u3-stats-lab
 git checkout u3-dashboard
 ```
 
@@ -29,7 +29,7 @@ non-negotiable part of the lab.
 from stats_engine import load, summarise, group_summary, numeric
 from privacy_filter import privacy_gate, describe_result, anonymize, k_value
 
-DATA = "/tmp/u3_datasets/u3_project_dataset.csv"
+DATA = "data/u3_project_dataset.csv"
 PUBLISHED_FIELDS = ["Age"]          # the lesson from L15: NOT Age + City
 GROUP_COLS = ["City", "Membership_Tier"]
 MIN_K = 5

@@ -32,7 +32,8 @@ Put your hand-computed page next to the keyboard. Type your 21 values into
 Python **exactly as you wrote them** — do not tidy them up first.
 
 ```python
-values = [ ... ]          # your 21 numbers, in the order you collected them
+values = [14, 9, 22, 11, 30, 8, 17, 25, 12, 19, 21, 16, 10, 27, 13, 20, 15, 18, 24, 7, 23]
+# ^ EXAMPLE — replace with your own 21 numbers, in the order you collected them
 
 values_sorted = sorted(values)
 n = len(values)

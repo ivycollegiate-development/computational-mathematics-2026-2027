@@ -15,7 +15,7 @@ twenty bars" is a review.
 You need the review partner's repository link from Classroom. Clone it:
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u3-stats-lab
 git clone <their-repo-url> peer-dashboard
 cd peer-dashboard
 ls
@@ -27,15 +27,13 @@ You should see their `dashboard.py`, their `stats_engine.py` and
 ## PART 1 — RUN IT (10 min)
 
 ```bash
-mkdir -p /tmp/u3_datasets
-cp /tmp/lab-data/u3_project_dataset.csv /tmp/u3_datasets/
 python3 dashboard.py
 ```
 
-If the copy fails, your partner's repo should already contain the dataset at
-`/tmp/lab-data/`; if it is not there, ask before continuing rather than
-substituting a different file. Reviewing a dashboard against data it was not
-built on produces findings that are wrong in both directions.
+If `data/u3_project_dataset.csv` is missing from their repo, ask before
+continuing rather than substituting a different file. Reviewing a dashboard
+against data it was not built on produces findings that are wrong in both
+directions.
 
 Now the honest part. Record:
 
@@ -61,15 +59,15 @@ names you wish they had used.
    out of their `privacy_filter.py` first — do not assume it matches their
    documentation:
    ```python
-   from privacy_filter import k_value, anonymize
-   from stats_engine import load
+from privacy_filter import k_value, anonymize
+from stats_engine import load
 
-   rows = anonymize(load("/tmp/u3_datasets/u3_project_dataset.csv"))
+rows = anonymize(load("data/u3_project_dataset.csv"))
 
-   THEIR_FIELDS = ["Age"]          # <-- replace with THEIR actual list
-   print("their published fields:", THEIR_FIELDS)
-   print("k =", k_value(rows, THEIR_FIELDS))
-   ```
+THEIR_FIELDS = ["Age"]          # <-- replace with THEIR actual list
+print("their published fields:", THEIR_FIELDS)
+print("k =", k_value(rows, THEIR_FIELDS))
+```
    Replace the value on the `THEIR_FIELDS` line. If their fields include a
    column your `anonymize()` does not produce, you cannot run this check —
    note that as a finding in its own right and move to the next question.
@@ -95,10 +93,10 @@ This is the heart of it. For **each** of their four charts, answer:
 13. Is there a case where the mean is being shown for right-skewed data? Check
     the data yourself:
     ```python
-    from stats_engine import summarise, numeric, group_summary
-    rows = load("/tmp/u3_datasets/u3_project_dataset.csv")
-    print(summarise(numeric(rows, "Spend_USD")))
-    ```
+from stats_engine import load, summarise, numeric, group_summary
+rows = load("data/u3_project_dataset.csv")
+print(summarise(rows, "Spend_USD"))
+```
     Then say whether the mean or median is the defensible choice, and why. ______
 14. **Bar charts:** does every y-axis start at zero? List any that does not,
     and compute how much the truncation exaggerates. (If a bar chart starts at

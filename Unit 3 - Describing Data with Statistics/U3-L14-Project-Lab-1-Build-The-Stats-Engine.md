@@ -15,7 +15,7 @@ block is checked by an assertion.
 ## PART 0 — SET UP (5 min)
 
 ```bash
-cd ~/compmath-lab
+cd ~/compmath-u3-stats-lab
 git checkout -b u3-dashboard
 pwd
 ```
@@ -74,7 +74,9 @@ def median(values):
     return (s[mid - 1] + s[mid]) / 2
 
 def percentile(values, p):
-    """Linear interpolation, matching the L08 lab and st.quantiles."""
+    """Linear interpolation at position (n-1) x p — the 'inclusive' method,
+    same as the L08 lab. (statistics.quantiles defaults to 'exclusive' and
+    returns different numbers on the same data.)"""
     s = sorted(values)
     if not s:
         raise ValueError("percentile of empty list")
@@ -93,14 +95,12 @@ def stdev(values):
     return (sum((x - m) ** 2 for x in values) / len(values)) ** 0.5
 
 def five_number(values):
+    """(min, Q1, median, Q3, max) — the five numbers, in that order."""
     s = sorted(values)
-    return {
-        "min": s[0],
-        "Q1": percentile(s, 0.25),
-        "median": percentile(s, 0.50),
-        "Q3": percentile(s, 0.75),
-        "max": s[-1],
-    }
+    if not s:
+        raise ValueError("five_number of empty list")
+    return (s[0], percentile(s, 0.25), percentile(s, 0.50),
+            percentile(s, 0.75), s[-1])
 ```
 
 Then, deliberately, one function for the **outlier fence**, because L21 will
@@ -108,13 +108,14 @@ need it and because the dashboard should flag extreme values rather than
 quietly average them in:
 
 ```python
-def fence(five):
-    """Return (lower, upper) IQR outlier fences from a five-number summary."""
-    iqr = five["Q3"] - five["Q1"]
-    return five["Q1"] - 1.5 * iqr, five["Q3"] + 1.5 * iqr
+def iqr_fences(values):
+    """(lower, upper): 1.5 x IQR below Q1 and above Q3."""
+    lo_v, q1, med, q3, hi_v = five_number(values)
+    iqr = q3 - q1
+    return q1 - 1.5 * iqr, q3 + 1.5 * iqr
 
-def outside_fence(values, five):
-    lo, hi = fence(five)
+def outside_fence(values):
+    lo, hi = iqr_fences(values)
     return [v for v in values if v < lo or v > hi]
 ```
 
@@ -139,20 +140,20 @@ def summarise(rows, col):
     values = numeric(rows, col)
     if not values:
         raise ValueError(f"no numeric values in {col}")
-    five = five_number(values)
-    lo, hi = fence(five)
+    lo_v, q1, med, q3, hi_v = five_number(values)
+    lo, hi = iqr_fences(values)
     return {
         "column": col,
         "n": len(values),
         "mean": mean(values),
-        "median": five["median"],
-        "min": five["min"],
-        "max": five["max"],
+        "median": med,
+        "min": lo_v,
+        "max": hi_v,
         "stdev": stdev(values),
-        "iqr": five["Q3"] - five["Q1"],
+        "iqr": q3 - q1,
         "fences": (lo, hi),
-        "outliers": outside_fence(values, five),
-        "skew": "right" if five["Q3"] - five["median"] > five["median"] - five["Q1"] else "left/flat",
+        "outliers": [v for v in values if v < lo or v > hi],
+        "skew": "right" if q3 - med > med - q1 else "left/flat",
     }
 
 def group_summary(rows, col, by):
@@ -166,7 +167,7 @@ def group_summary(rows, col, by):
 Run it on the project data and **write the output in your notes**:
 
 ```python
-rows = load("/tmp/u3_datasets/u3_project_dataset.csv")
+rows = load("data/u3_project_dataset.csv")
 print(f"{len(rows)} members, {len(rows[0])} columns\n")
 
 for col in ("Age", "Monthly_Visits", "Spend_USD"):
@@ -213,18 +214,21 @@ def test_engine():
     assert percentile([1, 2, 3, 4], 0.5) == 2.5
     assert stdev([2, 4, 4, 4, 5, 5, 7, 9]) == 2.0   # the classic worked example
     five = five_number([4, 7, 9, 12, 15, 19, 22, 26, 31, 38, 44, 55])
-    assert five["median"] == 20.5
-    lo, hi = fence(five)
+    assert five == (4, 11.25, 20.5, 32.75, 55)
+    lo, hi = iqr_fences([4, 7, 9, 12, 15, 19, 22, 26, 31, 38, 44, 55])
     assert lo == -21.0 and hi == 65.0
 
     # error paths: the engine must complain, not return None silently
-    for bad in ([], [1, "x", "y"]):
+    for bad in ([], ["x", "y"]):
         try:
             mean(numeric([{"c": v} for v in bad], "c"))
         except ValueError:
             pass
         else:
             raise AssertionError("mean() should have raised on no numeric values")
+
+    # a mixed column keeps the numbers and drops the junk
+    assert numeric([{"c": 1}, {"c": "x"}, {"c": 3}], "c") == [1.0, 3.0]
 
     print("all engine tests passed")
 
