@@ -1,14 +1,14 @@
-# Unit 2 Functional Test — Live Coding on VPS
-**50 minutes. Closed notes. VPS only — no browser, no local files, no AI. One terminal, one editor.**
+# U2 Functional Test — Live Coding
+**VPS only for the work — open internet for research.** One terminal, one editor.
 
 ---
 
 ## Rules
 
-- **No notes, no browser, no chat.** You may use `man`, `--help`, and the Python REPL (`python3`).
+- **Open internet.** Notes, browsers, AI chat, your past repos, and every earlier assignment are allowed — use them as context. You are graded on code you can explain line by line.
 - **Start in a fresh terminal.** `cd ~` first. Run `pwd` and confirm you are in `/home/<your-username>`.
 - **All work in `~/functional-test/`.** Your repo already exists — clone it (see Submit). Work there, submit from there.
-- **Submit:** commit and push to your own repo `compmath-u2-functional-test-<your-username>_student`, then paste the **commit hash** into the Classroom assignment. No PR is needed and no browser is allowed.
+- **Submit:** commit and push to your own repo `compmath-u2-functional-test-<your-username>_student`, then paste the **commit hash** into the Classroom assignment. No PR is needed.
 - **Keep the terminal open** — spot-checks happen.
 
 ---

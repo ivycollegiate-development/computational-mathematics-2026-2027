@@ -1,4 +1,6 @@
-# Unit 2 Assessment — Computational Mathematics
+# U2 L19 — Unit 2 Assessment Paper
+
+Computational Mathematics    Name: ____________________    Date: ____________    Score: ______ / 50
 **Schedule:** Unit 2 Assessment + Reflection
 **Time:** 30 minutes assessment + 20 minutes reflection = 50 minutes total
 **Conditions:** Closed computer for assessment portion. Pen and paper only. No notes, no phone, no neighbors. Reflection portion: open notes allowed.
@@ -31,7 +33,7 @@ The coversheet is not graded. The third answer is the useful one — it tells me
 
 ---
 
-## PART 1 — ASSESSMENT (30 minutes, 35 points)
+## PART 1 — ASSESSMENT (35 points)
 
 ### SECTION A — SHORT RESPONSE (7 questions, 3 points each = 21 points)
 
@@ -45,16 +47,26 @@ The coversheet is not graded. The third answer is the useful one — it tells me
 | Histogram  |             |        |        | `plt.hist()` |
 
 **2.** `plt.plot(x, y, marker="o", linestyle="--", color="steelblue")` — What does each argument change? (One phrase per argument.)
+   ____________________________________________________________________
 
 **3.** `plt.bar(categories, values, color=["#c0392b", "#e67e22", "#27ae60"])` — Why pass a *list* of colors instead of one string?
+   ____________________________________________________________________
 
 **4.** `plt.scatter(x, y, s=10, alpha=0.4)` — What does `s=` control? What does `alpha=` control? Why use `s=10, alpha=0.4` for 1,000 points but `s=40` for 6 points?
+   ____________________________________________________________________
+   ____________________________________________________________________
 
 **5.** `plt.hist(data, bins=20, edgecolor="white")` — What does `bins=20` do? What does `edgecolor="white"` do? Why is there no "correct" bin count?
+   ____________________________________________________________________
+   ____________________________________________________________________
 
 **6.** `plt.figure()` — When do you call it? What happens if you skip it when drawing a second chart in the same script?
+   ____________________________________________________________________
+   ____________________________________________________________________
 
 **7.** `plt.savefig("file.png", dpi=150, bbox_inches="tight")` — What does `dpi=150` do? What does `bbox_inches="tight"` do? **Critical rule:** `savefig` must come **before** or **after** `plt.show()`?
+   ____________________________________________________________________
+   ____________________________________________________________________
 
 ### SECTION B — CODE READING (1 problem, 8 points)
 
@@ -104,12 +116,20 @@ for r in rows:
 ```
 
 **a.** A row has `"Age": "N/A"`. Trace through the loop: which `if` block triggers, what is printed, and what happens to that row? (2 pts)
+   ____________________________________________________________________
+   ____________________________________________________________________
 
 **b.** A row has `"Overall GPA": "3.8"` and `"Absence Rate": "1.5"`. Which `if` block triggers, what is printed, and what happens to that row? (2 pts)
+   ____________________________________________________________________
+   ____________________________________________________________________
 
 **c.** The `assert rows_in == rows_out + rows_dropped` at the end of the full script would catch what bug that a simple `print` would miss? (2 pts)
+   ____________________________________________________________________
+   ____________________________________________________________________
 
 **d.** Why does `to_float` catch **both** `ValueError` and `TypeError`? Give one input that triggers each. (2 pts)
+   ____________________________________________________________________
+   ____________________________________________________________________
 
 ### SECTION C — DATA INTEGRITY & HONESTY (1 problem, 6 points)
 
@@ -126,35 +146,50 @@ SANITY = {
 ```
 
 **a.** Write the one-sentence **provenance statement** you would put in your project `analysis.md`. (2 pts)
+   ____________________________________________________________________
+   ____________________________________________________________________
 
 **b.** In one sentence: why does dropping blank-GPA rows *bias* the average GPA upward? (2 pts)
+   ____________________________________________________________________
+   ____________________________________________________________________
 
 **c.** A histogram of `login_success_rate` shows most days near 0.95, with a thin tail to 0.60. Your partner says "those are outliers, drop them." You say "no, they're the story." Who is right, and why? (2 pts)
+   ____________________________________________________________________
+   ____________________________________________________________________
 
 ---
 
-## PART 2 — REFLECTION (20 minutes, 15 points)
+## PART 2 — REFLECTION (15 points)
 
-*Open notes allowed. Write on this paper or separate sheets — staple to assessment.*
+Write on this paper or separate sheets — staple to assessment.
 
 **9. Project Themes (5 pts)** — Name **three distinct themes** from your Unit 2 project (e.g., data cleaning choices, chart type decisions, audience adaptation, privacy considerations). For each, write one sentence explaining why it mattered.
 
-1. Theme: ____________________________________________________________
-   Why it mattered: _____________________________________________________
+Theme 1: ____________________________________________________________
+Why it mattered: _____________________________________________________
 
-2. Theme: ____________________________________________________________
-   Why it mattered: _____________________________________________________
+Theme 2: ____________________________________________________________
+Why it mattered: _____________________________________________________
 
-3. Theme: ____________________________________________________________
-   Why it mattered: _____________________________________________________
+Theme 3: ____________________________________________________________
+Why it mattered: _____________________________________________________
 
 **10. Gallery Security Questions (5 pts)** — During the L16 gallery walk, you saw classmates' projects. Pick **one** project (not yours) and answer:
 
 - What chart choice made their data honest (or dishonest)?
+   ____________________________________________________________________
+
 - What privacy risk did their visualization create (or avoid)?
+   ____________________________________________________________________
+
 - One question you would ask the author about their data pipeline.
+   ____________________________________________________________________
 
 **11. Personal Principle (5 pts)** — Based on everything in Unit 2 (cleaning, charting, gallery, privacy), write **one defensible principle** you will carry into Unit 3. One paragraph. It must be specific enough to apply to a new dataset tomorrow.
+   ____________________________________________________________________
+   ____________________________________________________________________
+   ____________________________________________________________________
+   ____________________________________________________________________
 
 ---
 
