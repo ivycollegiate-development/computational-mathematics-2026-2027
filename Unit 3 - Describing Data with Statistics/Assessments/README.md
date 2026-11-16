@@ -1,10 +1,12 @@
 # Unit 3 Assessments
 
-## The paper
+## Status: NOT SCHEDULED — source material, not a paper to print
 
-[`Unit-3-Assessment.md`](Unit-3-Assessment.md) — 50 points, 45 minutes, closed book, no computer, pen and paper only.
+There is no Unit 3 unit-assessment day in the 2026-27 Comp Math pacing. Unit 3 is graded on the four closed-note paper checks (L07, L11, L16, L22) plus the Privacy-Aware Stats Dashboard project, and the cumulative midterm (Jan 18-21) covers Units 1-3.
 
-**Print double-sided, one per student, before class.** Coversheet is on page 1.
+[`Unit-3-Assessment.md`](Unit-3-Assessment.md) — 50 points, 45 minutes, closed book, no computer — is retained as the **Unit 3 section of the midterm**. Its items are the item bank for that section; do not print it as a standalone assessment unless a day is added to the pacing.
+
+If it is ever sat, print double-sided, one per student, with the coversheet on page 1.
 
 | Section | Points | Covers |
 |---|---|---|

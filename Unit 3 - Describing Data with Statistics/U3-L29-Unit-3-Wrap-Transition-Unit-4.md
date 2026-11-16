@@ -1,5 +1,7 @@
 # U3 L29 — Unit 3 Wrap & Transition to Unit 4 (PAPER)
 
+**STATUS: NOT SCHEDULED.** This lesson has no slot in the 2026-27 Comp Math pacing. It is kept as source material for the Unit 3 section of the Jan 18-21 cumulative midterm. Do not teach it as a class day unless the pacing is changed.
+
 **Unit:** 3 — Describing Data with Statistics
 **Type:** Paper (reflection + preview, 45 minutes)
 **LO:** synthesize Unit 3 learning; carry error log forward; preview Algebra & SymPy

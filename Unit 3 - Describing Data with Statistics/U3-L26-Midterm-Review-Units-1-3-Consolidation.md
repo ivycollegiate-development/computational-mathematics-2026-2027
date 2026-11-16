@@ -1,5 +1,7 @@
 # U3 L26 — Midterm Review: Units 1–3 Consolidation (PAPER)
 
+**STATUS: NOT SCHEDULED.** This lesson has no slot in the 2026-27 Comp Math pacing. It is kept as source material for the Unit 3 section of the Jan 18-21 cumulative midterm. Do not teach it as a class day unless the pacing is changed.
+
 **Unit:** 3 — Describing Data with Statistics
 **Type:** Paper (cold review, 45 minutes)
 **LO:** retrieve Unit 1–3 skills without notes; identify personal gaps before the midterm
@@ -64,7 +66,7 @@ Photo of your paper with all answers and your ✓/~✗ marks.
 
 ## 📋 TOMORROW
 
-**Next:** U3 L27 — Unit 3 Assessment (Paper). 50 points, 35 minutes, closed book.
+**Next:** U4 L01 — Unit 4 Launch (Jan 05). There is no Unit 3 unit-paper day in 2026-27; the Unit 3 paper's items feed the cumulative midterm on Jan 18-21.
 
 ---
 

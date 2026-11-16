@@ -1,5 +1,7 @@
 # U3 L28 — Assessment Walkthrough & Reflection (PAPER)
 
+**STATUS: NOT SCHEDULED.** This lesson has no slot in the 2026-27 Comp Math pacing. It is kept as source material for the Unit 3 section of the Jan 18-21 cumulative midterm. Do not teach it as a class day unless the pacing is changed.
+
 **Unit:** 3 — Describing Data with Statistics
 **Type:** Paper (grade release + reflection, 45 minutes)
 **LO:** honestly diagnose assessment gaps; synthesize Unit 3 into one defensible principle

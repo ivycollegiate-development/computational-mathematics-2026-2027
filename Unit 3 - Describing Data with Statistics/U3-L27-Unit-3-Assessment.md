@@ -1,10 +1,12 @@
 # U3 L27 — Unit 3 Assessment (Paper Day)
 
+**STATUS: NOT SCHEDULED.** This lesson has no slot in the 2026-27 Comp Math pacing. It is kept as source material for the Unit 3 section of the Jan 18-21 cumulative midterm. Do not teach it as a class day unless the pacing is changed.
+
 **Unit:** 3 — Describing Data with Statistics
 **Type:** Paper (closed-book assessment, 45 minutes)
 **LO:** demonstrate mastery of Unit 3: centres, spread, percentiles, outliers, misleading statistics, and the privacy decisions that govern what a dataset may be used to say.
 
-**The paper itself lives in [`Assessments/Unit-3-Assessment.md`](Assessments/Unit-3-Assessment.md). Print from there.** The key is `Assessments/Unit-3-Assessment-Answer-Key.md` on this machine only — answer keys are gitignored because the repo is public, so it will not be in a clone.
+**The paper lives in [`Assessments/Unit-3-Assessment.md`](Assessments/Unit-3-Assessment.md) and is not printed as a standalone assessment** — no day exists for it in the 2026-27 pacing. It is the item bank for the Unit 3 section of the Jan 18-21 cumulative midterm. The key is `Assessments/Unit-3-Assessment-Answer-Key.md` on this machine only — answer keys are gitignored because the repo is public, so it will not be in a clone.
 
 ---
 

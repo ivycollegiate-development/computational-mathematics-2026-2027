@@ -94,7 +94,6 @@
 || Nov 14 | Common Good Day ||
 || Nov 16 | Unit 2 Assessment (50 pts, 35 min, closed computer) ||
 | Nov 26 | Thanksgiving Formal Dinner |
-| Dec 14–17 | Unit 3 Assessment, L27 (50 pts, 45 min, closed book, no computer) — exact day TBC |
 | Dec 18 | Winter Break — half day (12:30 dismissal) |
 | Dec 19–Jan 3 | Winter Break |
 | Jan 04 | Classes resume |
@@ -111,6 +110,8 @@
 | Apr 24 | Common Good Day |
 | May 31–Jun 3 | Final Exams |
 | Jun 03 | Summer Break dismissal (1pm) |
+
+**Unit 3 carries no standalone unit paper.** Unit 3 is graded on the four closed-note paper checks (L07, L11, L16, L22 — all scheduled) plus the **Privacy-Aware Stats Dashboard** project, due Dec 17. The cumulative midterm, Jan 18–21, covers Units 1–3. The U3 L26–L29 files (midterm review, unit paper, walkthrough, wrap) stay in the repo as source material for the midterm's Unit 3 section; none of them is a class day.
 
 ---
 

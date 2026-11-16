@@ -4,6 +4,7 @@
 **Type:** Paper, closed-book, no computer
 **Time:** 45 minutes
 **Points:** 50
+**Status:** NOT SCHEDULED. Retained as source for the Unit 3 section of the Jan 18-21 cumulative midterm. Not a standalone paper day in 2026-27.
 **Version:** v2, 16 November 2026 — rebalanced. Hand computation 30 → 20 points; statistical judgement and privacy 10 → 20 points. Raw values added to B so the outlier item is answerable; the stated standard deviation corrected.
 
 **LO:** demonstrate mastery of Unit 3 — centres, spread, percentiles, outliers, misleading statistics, and the privacy decisions that govern what a dataset may be used to say.
