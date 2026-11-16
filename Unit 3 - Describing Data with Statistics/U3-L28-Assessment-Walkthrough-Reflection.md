@@ -17,6 +17,7 @@ Assessments back. We go over the key together, you mark **got it** / **not yet**
 We go problem by problem. As we do:
 
 - Mark each problem **got it** or **not yet** — no points yet, just honesty.
+- Score Sections A/B (computation) separately from **C2, C3 and C4** (judgement). Do not average them into one total before you know which one moved — the privacy items are the program's actual claim, and a single total hides whether the claim was met.
 - For every **not yet**, write one sentence: *what specifically confused me?*
   - "I didn't study" → not an answer
   - "I mixed up the interpolation formula for q1" → answer

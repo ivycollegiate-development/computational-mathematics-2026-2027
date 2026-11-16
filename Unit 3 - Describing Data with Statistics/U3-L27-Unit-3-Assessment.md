@@ -1,105 +1,68 @@
-# U3 L27 — Unit 3 Assessment (Paper)
+# U3 L27 — Unit 3 Assessment (Paper Day)
 
 **Unit:** 3 — Describing Data with Statistics
-**Type:** Paper (closed-book assessment, 50 minutes)
-**LO:** demonstrate mastery of Unit 3: centers, spread, percentiles, outliers, misleading stats, PII/anonymization
+**Type:** Paper (closed-book assessment, 45 minutes)
+**LO:** demonstrate mastery of Unit 3: centres, spread, percentiles, outliers, misleading statistics, and the privacy decisions that govern what a dataset may be used to say.
+
+**The paper itself lives in [`Assessments/Unit-3-Assessment.md`](Assessments/Unit-3-Assessment.md). Print from there.** The key is `Assessments/Unit-3-Assessment-Answer-Key.md` on this machine only — answer keys are gitignored because the repo is public, so it will not be in a clone.
 
 ---
 
 ## TODAY'S PURPOSE
 
-The Unit 3 assessment. 50 points, 35 minutes, closed book, no computer. Everything on this paper is something we built or debugged together in Unit 3.
+50 points. Sections A and B are the arithmetic we have done by hand four times. Sections C and D are the part that matters outside this room: which number you are allowed to report, and what you must refuse to publish.
 
 ---
 
-## PART 1 — BEFORE YOU START (5 min)
+## BEFORE CLASS — MY CHECKLIST
 
-Put everything away except a pen or pencil. On the cover of your paper, write:
-- your name
-- one thing from Unit 3 you feel confident about
-- one thing you hope is NOT on the test (be honest — it won't change the test, but it tells me where to spend review time in Unit 4)
+- [ ] Paper printed double-sided, one per student, coversheet on page 1
+- [ ] Answer key open on my desk, not on the projector
+- [ ] Extra pens out
+- [ ] Timer visible to the room
+- [ ] Capture sheet ready: every item gets a number, not just a total
 
-Then close your notes. Deep breath. You have seen every problem type below.
-
----
-
-## PART 2 — WRITTEN ASSESSMENT (35 min)
-
-**50 points. Show work for partial credit.**
-
-### SECTION A — CENTERS & SPREAD (15 points)
-
-**A1.** Dataset (11 values): `12, 15, 14, 13, 16, 14, 15, 14, 13, 14, 200`
-- Mean = ______
-- Median = ______
-- Mode = ______
-- Which measure of center is most honest for this dataset? Why? ______
-
-**A2.** Same dataset. Range = ______, Variance = ______, StdDev = ______.
-- The stddev is 56.2. The range is 188. What does the stddev tell you that the range doesn't? (One sentence) ______
-
-**A3.** Two datasets, both n=10:
-- Set X: mean=50, stddev=2
-- Set Y: mean=50, stddev=15
-A process spec requires output between 45 and 55. Which set meets spec? Why? ______
-
-### SECTION B — PERCENTILES & OUTLIERS (15 points)
-
-**B1.** 21 values sorted. Your `percentile(v, p)` uses `k = (n-1)*p`, linear interpolation.
-For `p=0.25`, `n=21`: `k = ______`. `lo = ______`, `hi = ______`.
-If `v[5]=12` and `v[6]=14`, the 25th percentile = ______.
-
-**B2.** Five-number summary: `min=2, q1=5, median=8, q3=12, max=25`.
-- IQR = ______
-- Lower fence = ______
-- Upper fence = ______
-- Outliers: ______ (list any values outside fences)
-
-**B3.** You drop the outliers from B2. Which of the five numbers change? Which do not? Why? ______
-
-### SECTION C — MISLEADING STATISTICS & PII (10 points)
-
-**C1.** A report states: "Average response time = 1.2 seconds." The data: `[0.8, 0.9, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 50.0]`.
-- Is the mean 1.2? ______
-- What is the median? ______
-- What one word describes the effect of the 50.0 on the mean? ______
-- What should the report have said instead? ______
-
-**C2.** A dataset has columns: `student_id`, `birthdate`, `gender`, `grade`, `zipcode`.
-- Which column(s) are direct identifiers? ______
-- Which column(s) are quasi-identifiers? ______
-- You generalize `zipcode` to first 3 digits and suppress `birthdate` to `YYYY` only. Is this k-anonymity for k=5? Explain in one sentence. ______
-
-### SECTION D — WRITE CODE (10 points)
-
-**D1.** Write the function `five_number(v)` that takes a list of numbers and returns a tuple `(min, q1, median, q3, max)` using your `(n-1)*p` interpolation convention. No imports except `math` if needed.
-
-```python
-def five_number(v):
-    pass  # your code here
-
-```
+If the paper runs short on time, record which items were **unattempted** rather than marking them wrong. An item marked wrong for the clock poisons the item statistics; an item marked unattempted does not.
 
 ---
 
-## PART 3 — GRADE RELEASE WALKTHROUGH (10 min, after assessment)
+## RUN OF SHOW
 
-We go over the answer key together. For every problem you mark **not yet**, write one sentence: *what specifically confused me?*
+| Min | What |
+|---|---|
+| 0–5 | Everything away except pen. Coversheet: name, one confident thing, one thing they hope is not on the test. |
+| 5–40 | Written assessment, Sections A→D in order. Announce 10 minutes left. |
+| 40–45 | Papers collected. Name on every page. |
+
+No notes, no computer, no phone. Calculators are not needed and are not permitted — every arithmetic step is one they have done by hand.
 
 ---
 
-## TURN IN
+## DURING THE PAPER — WHAT TO WATCH FOR
 
-**The assessment paper** — handed to me before you leave. Name on every page.
+Nothing to teach. Note silently who stalls where:
+
+- **A3** — anyone writing "both, the means are equal" has not internalised that a mean cannot answer a conformance question.
+- **B3** — anyone who confidently names new q1/median/q3 values is guessing at how position-based statistics move.
+- **C2 / C3** — anyone answering "yes, it is k-anonymity" from the transformation alone has memorised the operations and not the definition.
+- **C4** — anyone who publishes the crosstab with a caveat believes disclosure substitutes for control.
+
+Those four observations are worth more to Unit 4 planning than the score distribution.
+
+---
+
+## AFTER THE PAPER
+
+Mark against the key, then enter scores into the capture sheet item by item and run the analysis. The reteach queue it produces shapes U4's first review block, before algebra starts.
 
 ---
 
 ## 📋 TOMORROW
 
-**Next:** U3 L28 — Assessment Walkthrough & Reflection. We grade together, then you reflect.
+**Next:** U3 L28 — Assessment Walkthrough & Reflection. Papers back, key gone through together, then the principle.
 
 ---
 
 ## 🇹🇼 TAIWAN CONTEXT
 
-This assessment mirrors the kinds of questions on Taiwan's information security certification: given a dataset with an outlier, which statistic do you report? Given a table with quasi-identifiers, what generalization achieves k-anonymity? The math is the same; the stakes are higher.
+The privacy items mirror Taiwan's Personal Data Protection Act and the information-security certification: given a table with quasi-identifiers, what generalisation reaches k-anonymity, and what must you refuse to publish. The arithmetic is the same as anywhere else. The obligation to refuse is the part that gets people fired.

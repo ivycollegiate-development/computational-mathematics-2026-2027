@@ -94,6 +94,7 @@
 || Nov 14 | Common Good Day ||
 || Nov 16 | Unit 2 Assessment (50 pts, 35 min, closed computer) ||
 | Nov 26 | Thanksgiving Formal Dinner |
+| Dec 14–17 | Unit 3 Assessment, L27 (50 pts, 45 min, closed book, no computer) — exact day TBC |
 | Dec 18 | Winter Break — half day (12:30 dismissal) |
 | Dec 19–Jan 3 | Winter Break |
 | Jan 04 | Classes resume |
