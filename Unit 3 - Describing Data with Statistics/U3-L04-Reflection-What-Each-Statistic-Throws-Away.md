@@ -1,5 +1,12 @@
 # U3 L04 — Reflection: What Each Statistic Throws Away
 
+> **STATUS: NOT SCHEDULED (2026-27).** This reflection now runs inside **U3 L03
+> Day 2, PART 5** — the three-classes warm-up, the dashboard problem and the
+> blind-spot table all moved there, so the unit could give the L03 lab a second
+> day without moving anything downstream. The journal file and the
+> design-your-own-dashboard sketch below are **dropped** from the schedule.
+> Worksheet sections 1–3 are still the paper insert for that PART 5.
+
 **LO:** explain, in your own words, what information a given measure of center or spread destroys, and argue for which measure fits a situation.
 
 Paper and reflection day — **no code, no terminals** for the discussion. You

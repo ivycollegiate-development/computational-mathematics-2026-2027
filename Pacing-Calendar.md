@@ -15,7 +15,7 @@
 | U1 | Ch 1 — Working with Numbers | Types, operators, functions, error handling, input validation | Sep 07 – Oct 07 | 12 | 8 | 20 |
 || U2 | Ch 2 — Visualizing Data | Matplotlib, line/bar/scatter, reading data, integrity | Oct 08 – Nov 03 | 13 | 8 | 21 ||
 ||| | | **Fall Break (Oct 30 – Nov 08 off; Nov 09–12 project week; Nov 13 FLEX; Nov 16 — Unit 2 Assessment)** | | | ||
-|| U3 | Ch 3 — Describing Data with Stats | Mean/mode/median, variance, stddev, PII, anonymization | Nov 17 – Dec 17 | 17 | 12 | 29 ||
+|| U3 | Ch 3 — Describing Data with Stats | Mean/mode/median, variance, stddev, PII, anonymization | Nov 17 – Dec 17 | 18 | 11 | 29 ||
 | | | **Winter Break (Dec 18 half-day, Dec 19–Jan 3 off)** | | | |
 | U4 | Ch 4 — Algebra & SymPy | Symbolic math, modular arithmetic, ciphers, hashing | Jan 05 – Feb 16 | 12 | 8 | 20 |
 | | | **Chinese New Year (Feb 03 half-day, Feb 04–14 off)** | | | |
@@ -24,7 +24,7 @@
 | U6 | Ch 6 — Geometry & Fractals | Coordinates, recursion, fractals, pattern detection | Apr 12 – Apr 30 | 9 | 6 | 15 |
 | U7 | Ch 7 — Calculus & Modeling | Limits conceptually, derivatives, integrals, anomaly detection | May 03 – May 28 | 12 | 8 | 20 |
 | | | **Finals Week (May 31 – Jun 03)** | | | |
-|| | | **Total Instruction** | | **99** | **66** | **165** ||
+|| | | **Total Instruction** | | **100** | **65** | **165** ||
 
 ---
 
