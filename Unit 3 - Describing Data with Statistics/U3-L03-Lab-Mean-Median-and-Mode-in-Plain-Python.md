@@ -9,6 +9,37 @@ whether the seven-number story held up.
 No `statistics` library and no pandas. You write all three yourself — the
 point is to know what the code is doing when a real library does it for you.
 
+## WHAT YOU ARE CREATING
+
+One file, at the **top level of your repo** (not inside `data/`):
+
+```text
+compmath-u3-stats-lab/
+├── data/            ← ships with the clone. Do not edit anything in here.
+│   └── u3_donations.txt
+└── centers.py       ← this is the only file you create today
+```
+
+`centers.py` must define these three functions. Each takes one list of numbers
+and returns a single result:
+
+| Function | Returns | Must handle |
+|---|---|---|
+| `mean_of(values)` | the sum divided by the count | any length |
+| `median_of(values)` | the middle value **after sorting** | both an odd and an even count |
+| `mode_of(values)` | `(value, count)` for the most common value, or `None` if no value repeats | a set where nothing repeats |
+
+The file also has to run on its own. `python3 centers.py` must print the
+comparison table in PART 4 — not just define the functions, but call them and
+print the result.
+
+**Done when, in your own repo:**
+
+- ☐  `centers.py` sits at the repo root and `python3 centers.py` prints the table
+- ☐  the table shows `716.07` mean / `242.76` median for all 200, and `267.40` / `242.38` with the outlier removed
+- ☐  `git remote -v` shows your own username, not a classmate's
+- ☐  the commit is pushed and you have the push confirmation line
+
 ## PART 0 — SET UP (5 min)
 
 Clone **your own** Unit 3 repo. On this machine `whoami` prints your username
@@ -153,7 +184,10 @@ In your notes:
 
 ## PART 4 — ALL THREE, ONE TABLE (10 min)
 
-Put it together. Write this into a file called `centers.py` and run it:
+Put it together. Create `centers.py` at the repo root — `cd ~/compmath-u3-stats-lab`
+first, then `ls`: you should see `data/` and no `centers.py` yet. Build it in
+this order: the three functions from PARTs 1–3, then the table code at the
+bottom. Run it:
 
 ```python
 from collections import Counter
@@ -224,7 +258,7 @@ something away. Fill this in your notes with a real example each:
 Which one would you use to describe a class's test scores, and why not the
 other two?
 
-## PART 6 — LOOK AHEAD: THE U2 L05 LAB
+## PART 6 — LOOK AHEAD: THE U3 L05 LAB
 
 Tomorrow we keep the center and ask a second question: not *where is the
 middle*, but *how spread out is it*. You already have the reason you need
@@ -233,19 +267,30 @@ sometimes very wrong is the whole story.
 
 ## PART 7 — SAVE + PUSH (last 10 min)
 
+Stay inside your repo (`cd ~/compmath-u3-stats-lab`) and check the file before
+you commit it:
+
 ```bash
+ls centers.py        # must be here, at the top level — not inside data/
+python3 centers.py   # run it once more; the table must still print
 git add centers.py
 git commit -m "U3 L03 mean, median, mode functions over 200 donations"
 git push
 ```
 
-## TURN IN — PULL REQUEST LINK (due 11:59 PM tonight)
+If `ls` says "No such file or directory", you are either in the wrong folder or
+you saved `centers.py` inside `data/`. Fix that first — a file in the wrong
+place is the one thing that fails this lab.
 
-Your `centers.py`, pushed above, is the turn-in. Submit the **push
-confirmation line** — the URL GitHub prints after a successful push — as a
-screenshot to this assignment on Google Classroom.
+## TURN IN — PUSH CONFIRMATION (due 11:59 PM tonight)
 
-In the push message or a comment, include these three numbers, which I will
+`centers.py`, pushed, is the whole turn-in. There is nothing else to write up.
+
+Submit the **push confirmation** — the block GitHub prints after a successful
+push, ending in a line like `abc1234..def5678  main -> main` — as a screenshot
+to this assignment on Google Classroom.
+
+In the commit message or a comment, include these three numbers, which I will
 spot-check against your output:
 
 1. the mean of all 200 donations
