@@ -11,13 +11,13 @@ point is to know what the code is doing when a real library does it for you.
 
 ## PART 0 — SET UP (5 min)
 
-Clone **your own** Unit 3 repo. The repo name ends in your username — `$(whoami)`
-is the account you are logged in as on this machine — so every student clones a
-different copy. Every dataset for this unit ships inside it, in `data/`. You
-never install anything.
+Clone **your own** Unit 3 repo. On this machine `whoami` prints your username
+without the `_student` ending, so the command adds it back — that gives each
+student a different repo, and nobody shares a copy. Every dataset for this unit
+ships inside it, in `data/`. You never install anything.
 
 ```bash
-cd ~ && git clone https://github.com/ivycollegiate-development/compmath-u3-stats-lab-$(whoami).git compmath-u3-stats-lab
+cd ~ && git clone https://github.com/ivycollegiate-development/compmath-u3-stats-lab-$(whoami)_student.git compmath-u3-stats-lab
 cd compmath-u3-stats-lab
 ls data/
 ```
