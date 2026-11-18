@@ -15,7 +15,7 @@ Clone your Unit 3 repo once. Every dataset for this unit ships inside it, in
 `data/`. You never install anything.
 
 ```bash
-cd ~ && git clone compmath-u3-stats-lab
+cd ~ && git clone compmath-u3-stats-lab-$(whoami)
 cd compmath-u3-stats-lab
 ls data/
 ```
