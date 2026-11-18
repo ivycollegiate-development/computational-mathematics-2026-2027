@@ -70,34 +70,37 @@ The URL must contain your username. If it contains a classmate's, you cloned the
 wrong repo — go back to `cd ~`, remove that folder, and re-run the clone above
 with your own URL.
 
-## PART 0b — LOAD THE DATA (5 min)
+## PART 0b — CREATE THE FILE AND LOAD THE DATA (10 min)
 
-**Where the data is.** One file, already inside the repo you just cloned:
+You do not work at the `>>>` prompt today. Every line you write goes into one
+file — `centers.py` — and you run that file with `python3`. That file is what you
+push at the end of the lab.
 
-```text
-data/u3_donations.txt
-```
-
-It is a plain text file, 201 lines: line 1 is a comment
-(`# Alumni donation amounts, one per line, USD. 200 entries.`), then 200 donation
-amounts, one per line. Nothing is downloaded and nothing is installed.
-
-**What "load" means.** Read that file into a Python list of numbers called
-`donations`. No database, no CSV library, no pandas.
-
-**Where you run it.** From the repo root. The path below is *relative*, so it
-only resolves when your terminal is already in `~/compmath-u3-stats-lab`. Start
-Python from anywhere else and you will get
-`FileNotFoundError: data/u3_donations.txt` — that error means your folder is
-wrong, not that the file is missing.
+**Step 1 — be in the repo root.** The data path is *relative*, so it only
+resolves when your terminal is inside the repo. Check before you write anything:
 
 ```bash
-cd ~/compmath-u3-stats-lab    # must be here first
-ls data/u3_donations.txt      # this must print the path, not an error
-python3                       # now open the Python prompt
+cd ~/compmath-u3-stats-lab
+pwd                          # the last part must read /compmath-u3-stats-lab
+ls data/u3_donations.txt     # must print the path, not an error
 ```
 
-**Load it.** Paste this at the `>>>` prompt. Every line is explained under it:
+If `pwd` shows anything else, or `ls` says "No such file or directory", you are
+in the wrong folder. Go back to PART 0 — nothing below will work from there.
+
+**Step 2 — create the file.** In the repo root, not inside `data/`:
+
+```bash
+touch centers.py
+code centers.py
+```
+
+`code centers.py` opens it in the VS Code pane. No editor pane? Use
+`nano centers.py`, type the code, then Ctrl+O, Enter, Ctrl+X to save and quit.
+
+**Step 3 — type the load into it.** The file you are reading from is
+`data/u3_donations.txt`: 201 lines, line 1 a comment, then 200 donation amounts.
+Type this, exactly:
 
 ```python
 with open("data/u3_donations.txt") as f:
@@ -107,31 +110,49 @@ donations = [float(line) for line in raw if not line.startswith("#")]
 print(len(donations), "values")
 ```
 
+What each piece does:
+
 - `open("data/u3_donations.txt")` — opens the file for reading. The `with` block
-  closes it automatically when the block ends.
-- `line.strip()` — removes the newline from the end of each line.
-- `if line.strip()` — skips blank lines, so an empty line at the end of the file
-  does not become a value.
+  closes it again when the block ends.
+- `line.strip()` — removes the newline at the end of each line.
+- `if line.strip()` — skips blank lines, so a trailing empty line does not
+  become a value.
 - `if not line.startswith("#")` — drops the comment line. This is the same shape
   as Unit 2: one comment line on top, then values.
 - `float(line)` — turns each remaining piece of text into a number, so the list
   holds `338.66`, not `"338.66"`.
-- `len(donations)` — must print **200 values**. If it prints anything else, stop
-  and fix the load before going on; every number later in this lab depends on it.
+- `print(len(donations), "values")` — your proof that the load worked.
 
-`donations` now stays in memory for as long as that Python session is open.
-Everything today builds on it — do not close the terminal and do not re-open the
-file in every PART.
+**Step 4 — save and run it.** Ctrl+S to save, then in the terminal:
 
-**Two places the same code lives.** Right now you are in the `>>>` prompt,
-exploring. In PART 4 the same three lines move to the top of `centers.py`, so
-that `python3 centers.py` loads the data every time it runs. One file, one list,
-two ways of starting it.
+```bash
+python3 centers.py
+```
+
+Expected output — exactly one line:
+
+```text
+200 values
+```
+
+Three ways this goes wrong, and what each means:
+
+- `FileNotFoundError: data/u3_donations.txt` — your terminal is not in the repo
+  root. Back to Step 1.
+- `SyntaxError` — indentation or a quote mark copied wrong. The message names the
+  line; fix that line, save, run again.
+- `IndentationError` — the two lines inside `with` must be indented by four
+  spaces, and `donations = ...` must be back at the left margin.
+
+**Step 5 — this file is the whole lab.** Every PART from here adds lines to
+`centers.py` and re-runs `python3 centers.py`. Leave the load block at the top of
+the file — that is what makes the data available on every run. Never edit
+anything inside `data/`.
 
 ## PART 1 — THE MEAN (10 min)
 
 The mean is the sum divided by the count. The trap is dividing by the wrong
-count. Build it:
+count. Add this below your load block, save, and run `python3 centers.py` again:
 
 ```python
 n = len(donations)
@@ -165,7 +186,8 @@ print(f"mean without outlier: {sum(clean)/len(clean):.2f}")
 ## PART 2 — THE MEDIAN (15 min)
 
 The median is the middle value **after sorting**. It is built from position,
-so its size does not depend on how big the numbers are.
+so its size does not depend on how big the numbers are. Add this below your mean
+lines, save, run:
 
 ```python
 ordered = sorted(donations)
@@ -200,7 +222,8 @@ In your notes:
 
 ## PART 3 — THE MODE (10 min)
 
-The mode is the most common value. Here is a genuine surprise:
+The mode is the most common value. Here is a genuine surprise — add this below
+your median lines, save, run:
 
 ```python
 from collections import Counter
@@ -227,12 +250,15 @@ In your notes:
   mode be the *right* answer? (Think about what the mode is actually good
   at describing — a shape, not an average.)
 
-## PART 4 — ALL THREE, ONE TABLE (10 min)
+## PART 4 — TURN THE SCRATCH INTO THE REAL FILE (10 min)
 
-Put it together. Create `centers.py` at the repo root — `cd ~/compmath-u3-stats-lab`
-first, then `ls`: you should see `data/` and no `centers.py` yet. Build it in
-this order: the three functions from PARTs 1–3, then the table code at the
-bottom. Run it:
+Your `centers.py` is currently three blocks of throwaway print statements. This
+is where it becomes the file you turn in: the load stays on top, the three
+calculations become **functions**, and the bottom of the file calls them and
+prints one table.
+
+Open the file you already have (`code centers.py`), select all of it (Ctrl+A),
+and type or paste this in its place:
 
 ```python
 from collections import Counter
@@ -265,13 +291,24 @@ for label, vals in (("all 200", donations), ("no outlier", clean)):
 print("mode of all 200:", mode_of(donations))
 ```
 
-Your output should look like:
+Save (Ctrl+S) and run it:
+
+```bash
+python3 centers.py
+```
+
+Your output should look like — and nothing else:
 
 ```text
-set             mean      median
-all 200        716.07      242.76
-no outlier     267.40      242.38
+set               mean      median
+all 200         716.07      242.76
+no outlier      267.40      242.38
+mode of all 200: (171.86, 2)
 ```
+
+If you still see lines like `n = 200, total = ...` or
+`three most common values:`, the old PART 1–3 code is still in the file. Go back
+to Ctrl+A and replace the whole thing.
 
 Spot-check with your table, then answer in your notes:
 
