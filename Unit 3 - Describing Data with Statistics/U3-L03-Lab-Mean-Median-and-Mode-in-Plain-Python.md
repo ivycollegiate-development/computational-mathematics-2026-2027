@@ -11,6 +11,16 @@ point is to know what the code is doing when a real library does it for you.
 
 ## PART 0 — SET UP (5 min)
 
+Clone your Unit 3 repo once. Every dataset for this unit ships inside it, in
+`data/`. You never install anything.
+
+```bash
+cd ~ && git clone <your-repo-url> compmath-u3-stats-lab
+cd compmath-u3-stats-lab
+ls data/
+```
+
+
 ```bash
 cd ~/compmath-u3-stats-lab
 pwd
