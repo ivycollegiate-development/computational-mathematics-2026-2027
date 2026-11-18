@@ -70,8 +70,34 @@ The URL must contain your username. If it contains a classmate's, you cloned the
 wrong repo — go back to `cd ~`, remove that folder, and re-run the clone above
 with your own URL.
 
-Load the donations. This is the same shape as Unit 2: comment line, then
-values.
+## PART 0b — LOAD THE DATA (5 min)
+
+**Where the data is.** One file, already inside the repo you just cloned:
+
+```text
+data/u3_donations.txt
+```
+
+It is a plain text file, 201 lines: line 1 is a comment
+(`# Alumni donation amounts, one per line, USD. 200 entries.`), then 200 donation
+amounts, one per line. Nothing is downloaded and nothing is installed.
+
+**What "load" means.** Read that file into a Python list of numbers called
+`donations`. No database, no CSV library, no pandas.
+
+**Where you run it.** From the repo root. The path below is *relative*, so it
+only resolves when your terminal is already in `~/compmath-u3-stats-lab`. Start
+Python from anywhere else and you will get
+`FileNotFoundError: data/u3_donations.txt` — that error means your folder is
+wrong, not that the file is missing.
+
+```bash
+cd ~/compmath-u3-stats-lab    # must be here first
+ls data/u3_donations.txt      # this must print the path, not an error
+python3                       # now open the Python prompt
+```
+
+**Load it.** Paste this at the `>>>` prompt. Every line is explained under it:
 
 ```python
 with open("data/u3_donations.txt") as f:
@@ -81,7 +107,26 @@ donations = [float(line) for line in raw if not line.startswith("#")]
 print(len(donations), "values")
 ```
 
-Keep `donations` loaded. Everything today builds on it.
+- `open("data/u3_donations.txt")` — opens the file for reading. The `with` block
+  closes it automatically when the block ends.
+- `line.strip()` — removes the newline from the end of each line.
+- `if line.strip()` — skips blank lines, so an empty line at the end of the file
+  does not become a value.
+- `if not line.startswith("#")` — drops the comment line. This is the same shape
+  as Unit 2: one comment line on top, then values.
+- `float(line)` — turns each remaining piece of text into a number, so the list
+  holds `338.66`, not `"338.66"`.
+- `len(donations)` — must print **200 values**. If it prints anything else, stop
+  and fix the load before going on; every number later in this lab depends on it.
+
+`donations` now stays in memory for as long as that Python session is open.
+Everything today builds on it — do not close the terminal and do not re-open the
+file in every PART.
+
+**Two places the same code lives.** Right now you are in the `>>>` prompt,
+exploring. In PART 4 the same three lines move to the top of `centers.py`, so
+that `python3 centers.py` loads the data every time it runs. One file, one list,
+two ways of starting it.
 
 ## PART 1 — THE MEAN (10 min)
 
