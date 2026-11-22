@@ -44,7 +44,7 @@
 || 10 | **Nov 02 – Nov 06** | | | | | **=== FALL BREAK ===** | U2→wrap ||
 || 11 | **Nov 09** | **Nov 10** | **Nov 11** | **Nov 12** | **Nov 13 FLEX** | U2 ||
 || 12 | **Nov 16 (Assessment)** | **Nov 17** | **Nov 18** | **Nov 19** | **Nov 20** | U3 ||
-|| 13 | **Nov 23** | **Nov 24** | **Nov 25** | **Nov 26** | **Nov 27** | U3 ||
+|| 13 | **Nov 23** | **Nov 24** | **Nov 25** | Nov 26 — NO CLASS | **Nov 27** (L08+L09) | U3 ||
 || 14 | **Nov 30** | **Dec 01** | **Dec 02** | **Dec 03** | **Dec 04** | U3 ||
 || 15 | **Dec 07** | **Dec 08** | **Dec 09** | **Dec 10** | **Dec 11** | U3 ||
 || 16 | **Dec 14** | **Dec 15** | **Dec 16** | **Dec 17** | Dec 18½ | U3→project ||
@@ -93,7 +93,7 @@
 || Nov 13 | FLEX Day (classes resume Nov 09) ||
 || Nov 14 | Common Good Day ||
 || Nov 16 | Unit 2 Assessment (50 pts, 35 min, closed computer) ||
-| Nov 26 | Thanksgiving Formal Dinner |
+| Nov 26 | Thanksgiving Formal Dinner — **NO CLASS** (no content, no quiz, no deliverable); U3 L08 moves to Nov 27 alongside L09 |
 | Dec 18 | Winter Break — half day (12:30 dismissal) |
 | Dec 19–Jan 3 | Winter Break |
 | Jan 04 | Classes resume |
@@ -112,6 +112,8 @@
 | Jun 03 | Summer Break dismissal (1pm) |
 
 **Unit 3 carries no standalone unit paper.** Unit 3 is graded on the four closed-note paper checks (L07, L11, L16, L22 — all scheduled) plus the **Privacy-Aware Stats Dashboard** project, due Dec 17. The cumulative midterm, Jan 18–21, covers Units 1–3. The U3 L26–L29 files (midterm review, unit paper, walkthrough, wrap) stay in the repo as source material for the midterm's Unit 3 section; none of them is a class day.
+
+**Nov 26 no-class adjustment (2026-11-23):** Nov 26 has no class meeting and no deliverable. U3 L08 (percentiles, five-number summary, IQR fence) is taught on Nov 27 alongside U3 L09 (misleading statistics and the truncated axis) as one combined stats day. The four paper checks (L07, L11, L16, L22) and the dashboard project due Dec 17 keep their dates; no downstream lesson moves.
 
 ---
 
