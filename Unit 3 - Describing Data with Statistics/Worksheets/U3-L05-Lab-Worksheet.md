@@ -1,10 +1,31 @@
 # U3 L05 — Lab: Range, Variance, and Standard Deviation — Follow-Along Sheet
 
-
 Name: ___________________________  Date: ____   Period: ____
 
-
 Work top to bottom in your terminal, one step at a time. Change each ☐ to ☑ as you finish that step. Record your own output in the blanks — nothing on this sheet gives you the answer, and every value here is checked against your screen.
+
+## BEFORE CLASS: GitHub Repo Access (5 min — do this FIRST)
+
+**6 students need to CREATE a GitHub account** (exact username, school email):
+- ysato27
+- pman27
+- mkuo27
+- eshin27
+- atsai27
+- atachibana27
+
+☐  Open an incognito tab → `github.com/signup`
+☐  Username = your roster ID above (exact match, no extra characters)
+☐  Email = your ICA school email
+☐  Verify the email link GitHub sends
+
+**12 students have PENDING INVITES** (accept at `github.com/notifications`):
+- schen27, pjones, slee27, shuang27, rliu27, rchen27
+- pman26, mkuo28, ilin27, ghuang27, eshin28, elin27
+
+☐  Accept the invite for `compmath-u3-stats-lab-<your-ID>_student`
+
+**After accounts are created + invites accepted**, teacher adds you as a collaborator — then all 24 repos are ready to clone.
 
 ## 0: Set up
 
@@ -142,6 +163,8 @@ _____________________________________________________________________
 ## 6: All four, side by side
 
 ☐  Write spread.py holding mean_of, median_of, variance_of and stdev_of, then loop over ("all 200", donations) and ("clean 199", clean) printing a header row and one formatted row per set. Copy your own run into both tables below.
+
+☐  Make spread.py load its own data at the top: open data/u3_donations.txt, strip blank lines, skip lines starting with #, convert to float, then build clean with d < 5000. It must run with `python3 spread.py` from the repo root — variables from step 0 do not exist when you run the file.
 
 | Set | Mean | Median |
 | --- | --- | --- |

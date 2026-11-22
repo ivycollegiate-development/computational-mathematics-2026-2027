@@ -125,9 +125,17 @@ print(f"{inside}/{len(clean)} = {100*inside/len(clean):.0f}% within one sd")
 
 ## PART 4 — SIDE-BY-SIDE: THE FULL DESCRIPTION (10 min)
 
-Write `spread.py` and run it:
+Write `spread.py` and run it with `python3 spread.py` from the repo root. The
+file has to load its own data — `donations` is **not** still floating around
+from PART 0 when you run the file as a script. Copy all of this, top to bottom:
 
 ```python
+with open("data/u3_donations.txt") as f:
+    raw = [line.strip() for line in f if line.strip()]
+donations = [float(line) for line in raw if not line.startswith("#")]
+clean = [d for d in donations if d < 5000]
+
+
 def mean_of(v):
     return sum(v) / len(v)
 
@@ -143,7 +151,6 @@ def variance_of(v):
 def stdev_of(v):
     return variance_of(v) ** 0.5
 
-clean = [d for d in donations if d < 5000]
 
 print(f"{'set':<12}{'mean':>10}{'median':>10}{'range':>12}{'stdev':>12}")
 for label, vals in (("all 200", donations), ("clean 199", clean)):
