@@ -220,7 +220,7 @@ git push
 
 ## TURN IN — PULL REQUEST LINK (due 11:59 PM Tue 11/24, Taipei time)
 
-Third meeting (Tue 11/24): use the same Day 2 follow-along sheet. Finish PARTS 4-7, run `python3 spread.py` from the repo root, and check the four numbers below against the class results before you submit.
+Day 02 (Tue 11/24): use the same follow-along sheet. Friday 11/20 was a repo posting only, not a work day. Finish PARTS 4-7, run `python3 spread.py` from the repo root, and check the four numbers below against the class results before you submit.
 
 Your `spread.py`, pushed above, is the turn-in. Submit the **push
 confirmation line** as a screenshot to this assignment on Google Classroom.

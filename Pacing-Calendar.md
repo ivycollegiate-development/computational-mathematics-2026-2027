@@ -44,7 +44,7 @@
 || 10 | **Nov 02 – Nov 06** | | | | | **=== FALL BREAK ===** | U2→wrap ||
 || 11 | **Nov 09** | **Nov 10** | **Nov 11** | **Nov 12** | **Nov 13 FLEX** | U2 ||
 || 12 | **Nov 16 (Assessment)** | **Nov 17** | **Nov 18** | **Nov 19** | **Nov 20** | U3 ||
-|| 13 | **Nov 23** | **Nov 24** (L05 Day 2, third meeting) | **Nov 25** | Nov 26 — NO CLASS | **Nov 27** (L08+L09) | U3 ||
+|| 13 | **Nov 23** (L05 Day 01) | **Nov 24** (L05 Day 02) | **Nov 25** | Nov 26 — NO CLASS | **Nov 27** (L08+L09) | U3 ||
 || 14 | **Nov 30** | **Dec 01** | **Dec 02** | **Dec 03** | **Dec 04** | U3 ||
 || 15 | **Dec 07** | **Dec 08** | **Dec 09** | **Dec 10** | **Dec 11** | U3 ||
 || 16 | **Dec 14** | **Dec 15** | **Dec 16** | **Dec 17** | Dec 18½ | U3→project ||
@@ -93,7 +93,7 @@
 || Nov 13 | FLEX Day (classes resume Nov 09) ||
 || Nov 14 | Common Good Day ||
 || Nov 16 | Unit 2 Assessment (50 pts, 35 min, closed computer) ||
-| Nov 24 | U3 L05 lab third meeting (same Day 2 sheet, final turn-in 23:59); U3 L06 is retired as a standalone lab — the choosing-the-statistic skill stays in L05 PART 6 and the L07 paper check |
+| Nov 24 | U3 L05 lab Day 02 (same follow-along sheet, final turn-in 23:59); U3 L06 is retired as a standalone lab — the choosing-the-statistic skill stays in L05 PART 6 and the L07 paper check |
 | Nov 26 | Thanksgiving Formal Dinner — **NO CLASS** (no content, no quiz, no deliverable); U3 L08 moves to Nov 27 alongside L09 |
 | Dec 18 | Winter Break — half day (12:30 dismissal) |
 | Dec 19–Jan 3 | Winter Break |
@@ -114,7 +114,7 @@
 
 **Unit 3 carries no standalone unit paper.** Unit 3 is graded on the four closed-note paper checks (L07, L11, L16, L22 — all scheduled) plus the **Privacy-Aware Stats Dashboard** project, due Dec 17. The cumulative midterm, Jan 18–21, covers Units 1–3. The U3 L26–L29 files (midterm review, unit paper, walkthrough, wrap) stay in the repo as source material for the midterm's Unit 3 section; none of them is a class day.
 
-**Nov 24 / Nov 26 combined adjustment (2026-11-23):** The L05 spread lab gets a third meeting on Nov 24, using the same Day 2 follow-along sheet; the published L05 assignment due date moves to 23:59 Tue Nov 24 in both sections. The slot that was U3 L06 is consumed by that third meeting, so U3 L06 is retired as a standalone lab and its two Classroom drafts are deleted (backed up at `~/.hermes/cache/scratch/u3_classroom_before_third_day.json`); the choosing-the-statistic skill remains in L05 PART 6 and the L07 paper check's "which statistic?" section, so L07 still assesses it. Nov 26 has no class meeting and no deliverable. U3 L08 (percentiles, five-number summary, IQR fence) is taught on Nov 27 alongside U3 L09 (misleading statistics and the truncated axis) as one combined stats day. The four paper checks (L07, L11, L16, L22) and the dashboard project due Dec 17 keep their dates; no other downstream lesson moves. Lesson numbers keep their permanent gaps — L06 is not renumbered.
+**Nov 24 / Nov 26 combined adjustment (2026-11-23):** The L05 spread lab is Day 01 on Mon Nov 23 and Day 02 on Tue Nov 24, both on the same follow-along sheet. Friday Nov 20 was a repo posting only — no one worked on the assignment that day — so it is not counted as a lab day; the published L05 assignment due date moves to 23:59 Tue Nov 24 in both sections. The slot that was U3 L06 is consumed by Day 02, so U3 L06 is retired as a standalone lab and its two Classroom drafts are deleted (backed up at `~/.hermes/cache/scratch/u3_classroom_before_third_day.json`); the choosing-the-statistic skill remains in L05 PART 6 and the L07 paper check's "which statistic?" section, so L07 still assesses it. Nov 26 has no class meeting and no deliverable. U3 L08 (percentiles, five-number summary, IQR fence) is taught on Nov 27 alongside U3 L09 (misleading statistics and the truncated axis) as one combined stats day. The four paper checks (L07, L11, L16, L22) and the dashboard project due Dec 17 keep their dates; no other downstream lesson moves. Lesson numbers keep their permanent gaps — L06 is not renumbered.
 
 ---
 
