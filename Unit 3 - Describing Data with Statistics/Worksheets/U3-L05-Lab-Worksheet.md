@@ -4,28 +4,9 @@ Name: ___________________________  Date: ____   Period: ____
 
 Work top to bottom in your terminal, one step at a time. Change each ☐ to ☑ as you finish that step. Record your own output in the blanks — nothing on this sheet gives you the answer, and every value here is checked against your screen.
 
-## BEFORE CLASS: GitHub Repo Access (5 min — do this FIRST)
+## BEFORE CLASS: GitHub Repo Access (do this FIRST)
 
-**6 students need to CREATE a GitHub account** (exact username, school email):
-- ysato27
-- pman27
-- mkuo27
-- eshin27
-- atsai27
-- atachibana27
-
-☐  Open an incognito tab → `github.com/signup`
-☐  Username = your roster ID above (exact match, no extra characters)
-☐  Email = your ICA school email
-☐  Verify the email link GitHub sends
-
-**12 students have PENDING INVITES** (accept at `github.com/notifications`):
-- schen27, pjones, slee27, shuang27, rliu27, rchen27
-- pman26, mkuo28, ilin27, ghuang27, eshin28, elin27
-
-☐  Accept the invite for `compmath-u3-stats-lab-<your-ID>_student`
-
-**After accounts are created + invites accepted**, teacher adds you as a collaborator — then all 24 repos are ready to clone.
+☐  If you cannot clone `compmath-u3-stats-lab-<your-ID>_student`, see me before you start. You need a GitHub account under your exact roster username and an accepted repo invite; I add collaborators once the account exists.
 
 ## 0: Set up
 
