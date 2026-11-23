@@ -20,7 +20,7 @@ privacy filter runs first, and the dashboard refuses to render if it fails.**
 You built the requirements in L10, you measured the cost in L12, and tomorrow
 you build the engine that enforces them.
 
-## PART 1 — DECIDE YOUR AUDIENCE (10 min)
+## PART 1 — DECIDE YOUR AUDIENCE (7 min)
 
 A dashboard has an audience, and the audience determines what is safe to
 show. Choose one and write it at the top of your spec:
@@ -34,7 +34,7 @@ Answer in writing: *for your audience, which of age, city, visits, spend, and
 tier must appear?* If your audience is the journalist, note that a journalist
 is *trying* to identify people — how does that change your threshold?
 
-## PART 2 — CHOOSE YOUR CHARTS (15 min)
+## PART 2 — CHOOSE YOUR CHARTS (12 min)
 
 You have four charts to draw. For each, name the **exact statistic** you will
 plot and the **exact column** you will group by. You may not write "a bar
@@ -59,7 +59,7 @@ like the biggest spenders. That is arithmetically true and completely
 misleading, and it will be a grading criterion. If your chart 1 is spend by
 tier, state in your spec which statistic protects the reader from this.
 
-## PART 3 — SPECIFY THE REFUSALS (20 min)
+## PART 3 — SPECIFY THE REFUSALS (18 min)
 
 This is the graded heart of the project. Your dashboard must be able to say
 **no**. Write each rule as a sentence beginning "The dashboard must refuse
@@ -92,7 +92,7 @@ Now, decide and justify:
 7. Will you publish `Member_ID`? Argue both sides, then decide.
 8. What is your `MIN_K`, and what is the *specific* chart that `MIN_K` blocks?
 
-## PART 4 — DEFINE FINISHED (10 min)
+## PART 4 — DEFINE FINISHED (4 min)
 
 A project without a definition of done produces infinite fiddling. Write
 your definition. It must include:
@@ -108,7 +108,7 @@ your definition. It must include:
 
 Which of those five is the one you are most tempted to skip, and why?
 
-## PART 5 — PLAN THE FOUR LABS (10 min)
+## PART 5 — PLAN THE FOUR LABS (4 min)
 
 | Lab | Date | What you build |
 |---|---|---|
@@ -121,9 +121,27 @@ Write one sentence per lab saying what *done* looks like. Keep this spec — in
 four days you will be graded against it, including by your classmates, who
 will read it during peer review on Dec 10.
 
+## DATASET APPROVAL
+
+Bring this sheet to me before you leave, with your dataset named at the top. I
+initial it only if all three of these are true:
+
+| Check | Initial |
+|---|---|
+| The CSV is `u3_project_dataset.csv` — not a substituted or hand-built file | |
+| Your audience and your four charts named only columns that file actually has | |
+| Your `MIN_K` is stated, and you can name the specific chart it blocks | |
+
+Team: ____________________  Audience: ____________________
+
+`MIN_K` = ________  Chart it blocks: ________________________________
+
+Teacher initials: ______________
+
 ## TURN IN
 
-Hand in this specification sheet at the end of the period.
+Hand in this specification sheet at the end of the period, with the dataset
+approval signed. An unsigned spec is not a turned-in spec.
 
 Be specific enough that a classmate could build your dashboard without asking
 you a single question. Vague specs are the single most common reason the
