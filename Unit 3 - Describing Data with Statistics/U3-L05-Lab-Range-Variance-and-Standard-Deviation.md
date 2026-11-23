@@ -185,12 +185,12 @@ Answer in your notes:
   see an extreme value, which of today's four measures *can* see it? (Hint:
   the median's blind spot is the standard deviation's specialty.)
 
-## PART 6 — LOOK AHEAD: THE U3 L06 LAB
+## PART 6 — CHOOSE THE STATISTIC THAT FITS THE CLAIM
 
-Next lesson you use all of this to make a real decision: given a claim like
-"wage group A earns more than wage group B," you will choose which
-statistics support it and which would let you mislead an audience on purpose.
-You now have every tool that decision needs.
+Given a claim like "wage group A earns more than wage group B," choose
+which statistics support it and which would let you mislead an audience on
+purpose. You now have every tool that decision needs: a center, a spread,
+and a plain sentence about what each one hides.
 
 ## PART 7 — SAVE + PUSH (last 10 min)
 
@@ -200,7 +200,9 @@ git commit -m "U3 L05 range, variance, and standard deviation over donations"
 git push
 ```
 
-## TURN IN — PULL REQUEST LINK (due 11:59 PM tonight)
+## TURN IN — PULL REQUEST LINK (due 11:59 PM Tue 11/24, Taipei time)
+
+Third meeting (Tue 11/24): use the same Day 2 follow-along sheet. Finish PARTS 4-7, run `python3 spread.py` from the repo root, and check the four numbers below against the class results before you submit.
 
 Your `spread.py`, pushed above, is the turn-in. Submit the **push
 confirmation line** as a screenshot to this assignment on Google Classroom.
