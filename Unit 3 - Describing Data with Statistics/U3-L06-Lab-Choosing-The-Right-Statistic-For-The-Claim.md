@@ -1,6 +1,6 @@
 # U3 L06 — Lab: Choosing the Right Statistic for the Claim
 
-> **STATUS: NOT SCHEDULED (2026-11-23).** The 11/24 slot was consumed by a third meeting of the U3 L05 spread lab. This file is kept as source material only: no class day, no Classroom assignment, no turn-in. The choosing-the-statistic skill it taught remains in U3 L05 PART 6 and the U3 L07 paper check's "which statistic?" section. Its Classroom drafts were deleted after backup to `~/.hermes/cache/scratch/u3_classroom_before_third_day.json`.
+> **STATUS: NOT SCHEDULED (2026-11-23).** The 11/24 slot is Day 02 of the U3 L05 spread lab. This file is kept as source material only: no class day, no Classroom assignment, no turn-in. The choosing-the-statistic skill it taught remains in U3 L05 PART 6 and the U3 L07 paper check's "which statistic?" section. Its Classroom drafts were deleted after backup to `~/.hermes/cache/scratch/u3_classroom_before_third_day.json`.
 
 **LO:** pick the statistic that fits a claim, and state plainly what your choice hides.
 
