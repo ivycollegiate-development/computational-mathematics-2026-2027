@@ -187,10 +187,28 @@ Answer in your notes:
 
 ## PART 6 — CHOOSE THE STATISTIC THAT FITS THE CLAIM
 
-Given a claim like "wage group A earns more than wage group B," choose
-which statistics support it and which would let you mislead an audience on
-purpose. You now have every tool that decision needs: a center, a spread,
-and a plain sentence about what each one hides.
+Given a claim like "the average gift is $716.07, so almost everyone gives
+about that much," choose which statistics support it and which would let
+you mislead an audience on purpose. Answer in your notebook:
+
+1. Which number from your own table would you put next to that claim to
+   keep it honest, and why that one?
+2. Which number would you leave out, and what would a reader wrongly
+   believe if you did?
+
+Your verified output: all 200 gifts give mean 716.07 and sd 6330.32; the
+199 clean gifts give mean 267.40, median 242.38 and sd 121.05. A mean with
+a standard deviation almost nine times larger tells a reader almost
+nothing about a typical gift. You now have every tool that decision needs:
+a center, a spread, and a plain sentence about what each one hides.
+
+## LOOK AHEAD — U3 L07 PAPER CHECK (Wed 11/25)
+
+Next class is a closed-notes paper check on centers and spread from U3 L03
+and L05, including the "which statistic?" decision you just practised. The
+paper check's part 1 table is the most likely question: know mean, median,
+min and max for both families cold (that work was U3 L03), and bring the
+four spot-check numbers from this lab.
 
 ## PART 7 — SAVE + PUSH (last 10 min)
 
