@@ -4,6 +4,8 @@ Name: ___________________________  Date: ____   Period: ____
 
 Work top to bottom in your terminal, one step at a time. Change each ☐ to ☑ as you finish that step. Record your own output in the blanks — nothing on this sheet gives you the answer, and every value here is checked against your screen.
 
+**Days:** Day 01 = Mon 11/23. Day 02 = Tue 11/24 — finish parts 4-7 and turn in. Friday 11/20 was a repo posting only; no one worked on the assignment that day.
+
 ## BEFORE CLASS: GitHub Repo Access (do this FIRST)
 
 ☐  If you cannot clone `compmath-u3-stats-lab-<your-ID>_student`, see me before you start. You need a GitHub account under your exact roster username and an accepted repo invite; I add collaborators once the account exists.
@@ -207,4 +209,4 @@ standard deviation with the outlier removed = ______________________
 
 percent of clean values within one sd of the mean = ______________________
 
-☐  Keep the terminal open for a spot-check. Due 11:59 PM.
+☐  Keep the terminal open for a spot-check. Due 11:59 PM Tue 11/24, Taipei time.
