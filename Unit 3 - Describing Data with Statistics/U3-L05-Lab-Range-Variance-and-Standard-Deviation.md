@@ -14,7 +14,10 @@ As with L03, no `statistics` library — you write the formulas.
 ```bash
 cd ~/compmath-u3-stats-lab
 pwd
+python3
 ```
+
+You are now in the Python REPL (prompt shows `>>>`). Paste the code below at the `>>>` prompt:
 
 ```python
 with open("data/u3_donations.txt") as f:
@@ -24,6 +27,8 @@ donations = [float(line) for line in raw if not line.startswith("#")]
 clean = [d for d in donations if d < 5000]
 print(len(donations), len(clean))
 ```
+
+Keep the REPL open — Parts 1–3 run in the same session so `donations` and `clean` stay in memory.
 
 ## PART 1 — RANGE: THE CHEAPEST SPREAD MEASURE (5 min)
 
