@@ -130,9 +130,54 @@ print(f"{inside}/{len(clean)} = {100*inside/len(clean):.0f}% within one sd")
 
 ## PART 4 — SIDE-BY-SIDE: THE FULL DESCRIPTION (10 min)
 
-Write `spread.py` and run it with `python3 spread.py` from the repo root. The
-file has to load its own data — `donations` is **not** still floating around
-from PART 0 when you run the file as a script. Copy all of this, top to bottom:
+You have been typing into the `>>>` REPL. Everything from PARTS 0–3 lives only in the
+REPL's memory — it disappears when you exit. **Move it into a real file now.**
+
+### Step 1 — Exit the REPL
+
+```bash
+exit()
+```
+
+or press `Ctrl+D` (EOF). You return to the shell prompt (`$`).
+
+### Step 2 — Verify you are in the repo root
+
+```bash
+pwd
+ls
+```
+
+- `pwd` must print your repo folder — the one that contains `data/`.
+- `ls` must list the `data/` directory (it ships with the clone — do not edit it).
+- `spread.py` should **not** appear in the listing yet — you create it in Step 3.
+
+If instead you see `u3_donations.txt` listed directly, you are **inside `data/`**.
+Go back up one level and confirm:
+
+```bash
+cd ..
+pwd
+```
+
+`pwd` should now print the repo root, and `ls` should show `data/`.
+
+### Step 3 — Create spread.py at the repo root
+
+In the Explorer pane (left side), right-click a blank area → **New File** → name it `spread.py`.
+This works in the browser editor with no CLI dependency and creates the file at the top level.
+
+- Terminal alternative: `code spread.py` (or `code-server spread.py` if `code` is not found).
+- No editor pane? Use `nano spread.py` instead → type → `Ctrl+O`, `Enter`, `Ctrl+X` to save and quit.
+- **Do not** create it inside `data/`. It belongs at the top level of your repo, next to `data/`.
+
+### Step 4 — Paste the starter code from this section
+
+Copy the **consolidated code block below** (the one starting
+`with open("data/u3_donations.txt")` and ending with the `for label, vals in ...` loop)
+into `spread.py`. That block loads its own data — `donations` is **not** still floating
+around from PART 0 when you run the file as a script — defines the functions, and prints
+the table. Copy it exactly, including the 4-space indentation.
 
 ```python
 with open("data/u3_donations.txt") as f:
@@ -170,6 +215,23 @@ set             mean    median       range      stdev
 all 200        716.07     242.76    89928.67    6330.32
 clean 199      267.40     242.38      742.56     121.05
 ```
+
+### Step 5 — Save and run
+
+- Editor: `Ctrl+S` → terminal: `python3 spread.py`
+- nano: `Ctrl+O`, `Enter`, `Ctrl+X` → terminal: `python3 spread.py`
+- If `python3` is not found, use `python spread.py` instead.
+
+If you see `FileNotFoundError: data/u3_donations.txt`, you are not in the repo root —
+go back to **Step 2**.
+
+If you see `SyntaxError` or `IndentationError`, the paste mangled indentation —
+fix it (4 spaces per level, no tabs), save, re-run.
+
+### Step 6 — This file is your turn-in
+
+`spread.py` pushed to GitHub is the complete submission for this lab. The REPL
+history is discarded. Keep the terminal open for spot-checks.
 
 Answer in your notes:
 
